@@ -10,11 +10,16 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
+      <hr className="section-rule mx-auto max-w-5xl" />
       <WhatIsBrahmando />
-      <AboutSection />
+      <hr className="section-rule mx-auto max-w-5xl" />
       <MCPSection />
+      <hr className="section-rule mx-auto max-w-5xl" />
       <AgentsSection />
+      <hr className="section-rule mx-auto max-w-5xl" />
       <WorkflowsSection />
+      <hr className="section-rule mx-auto max-w-5xl" />
+      <AboutSection />
       <CTASection />
     </>
   );

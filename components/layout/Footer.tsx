@@ -4,45 +4,50 @@ import { branding } from "@/lib/branding";
 
 const footerLinks = {
   Repository: [
-    { label: "Agents", href: "/agents" },
+    { label: "Agents",      href: "/agents" },
     { label: "MCP Servers", href: "/mcp-servers" },
-    { label: "Workflows", href: "/workflows" },
-    { label: "Docs", href: "/docs" },
+    { label: "Workflows",   href: "/workflows" },
+    { label: "Docs",        href: "/docs" },
   ],
   Company: [
-    { label: "ManjuLAB", href: "https://manjulab.com", external: true },
-    { label: "Brahmexa", href: "/#about" },
-    { label: "Customer Access", href: "/access#customer" },
-    { label: "Community Program", href: "/access#community" },
+    { label: "ManjuLAB",          href: "https://manjulab.com", external: true },
+    { label: "Brahmexa group",     href: "/#about" },
+    { label: "Customer Access",    href: "/access#customer" },
+    { label: "Community Program",  href: "/access#community" },
   ],
 };
 
 export function Footer() {
   return (
-    <footer className="border-t border-slate-300/15 bg-slate-950/60">
+    <footer style={{ borderTop: "1px solid var(--border)", background: "rgba(0,0,0,0.35)" }}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+          {/* Brand column */}
           <div>
             <div className="mb-4 flex items-center gap-2.5">
-              <div className="flex h-8 max-w-[88px] items-center justify-center overflow-hidden rounded-lg border border-cyan-300/35 bg-slate-900/60 px-0.5">
+              <div
+                className="flex h-7 max-w-[84px] items-center justify-center overflow-hidden rounded-lg px-0.5"
+                style={{ border: "1px solid var(--border)", background: "var(--accent-dim)" }}
+              >
                 <Image
                   src={branding.logos.brahmando.icon}
                   alt="Brahmando logo"
-                  width={100}
+                  width={96}
                   height={28}
-                  className="h-6 w-auto max-w-full object-contain"
+                  className="h-5 w-auto max-w-full object-contain"
                 />
               </div>
-              <span className="font-bold text-slate-100">{branding.name}</span>
+              <span className="font-bold text-slate-200">{branding.name}</span>
             </div>
-            <p className="max-w-xs text-sm leading-relaxed text-slate-300">
+            <p className="max-w-xs text-sm leading-relaxed text-slate-500">
               {branding.tagline}
             </p>
-            <p className="mt-3 text-xs text-slate-400">
-              A {branding.groupBrand} group brand · Developed by{" "}
+            <p className="mt-3 text-xs text-slate-600">
+              A {branding.groupBrand} group platform · Built by{" "}
               <a
                 href={branding.companySite}
-                className="text-cyan-200 hover:text-cyan-100"
+                className="hover:text-slate-300"
+                style={{ color: "var(--accent)" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -51,12 +56,13 @@ export function Footer() {
             </p>
           </div>
 
+          {/* Link columns */}
           {Object.entries(footerLinks).map(([group, links]) => (
             <div key={group}>
-              <h3 className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
+              <h3 className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-600">
                 {group}
               </h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2.5">
                 {links.map((link) => (
                   <li key={link.label}>
                     {"external" in link && link.external ? (
@@ -64,14 +70,14 @@ export function Footer() {
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm text-slate-300 hover:text-cyan-200"
+                        className="text-sm text-slate-500 transition-colors hover:text-slate-200"
                       >
                         {link.label}
                       </a>
                     ) : (
                       <Link
                         href={link.href}
-                        className="text-sm text-slate-300 hover:text-cyan-200"
+                        className="text-sm text-slate-500 transition-colors hover:text-slate-200"
                       >
                         {link.label}
                       </Link>
@@ -83,8 +89,14 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="mt-10 border-t border-slate-300/15 pt-6 text-xs text-slate-400">
+        <div
+          className="mt-10 flex items-center justify-between pt-6 text-xs text-slate-700"
+          style={{ borderTop: "1px solid var(--border)" }}
+        >
           <p>© {new Date().getFullYear()} ManjuLAB. All rights reserved.</p>
+          <p className="hidden sm:block">
+            {branding.groupBrand} · {branding.host}
+          </p>
         </div>
       </div>
     </footer>

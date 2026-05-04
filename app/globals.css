@@ -2,63 +2,154 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg: #020617;
-  --bg-soft: #0f172a;
-  --text: #e2e8f0;
-  --text-muted: #94a3b8;
-  --panel: rgba(15, 23, 42, 0.78);
-  --panel-border: rgba(148, 163, 184, 0.25);
-  --accent: #06b6d4;
-  --accent-2: #f97316;
+/* ─────────────────────────────────────────────────────────────────────
+   THEME TOKENS
+   Four dark themes. Each overrides the same set of CSS custom properties.
+   Applied via data-theme="…" on <html> (set by ThemeProvider client component).
+   ───────────────────────────────────────────────────────────────────── */
+
+:root,
+[data-theme="obsidian"] {
+  --bg:           #04030a;
+  --bg-soft:      #0a0820;
+  --panel:        rgba(10, 8, 30, 0.80);
+  --border:       rgba(139, 92, 246, 0.22);
+  --border-hover: rgba(139, 92, 246, 0.50);
+  --glow-1:       rgba(100, 55, 245, 0.26);
+  --glow-2:       rgba(212, 175, 55, 0.14);
+  --grid-line:    rgba(139, 92, 246, 0.07);
+  --accent:       #22d3ee;
+  --accent-dim:   rgba(34, 211, 238, 0.10);
 }
 
-/* ─── Base resets ─────────────────────────────────────────────────── */
+[data-theme="midnight"] {
+  --bg:           #020c1f;
+  --bg-soft:      #061830;
+  --panel:        rgba(4, 14, 46, 0.80);
+  --border:       rgba(96, 148, 255, 0.22);
+  --border-hover: rgba(96, 148, 255, 0.50);
+  --glow-1:       rgba(30, 80, 220, 0.28);
+  --glow-2:       rgba(212, 175, 55, 0.18);
+  --grid-line:    rgba(60, 120, 255, 0.06);
+  --accent:       #60a5fa;
+  --accent-dim:   rgba(96, 165, 250, 0.10);
+}
+
+[data-theme="cosmic"] {
+  --bg:           #0c0418;
+  --bg-soft:      #160830;
+  --panel:        rgba(18, 6, 44, 0.80);
+  --border:       rgba(167, 139, 250, 0.22);
+  --border-hover: rgba(167, 139, 250, 0.50);
+  --glow-1:       rgba(124, 45, 255, 0.26);
+  --glow-2:       rgba(52, 211, 153, 0.12);
+  --grid-line:    rgba(160, 80, 255, 0.06);
+  --accent:       #a78bfa;
+  --accent-dim:   rgba(167, 139, 250, 0.10);
+}
+
+[data-theme="ember"] {
+  --bg:           #0c0604;
+  --bg-soft:      #1a0c06;
+  --panel:        rgba(28, 12, 6, 0.80);
+  --border:       rgba(251, 146, 60, 0.22);
+  --border-hover: rgba(251, 146, 60, 0.50);
+  --glow-1:       rgba(200, 60, 20, 0.24);
+  --glow-2:       rgba(250, 200, 55, 0.14);
+  --grid-line:    rgba(251, 100, 30, 0.05);
+  --accent:       #fb923c;
+  --accent-dim:   rgba(251, 146, 60, 0.10);
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   BASE RESETS
+   ───────────────────────────────────────────────────────────────────── */
 @layer base {
   html {
     @apply scroll-smooth;
   }
+
   body {
-    background:
-      radial-gradient(circle at 12% 8%, rgba(6, 182, 212, 0.22), transparent 36%),
-      radial-gradient(circle at 86% 2%, rgba(249, 115, 22, 0.2), transparent 30%),
-      linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 65%);
+    background-color: var(--bg);
+    background-image:
+      /* Divine aureole — light breaking through from above */
+      radial-gradient(ellipse 130% 55% at 50% -8%, var(--glow-1) 0%, transparent 65%),
+      /* Warm counterpoint on the right edge */
+      radial-gradient(ellipse 55% 40% at 95% 18%, var(--glow-2) 0%, transparent 58%),
+      /* Deep shadow from below */
+      radial-gradient(ellipse 60% 40% at 10% 92%, rgba(0, 0, 0, 0.45) 0%, transparent 70%);
     @apply font-sans text-slate-100 antialiased;
   }
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-semibold tracking-tight text-slate-50;
   }
+
   a {
     @apply transition-colors;
   }
 }
 
-/* ─── Utility classes used across the site ────────────────────────── */
+/* ─────────────────────────────────────────────────────────────────────
+   DESIGN SYSTEM COMPONENTS
+   ───────────────────────────────────────────────────────────────────── */
 @layer components {
+
+  /* ── Sacred geometry mesh ── */
   .mesh-bg {
     background-image:
-      linear-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(148, 163, 184, 0.12) 1px, transparent 1px);
-    background-size: 48px 48px;
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
+      linear-gradient(45deg, var(--grid-line) 1px, transparent 1px),
+      linear-gradient(-45deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 64px 64px, 64px 64px, 128px 128px, 128px 128px;
   }
 
+  /* ── Gold primary CTA ── */
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-cyan-200/40
-           bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/30
-           transition-all hover:-translate-y-0.5 hover:bg-cyan-300;
+    @apply inline-flex items-center justify-center gap-2 rounded-full
+           px-6 py-3 text-sm font-semibold
+           transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0;
+    background: linear-gradient(135deg, #c9991f 0%, #d4af37 50%, #e4c840 100%);
+    border: 1px solid rgba(212, 175, 55, 0.45);
+    color: #18100a;
+    box-shadow: 0 4px 22px -5px rgba(212, 175, 55, 0.40);
+  }
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #d4af37 0%, #e8c840 100%);
+    box-shadow: 0 8px 30px -5px rgba(212, 175, 55, 0.50);
   }
 
+  /* ── Frosted glass secondary CTA ── */
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-300/35
-           bg-slate-900/40 px-6 py-3 text-sm font-semibold text-slate-100 backdrop-blur
-           transition-all hover:-translate-y-0.5 hover:border-cyan-200/55 hover:text-cyan-100;
+    @apply inline-flex items-center justify-center gap-2 rounded-full
+           border px-6 py-3 text-sm font-semibold text-slate-100 backdrop-blur
+           transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0;
+    border-color: var(--border);
+    background: var(--panel);
+  }
+  .btn-secondary:hover {
+    border-color: var(--border-hover);
+    color: #ffffff;
   }
 
+  /* ── Content card ── */
   .card {
-    @apply rounded-3xl border border-slate-300/20 bg-slate-900/50 p-6 backdrop-blur-xl
-           shadow-[0_14px_60px_-22px_rgba(0,0,0,0.8)] transition-all hover:-translate-y-1 hover:border-cyan-300/40;
+    @apply rounded-2xl p-6 backdrop-blur-xl
+           transition-all duration-300
+           hover:-translate-y-1;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.03),
+                0 20px 80px -20px rgba(0, 0, 0, 0.85);
+  }
+  .card:hover {
+    border-color: var(--border-hover);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04),
+                0 24px 90px -18px rgba(0, 0, 0, 0.9);
   }
 
+  /* ── Page headings ── */
   .section-title {
     @apply text-4xl font-bold leading-tight text-slate-50 md:text-5xl;
   }
@@ -67,27 +158,58 @@
     @apply mt-4 max-w-2xl text-lg leading-relaxed text-slate-300;
   }
 
+  /* ── Taxonomy tag pill ── */
   .tag {
-    @apply inline-flex items-center rounded-full border border-cyan-300/30 bg-cyan-400/10 px-3 py-1 text-xs font-medium text-cyan-100;
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+    border: 1px solid var(--border);
+    background: var(--accent-dim);
+    color: var(--accent);
   }
 
-  .glass-line {
-    @apply border border-slate-300/20 bg-slate-900/35 backdrop-blur;
+  /* ── Gold gradient headline text ── */
+  .text-gradient {
+    background: linear-gradient(135deg, #f0e6c0 0%, #d4af37 45%, #b8860b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
+  /* ── Divine aureole glow element (used in HeroSection) ── */
+  .divine-glow {
+    background: radial-gradient(ellipse, var(--glow-1), transparent 70%);
+    opacity: 0.35;
+  }
+
+  /* ── Horizontal rule that fades at edges ── */
+  .section-rule {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--border), transparent);
+  }
+
+  /* ── Frosted panel (navbar, etc.) ── */
+  .glass-panel {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── Animations ── */
   .animate-rise {
-    animation: rise 0.8s ease both;
+    animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 
   .animate-float {
-    animation: float 6s ease-in-out infinite;
+    animation: float 7s ease-in-out infinite;
   }
 }
 
+/* ─────────────────────────────────────────────────────────────────────
+   KEYFRAMES
+   ───────────────────────────────────────────────────────────────────── */
 @keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(14px);
+    transform: translateY(18px);
   }
   to {
     opacity: 1;
@@ -96,11 +218,6 @@
 }
 
 @keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
 }

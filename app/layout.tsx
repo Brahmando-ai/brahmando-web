@@ -3,6 +3,7 @@ import { Sora, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { ThemeProvider } from "@/components/theme/ThemeProvider";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -18,9 +19,9 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Brahmando — R&D Repository of ManjuLAB · Brahmexa group",
+  title: "Brahmando — The Intelligence Repository of Brahmexa",
   description:
-    "Curated AI agents, MCP servers, and workflows developed by ManjuLAB R&D and hosted on Brahmando — offered to ManjuLAB customers and community partners under the Brahmexa group brand.",
+    "Brahmando is the sovereign asset repository of the Brahmexa group — AI agents, MCP servers, agentic workflows, and frameworks engineered by ManjuLAB for enterprise customers and community partners.",
   keywords: [
     "R&D repository",
     "MCP servers",
@@ -29,21 +30,22 @@ export const metadata: Metadata = {
     "ManjuLAB",
     "Brahmando",
     "AI workflows",
+    "god of the gaps",
   ],
   authors: [{ name: "ManjuLAB" }],
   openGraph: {
-    title: "Brahmando — R&D Repository of ManjuLAB · Brahmexa group",
+    title: "Brahmando — The Intelligence Repository of Brahmexa",
     description:
-      "ManjuLAB R&D assets hosted on Brahmando. Access via ManjuLAB customer agreements or the community program.",
+      "The sovereign asset repository of the Brahmexa group. AI agents, MCP servers, workflows, and frameworks built by ManjuLAB.",
     url: "https://brahmando.com",
     siteName: "Brahmando",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Brahmando — R&D Repository of ManjuLAB · Brahmexa group",
+    title: "Brahmando — The Intelligence Repository of Brahmexa",
     description:
-      "ManjuLAB R&D assets hosted on Brahmando. Access via ManjuLAB customer agreements or the community program.",
+      "The sovereign asset repository of the Brahmexa group. AI agents, MCP servers, workflows, and frameworks built by ManjuLAB.",
   },
 };
 
@@ -53,11 +55,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${sora.variable} ${spaceMono.variable} flex min-h-screen flex-col`}>
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <ThemeProvider>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </ThemeProvider>
+
+        {/* ManjuLAB watermark — rendered on every page */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none fixed bottom-4 right-5 z-[200] select-none"
+        >
+          <span className="text-[9px] font-bold uppercase tracking-[0.38em] text-white/[0.18]">
+            ManjuLAB
+          </span>
+        </div>
       </body>
     </html>
   );
