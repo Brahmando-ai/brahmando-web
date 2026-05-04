@@ -34,7 +34,7 @@ export default function DocsPage() {
 
           <h2>Brand &amp; design system</h2>
           <p>
-            Brand tokens live in <code>/packages/ui/branding.ts</code>. Logo paths point under{" "}
+            Brand tokens live in <code>/lib/branding.ts</code>. Logo paths point under{" "}
             <code>/public/branding/</code>; update those files when assets change.
           </p>
         </div>
