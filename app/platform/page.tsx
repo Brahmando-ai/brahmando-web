@@ -58,6 +58,8 @@ export default function PlatformPage() {
 
   async function checkService(url: string): Promise<"online" | "offline"> {
     try {
+      // no-cors: we can only detect network reachability, not HTTP status codes.
+      // A reachable host (any response, including 4xx/5xx) counts as "online".
       await fetch(url, { method: "GET", mode: "no-cors" });
       return "online";
     } catch {
@@ -175,6 +177,22 @@ function StatusDot({ status }: { status: "checking" | "online" | "offline" }) {
   );
 }
 
+const STATUS_META: Record<"checking" | "online" | "offline", { label: string; color: string }> = {
+  checking: { label: "Checking…", color: "#94a3b8" },
+  online:   { label: "Online",    color: "#22c55e" },
+  offline:  { label: "Offline",   color: "#ef4444" },
+};
+
+function StatusLabel({ status }: { status: "checking" | "online" | "offline" }) {
+  const { label, color } = STATUS_META[status];
+  return (
+    <div className="flex items-center gap-1.5 text-xs font-medium" style={{ color }}>
+      <StatusDot status={status} />
+      {label}
+    </div>
+  );
+}
+
 function ServiceCard({
   service,
   status,
@@ -217,18 +235,7 @@ function ServiceCard({
       </p>
 
       {/* Status label */}
-      <div className="flex items-center gap-1.5 text-xs font-medium"
-        style={{
-          color:
-            status === "online"
-              ? "#22c55e"
-              : status === "offline"
-              ? "#ef4444"
-              : "#94a3b8",
-        }}>
-        <StatusDot status={status} />
-        {status === "online" ? "Online" : status === "offline" ? "Offline" : "Checking…"}
-      </div>
+      <StatusLabel status={status} />
     </a>
   );
 }
