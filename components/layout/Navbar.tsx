@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Agents",      href: "/agents" },
   { label: "MCP Servers", href: "/mcp-servers" },
   { label: "Workflows",   href: "/workflows" },
+  { label: "Platform",    href: "/platform" },
   { label: "Docs",        href: "/docs" },
   { label: "Access",      href: "/access" },
 ];
