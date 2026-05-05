@@ -3,9 +3,9 @@ import { ArrowRight, Sparkles } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
 
 const stats = [
-  { value: "120+", label: "R&D assets catalogued" },
-  { value: "4",    label: "Asset categories" },
-  { value: "2",    label: "Access tiers" },
+  { value: "9",  label: "AI agents" },
+  { value: "5",  label: "MCP servers" },
+  { value: "5",  label: "Agentic workflows" },
 ];
 
 export function HeroSection() {

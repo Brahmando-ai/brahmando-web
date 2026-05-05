@@ -16,7 +16,7 @@ function OrbitalSVG() {
       viewBox="0 0 1440 900"
       fill="none"
       preserveAspectRatio="xMidYMid slice"
-      style={{ opacity: 0.055 }}
+      style={{ opacity: 0.09 }}
     >
       <defs>
         {/* Full-circle path for text placement — outer orbit r=372 */}
@@ -28,25 +28,25 @@ function OrbitalSVG() {
 
       {/* ── Rotating outer ring + @brahmexa label ── */}
       <g className="wm-rotate">
-        <circle cx={720} cy={450} r={372} stroke="currentColor" strokeWidth={0.5} />
+        <circle cx={720} cy={450} r={372} stroke="currentColor" strokeWidth={0.8} />
         {/* Small tick marks at 8 compass bearings on the outer ring */}
         {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => {
           const rad = (deg * Math.PI) / 180;
           const xi = 720 + 366 * Math.cos(rad);
           const yi = 450 + 366 * Math.sin(rad);
-          const xo = 720 + 378 * Math.cos(rad);
-          const yo = 450 + 378 * Math.sin(rad);
+          const xo = 720 + 382 * Math.cos(rad);
+          const yo = 450 + 382 * Math.sin(rad);
           return (
             <line
               key={deg}
               x1={xi} y1={yi} x2={xo} y2={yo}
               stroke="currentColor"
-              strokeWidth={deg % 90 === 0 ? 0.8 : 0.4}
+              strokeWidth={deg % 90 === 0 ? 0.9 : 0.65}
             />
           );
         })}
         {/* @brahmexa inscription along the orbit */}
-        <text fontSize={6.5} letterSpacing={10} fill="currentColor" style={{ opacity: 0.65 }}>
+        <text fontSize={13} letterSpacing={3} fill="currentColor">
           <textPath href="#wm-orbit-path" startOffset="6%">
             @brahmexa · brahmando · universe of intelligence · @brahmexa · brahmando · universe of intelligence ·
           </textPath>
@@ -59,20 +59,20 @@ function OrbitalSVG() {
           cx={720} cy={450}
           rx={300} ry={128}
           stroke="currentColor"
-          strokeWidth={0.4}
+          strokeWidth={0.7}
           transform="rotate(-28 720 450)"
         />
       </g>
 
       {/* ── Static inner structure ── */}
       {/* Middle orbit */}
-      <circle cx={720} cy={450} r={240} stroke="currentColor" strokeWidth={0.4} />
+      <circle cx={720} cy={450} r={240} stroke="currentColor" strokeWidth={0.7} />
       {/* Inner orbit */}
-      <circle cx={720} cy={450} r={130} stroke="currentColor" strokeWidth={0.35} />
+      <circle cx={720} cy={450} r={130} stroke="currentColor" strokeWidth={0.65} />
       {/* Core ring */}
-      <circle cx={720} cy={450} r={48} stroke="currentColor" strokeWidth={0.3} />
+      <circle cx={720} cy={450} r={48} stroke="currentColor" strokeWidth={0.6} />
       {/* Center bindu */}
-      <circle cx={720} cy={450} r={2.5} fill="currentColor" style={{ opacity: 0.45 }} />
+      <circle cx={720} cy={450} r={3.5} fill="currentColor" style={{ opacity: 0.55 }} />
 
       {/* 8 radial spokes — core ring to middle orbit */}
       {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => {
@@ -85,7 +85,7 @@ function OrbitalSVG() {
             x2={720 + 240 * Math.cos(rad)}
             y2={450 + 240 * Math.sin(rad)}
             stroke="currentColor"
-            strokeWidth={0.28}
+            strokeWidth={0.55}
           />
         );
       })}
@@ -107,7 +107,7 @@ function YantraSVG() {
       viewBox="0 0 1440 900"
       fill="none"
       preserveAspectRatio="xMidYMid slice"
-      style={{ opacity: 0.05 }}
+      style={{ opacity: 0.085 }}
     >
       <defs>
         <path
@@ -117,7 +117,7 @@ function YantraSVG() {
       </defs>
 
       {/* Outer containing circle R=300 */}
-      <circle cx={720} cy={450} r={300} stroke="currentColor" strokeWidth={0.5} />
+      <circle cx={720} cy={450} r={300} stroke="currentColor" strokeWidth={0.8} />
 
       {/*
         Upward triangle inscribed in R=300:
@@ -128,7 +128,7 @@ function YantraSVG() {
       <polygon
         points="720,150 980,600 460,600"
         stroke="currentColor"
-        strokeWidth={0.45}
+        strokeWidth={0.75}
       />
 
       {/*
@@ -140,18 +140,18 @@ function YantraSVG() {
       <polygon
         points="720,750 980,300 460,300"
         stroke="currentColor"
-        strokeWidth={0.45}
+        strokeWidth={0.75}
       />
 
       {/* Middle ring (inscribed hexagon radius ≈ 260) */}
-      <circle cx={720} cy={450} r={150} stroke="currentColor" strokeWidth={0.35} />
+      <circle cx={720} cy={450} r={150} stroke="currentColor" strokeWidth={0.65} />
       {/* Inner core ring */}
-      <circle cx={720} cy={450} r={50} stroke="currentColor" strokeWidth={0.3} />
+      <circle cx={720} cy={450} r={50} stroke="currentColor" strokeWidth={0.6} />
       {/* Center bindu */}
-      <circle cx={720} cy={450} r={2.5} fill="currentColor" style={{ opacity: 0.5 }} />
+      <circle cx={720} cy={450} r={3.5} fill="currentColor" style={{ opacity: 0.55 }} />
 
       {/* @brahmexa text along the inner ring */}
-      <text fontSize={6.5} letterSpacing={8} fill="currentColor" style={{ opacity: 0.65 }}>
+      <text fontSize={13} letterSpacing={3} fill="currentColor">
         <textPath href="#wm-yantra-ring" startOffset="8%">
           @brahmexa · brahmando · sovereign intelligence · @brahmexa ·
         </textPath>
@@ -174,7 +174,7 @@ function WaveformSVG() {
       viewBox="0 0 1440 900"
       fill="none"
       preserveAspectRatio="xMidYMid slice"
-      style={{ opacity: 0.05 }}
+      style={{ opacity: 0.085 }}
     >
       <defs>
         <path
@@ -184,29 +184,29 @@ function WaveformSVG() {
       </defs>
 
       {/* Expanding ellipses — focal point (380, 450) */}
-      <ellipse cx={380} cy={450} rx={90}  ry={56}  stroke="currentColor" strokeWidth={0.4} />
-      <ellipse cx={380} cy={450} rx={220} ry={136} stroke="currentColor" strokeWidth={0.4} />
-      <ellipse cx={380} cy={450} rx={420} ry={258} stroke="currentColor" strokeWidth={0.35} />
-      <ellipse cx={380} cy={450} rx={680} ry={415} stroke="currentColor" strokeWidth={0.3} />
-      <ellipse cx={380} cy={450} rx={980} ry={598} stroke="currentColor" strokeWidth={0.22} />
+      <ellipse cx={380} cy={450} rx={90}  ry={56}  stroke="currentColor" strokeWidth={0.75} />
+      <ellipse cx={380} cy={450} rx={220} ry={136} stroke="currentColor" strokeWidth={0.75} />
+      <ellipse cx={380} cy={450} rx={420} ry={258} stroke="currentColor" strokeWidth={0.7} />
+      <ellipse cx={380} cy={450} rx={680} ry={415} stroke="currentColor" strokeWidth={0.65} />
+      <ellipse cx={380} cy={450} rx={980} ry={598} stroke="currentColor" strokeWidth={0.6} />
 
       {/* Crossing Bézier wave lines */}
       <path
         d="M 0,200 C 400,95 800,720 1440,350"
         stroke="currentColor"
-        strokeWidth={0.4}
+        strokeWidth={0.75}
       />
       <path
         d="M 0,700 C 400,805 800,180 1440,555"
         stroke="currentColor"
-        strokeWidth={0.35}
+        strokeWidth={0.7}
       />
 
       {/* Center bindu at focal point */}
-      <circle cx={380} cy={450} r={2.5} fill="currentColor" style={{ opacity: 0.45 }} />
+      <circle cx={380} cy={450} r={3.5} fill="currentColor" style={{ opacity: 0.55 }} />
 
       {/* @brahmexa text along the gentle wave */}
-      <text fontSize={7} letterSpacing={9} fill="currentColor" style={{ opacity: 0.65 }}>
+      <text fontSize={13} letterSpacing={3} fill="currentColor">
         <textPath href="#wm-wave-text" startOffset="8%">
           @brahmexa · brahmando · intelligence flows · @brahmexa · brahmando ·
         </textPath>
