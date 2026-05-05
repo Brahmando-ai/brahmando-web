@@ -218,10 +218,16 @@ function WaveformSVG() {
 /* ─────────────────────────────────────────────────────────────────────
    ROOT COMPONENT
    ───────────────────────────────────────────────────────────────────── */
+const VARIANT_MAP: Record<string, React.ComponentType> = {
+  orbital:  OrbitalSVG,
+  yantra:   YantraSVG,
+  waveform: WaveformSVG,
+};
+
 export function CosmicWatermark() {
   const pathname = usePathname();
 
-  const variant =
+  const variantKey =
     pathname.startsWith("/workflows")
       ? "waveform"
       : pathname.startsWith("/agents") ||
@@ -229,6 +235,8 @@ export function CosmicWatermark() {
         pathname.startsWith("/docs")
       ? "yantra"
       : "orbital";
+
+  const WatermarkSVG = VARIANT_MAP[variantKey];
 
   return (
     <>
@@ -249,9 +257,7 @@ export function CosmicWatermark() {
         className="pointer-events-none fixed inset-0 select-none overflow-hidden"
         style={{ zIndex: 0 }}
       >
-        {variant === "orbital"  && <OrbitalSVG />}
-        {variant === "yantra"   && <YantraSVG />}
-        {variant === "waveform" && <WaveformSVG />}
+        <WatermarkSVG />
       </div>
     </>
   );
