@@ -221,3 +221,68 @@
   0%, 100% { transform: translateY(0); }
   50%       { transform: translateY(-10px); }
 }
+
+/* ─────────────────────────────────────────────────────────────────────
+   COSMIC WATERMARK SYSTEM
+   ───────────────────────────────────────────────────────────────────── */
+
+/* SVG element rotation — anchored to the SVG viewport center (50% 50%)
+   which equals (720, 450) in the 1440×900 viewBox used by all watermarks. */
+.wm-rotate {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: wm-spin 250s linear infinite;
+}
+
+.wm-rotate-r {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: wm-spin-r 320s linear infinite;
+}
+
+/* Ambient background pulse overlays — use theme glow tokens so they
+   automatically adapt to whichever of the four colour themes is active. */
+.wm-ambient-1 {
+  background: radial-gradient(
+    ellipse 70% 55% at 18% 72%,
+    var(--glow-1) 0%,
+    transparent 65%
+  );
+  animation: wm-fade 22s ease-in-out infinite alternate;
+}
+
+.wm-ambient-2 {
+  background: radial-gradient(
+    ellipse 55% 48% at 82% 22%,
+    var(--glow-2) 0%,
+    transparent 60%
+  );
+  animation: wm-fade 28s 7s ease-in-out infinite alternate;
+}
+
+.wm-ambient-3 {
+  background: radial-gradient(
+    ellipse 85% 38% at 50% 108%,
+    var(--glow-1) 0%,
+    transparent 55%
+  );
+  animation: wm-fade 35s 14s ease-in-out infinite alternate;
+}
+
+@keyframes wm-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes wm-spin-r {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-360deg); }
+}
+
+/* Pulses between nearly invisible (0%) and a soft glow (13%).
+   Combined with the body's existing gradients, the net effect is a
+   slow "breath" between slightly darker and slightly lighter states. */
+@keyframes wm-fade {
+  from { opacity: 0; }
+  to   { opacity: 0.13; }
+}

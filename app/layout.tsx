@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import { CosmicWatermark } from "@/components/watermark/CosmicWatermark";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -58,6 +59,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${sora.variable} ${spaceMono.variable} flex min-h-screen flex-col`}>
         <ThemeProvider>
+          <CosmicWatermark />
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
