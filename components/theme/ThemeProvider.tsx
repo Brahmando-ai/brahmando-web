@@ -2,9 +2,9 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-export type Theme = "azure" | "midnight" | "cosmic" | "ember" | "dusk" | "void";
+export type Theme = "azure" | "midnight" | "cosmic" | "ember" | "dusk" | "void" | "pearl" | "mono";
 
-const THEMES: Theme[] = ["azure", "midnight", "cosmic", "ember", "dusk", "void"];
+const THEMES: Theme[] = ["azure", "midnight", "cosmic", "ember", "dusk", "void", "pearl", "mono"];
 const STORAGE_KEY = "brahmando-theme";
 
 interface ThemeContextValue {
