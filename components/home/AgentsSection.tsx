@@ -10,10 +10,10 @@ export function AgentsSection() {
         <div className="text-center">
           <h2 className="section-title">Agents Repository</h2>
           <p className="section-subtitle mx-auto text-center">
-            Browse the AI agents ManjuLAB has published in Brahmando. Each entry is versioned and
-            peer-reviewed. Execution, deployment, and integration require a{" "}
+            Every agent in the catalog is versioned, peer-reviewed, and ready for deployment.
+            Access, integration, and execution are available through{" "}
             <Link href="/access" style={{ color: "var(--accent)" }} className="underline-offset-2 hover:underline">
-              ManjuLAB customer agreement or community program acceptance
+              customer agreements or our community access program
             </Link>
             .
           </p>

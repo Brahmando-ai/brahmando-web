@@ -41,9 +41,9 @@ export function MCPSection() {
         <div className="text-center">
           <h2 className="section-title">MCP Servers</h2>
           <p className="section-subtitle mx-auto text-center">
-            Brahmando catalogs ManjuLAB&apos;s Model Context Protocol servers — standardised FastAPI
-            endpoints that expose domain intelligence to agents and integrations. Deployment requires
-            a ManjuLAB customer agreement or community program acceptance.
+            Model Context Protocol servers from the Brahmando catalog — standardised FastAPI
+            endpoints that surface domain intelligence directly to agents and integrations.
+            Deployment is available through customer and community access programs.
           </p>
         </div>
 

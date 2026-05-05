@@ -5,25 +5,25 @@ const pillars = [
     icon: Bot,
     title: "AI Agents",
     description:
-      "Precision-engineered agents for compliance, finance, research, and operations. Every agent in the Brahmando catalog is versioned, peer-reviewed, and deployed through ManjuLAB.",
+      "Precision-built agents for compliance, finance, research, and operations — each versioned, peer-reviewed, and ready to deploy exactly where your workflows need them most.",
   },
   {
     icon: Server,
     title: "MCP Servers",
     description:
-      "Model Context Protocol servers that expose domain intelligence as standardised FastAPI endpoints — maintained as part of ManjuLAB's canonical engineering catalog.",
+      "Standardised FastAPI endpoints that expose domain intelligence to any AI integration. Plug-and-play intelligence, designed to slot into your stack without bespoke plumbing.",
   },
   {
     icon: Workflow,
     title: "Agentic Workflows",
     description:
-      "n8n exports and YAML agentic pipelines that orchestrate agents, tools, and data sources into end-to-end automated processes, delivered through ManjuLAB.",
+      "n8n exports and YAML pipelines that orchestrate agents, tools, and data into end-to-end automation — from raw trigger to executive output, no custom glue required.",
   },
   {
     icon: Package,
     title: "Frameworks & SDKs",
     description:
-      "The TypeScript SDK and shared packages that power ManjuLAB delivery — available to enterprise customers under commercial agreements as part of the Brahmando access model.",
+      "The TypeScript SDK and shared packages that underpin every Brahmando delivery — available to enterprise customers under commercial agreements.",
   },
 ];
 
@@ -34,9 +34,9 @@ export function WhatIsBrahmando() {
         <div className="text-center">
           <h2 className="section-title">Four pillars of enterprise intelligence</h2>
           <p className="section-subtitle mx-auto text-center">
-            Brahmando is the canonical repository for everything Brahmexa&apos;s engineering arm builds —
-            a curated constellation of assets, each precision-crafted to address gaps in what
-            modern enterprise can do.
+            Brahmando is the canonical repository for every asset the Brahmexa engineering arm
+            builds — a curated constellation of tools, each precision-crafted to close gaps in
+            what modern enterprise can do on its own.
           </p>
         </div>
 

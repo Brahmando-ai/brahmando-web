@@ -2,9 +2,9 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-export type Theme = "obsidian" | "midnight" | "cosmic" | "ember";
+export type Theme = "azure" | "midnight" | "cosmic" | "ember";
 
-const THEMES: Theme[] = ["obsidian", "midnight", "cosmic", "ember"];
+const THEMES: Theme[] = ["azure", "midnight", "cosmic", "ember"];
 const STORAGE_KEY = "brahmando-theme";
 
 interface ThemeContextValue {
@@ -13,12 +13,12 @@ interface ThemeContextValue {
 }
 
 const ThemeContext = createContext<ThemeContextValue>({
-  theme: "obsidian",
+  theme: "azure",
   setTheme: () => undefined,
 });
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>("obsidian");
+  const [theme, setThemeState] = useState<Theme>("azure");
 
   // Restore from localStorage on mount
   useEffect(() => {
