@@ -41,8 +41,9 @@ export function WorkflowsSection() {
         <div className="text-center">
           <h2 className="section-title">Agentic Workflows</h2>
           <p className="section-subtitle mx-auto text-center">
-            ManjuLAB-authored n8n exports and YAML agentic pipelines catalogued in Brahmando.
-            Operational delivery is coordinated through ManjuLAB customer or community access.
+            n8n exports and YAML agentic pipelines that close the automation gap — from raw data
+            ingestion to executive reporting, end to end. Available through customer and community
+            access programs.
           </p>
         </div>
 

@@ -3,8 +3,8 @@
 import { useTheme, type Theme } from "./ThemeProvider";
 
 const THEMES: { id: Theme; label: string; color: string }[] = [
-  { id: "obsidian", label: "Obsidian",  color: "#7c3aed" },
-  { id: "midnight", label: "Midnight",  color: "#2563eb" },
+  { id: "azure",    label: "Azure",     color: "#2563eb" },
+  { id: "midnight", label: "Midnight",  color: "#1e40af" },
   { id: "cosmic",   label: "Cosmic",    color: "#9333ea" },
   { id: "ember",    label: "Ember",     color: "#ea580c" },
 ];

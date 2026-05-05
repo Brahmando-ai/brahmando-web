@@ -48,16 +48,16 @@ export function HeroSection() {
 
           {/* Main headline */}
           <h1 className="text-5xl font-bold tracking-tight text-slate-50 sm:text-6xl lg:text-[5.5rem] lg:leading-[1.04]">
-            Intelligence built
+            Intelligence for
             <br />
-            <span className="text-gradient">for every gap.</span>
+            <span className="text-gradient">every gap.</span>
           </h1>
 
           {/* Sub-heading */}
           <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg">
-            Brahmando is the sovereign asset repository of the Brahmexa group — a curated catalog of
-            AI agents, MCP servers, agentic workflows, and frameworks engineered by ManjuLAB.
-            Every asset exists precisely where human capability ends and artificial intelligence begins.
+            Where human capability ends, Brahmando begins. A curated intelligence
+            repository — AI agents, MCP servers, agentic workflows, and frameworks
+            engineered to fill every gap in what enterprise can do today.
           </p>
 
           {/* CTAs */}

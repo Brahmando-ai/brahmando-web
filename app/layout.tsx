@@ -63,13 +63,13 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
 
-        {/* ManjuLAB watermark — rendered on every page */}
+        {/* @manjulab watermark — rendered on every page */}
         <div
           aria-hidden="true"
           className="pointer-events-none fixed bottom-4 right-5 z-[200] select-none"
         >
-          <span className="text-[9px] font-bold uppercase tracking-[0.38em] text-white/[0.18]">
-            ManjuLAB
+          <span className="text-[9px] font-bold tracking-[0.28em] text-white/[0.22]">
+            @manjulab
           </span>
         </div>
       </body>

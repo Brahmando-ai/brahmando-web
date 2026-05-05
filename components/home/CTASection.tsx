@@ -24,16 +24,16 @@ export function CTASection() {
               Close every capability gap
             </p>
             <h2 className="text-3xl font-extrabold tracking-tight text-slate-50 sm:text-4xl">
-              Ready to access the Brahmando repository?
+              Ready to close the gaps?
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-slate-400">
-              Enterprise customers engage ManjuLAB under commercial terms and receive full access
-              to the Brahmando catalog along with integration support and deployment services.
-              Under-resourced organisations may qualify for our no-cost community access program.
+              Enterprise clients gain full access to the Brahmando catalog — including integration
+              support and deployment services. Under-resourced organisations may qualify for our
+              no-cost community access program.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link href="/access#customer" className="btn-primary">
-                Engage ManjuLAB
+                Engage the Team
                 <ArrowRight size={15} />
               </Link>
               <Link href="/access#community" className="btn-secondary">
