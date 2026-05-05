@@ -6,8 +6,9 @@ export function generateStaticParams() {
   return agentRegistry.agents.map((a) => ({ id: a.id }));
 }
 
-export default function AgentDetailPage({ params }: { params: { id: string } }) {
-  const agent = agentRegistry.agents.find((a) => a.id === params.id);
+export default async function AgentDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const agent = agentRegistry.agents.find((a) => a.id === id);
   if (!agent) notFound();
 
   return (
