@@ -1,20 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import {
+  PLATFORM_HEALTH_URL,
+  mapHealthResponse,
+  type ServiceStatus,
+  type ServiceInfo,
+  type StatusMap,
+} from "@/lib/platform-health";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
-type ServiceStatus = "checking" | "online" | "protected" | "error" | "offline";
-
-interface ServiceInfo {
-  status: ServiceStatus;
-  responseTimeMs?: number;
-}
-
-type StatusMap = Record<string, ServiceInfo>;
-
 interface Service {
-  /** Matches the `key` field returned by /api/platform-health. */
+  /** Matches the `key` field returned by the platform-health endpoint. */
   key: string;
   icon: string;
   title: string;
@@ -72,31 +70,75 @@ const SERVICES: Service[] = [
 
 // ── Page ───────────────────────────────────────────────────────────────────
 
+/** Timeout (ms) after which a still-"checking" service is marked offline. */
+const CHECKING_TIMEOUT_MS = 3_000;
+
+/**
+ * Fallback: probe each service URL directly with mode:"no-cors".
+ * We can only detect reachability (no status codes), so a resolved
+ * fetch is labelled "online" and a rejected one "offline".
+ */
+async function directChecks(): Promise<StatusMap> {
+  const results = await Promise.allSettled(
+    SERVICES.map(async (svc) => {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), CHECKING_TIMEOUT_MS);
+      try {
+        await fetch(svc.url, { mode: "no-cors", signal: controller.signal });
+        return { key: svc.key, status: "online" as ServiceStatus };
+      } catch {
+        return { key: svc.key, status: "offline" as ServiceStatus };
+      } finally {
+        clearTimeout(timer);
+      }
+    })
+  );
+
+  return Object.fromEntries(
+    results.map((r) => {
+      if (r.status === "fulfilled") {
+        return [r.value.key, { status: r.value.status }];
+      }
+      // Should not happen (inner catch handles errors), but guard anyway.
+      return ["unknown", { status: "offline" as ServiceStatus }];
+    })
+  );
+}
+
 export default function PlatformPage() {
   const [statuses, setStatuses] = useState<StatusMap>(() =>
     Object.fromEntries(SERVICES.map((s) => [s.key, { status: "checking" as const }]))
   );
   const [lastChecked, setLastChecked] = useState<Date | null>(null);
+  const [usingFallback, setUsingFallback] = useState(false);
 
   async function runHealthChecks() {
+    // ── 1. Try aggregator endpoint ──────────────────────────────────────
     try {
-      const res = await fetch("/api/platform-health");
-      if (!res.ok) return;
-      const data = (await res.json()) as {
-        services: Record<string, { status: ServiceStatus; responseTimeMs: number }>;
-      };
-      setStatuses(
-        Object.fromEntries(
-          Object.entries(data.services).map(([key, info]) => [
-            key,
-            { status: info.status, responseTimeMs: info.responseTimeMs },
-          ])
-        )
-      );
-      setLastChecked(new Date());
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), CHECKING_TIMEOUT_MS);
+      let res: Response;
+      try {
+        res = await fetch(PLATFORM_HEALTH_URL, { signal: controller.signal });
+      } finally {
+        clearTimeout(timer);
+      }
+      if (res.ok) {
+        const data = await res.json();
+        setStatuses(mapHealthResponse(data));
+        setLastChecked(new Date());
+        setUsingFallback(false);
+        return;
+      }
     } catch {
-      // Network error — leave existing statuses in place
+      // Aggregator unreachable — fall through to direct checks.
     }
+
+    // ── 2. Fallback: direct no-cors probes ──────────────────────────────
+    setUsingFallback(true);
+    const fallback = await directChecks();
+    setStatuses(fallback);
+    setLastChecked(new Date());
   }
 
   useEffect(() => {
@@ -104,6 +146,26 @@ export default function PlatformPage() {
     const interval = setInterval(runHealthChecks, 10_000);
     return () => clearInterval(interval);
   // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Safety net: after CHECKING_TIMEOUT_MS, flip any remaining "checking"
+  // entries to "offline" so the UI is never stuck indefinitely.
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setStatuses((prev) => {
+        const hasChecking = Object.values(prev).some(
+          (i) => i.status === "checking"
+        );
+        if (!hasChecking) return prev;
+        return Object.fromEntries(
+          Object.entries(prev).map(([key, info]) => [
+            key,
+            info.status === "checking" ? { status: "offline" as const } : info,
+          ])
+        );
+      });
+    }, CHECKING_TIMEOUT_MS);
+    return () => clearTimeout(timer);
   }, []);
 
   // Count services that are actively reachable (online or protected).
@@ -148,6 +210,13 @@ export default function PlatformPage() {
             </span>
           )}
         </div>
+
+        {/* ── Fallback banner ── */}
+        {usingFallback && (
+          <div className="mt-4 rounded-md border border-yellow-500/30 bg-yellow-500/10 px-4 py-2 text-xs text-yellow-400">
+            Health service unreachable — using direct checks
+          </div>
+        )}
       </div>
 
       {/* ── Service grid ── */}
