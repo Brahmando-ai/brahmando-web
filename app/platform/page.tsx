@@ -2,45 +2,67 @@
 
 import { useEffect, useState } from "react";
 
+// ── Types ──────────────────────────────────────────────────────────────────
+
+type ServiceStatus = "checking" | "online" | "protected" | "error" | "offline";
+
+interface ServiceInfo {
+  status: ServiceStatus;
+  responseTimeMs?: number;
+}
+
+type StatusMap = Record<string, ServiceInfo>;
+
 interface Service {
+  /** Matches the `key` field returned by /api/platform-health. */
+  key: string;
   icon: string;
   title: string;
   description: string;
+  /** URL used for the card link (not necessarily the probed URL). */
   url: string;
 }
 
+// ── Service definitions ────────────────────────────────────────────────────
+
 const SERVICES: Service[] = [
   {
+    key: "manjulab",
     icon: "🌐",
     title: "Manjulab Dashboard",
     description: "Central control hub for ManjuLAB operations",
     url: "https://manjulab.brahmando.com",
   },
   {
+    key: "api",
     icon: "⚙️",
     title: "API",
     description: "REST API — interactive docs & explorer",
     url: "https://api.brahmando.com/docs",
   },
   {
+    key: "workflows",
     icon: "🧪",
     title: "Workflows",
     description: "Agentic workflow orchestration engine",
     url: "https://workflows.brahmando.com",
   },
   {
+    key: "agents",
     icon: "🤖",
     title: "Agents",
     description: "Autonomous AI agents runtime",
     url: "https://agents.brahmando.com",
   },
   {
+    key: "ollama",
     icon: "🧠",
     title: "Ollama",
     description: "Local large-language-model inference",
     url: "https://ollama.brahmando.com/api/tags",
   },
   {
+    key: "mcp",
     icon: "🧩",
     title: "MCP Servers",
     description: "Model Context Protocol server fleet",
@@ -48,33 +70,33 @@ const SERVICES: Service[] = [
   },
 ];
 
-type StatusMap = Record<string, "checking" | "online" | "offline">;
+// ── Page ───────────────────────────────────────────────────────────────────
 
 export default function PlatformPage() {
   const [statuses, setStatuses] = useState<StatusMap>(() =>
-    Object.fromEntries(SERVICES.map((s) => [s.url, "checking" as const]))
+    Object.fromEntries(SERVICES.map((s) => [s.key, { status: "checking" as const }]))
   );
   const [lastChecked, setLastChecked] = useState<Date | null>(null);
 
-  async function checkService(url: string): Promise<"online" | "offline"> {
-    try {
-      // no-cors: we can only detect network reachability, not HTTP status codes.
-      // A reachable host (any response, including 4xx/5xx) counts as "online".
-      await fetch(url, { method: "GET", mode: "no-cors" });
-      return "online";
-    } catch {
-      return "offline";
-    }
-  }
-
   async function runHealthChecks() {
-    const results = await Promise.all(
-      SERVICES.map(async (s) => ({ url: s.url, status: await checkService(s.url) }))
-    );
-    setStatuses(
-      Object.fromEntries(results.map(({ url, status }) => [url, status]))
-    );
-    setLastChecked(new Date());
+    try {
+      const res = await fetch("/api/platform-health");
+      if (!res.ok) return;
+      const data = (await res.json()) as {
+        services: Record<string, { status: ServiceStatus; responseTimeMs: number }>;
+      };
+      setStatuses(
+        Object.fromEntries(
+          Object.entries(data.services).map(([key, info]) => [
+            key,
+            { status: info.status, responseTimeMs: info.responseTimeMs },
+          ])
+        )
+      );
+      setLastChecked(new Date());
+    } catch {
+      // Network error — leave existing statuses in place
+    }
   }
 
   useEffect(() => {
@@ -84,14 +106,19 @@ export default function PlatformPage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const onlineCount = Object.values(statuses).filter((s) => s === "online").length;
+  // Count services that are actively reachable (online or protected).
+  const reachableCount = Object.values(statuses).filter(
+    ({ status }) => status === "online" || status === "protected"
+  ).length;
 
   return (
     <div className="min-h-screen py-16">
       {/* ── Header ── */}
       <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
-        <div className="inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium mb-8"
-          style={{ borderColor: "var(--border)", background: "var(--accent-dim)", color: "var(--accent)" }}>
+        <div
+          className="inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium mb-8"
+          style={{ borderColor: "var(--border)", background: "var(--accent-dim)", color: "var(--accent)" }}
+        >
           <span className="h-1.5 w-1.5 rounded-full animate-pulse" style={{ background: "var(--accent)" }} />
           Live Health Monitor
         </div>
@@ -107,10 +134,10 @@ export default function PlatformPage() {
         {/* ── Summary bar ── */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-slate-400">
           <span>
-            <span className="font-semibold text-slate-100">{onlineCount}</span>
+            <span className="font-semibold text-slate-100">{reachableCount}</span>
             {" / "}
             <span className="font-semibold text-slate-100">{SERVICES.length}</span>
-            {" services online"}
+            {" services reachable"}
           </span>
           {lastChecked && (
             <span>
@@ -127,9 +154,9 @@ export default function PlatformPage() {
       <div className="mx-auto mt-12 max-w-5xl px-4 sm:px-6">
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {SERVICES.map((service) => {
-            const status = statuses[service.url];
+            const info = statuses[service.key] ?? { status: "checking" as const };
             return (
-              <ServiceCard key={service.url} service={service} status={status} />
+              <ServiceCard key={service.key} service={service} info={info} />
             );
           })}
         </div>
@@ -145,61 +172,60 @@ export default function PlatformPage() {
 
 /* ─────────────────────────────── ServiceCard ─────────────────────────────── */
 
-function StatusDot({ status }: { status: "checking" | "online" | "offline" }) {
-  if (status === "checking") {
+const STATUS_META: Record<ServiceStatus, { label: string; dotColor: string; pingColor: string | null }> = {
+  checking:  { label: "Checking…", dotColor: "#94a3b8", pingColor: null },
+  online:    { label: "Online",    dotColor: "#22c55e", pingColor: "#4ade80" },
+  protected: { label: "Protected", dotColor: "#3b82f6", pingColor: "#93c5fd" },
+  error:     { label: "Error",     dotColor: "#f97316", pingColor: null },
+  offline:   { label: "Offline",   dotColor: "#ef4444", pingColor: null },
+};
+
+function StatusDot({ status }: { status: ServiceStatus }) {
+  const { label, dotColor, pingColor } = STATUS_META[status];
+
+  if (pingColor) {
     return (
-      <span
-        className="h-2.5 w-2.5 rounded-full animate-pulse"
-        style={{ background: "#94a3b8" }}
-        title="Checking…"
-      />
-    );
-  }
-  if (status === "online") {
-    return (
-      <span
-        className="relative flex h-2.5 w-2.5"
-        title="Online"
-      >
-        <span className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-60"
-          style={{ background: "#4ade80" }} />
-        <span className="relative inline-flex h-2.5 w-2.5 rounded-full"
-          style={{ background: "#22c55e" }} />
+      <span className="relative flex h-2.5 w-2.5" title={label}>
+        <span
+          className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-60"
+          style={{ background: pingColor }}
+        />
+        <span
+          className="relative inline-flex h-2.5 w-2.5 rounded-full"
+          style={{ background: dotColor }}
+        />
       </span>
     );
   }
+
   return (
     <span
-      className="h-2.5 w-2.5 rounded-full"
-      style={{ background: "#ef4444" }}
-      title="Offline"
+      className={`h-2.5 w-2.5 rounded-full${status === "checking" ? " animate-pulse" : ""}`}
+      style={{ background: dotColor }}
+      title={label}
     />
   );
 }
 
-const STATUS_META: Record<"checking" | "online" | "offline", { label: string; color: string }> = {
-  checking: { label: "Checking…", color: "#94a3b8" },
-  online:   { label: "Online",    color: "#22c55e" },
-  offline:  { label: "Offline",   color: "#ef4444" },
-};
+function StatusLabel({ info }: { info: ServiceInfo }) {
+  const { label, dotColor } = STATUS_META[info.status];
+  const latency =
+    info.responseTimeMs !== undefined && info.status !== "checking"
+      ? ` · ${info.responseTimeMs} ms`
+      : "";
 
-function StatusLabel({ status }: { status: "checking" | "online" | "offline" }) {
-  const { label, color } = STATUS_META[status];
   return (
-    <div className="flex items-center gap-1.5 text-xs font-medium" style={{ color }}>
-      <StatusDot status={status} />
+    <div className="flex items-center gap-1.5 text-xs font-medium" style={{ color: dotColor }}>
+      <StatusDot status={info.status} />
       {label}
+      {latency && (
+        <span className="text-slate-500 font-normal">{latency}</span>
+      )}
     </div>
   );
 }
 
-function ServiceCard({
-  service,
-  status,
-}: {
-  service: Service;
-  status: "checking" | "online" | "offline";
-}) {
+function ServiceCard({ service, info }: { service: Service; info: ServiceInfo }) {
   return (
     <a
       href={service.url}
@@ -210,7 +236,7 @@ function ServiceCard({
     >
       {/* Status dot — top right */}
       <span className="absolute top-4 right-4 flex items-center justify-center">
-        <StatusDot status={status} />
+        <StatusDot status={info.status} />
       </span>
 
       {/* Icon */}
@@ -229,13 +255,12 @@ function ServiceCard({
       </p>
 
       {/* URL slug */}
-      <p className="mt-auto font-mono text-xs truncate"
-        style={{ color: "var(--accent)" }}>
+      <p className="mt-auto font-mono text-xs truncate" style={{ color: "var(--accent)" }}>
         {new URL(service.url).hostname}
       </p>
 
-      {/* Status label */}
-      <StatusLabel status={status} />
+      {/* Status label + latency */}
+      <StatusLabel info={info} />
     </a>
   );
 }

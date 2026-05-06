@@ -1,19 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Static export for GitHub Pages
-  output: "export",
+  // Note: "output: export" was removed to enable API routes (server-side health checks).
+  // Deploy to a Node-capable host (e.g. Vercel) instead of GitHub Pages static export.
 
-  // Required when deploying to GitHub Pages under a repo subpath.
-  // Set to "" when using a custom domain (brahmando.com).
   basePath: "",
 
-  // Disable built-in Next.js image optimisation (not supported in static export).
+  // Disable built-in Next.js image optimisation.
   // Use standard <img> tags or a CDN instead.
   images: {
     unoptimized: true,
   },
 
-  // Trailing slashes ensure GitHub Pages serves index.html correctly.
   trailingSlash: true,
 };
 
