@@ -62,7 +62,7 @@ function classifyHttpStatus(httpStatus: number): ServiceStatus {
   if (httpStatus >= 200 && httpStatus <= 399) return "online";
   if (httpStatus === 401 || httpStatus === 403) return "protected";
   if (httpStatus >= 500 && httpStatus <= 599) return "error";
-  return "offline"; // 4xx other than 401/403 — endpoint not found / bad request
+  return "offline"; // anything else (other 4xx, unexpected 1xx, etc.)
 }
 
 interface ProbeResult {
