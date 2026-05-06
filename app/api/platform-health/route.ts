@@ -7,7 +7,7 @@ const TIMEOUT_MS = 3_000;
 const ENDPOINTS: Array<{ key: string; url: string }> = [
   { key: "manjulab", url: "https://manjulab.brahmando.com" },
   { key: "api",      url: "https://api.brahmando.com/docs" },
-  { key: "workflows",url: "https://workflows.brahmando.com" },
+  { key: "workflows", url: "https://workflows.brahmando.com" },
   { key: "agents",   url: "https://agents.brahmando.com" },
   { key: "ollama",   url: "https://ollama.brahmando.com/api/tags" },
   { key: "mcp",      url: "https://mcp.brahmando.com" },
@@ -70,7 +70,7 @@ export async function GET() {
     { services: Object.fromEntries(results) },
     {
       headers: {
-        // Allow the browser to cache the result briefly.
+        // Prevent stale health data from being cached.
         "Cache-Control": "no-store",
       },
     }
