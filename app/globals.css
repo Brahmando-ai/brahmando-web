@@ -405,3 +405,150 @@
 [data-theme="pearl"] .btn-secondary:hover {
   color: #0f172a;
 }
+
+/* ─────────────────────────────────────────────────────────────────────
+   DEEPAK CHATBOT WIDGET
+   ───────────────────────────────────────────────────────────────────── */
+
+/* ── Panel shell ── */
+.deepak-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.04),
+    0 25px 80px -12px rgba(0, 0, 0, 0.8),
+    0 0 40px -10px var(--glow-1);
+  backdrop-filter: blur(24px);
+}
+
+/* ── Header ── */
+.deepak-header {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    transparent 100%
+  );
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Avatar accent ── */
+.deepak-avatar {
+  background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+}
+.deepak-avatar-sm {
+  background: rgba(59, 130, 246, 0.18);
+  color: #60a5fa;
+}
+
+/* ── Messages area ── */
+.deepak-messages {
+  background: rgba(0, 0, 0, 0.12);
+}
+.deepak-messages::-webkit-scrollbar {
+  width: 4px;
+}
+.deepak-messages::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+/* ── Chat bubbles ── */
+.deepak-bubble-user {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+  color: #ffffff;
+  border-bottom-right-radius: 4px;
+}
+.deepak-bubble-assistant {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: #e2e8f0;
+  border-bottom-left-radius: 4px;
+}
+
+/* ── Input bar ── */
+.deepak-input-bar {
+  border-top: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+}
+.deepak-input {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.2s;
+}
+.deepak-input:focus {
+  border-color: var(--border-hover);
+}
+
+/* ── Send button ── */
+.deepak-send {
+  background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
+  color: #ffffff;
+}
+.deepak-send:hover:not(:disabled) {
+  box-shadow: 0 0 14px rgba(59, 130, 246, 0.5);
+}
+
+/* ── FAB ── */
+.deepak-fab {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%);
+  box-shadow:
+    0 4px 20px -4px rgba(59, 130, 246, 0.5),
+    0 0 0 1px rgba(59, 130, 246, 0.3);
+}
+.deepak-fab:hover {
+  box-shadow:
+    0 6px 28px -4px rgba(59, 130, 246, 0.65),
+    0 0 0 1px rgba(96, 165, 250, 0.5);
+}
+
+/* ── Typing indicator ── */
+.deepak-typing {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 0;
+}
+.deepak-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.5;
+  animation: deepak-bounce 1.4s ease-in-out infinite;
+}
+.deepak-dot:nth-child(2) { animation-delay: 0.16s; }
+.deepak-dot:nth-child(3) { animation-delay: 0.32s; }
+
+@keyframes deepak-bounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+}
+
+/* ── Pearl theme overrides ── */
+[data-theme="pearl"] .deepak-panel {
+  background: rgba(248, 250, 253, 0.95);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.06),
+    0 25px 60px -12px rgba(0, 0, 0, 0.18);
+}
+[data-theme="pearl"] .deepak-header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, transparent 100%);
+}
+[data-theme="pearl"] .deepak-messages {
+  background: rgba(0, 0, 0, 0.02);
+}
+[data-theme="pearl"] .deepak-bubble-assistant {
+  background: rgba(0, 0, 0, 0.04);
+  color: #1e293b;
+}
+[data-theme="pearl"] .deepak-input {
+  color: #1e293b;
+}
+[data-theme="pearl"] .deepak-input::placeholder {
+  color: #94a3b8;
+}
+[data-theme="pearl"] .deepak-input-bar {
+  background: rgba(0, 0, 0, 0.02);
+}
+

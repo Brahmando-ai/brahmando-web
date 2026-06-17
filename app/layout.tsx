@@ -5,6 +5,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { CosmicWatermark } from "@/components/watermark/CosmicWatermark";
+import { DeepakChat } from "@/components/chat/DeepakChat";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
+          <DeepakChat />
         </ThemeProvider>
 
         {/* @manjulab watermark — rendered on every page */}
