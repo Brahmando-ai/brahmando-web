@@ -4,6 +4,7 @@ import { AboutSection } from "@/components/home/AboutSection";
 import { MCPSection } from "@/components/home/MCPSection";
 import { AgentsSection } from "@/components/home/AgentsSection";
 import { WorkflowsSection } from "@/components/home/WorkflowsSection";
+import { CSRSection } from "@/components/home/CSRSection";
 import { CTASection } from "@/components/home/CTASection";
 
 export default function HomePage() {
@@ -18,6 +19,8 @@ export default function HomePage() {
       <AgentsSection />
       <hr className="section-rule mx-auto max-w-5xl" />
       <WorkflowsSection />
+      <hr className="section-rule mx-auto max-w-5xl" />
+      <CSRSection />
       <hr className="section-rule mx-auto max-w-5xl" />
       <AboutSection />
       <CTASection />

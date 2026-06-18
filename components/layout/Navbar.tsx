@@ -8,6 +8,8 @@ import { branding } from "@/lib/branding";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 
 const navLinks = [
+  { label: "CSR",         href: "/csr" },
+  { label: "Education",   href: "/education" },
   { label: "Agents",      href: "/agents" },
   { label: "MCP Servers", href: "/mcp-servers" },
   { label: "Workflows",   href: "/workflows" },
