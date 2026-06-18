@@ -124,6 +124,13 @@ export default function MCPServersPage() {
                 >
                   Try {MCP_TO_AGENT[s.id]} agent →
                 </Link>
+              ) : s.id === "dikeai" ? (
+                <Link
+                  href="/agents/compliance-analyzer"
+                  className="mt-4 inline-flex text-sm font-medium text-cyan-300 hover:text-cyan-100"
+                >
+                  Try compliance agent →
+                </Link>
               ) : (
                 <p className="mt-4 text-xs text-slate-500">GPU deployment coming soon</p>
               )}

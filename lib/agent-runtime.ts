@@ -5,7 +5,7 @@ export type AgentRuntimeType = "edge" | "chat" | "workflow" | "none";
 export interface AgentRuntime {
   status: "live" | "preview";
   type: AgentRuntimeType;
-  /** Agent alias for POST https://api.brahmando.com/run-agent */
+  /** Agent alias for POST https://chat.brahmando.com/api/run-agent */
   runAgent?: string;
   /** External app URL (n8n, etc.) */
   externalUrl?: string;
@@ -54,33 +54,39 @@ export const AGENT_RUNTIME: Record<string, AgentRuntime> = {
       "Describe network topology, configs, or anomalies to analyse…",
   },
   hermes: {
-    status: "preview",
-    type: "chat",
+    status: "live",
+    type: "edge",
+    runAgent: "hermes",
     placeholder: "Ask Hermes about SMB ops, WhatsApp, or email workflows…",
   },
   mercury: {
-    status: "preview",
-    type: "chat",
+    status: "live",
+    type: "edge",
+    runAgent: "mercury",
     placeholder: "Ask Mercury about startup strategy, SWOT, or pitch advice…",
   },
   researcher: {
-    status: "preview",
-    type: "chat",
+    status: "live",
+    type: "edge",
+    runAgent: "researcher",
     placeholder: "Ask the Researcher for a deep dive on any topic…",
   },
   "document-summarizer": {
-    status: "preview",
-    type: "chat",
+    status: "live",
+    type: "edge",
+    runAgent: "document-summarizer",
     placeholder: "Paste document text to summarise…",
   },
   "code-reviewer": {
-    status: "preview",
-    type: "chat",
+    status: "live",
+    type: "edge",
+    runAgent: "code-reviewer",
     placeholder: "Paste code snippet for review…",
   },
   "research-assistant": {
-    status: "preview",
-    type: "chat",
+    status: "live",
+    type: "edge",
+    runAgent: "research-assistant",
     placeholder: "Enter a research question with desired depth…",
   },
 };
@@ -88,8 +94,9 @@ export const AGENT_RUNTIME: Record<string, AgentRuntime> = {
 export function getAgentRuntime(agentId: string): AgentRuntime {
   return (
     AGENT_RUNTIME[agentId] ?? {
-      status: "preview",
-      type: "chat",
+      status: "live",
+      type: "edge",
+      runAgent: agentId,
       placeholder: "Ask about this agent…",
     }
   );
@@ -100,4 +107,5 @@ export const MCP_TO_AGENT: Record<string, string> = {
   "compliance-agent": "compliance-analyzer",
   "finance-agent": "finance-risk-scorer",
   "network-agent": "network-topology-analyzer",
+  dikeai: "compliance-analyzer",
 };
