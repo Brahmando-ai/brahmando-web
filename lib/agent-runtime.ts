@@ -15,6 +15,15 @@ export interface AgentRuntime {
 export const EDGE_API =
   process.env.NEXT_PUBLIC_EDGE_API_URL || "https://api.brahmando.com";
 
+/** CORS-safe proxy for brahmando.com agent runner (POST only) */
+export const RUN_AGENT_API =
+  process.env.NEXT_PUBLIC_RUN_AGENT_API_URL ||
+  "https://chat.brahmando.com/api/run-agent";
+
+export const PLATFORM_HEALTH_API =
+  process.env.NEXT_PUBLIC_PLATFORM_HEALTH_URL ||
+  "https://chat.brahmando.com/api/platform-health";
+
 export const CHAT_STREAM_API =
   process.env.NEXT_PUBLIC_CHAT_API_URL ||
   "https://chat.brahmando.com/api/chat/stream";

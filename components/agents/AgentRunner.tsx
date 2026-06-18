@@ -3,7 +3,7 @@
 import { useState, useCallback, type FormEvent } from "react";
 import { Loader2, Play, ExternalLink } from "lucide-react";
 import {
-  EDGE_API,
+  RUN_AGENT_API,
   CHAT_STREAM_API,
   N8N_URL,
   type AgentRuntime,
@@ -37,7 +37,7 @@ export function AgentRunner({ agentId, agentName, runtime }: AgentRunnerProps) {
 
   const runEdge = useCallback(
     async (text: string) => {
-      const res = await fetch(`${EDGE_API}/run-agent`, {
+      const res = await fetch(RUN_AGENT_API, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -196,8 +196,7 @@ export function AgentRunner({ agentId, agentName, runtime }: AgentRunnerProps) {
 
       {runtime.type === "edge" && (
         <p className="mt-3 text-xs text-slate-500">
-          Backend:{" "}
-          <code className="text-slate-400">{EDGE_API}/run-agent</code>
+          Sends a POST request to the agent API (browser-safe proxy).
         </p>
       )}
     </div>

@@ -25,48 +25,52 @@ interface Service {
 
 // ── Service definitions ────────────────────────────────────────────────────
 
+const PLATFORM_HEALTH_URL =
+  process.env.NEXT_PUBLIC_PLATFORM_HEALTH_URL ||
+  "https://chat.brahmando.com/api/platform-health";
+
 const SERVICES: Service[] = [
   {
     key: "manjulab",
     icon: "🌐",
     title: "Manjulab Dashboard",
     description: "Central control hub for ManjuLAB operations",
-    url: "https://manjulab.brahmando.com",
+    url: "https://manjulab.com",
   },
   {
     key: "api",
     icon: "⚙️",
-    title: "API",
-    description: "REST API — interactive docs & explorer",
+    title: "API Gateway",
+    description: "Edge gateway — Swagger docs & run-agent",
     url: "https://api.brahmando.com/docs",
   },
   {
     key: "workflows",
     icon: "🧪",
-    title: "Workflows",
-    description: "Agentic workflow orchestration engine",
-    url: "https://workflows.brahmando.com",
+    title: "Workflows (n8n)",
+    description: "Agentic workflow orchestration on GPU",
+    url: "https://n8n.brahmando.com",
   },
   {
     key: "agents",
     icon: "🤖",
     title: "Agents",
-    description: "Autonomous AI agents runtime",
-    url: "https://agents.brahmando.com",
+    description: "Live agent catalog & try-it runners",
+    url: "https://brahmando.com/agents/",
   },
   {
     key: "ollama",
     icon: "🧠",
     title: "Ollama",
-    description: "Local large-language-model inference",
-    url: "https://ollama.brahmando.com/api/tags",
+    description: "Local LLM inference (in-cluster)",
+    url: "https://api.brahmando.com/platform-health",
   },
   {
     key: "mcp",
     icon: "🧩",
     title: "MCP Servers",
-    description: "Model Context Protocol server fleet",
-    url: "https://mcp.brahmando.com",
+    description: "Compliance, finance & network MCP agents",
+    url: "https://brahmando.com/mcp-servers/",
   },
 ];
 
@@ -80,14 +84,19 @@ export default function PlatformPage() {
 
   async function runHealthChecks() {
     try {
-      const res = await fetch("/api/platform-health");
+      const res = await fetch(PLATFORM_HEALTH_URL);
       if (!res.ok) return;
       const data = (await res.json()) as {
         services: Record<string, { status: ServiceStatus; responseTimeMs: number }>;
       };
+      const services = { ...data.services };
+      // Edge gateway health is reported as "agents" in platform-health
+      if (services.agents && !services.api) {
+        services.api = services.agents;
+      }
       setStatuses(
         Object.fromEntries(
-          Object.entries(data.services).map(([key, info]) => [
+          Object.entries(services).map(([key, info]) => [
             key,
             { status: info.status, responseTimeMs: info.responseTimeMs },
           ])
