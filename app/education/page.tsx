@@ -6,7 +6,7 @@ const modules = [
     id: "fafsa",
     name: "FAFSA Agent",
     summary: "U.S. federal student aid coaching — deadlines, dependency, SAR, Pell Grant basics.",
-    endpoints: ["POST /fafsa/ask", "POST /fafsa/checklist", "POST /fafsa/dependency"],
+    endpoints: ["POST /fafsa/ask", "POST /fafsa/checklist", "POST /fafsa/dependency", "POST /fafsa/scholarship-plan", "POST /student-aid/plan"],
     sample: "What documents do I need before starting FAFSA?",
   },
   {
@@ -20,7 +20,7 @@ const modules = [
     id: "scholarships",
     name: "Scholarship Scout",
     summary: "Scholarship discovery for U.S. and India with eligibility notes.",
-    endpoints: ["POST /scholarships/match"],
+    endpoints: ["POST /scholarships/match", "POST /scholarships/coach"],
     sample: "Scholarships for a 12th grader interested in computer science in India",
   },
   {
