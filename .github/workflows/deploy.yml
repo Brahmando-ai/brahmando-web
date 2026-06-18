@@ -39,8 +39,8 @@ jobs:
           # Public env vars baked into the static bundle
           NEXT_PUBLIC_SITE_URL: https://brahmando.com
           NEXT_PUBLIC_SITE_NAME: Brahmando
-          # API base is empty by default (mock mode); set as a repo secret for live backend
-          NEXT_PUBLIC_API_BASE_URL: ${{ secrets.NEXT_PUBLIC_API_BASE_URL || '' }}
+          # Chat widget → chat.brahmando.com/api/chat/stream (API key injected server-side)
+          NEXT_PUBLIC_CHAT_API_URL: https://chat.brahmando.com/api/chat/stream
 
       - name: Copy CNAME to output directory
         run: cp public/CNAME out/CNAME

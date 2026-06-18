@@ -10,9 +10,10 @@ import {
 import { MessageCircle, Send, X, Bot, User, Loader2 } from "lucide-react";
 
 /* ─── Config ────────────────────────────────────────────────────────── */
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "https://chat.brahmando.com";
-const API_KEY = "sk-bh-brahmando-2026";
+// Calls chat.brahmando.com proxy; API key is injected server-side (not in browser).
+const CHAT_API =
+  process.env.NEXT_PUBLIC_CHAT_API_URL ||
+  "https://chat.brahmando.com/api/chat/stream";
 const BOT_NAME = "Deepak";
 
 /* ─── Types ─────────────────────────────────────────────────────────── */
@@ -78,12 +79,9 @@ export function DeepakChat() {
       setStreaming(true);
 
       try {
-        const res = await fetch(`${API_BASE}/chat/stream`, {
+        const res = await fetch(CHAT_API, {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "X-API-Key": API_KEY,
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: text, session_id: sessionId }),
         });
 
