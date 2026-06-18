@@ -1,5 +1,7 @@
-import { GitBranch, Zap, Activity } from "lucide-react";
+import { GitBranch, Zap, Activity, ExternalLink } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
+
+const N8N_URL = "https://n8n.brahmando.com";
 
 const n8nWorkflows = [
   {
@@ -52,16 +54,33 @@ export default function WorkflowsPage() {
           <PartnerLogosBar className="mt-8" />
         </div>
 
-        <section className="mt-2">
-          <div className="flex items-center gap-2 mb-6">
+        <section className="mt-12">
+          <div className="flex items-center justify-between gap-4 mb-6 flex-wrap">
+            <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-orange-400/20">
               <GitBranch size={16} className="text-orange-300" />
             </div>
             <h2 className="text-xl font-semibold text-slate-100">n8n Workflows</h2>
+            </div>
+            <a
+              href={N8N_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center gap-2 text-sm"
+            >
+              Open n8n
+              <ExternalLink size={14} />
+            </a>
           </div>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             {n8nWorkflows.map((wf) => (
-              <div key={wf.name} className="card">
+              <a
+                key={wf.name}
+                href={N8N_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card group block transition-colors hover:border-orange-300/40"
+              >
                 <div className="flex items-start justify-between mb-3">
                   <span className="tag border-orange-300/40 bg-orange-400/20 text-orange-200">n8n</span>
                   <span className="text-xs text-slate-400">{wf.nodes} nodes</span>
@@ -69,7 +88,11 @@ export default function WorkflowsPage() {
                 <h3 className="font-mono text-sm font-semibold text-slate-100">{wf.name}</h3>
                 <p className="mt-2 text-sm text-slate-300">{wf.description}</p>
                 <p className="mt-3 text-xs font-mono text-slate-400">/workflows/n8n/{wf.file}</p>
-              </div>
+                <p className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-orange-200 group-hover:text-orange-100">
+                  Open in n8n
+                  <ExternalLink size={12} />
+                </p>
+              </a>
             ))}
           </div>
         </section>

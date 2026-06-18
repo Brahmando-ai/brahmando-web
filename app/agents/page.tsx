@@ -1,6 +1,7 @@
 import Link from "next/link";
 import agentRegistry from "@/lib/agents-registry.json";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
+import { getAgentRuntime } from "@/lib/agent-runtime";
 
 export default function AgentsPage() {
   const agents = agentRegistry.agents;
@@ -40,11 +41,20 @@ export default function AgentsPage() {
         </div>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {agents.map((agent) => (
+          {agents.map((agent) => {
+            const runtime = getAgentRuntime(agent.id);
+            return (
             <Link key={agent.id} href={`/agents/${agent.id}`} className="card group">
               <div className="flex items-start justify-between mb-3">
                 <span className="tag">{agent.category}</span>
-                <span className="text-xs font-mono text-slate-400">{agent.version}</span>
+                <div className="flex items-center gap-2">
+                  {runtime.status === "live" && (
+                    <span className="rounded-full bg-emerald-400/20 px-2 py-0.5 text-[10px] font-medium text-emerald-200">
+                      Live
+                    </span>
+                  )}
+                  <span className="text-xs font-mono text-slate-400">{agent.version}</span>
+                </div>
               </div>
               <h3 className="font-semibold text-slate-100 group-hover:text-cyan-200 transition-colors">
                 {agent.name}
@@ -63,8 +73,12 @@ export default function AgentsPage() {
               {agent.mcpServer && (
                 <p className="mt-3 font-mono text-xs text-cyan-200">MCP: {agent.mcpServer}</p>
               )}
+              <p className="mt-3 text-xs font-medium text-cyan-300/90 group-hover:text-cyan-200">
+                Open & run →
+              </p>
             </Link>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

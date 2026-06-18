@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Shield, Network, TrendingUp, Scale, MessageCircle } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
+import { MCP_TO_AGENT } from "@/lib/agent-runtime";
 
 const servers = [
   {
@@ -116,6 +117,16 @@ export default function MCPServersPage() {
               <p className="mt-5 text-xs text-slate-400">
                 Source: <code className="font-mono">/mcp-servers/{s.id}/</code>
               </p>
+              {MCP_TO_AGENT[s.id] ? (
+                <Link
+                  href={`/agents/${MCP_TO_AGENT[s.id]}`}
+                  className="mt-4 inline-flex text-sm font-medium text-cyan-300 hover:text-cyan-100"
+                >
+                  Try {MCP_TO_AGENT[s.id]} agent →
+                </Link>
+              ) : (
+                <p className="mt-4 text-xs text-slate-500">GPU deployment coming soon</p>
+              )}
             </div>
           ))}
         </div>

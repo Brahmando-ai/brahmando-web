@@ -258,7 +258,7 @@ export function DeepakChat() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask Deepak anything..."
+              placeholder="Ask Deepak about Manjulab and related agents, tools, and services…"
               disabled={streaming}
               className="deepak-input flex-1 bg-transparent px-3 py-2 text-sm
                          text-slate-100 placeholder:text-slate-500
