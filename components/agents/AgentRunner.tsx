@@ -92,11 +92,10 @@ export function AgentRunner({ agentId, agentName, runtime }: AgentRunnerProps) {
     }
   }, [agentName]);
 
-  const onSubmit = useCallback(
-    async (e: FormEvent) => {
-      e.preventDefault();
-      const text = query.trim();
-      if (!text || loading) return;
+  const runQuery = useCallback(
+    async (text: string) => {
+      const trimmed = text.trim();
+      if (!trimmed || loading) return;
 
       setLoading(true);
       setError(null);
@@ -104,9 +103,9 @@ export function AgentRunner({ agentId, agentName, runtime }: AgentRunnerProps) {
 
       try {
         if (runtime.type === "edge") {
-          await runEdge(text);
+          await runEdge(trimmed);
         } else if (runtime.type === "chat") {
-          await runChat(text);
+          await runChat(trimmed);
         }
       } catch (err) {
         setError(err instanceof Error ? err.message : "Request failed");
@@ -114,7 +113,23 @@ export function AgentRunner({ agentId, agentName, runtime }: AgentRunnerProps) {
         setLoading(false);
       }
     },
-    [query, loading, runtime.type, runEdge, runChat]
+    [loading, runtime.type, runEdge, runChat]
+  );
+
+  const onSubmit = useCallback(
+    async (e: FormEvent) => {
+      e.preventDefault();
+      await runQuery(query);
+    },
+    [query, runQuery]
+  );
+
+  const onSampleClick = useCallback(
+    (sample: string) => {
+      setQuery(sample);
+      void runQuery(sample);
+    },
+    [runQuery]
   );
 
   if (runtime.type === "workflow" && runtime.externalUrl) {
@@ -155,6 +170,27 @@ export function AgentRunner({ agentId, agentName, runtime }: AgentRunnerProps) {
           {runtime.status === "live" ? "Live on GPU" : "Chat preview"}
         </span>
       </div>
+
+      {runtime.sampleQuestions && runtime.sampleQuestions.length > 0 && (
+        <div className="mb-4">
+          <p className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-400">
+            Try a sample question
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {runtime.sampleQuestions.map((sample) => (
+              <button
+                key={sample}
+                type="button"
+                disabled={loading}
+                onClick={() => onSampleClick(sample)}
+                className="rounded-full border border-slate-600/60 bg-slate-950/60 px-3 py-1.5 text-left text-xs text-slate-300 transition hover:border-cyan-400/40 hover:text-cyan-100 disabled:opacity-40"
+              >
+                {sample.length > 72 ? `${sample.slice(0, 72)}…` : sample}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <form onSubmit={onSubmit} className="space-y-3">
         <textarea
