@@ -69,6 +69,10 @@ export default function EducationPage() {
               <ArrowRight size={14} />
             </Link>
           </div>
+          <p className="mt-4 text-xs text-slate-400">
+            Or use the <strong className="text-cyan-300/90">🎓 chat button</strong> (bottom-right) for quick
+            role-based questions — the original Education Portal interface.
+          </p>
         </div>
 
         <div className="mb-12 rounded-2xl border border-violet-300/25 bg-violet-400/5 p-6 sm:p-8">

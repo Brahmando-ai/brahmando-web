@@ -67,10 +67,27 @@ export type ActorChatResponse = {
 };
 
 async function educationFetch<T>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(`${EDUCATION_API.replace(/\/$/, "")}${path}`, init);
-  const data = (await res.json()) as T & { detail?: string };
+  let res: Response;
+  try {
+    res = await fetch(`${EDUCATION_API.replace(/\/$/, "")}${path}`, {
+      ...init,
+      headers: { ...init?.headers, Accept: "application/json" },
+    });
+  } catch {
+    throw new Error(
+      "Could not reach Education Portal (network). The API may be starting up — try again shortly."
+    );
+  }
+  let data: T & { detail?: string };
+  try {
+    data = (await res.json()) as T & { detail?: string };
+  } catch {
+    throw new Error(`Education Portal returned invalid response (HTTP ${res.status}).`);
+  }
   if (!res.ok) {
-    throw new Error(data.detail || `HTTP ${res.status}`);
+    throw new Error(
+      typeof data.detail === "string" ? data.detail : `Request failed (HTTP ${res.status})`
+    );
   }
   return data;
 }
