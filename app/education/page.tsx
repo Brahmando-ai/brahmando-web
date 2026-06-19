@@ -59,8 +59,27 @@ export default function EducationPage() {
             <strong className="text-slate-100">School</strong>, or <strong className="text-slate-100">Coaching center</strong> —
             run workflows for syllabus planning, question papers, grading, mock tests, and CBSE trend analysis.
           </p>
-          <Link href="/education/studio" className="btn-primary mt-5 inline-flex items-center gap-2 text-sm">
-            Open Education Studio
+          <div className="mt-5 flex flex-wrap gap-3">
+            <Link href="/education/studio" className="btn-primary inline-flex items-center gap-2 text-sm">
+              Open Education Studio
+              <ArrowRight size={14} />
+            </Link>
+            <Link href="/education/explore" className="btn-secondary inline-flex items-center gap-2 text-sm">
+              Browse knowledge base
+              <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+
+        <div className="mb-12 rounded-2xl border border-violet-300/25 bg-violet-400/5 p-6 sm:p-8">
+          <h2 className="font-semibold text-violet-100">Category filters + NLP search</h2>
+          <p className="mt-2 text-sm text-slate-300 leading-relaxed max-w-3xl">
+            Filter by syllabus (CBSE, ICSE), grades 1–12, board exams (Class 10 & 12), competitive tracks
+            (Medical, Engineering, Civil Services, Banking…), and subject — then search in plain English across
+            past papers and guides in the knowledge base.
+          </p>
+          <Link href="/education/explore" className="btn-secondary mt-5 inline-flex items-center gap-2 text-sm">
+            Open Knowledge Explorer
             <ArrowRight size={14} />
           </Link>
         </div>

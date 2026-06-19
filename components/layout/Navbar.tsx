@@ -11,6 +11,7 @@ const navLinks = [
   { label: "CSR",         href: "/csr" },
   { label: "Education",   href: "/education" },
   { label: "Studio",      href: "/education/studio" },
+  { label: "Explore KB",  href: "/education/explore" },
   { label: "Agents",      href: "/agents" },
   { label: "MCP Servers", href: "/mcp-servers" },
   { label: "Workflows",   href: "/workflows" },
