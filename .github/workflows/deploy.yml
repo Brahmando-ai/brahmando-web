@@ -42,7 +42,8 @@ jobs:
           NEXT_PUBLIC_CHAT_API_URL: https://chat.brahmando.com/api/chat/stream
           NEXT_PUBLIC_RUN_AGENT_API_URL: https://chat.brahmando.com/api/run-agent
           NEXT_PUBLIC_PLATFORM_HEALTH_URL: https://chat.brahmando.com/api/platform-health
-          # Leave unset so browser uses same-origin /api/education (Cloudflare Worker)
+          # Prefer api.brahmando.com — GH Pages /api/education worker route is often unset
+          NEXT_PUBLIC_EDUCATION_API_URL: https://api.brahmando.com/education
           NEXT_PUBLIC_EDGE_API_URL: https://api.brahmando.com
           NEXT_PUBLIC_HVAC_API_URL: https://api.brahmando.com/hvac
           NEXT_PUBLIC_N8N_URL: https://n8n.brahmando.com

@@ -60,7 +60,7 @@ export function CSRSection() {
             coaching students through federal aid forms, dependency status, SAR review, and college cost planning.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="/education" className="btn-primary inline-flex items-center gap-2 text-sm">
+            <Link href="/education/chat" className="btn-primary inline-flex items-center gap-2 text-sm">
               Education Portal
               <ArrowRight size={14} />
             </Link>

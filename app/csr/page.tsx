@@ -22,7 +22,7 @@ export default function CSRPage() {
 
         <div className="mb-12 grid gap-6 lg:grid-cols-2">
           <Link
-            href="/education"
+            href="/education/chat"
             className="group rounded-2xl border border-cyan-300/30 bg-cyan-400/5 p-6 sm:p-8 transition-colors hover:border-cyan-300/50 hover:bg-cyan-400/10"
           >
             <div className="flex items-start gap-4">

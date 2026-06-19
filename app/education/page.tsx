@@ -55,13 +55,13 @@ export default function EducationPage() {
         <div className="mb-12 rounded-2xl border border-cyan-300/30 bg-cyan-400/5 p-6 sm:p-8">
           <h2 className="font-semibold text-cyan-100">Try the Education Portal</h2>
           <p className="mt-2 text-sm text-slate-300 leading-relaxed max-w-3xl">
-            Use the <strong className="text-cyan-300/90">🎓 chat button</strong> (bottom-left on Education pages) for quick
-            role-based questions — students, teachers, schools, and coaching centers. Ask about CBSE exams, FAFSA,
-            lesson plans, mock tests, and syllabus planning.
+            Open the full chat UI for role-based questions — students, teachers, schools, and coaching centers. Ask about
+            CBSE exams, FAFSA, lesson plans, mock tests, and syllabus planning. Or use the{" "}
+            <strong className="text-cyan-300/90">🎓 button</strong> (bottom-left) on any Education page.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="/education" className="btn-primary inline-flex items-center gap-2 text-sm">
-              Open Education Portal
+            <Link href="/education/chat" className="btn-primary inline-flex items-center gap-2 text-sm">
+              Open Education Portal chat
               <ArrowRight size={14} />
             </Link>
             <Link href="/education/explore" className="btn-secondary inline-flex items-center gap-2 text-sm">

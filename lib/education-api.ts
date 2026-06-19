@@ -1,8 +1,8 @@
 /** Education Portal — same-origin first, then global fallbacks for India/mobile. */
 
 const FALLBACK_BASES = [
-  "/api/education",
   "https://api.brahmando.com/education",
+  "/api/education",
   "https://chat.brahmando.com/api/education",
 ];
 
