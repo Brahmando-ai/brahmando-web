@@ -6,6 +6,8 @@ const footerLinks = {
   Programs: [
     { label: "CSR",                href: "/csr" },
     { label: "Education Portal",   href: "/education" },
+    { label: "Live agents (2)",    href: "/agents" },
+    { label: "MCP servers (2)",    href: "/mcp-servers" },
     { label: "Platform status",    href: "/platform" },
     { label: "Docs",               href: "/docs" },
   ],

@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
+import { platformStats } from "@/lib/platform-catalog";
 
 const stats = [
-  { value: "CSR",  label: "Education flagship" },
-  { value: "2",    label: "Live SMB workflows" },
-  { value: "GPU",  label: "Hosted platform" },
+  { value: String(platformStats.agents), label: "Live agents" },
+  { value: String(platformStats.mcpServers), label: "MCP servers" },
+  { value: String(platformStats.workflows), label: "SMB workflows" },
 ];
 
 export function HeroSection() {
@@ -46,9 +47,10 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg">
-            Brahmando hosts ManjuLAB&apos;s GPU platform and community programs — starting with the{" "}
-            <strong className="text-slate-200">Education Portal</strong> CSR offering for schools and
-            nonprofits, plus lean SMB workflows on the same stack.
+            Brahmando hosts ManjuLAB&apos;s GPU platform —{" "}
+            <strong className="text-slate-200">{platformStats.agents} live agents</strong> and{" "}
+            <strong className="text-slate-200">{platformStats.mcpServers} MCP servers</strong> on cluster today, plus
+            the <strong className="text-slate-200">Education Portal</strong> CSR program for schools and nonprofits.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

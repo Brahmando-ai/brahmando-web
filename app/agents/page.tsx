@@ -1,5 +1,6 @@
 import Link from "next/link";
 import agentRegistry from "@/lib/agents-registry.json";
+import { LIVE_MCP_SERVERS, platformStats } from "@/lib/platform-catalog";
 
 export default function AgentsPage() {
   const agents = agentRegistry.agents;
@@ -10,8 +11,10 @@ export default function AgentsPage() {
         <div className="mb-12">
           <h1 className="section-title">Live agents</h1>
           <p className="section-subtitle max-w-3xl">
-            Agents currently deployed on the Brahmando GPU stack. The public catalog of demo agents and MCP
-            listings has been retired — use Platform for service health and Access for deployment requests.
+            <strong className="text-slate-100">{platformStats.agents} agents</strong> deployed on the Brahmando GPU
+            stack today (Hermes, Mercury). Mercury routes to{" "}
+            <strong className="text-slate-100">{platformStats.mcpServers} MCP servers</strong> (DikeAI, Narada) when
+            needed. Additional catalog demos were retired from the public site.
           </p>
         </div>
 
@@ -31,9 +34,16 @@ export default function AgentsPage() {
         </div>
 
         <p className="mt-10 text-sm text-slate-400">
-          Looking for Education Portal or CSR programs?{" "}
+          MCP servers on cluster:{" "}
+          {LIVE_MCP_SERVERS.map((s) => s.name).join(", ")}.{" "}
+          <Link href="/platform" className="text-cyan-200 hover:underline">
+            Platform health →
+          </Link>
+        </p>
+        <p className="mt-3 text-sm text-slate-400">
+          Education Portal & CSR:{" "}
           <Link href="/csr" className="text-cyan-200 hover:underline">
-            Start at CSR →
+            CSR programs →
           </Link>
         </p>
       </div>

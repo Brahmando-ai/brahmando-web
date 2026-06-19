@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { LIVE_MCP_SERVERS, platformStats } from "@/lib/platform-catalog";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -137,7 +138,7 @@ export default function PlatformPage() {
           <span className="text-gradient">Brahmando Platform</span>
         </h1>
         <p className="section-subtitle mx-auto mt-4 text-center">
-          CSR programs, live agents, and GPU-hosted services
+          {platformStats.agents} live agents · {platformStats.mcpServers} MCP servers · CSR & GPU services
         </p>
 
         {/* ── Summary bar ── */}

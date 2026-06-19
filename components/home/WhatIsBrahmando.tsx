@@ -1,4 +1,5 @@
 import { GraduationCap, Heart, Server, Workflow } from "lucide-react";
+import { platformStats } from "@/lib/platform-catalog";
 
 const pillars = [
   {
@@ -23,7 +24,7 @@ const pillars = [
     icon: Server,
     title: "Hosted platform",
     description:
-      "GPU-backed API gateway, live agents, and observability for ManjuLAB customers — see Platform for current service health.",
+      `GPU-backed API gateway with ${platformStats.agents} live agents and ${platformStats.mcpServers} MCP servers — see Platform for health and Access for deployment.`,
   },
 ];
 
@@ -34,8 +35,10 @@ export function WhatIsBrahmando() {
         <div className="text-center">
           <h2 className="section-title">What Brahmando is today</h2>
           <p className="section-subtitle mx-auto text-center">
-            A focused public site for community programs and platform access — not a sprawling
-            agent catalog. Enterprise assets deploy behind customer agreements.
+            A focused public site for community programs and platform access. The GPU stack currently runs{" "}
+            <strong className="text-slate-200">{platformStats.agents} agents</strong>,{" "}
+            <strong className="text-slate-200">{platformStats.mcpServers} MCP servers</strong>, and{" "}
+            <strong className="text-slate-200">{platformStats.workflows} SMB workflows</strong> (Rhythm + Nandi).
           </p>
         </div>
 
