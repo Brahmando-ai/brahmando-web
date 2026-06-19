@@ -1,5 +1,29 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { EducationPortalWidget } from "@/components/education/EducationPortalWidget";
+
+const actors = [
+  {
+    id: "student",
+    title: "Student",
+    sample: "Which History chapters had the most CBSE questions in the last 5 years?",
+  },
+  {
+    id: "teacher",
+    title: "Teacher",
+    sample: "Set up a dummy NEET Mathematics questionnaire with 15 MCQs.",
+  },
+  {
+    id: "school",
+    title: "School",
+    sample: "Allocate hours for Class 11 Physics chapter Sound over 4 weeks.",
+  },
+  {
+    id: "coaching_center",
+    title: "Coaching center",
+    sample: "Create a 60-minute mock test for Class 7 CBSE Science.",
+  },
+];
 
 const modules = [
   {
@@ -51,6 +75,24 @@ export default function EducationPage() {
             including the FAFSA Agent for U.S. federal student aid coaching.
           </p>
         </div>
+
+        <div className="mb-12 rounded-2xl border border-cyan-300/30 bg-cyan-400/5 p-6 sm:p-8">
+          <h2 className="font-semibold text-cyan-100">Try it live on brahmando.com</h2>
+          <p className="mt-2 text-sm text-slate-300 leading-relaxed max-w-3xl">
+            Use the <strong className="text-slate-100">🎓 chat button</strong> (bottom-right) to simulate Student, Teacher,
+            School, or Coaching center roles. API: <code className="text-cyan-200">POST /actors/chat</code>
+          </p>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            {actors.map((a) => (
+              <div key={a.id} className="rounded-xl border border-slate-600/40 bg-slate-900/50 p-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-cyan-300">{a.title}</p>
+                <p className="mt-2 text-sm text-slate-400">&ldquo;{a.sample}&rdquo;</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <EducationPortalWidget />
 
         <div className="mb-12 rounded-2xl border border-emerald-300/25 bg-emerald-400/5 p-6">
           <h2 className="font-semibold text-emerald-100">Unified entrypoint</h2>
