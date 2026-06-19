@@ -8,7 +8,7 @@ const footerLinks = {
     { label: "Education Portal",   href: "/education" },
     { label: "Live agents (2)",    href: "/agents" },
     { label: "MCP servers (2)",    href: "/mcp-servers" },
-    { label: "Platform status",    href: "/platform" },
+    { label: "Platform",           href: "/platform" },
     { label: "Docs",               href: "/docs" },
   ],
   Company: [

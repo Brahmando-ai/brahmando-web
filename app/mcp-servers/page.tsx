@@ -32,9 +32,9 @@ export default function MCPServersPage() {
           <Link href="/agents" className="text-cyan-200 hover:underline">
             {platformStats.agents} live agents
           </Link>
-          . Service health:{" "}
+          .{" "}
           <Link href="/platform" className="text-cyan-200 hover:underline">
-            Platform →
+            Platform overview →
           </Link>
         </p>
       </div>

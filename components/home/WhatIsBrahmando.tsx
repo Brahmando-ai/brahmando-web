@@ -24,7 +24,7 @@ const pillars = [
     icon: Server,
     title: "Hosted platform",
     description:
-      `GPU-backed API gateway with ${platformStats.agents} live agents and ${platformStats.mcpServers} MCP servers — see Platform for health and Access for deployment.`,
+      `GPU-backed stack with ${platformStats.agents} live agents and ${platformStats.mcpServers} MCP servers — see Platform for visitor entry points.`,
   },
 ];
 

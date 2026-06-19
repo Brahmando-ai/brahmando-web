@@ -37,7 +37,7 @@ export default function AgentsPage() {
           MCP servers on cluster:{" "}
           {LIVE_MCP_SERVERS.map((s) => s.name).join(", ")}.{" "}
           <Link href="/platform" className="text-cyan-200 hover:underline">
-            Platform health →
+            Platform overview →
           </Link>
         </p>
         <p className="mt-3 text-sm text-slate-400">
