@@ -65,9 +65,11 @@ export function N8nWorkflowViewer({ jsonUrl, workflowName, height = 420 }: Props
     setLoading(true);
     setError(null);
     fetch(jsonUrl)
-      .then((r) => {
+      .then(async (r) => {
         if (!r.ok) throw new Error(`Failed to load workflow (${r.status})`);
-        return r.json();
+        const text = await r.text();
+        const clean = text.replace(/^\uFEFF/, "");
+        return JSON.parse(clean) as N8nWorkflowJson;
       })
       .then((data: N8nWorkflowJson) => {
         if (!cancelled) setWorkflow(data);
