@@ -1,0 +1,120 @@
+﻿{
+  "name": "Brahmexa-Landscaping-Dispatcher",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "landscaping"}],
+  "nodes": [
+    {
+      "id": "land-d-01-0001-4000-8000-000000000000",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "event-ingest/landscaping",
+        "responseMode": "onReceived",
+        "responseData": "firstEntryJson"
+      }
+    },
+    {
+      "id": "land-d-01-0002-4000-8000-000000000000",
+      "name": "Normalize Event",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const body = items[0].json;\nreturn [{\n  json: {\n    event_type: body.event_type || 'unknown',\n    event_id: body.event_id || (Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10)),\n    source: body.source || 'landscaping',\n    payload: body.payload || body,\n    normalized_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "land-d-01-0003-4000-8000-000000000000",
+      "name": "Route Event",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "value1": "={{$json.event_type}}",
+        "rules": {
+          "rules": [
+            {"operation": "equal", "value2": "job.requested"},
+            {"operation": "equal", "value2": "crew.assigned"},
+            {"operation": "equal", "value2": "material.low"},
+            {"operation": "equal", "value2": "job.completed"}
+          ]
+        },
+        "fallbackOutput": 3
+      }
+    },
+    {
+      "id": "land-d-01-0004-4000-8000-000000000000",
+      "name": "Execute Job Processing",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 100],
+      "parameters": {
+        "workflowId": "BRAHMEXA_LANDSCAPING_JOB_PROCESSING",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "land-d-01-0005-4000-8000-000000000000",
+      "name": "Execute Crew Assignment",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 260],
+      "parameters": {
+        "workflowId": "BRAHMEXA_LANDSCAPING_CREW_ASSIGNMENT",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "land-d-01-0006-4000-8000-000000000000",
+      "name": "Execute Material Inventory",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 420],
+      "parameters": {
+        "workflowId": "BRAHMEXA_LANDSCAPING_MATERIAL_INVENTORY",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "land-d-01-0007-4000-8000-000000000000",
+      "name": "Execute Job Completion",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 580],
+      "parameters": {
+        "workflowId": "BRAHMEXA_LANDSCAPING_JOB_COMPLETION",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "land-d-01-0008-4000-8000-000000000000",
+      "name": "Unhandled Event",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [960, 740],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{"node": "Normalize Event", "type": "main", "index": 0}]]
+    },
+    "Normalize Event": {
+      "main": [[{"node": "Route Event", "type": "main", "index": 0}]]
+    },
+    "Route Event": {
+      "main": [
+        [{"node": "Execute Job Processing", "type": "main", "index": 0}],
+        [{"node": "Execute Crew Assignment", "type": "main", "index": 0}],
+        [{"node": "Execute Material Inventory", "type": "main", "index": 0}],
+        [{"node": "Execute Job Completion", "type": "main", "index": 0}],
+        [{"node": "Unhandled Event", "type": "main", "index": 0}]
+      ]
+    }
+  },
+  "settings": {}
+}
+

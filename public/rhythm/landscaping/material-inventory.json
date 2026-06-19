@@ -1,0 +1,89 @@
+{
+  "name": "Brahmexa-Landscaping-MaterialInventory",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "landscaping"}],
+  "nodes": [
+    {
+      "id": "land-mi-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-mi-0002-4000-8000-000000000000",
+      "name": "Check Materials",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-mi-0003-4000-8000-000000000000",
+      "name": "Materials Low?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json.payload.current_qty}}",
+              "operation": "smaller",
+              "value2": "={{$json.payload.threshold || 5}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "land-mi-0004-4000-8000-000000000000",
+      "name": "Place Order",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 200],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.LANDSCAPING_SERVICE_URL}}/materials/order",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"material\": \"{{$json.payload.material_name}}\", \"quantity\": {{$json.payload.reorder_qty || 20}}, \"supplier\": \"{{$json.payload.supplier || 'default'}}\"}"
+      }
+    },
+    {
+      "id": "land-mi-0005-4000-8000-000000000000",
+      "name": "Update Stock",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "land-mi-0006-4000-8000-000000000000",
+      "name": "Stock Sufficient",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Check Materials", "type": "main", "index": 0}]]
+    },
+    "Check Materials": {
+      "main": [[{"node": "Materials Low?", "type": "main", "index": 0}]]
+    },
+    "Materials Low?": {
+      "main": [
+        [{"node": "Place Order", "type": "main", "index": 0}],
+        [{"node": "Stock Sufficient", "type": "main", "index": 0}]
+      ]
+    },
+    "Place Order": {
+      "main": [[{"node": "Update Stock", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

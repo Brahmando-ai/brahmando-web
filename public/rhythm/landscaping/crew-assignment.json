@@ -1,0 +1,95 @@
+{
+  "name": "Brahmexa-Landscaping-CrewAssignment",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "landscaping"}],
+  "nodes": [
+    {
+      "id": "land-ca-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-ca-0002-4000-8000-000000000000",
+      "name": "Check Crew Availability",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-ca-0003-4000-8000-000000000000",
+      "name": "Crew Available?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{$json.payload.crew_available}}",
+              "value2": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "land-ca-0004-4000-8000-000000000000",
+      "name": "Select Crew",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [900, 200],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nreturn [{\n  json: {\n    ...items[0].json,\n    assigned_crew: payload.crew_id || 'crew-auto-assigned',\n    assigned_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "land-ca-0005-4000-8000-000000000000",
+      "name": "Notify Crew",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "land-ca-0006-4000-8000-000000000000",
+      "name": "Update Schedule",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1340, 200],
+      "parameters": {}
+    },
+    {
+      "id": "land-ca-0007-4000-8000-000000000000",
+      "name": "Queue for Next Available Crew",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Check Crew Availability", "type": "main", "index": 0}]]
+    },
+    "Check Crew Availability": {
+      "main": [[{"node": "Crew Available?", "type": "main", "index": 0}]]
+    },
+    "Crew Available?": {
+      "main": [
+        [{"node": "Select Crew", "type": "main", "index": 0}],
+        [{"node": "Queue for Next Available Crew", "type": "main", "index": 0}]
+      ]
+    },
+    "Select Crew": {
+      "main": [[{"node": "Notify Crew", "type": "main", "index": 0}]]
+    },
+    "Notify Crew": {
+      "main": [[{"node": "Update Schedule", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

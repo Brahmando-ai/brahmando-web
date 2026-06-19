@@ -1,9 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight } from "lucide-react";
-import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
+import { RhythmVerticalExplorer } from "@/components/workflows/RhythmVerticalExplorer";
 import { WorkflowBackLink } from "@/components/workflows/FlowSteps";
-import { getRhythmVertical, RHYTHM_VERTICALS } from "@/lib/rhythm-samples";
+import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
+import { getRhythmVertical, RHYTHM_VERTICALS } from "@/lib/rhythm-verticals";
 
 export function generateStaticParams() {
   return RHYTHM_VERTICALS.map((v) => ({ vertical: v.id }));
@@ -29,27 +28,9 @@ export default async function RhythmVerticalPage({ params }: Props) {
           <p className="section-subtitle max-w-3xl">{vertical.tagline}</p>
         </div>
 
-        <WorkflowDisclaimer />
+        <RhythmVerticalExplorer vertical={vertical} />
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2">
-          {vertical.workflows.map((wf) => (
-            <Link
-              key={wf.id}
-              href={`/workflows/rhythm/${vertical.id}/${wf.id}`}
-              className="group card block transition-colors hover:border-violet-300/40"
-            >
-              <h2 className="font-semibold text-slate-100 group-hover:text-violet-100">{wf.title}</h2>
-              <p className="mt-2 text-sm text-slate-400 line-clamp-3">{wf.summary}</p>
-              <p className="mt-3 font-mono text-[10px] uppercase tracking-wide text-slate-500">
-                Triggers: {wf.triggers.join(", ")}
-              </p>
-              <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-violet-200 group-hover:text-violet-100">
-                View sample flow
-                <ArrowRight size={14} />
-              </span>
-            </Link>
-          ))}
-        </div>
+        <WorkflowDisclaimer />
       </div>
     </div>
   );

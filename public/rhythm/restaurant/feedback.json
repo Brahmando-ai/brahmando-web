@@ -1,0 +1,70 @@
+{
+  "name": "Brahmexa-Restaurant-Feedback",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "restaurant"}],
+  "nodes": [
+    {
+      "id": "rest-fb-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-fb-0002-4000-8000-000000000000",
+      "name": "Receive Complaint",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-fb-0003-4000-8000-000000000000",
+      "name": "Log Issue",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nreturn [{\n  json: {\n    ...items[0].json,\n    complaint_id: payload.complaint_id || items[0].json.event_id,\n    severity: payload.severity || 'medium',\n    logged_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "rest-fb-0004-4000-8000-000000000000",
+      "name": "Notify Manager",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.NOTIFICATION_SERVICE_URL}}/send",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"to\": \"manager@restaurant.local\", \"message\": \"New complaint received: {{$json.complaint_id}} (severity: {{$json.severity}})\", \"channel\": \"slack\"}"
+      }
+    },
+    {
+      "id": "rest-fb-0005-4000-8000-000000000000",
+      "name": "Send Resolution to Customer",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Receive Complaint", "type": "main", "index": 0}]]
+    },
+    "Receive Complaint": {
+      "main": [[{"node": "Log Issue", "type": "main", "index": 0}]]
+    },
+    "Log Issue": {
+      "main": [[{"node": "Notify Manager", "type": "main", "index": 0}]]
+    },
+    "Notify Manager": {
+      "main": [[{"node": "Send Resolution to Customer", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

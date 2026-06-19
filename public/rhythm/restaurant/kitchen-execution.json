@@ -1,0 +1,82 @@
+{
+  "name": "Brahmexa-Restaurant-KitchenExecution",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "restaurant"}],
+  "nodes": [
+    {
+      "id": "rest-ke-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-ke-0002-4000-8000-000000000000",
+      "name": "Check Ingredients",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-ke-0003-4000-8000-000000000000",
+      "name": "Inventory Available?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{$json.ingredients_available}}",
+              "value2": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rest-ke-0004-4000-8000-000000000000",
+      "name": "Cook Food",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 200],
+      "parameters": {}
+    },
+    {
+      "id": "rest-ke-0005-4000-8000-000000000000",
+      "name": "Mark Ready",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "rest-ke-0006-4000-8000-000000000000",
+      "name": "Trigger Inventory Reorder",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Check Ingredients", "type": "main", "index": 0}]]
+    },
+    "Check Ingredients": {
+      "main": [[{"node": "Inventory Available?", "type": "main", "index": 0}]]
+    },
+    "Inventory Available?": {
+      "main": [
+        [{"node": "Cook Food", "type": "main", "index": 0}],
+        [{"node": "Trigger Inventory Reorder", "type": "main", "index": 0}]
+      ]
+    },
+    "Cook Food": {
+      "main": [[{"node": "Mark Ready", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

@@ -2,11 +2,10 @@ import Link from "next/link";
 import { Activity, ArrowRight, Ticket } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
 import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
-import { RHYTHM_VERTICALS } from "@/lib/rhythm-samples";
-import { NANDI_WORKFLOW_SAMPLES } from "@/lib/nandi-samples";
+import { RHYTHM_VERTICALS } from "@/lib/rhythm-verticals";
 
 export default function WorkflowsPage() {
-  const rhythmCount = RHYTHM_VERTICALS.reduce((n, v) => n + v.workflows.length, 0);
+  const subCount = RHYTHM_VERTICALS.reduce((n, v) => n + v.subWorkflows.length, 0);
 
   return (
     <div className="py-16">
@@ -15,16 +14,14 @@ export default function WorkflowsPage() {
           <h1 className="section-title">Workflows</h1>
           <p className="section-subtitle max-w-3xl">
             ManjuLAB SMB products on Brahmando —{" "}
-            <strong className="text-slate-100">Rhythm</strong> ({rhythmCount} sample patterns across{" "}
-            {RHYTHM_VERTICALS.length} industries) and{" "}
-            <strong className="text-slate-100">Nandi</strong> ({NANDI_WORKFLOW_SAMPLES.length} sample resolution paths).
+            <strong className="text-slate-100">Rhythm</strong> (n8n order-to-cash packs for{" "}
+            {RHYTHM_VERTICALS.length} industries, {subCount} business-process sub-workflows) and{" "}
+            <strong className="text-slate-100">Nandi</strong> (live interactive ticket board).
           </p>
           <PartnerLogosBar className="mt-8" />
         </div>
 
-        <WorkflowDisclaimer />
-
-        <div className="mt-10 grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-6 lg:grid-cols-2">
           <Link
             href="/workflows/nandi"
             className="group card block transition-colors hover:border-amber-300/40"
@@ -39,10 +36,10 @@ export default function WorkflowsPage() {
               </div>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Explore sample ticket paths — pass, fail, errored to manual, and recovery flows through in-progress.
+              Drag-and-drop ticket board with live state transitions — not slide bullets.
             </p>
             <span className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-amber-200 group-hover:text-amber-100">
-              View {NANDI_WORKFLOW_SAMPLES.length} sample paths
+              Open ticket board
               <ArrowRight size={14} />
             </span>
           </Link>
@@ -57,11 +54,11 @@ export default function WorkflowsPage() {
               </div>
               <div>
                 <h2 className="text-xl font-semibold text-slate-100 group-hover:text-violet-100">Rhythm</h2>
-                <p className="text-xs text-slate-500">Workflow automation · ports 8085 / 8200</p>
+                <p className="text-xs text-slate-500">n8n workflow automation · local templates</p>
               </div>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Browse professional sample patterns for restaurant, retail, healthcare, field service, and shared utilities.
+              Restaurant, landscaping, and nursing home verticals — master dispatcher plus sub-workflows on n8n canvas.
             </p>
             <span className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-violet-200 group-hover:text-violet-100">
               Browse {RHYTHM_VERTICALS.length} industry packs
@@ -69,6 +66,8 @@ export default function WorkflowsPage() {
             </span>
           </Link>
         </div>
+
+        <WorkflowDisclaimer />
       </div>
     </div>
   );

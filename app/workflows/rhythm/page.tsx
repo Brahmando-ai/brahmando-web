@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
 import { WorkflowBackLink } from "@/components/workflows/FlowSteps";
-import { RHYTHM_VERTICALS } from "@/lib/rhythm-samples";
+import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
+import { allRhythmWorkflows, RHYTHM_VERTICALS } from "@/lib/rhythm-verticals";
 
 export default function RhythmWorkflowsPage() {
   return (
@@ -11,16 +11,14 @@ export default function RhythmWorkflowsPage() {
         <WorkflowBackLink href="/workflows" label="All workflows" />
 
         <div className="mt-6 mb-8">
-          <h1 className="section-title">Rhythm sample patterns</h1>
+          <h1 className="section-title">Rhythm · n8n workflows</h1>
           <p className="section-subtitle max-w-3xl">
-            Agent-first automation templates organized by industry. Each card opens a professional walkthrough —
-            not a raw n8n export.
+            Industry vertical packs with a master order-to-cash dispatcher and business-process sub-workflows.
+            Each canvas is rendered from the same n8n JSON templates used in local n8n.
           </p>
         </div>
 
-        <WorkflowDisclaimer />
-
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {RHYTHM_VERTICALS.map((vertical) => (
             <Link
               key={vertical.id}
@@ -35,15 +33,18 @@ export default function RhythmWorkflowsPage() {
               </h2>
               <p className="mt-2 text-sm text-slate-400">{vertical.tagline}</p>
               <p className="mt-4 text-xs text-slate-500">
-                {vertical.workflows.length} sample workflow{vertical.workflows.length === 1 ? "" : "s"}
+                1 master + {vertical.subWorkflows.length} sub-workflow
+                {vertical.subWorkflows.length === 1 ? "" : "s"}
               </p>
               <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-violet-200 group-hover:text-violet-100">
-                Explore
+                View n8n canvas
                 <ArrowRight size={14} />
               </span>
             </Link>
           ))}
         </div>
+
+        <WorkflowDisclaimer />
       </div>
     </div>
   );

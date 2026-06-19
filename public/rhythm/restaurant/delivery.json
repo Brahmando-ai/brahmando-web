@@ -1,0 +1,68 @@
+{
+  "name": "Brahmexa-Restaurant-Delivery",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "restaurant"}],
+  "nodes": [
+    {
+      "id": "rest-dv-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-dv-0002-4000-8000-000000000000",
+      "name": "Assign Driver",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-dv-0003-4000-8000-000000000000",
+      "name": "Notify Customer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [680, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.NOTIFICATION_SERVICE_URL}}/send",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"to\": \"{{$json.payload.customer_email}}\", \"message\": \"Your order {{$json.payload.order_id}} is on the way!\", \"channel\": \"email\"}"
+      }
+    },
+    {
+      "id": "rest-dv-0004-4000-8000-000000000000",
+      "name": "Track Delivery",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-dv-0005-4000-8000-000000000000",
+      "name": "Confirm Receipt",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Assign Driver", "type": "main", "index": 0}]]
+    },
+    "Assign Driver": {
+      "main": [[{"node": "Notify Customer", "type": "main", "index": 0}]]
+    },
+    "Notify Customer": {
+      "main": [[{"node": "Track Delivery", "type": "main", "index": 0}]]
+    },
+    "Track Delivery": {
+      "main": [[{"node": "Confirm Receipt", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

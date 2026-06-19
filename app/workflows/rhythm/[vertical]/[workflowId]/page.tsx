@@ -1,7 +1,13 @@
 import { notFound } from "next/navigation";
+import { N8nWorkflowViewer } from "@/components/workflows/N8nWorkflowViewer";
+import { WorkflowBackLink } from "@/components/workflows/FlowSteps";
 import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
-import { FlowSteps, WorkflowBackLink } from "@/components/workflows/FlowSteps";
-import { allRhythmStaticParams, getRhythmVertical, getRhythmWorkflow } from "@/lib/rhythm-samples";
+import {
+  allRhythmStaticParams,
+  getRhythmVertical,
+  getRhythmWorkflow,
+  rhythmTemplateUrl,
+} from "@/lib/rhythm-verticals";
 
 export function generateStaticParams() {
   return allRhythmStaticParams();
@@ -17,48 +23,29 @@ export default async function RhythmWorkflowDetailPage({ params }: Props) {
 
   return (
     <div className="py-16">
-      <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <WorkflowBackLink href={`/workflows/rhythm/${vertical.id}`} label={vertical.name} />
 
-        <div className="mt-6 mb-8">
-          <p className="text-xs font-semibold uppercase tracking-wider text-violet-300/90">Rhythm · Sample</p>
+        <div className="mt-6 mb-6">
+          <p className="text-xs font-semibold uppercase tracking-wider text-violet-300/90">
+            Rhythm · {workflow.isMaster ? "Master workflow" : "Sub-workflow"} · n8n
+          </p>
           <h1 className="section-title mt-2">{workflow.title}</h1>
-          <p className="mt-4 text-slate-300 leading-relaxed">{workflow.summary}</p>
+          <p className="mt-3 max-w-3xl text-slate-300 leading-relaxed">{workflow.description}</p>
+          {workflow.events.length > 0 && (
+            <p className="mt-2 font-mono text-[10px] uppercase tracking-wide text-slate-500">
+              Events: {workflow.events.join(" · ")}
+            </p>
+          )}
         </div>
+
+        <N8nWorkflowViewer
+          jsonUrl={rhythmTemplateUrl(vertical, workflow)}
+          workflowName={workflow.workflowName}
+          height={520}
+        />
 
         <WorkflowDisclaimer />
-
-        <div className="mt-10 space-y-8">
-          <section className="card">
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400">Triggers</h2>
-            <ul className="mt-3 space-y-1">
-              {workflow.triggers.map((t) => (
-                <li key={t} className="font-mono text-sm text-cyan-200/90">
-                  {t}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <section className="card">
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400">Sample flow</h2>
-            <div className="mt-4">
-              <FlowSteps steps={workflow.steps} accent="violet" />
-            </div>
-          </section>
-
-          <section className="card">
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400">Typical outcomes</h2>
-            <ul className="mt-3 space-y-2">
-              {workflow.outcomes.map((o) => (
-                <li key={o} className="flex gap-2 text-sm text-slate-300">
-                  <span className="text-violet-400">→</span>
-                  {o}
-                </li>
-              ))}
-            </ul>
-          </section>
-        </div>
       </div>
     </div>
   );
