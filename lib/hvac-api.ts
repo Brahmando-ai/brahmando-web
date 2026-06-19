@@ -34,6 +34,35 @@ export type HvacFeedbackResponse = {
   message: string;
 };
 
+export type HvacHealthResponse = {
+  status: string;
+  service: string;
+  version: string;
+  kb_points: number;
+  collection: string;
+};
+
+async function getJson<T>(path: string): Promise<T> {
+  let lastError: Error | null = null;
+  for (const base of hvacApiBases()) {
+    try {
+      const res = await fetch(`${base}${path}`, { cache: "no-store" });
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(`${res.status}: ${text.slice(0, 200)}`);
+      }
+      return (await res.json()) as T;
+    } catch (e) {
+      lastError = e instanceof Error ? e : new Error(String(e));
+    }
+  }
+  throw lastError ?? new Error("HVAC API unreachable");
+}
+
+export async function fetchHvacHealth(): Promise<HvacHealthResponse> {
+  return getJson<HvacHealthResponse>("/health");
+}
+
 async function postJson<T>(path: string, body: unknown): Promise<T> {
   let lastError: Error | null = null;
   for (const base of hvacApiBases()) {

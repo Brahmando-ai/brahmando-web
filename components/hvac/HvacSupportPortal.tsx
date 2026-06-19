@@ -3,8 +3,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   createHvacSession,
+  fetchHvacHealth,
   queryHvac,
   submitHvacFeedback,
+  type HvacHealthResponse,
   type HvacQueryResponse,
   type SupportLevel,
 } from "@/lib/hvac-api";
@@ -49,7 +51,21 @@ export function HvacSupportPortal() {
   const [rating, setRating] = useState(5);
   const [correction, setCorrection] = useState("");
   const [techId, setTechId] = useState("");
+  const [health, setHealth] = useState<HvacHealthResponse | null>(null);
+  const [healthError, setHealthError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    fetchHvacHealth()
+      .then((h) => {
+        setHealth(h);
+        setHealthError(null);
+      })
+      .catch((e) => {
+        setHealth(null);
+        setHealthError(e instanceof Error ? e.message : "API unreachable");
+      });
+  }, []);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
@@ -136,6 +152,24 @@ export function HvacSupportPortal() {
 
   return (
     <div className="mx-auto max-w-4xl">
+      {healthError && (
+        <div className="mb-4 rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 text-sm text-red-100">
+          HVAC API is not reachable yet ({healthError}). The portal shell loads, but queries will fail until
+          api.brahmando.com/hvac is live.
+        </div>
+      )}
+      {health && health.kb_points < 5 && (
+        <div className="mb-4 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-3 text-sm text-amber-100">
+          Knowledge base is still seeding ({health.kb_points} chunks in <code className="text-amber-50">{health.collection}</code>).
+          Answers may be limited until more HVAC docs are ingested.
+        </div>
+      )}
+      {health && health.kb_points >= 5 && (
+        <div className="mb-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5 px-4 py-3 text-xs text-emerald-100/90">
+          KB ready — {health.kb_points} chunks in collection <code className="text-emerald-50">{health.collection}</code> (separate from Education&apos;s education_kb).
+        </div>
+      )}
+
       <div className="mb-4 grid gap-2 sm:grid-cols-3">
         {LEVELS.map((l) => (
           <button
