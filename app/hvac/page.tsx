@@ -9,6 +9,8 @@ export default function HvacSupportPage() {
           <h1 className="section-title mt-2">HVAC Support Portal</h1>
           <p className="section-subtitle max-w-3xl">
             Real queries against the HVAC knowledge base and Ollama on the Brahmando GPU cluster.
+            Select equipment brand and model for specific units — generic questions work without them.
+            When brand/model is not in our KB, OpenRouter may assist (HVAC-only).
             <strong className="text-slate-200"> L1</strong> remote steps for callers,{" "}
             <strong className="text-slate-200"> L2</strong> field technician guidance,{" "}
             <strong className="text-slate-200"> L3</strong> escalation with Nandi ticketing.

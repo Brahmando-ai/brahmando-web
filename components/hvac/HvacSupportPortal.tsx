@@ -3,9 +3,11 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   createHvacSession,
+  fetchHvacBrands,
   fetchHvacHealth,
   queryHvac,
   submitHvacFeedback,
+  type HvacBrand,
   type HvacHealthResponse,
   type HvacQueryResponse,
   type SupportLevel,
@@ -17,16 +19,24 @@ const LEVELS: { id: SupportLevel; label: string; desc: string }[] = [
   { id: "L3", label: "L3 · Escalation", desc: "Dispatch, safety, specialist + ticket" },
 ];
 
+const FALLBACK_BRANDS: HvacBrand[] = [
+  { id: "generic", name: "Generic / any brand", models: [], in_kb: true },
+  { id: "carrier", name: "Carrier", models: ["Infinity 26", "Infinity Touch"], in_kb: true },
+  { id: "trane", name: "Trane", models: ["XV20i"], in_kb: true },
+  { id: "lennox", name: "Lennox", models: ["XC25"], in_kb: true },
+  { id: "other", name: "Other brand…", models: [], in_kb: false, custom: true },
+];
+
 const SAMPLES: Record<SupportLevel, string[]> = {
   L1: [
-    "Carrier Infinity in Florida — fan Auto or Low for humidity?",
     "AC not cooling — what can I check before calling a tech?",
     "Thermostat blank after power outage",
+    "Filter change interval for summer",
   ],
   L2: [
     "Outdoor unit hums but fan won't spin — capacitor test steps?",
     "15°F delta-T at supply — what next for no-cool call?",
-    "Carrier Infinity 3-blink communication fault",
+    "Communicating system comm fault — where to start?",
   ],
   L3: [
     "Gas smell near furnace — nursing home C-03",
@@ -53,7 +63,15 @@ export function HvacSupportPortal() {
   const [techId, setTechId] = useState("");
   const [health, setHealth] = useState<HvacHealthResponse | null>(null);
   const [healthError, setHealthError] = useState<string | null>(null);
+  const [brands, setBrands] = useState<HvacBrand[]>(FALLBACK_BRANDS);
+  const [brandId, setBrandId] = useState("generic");
+  const [brandOther, setBrandOther] = useState("");
+  const [model, setModel] = useState("");
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  const selectedBrand = brands.find((b) => b.id === brandId);
+  const isGeneric = brandId === "generic";
+  const isOther = brandId === "other";
 
   useEffect(() => {
     fetchHvacHealth()
@@ -65,6 +83,9 @@ export function HvacSupportPortal() {
         setHealth(null);
         setHealthError(e instanceof Error ? e.message : "API unreachable");
       });
+    fetchHvacBrands()
+      .then((c) => setBrands(c.brands))
+      .catch(() => undefined);
   }, []);
 
   useEffect(() => {
@@ -78,21 +99,43 @@ export function HvacSupportPortal() {
     return s.id;
   }, [sessionId]);
 
+  function equipmentPayload() {
+    return {
+      brand_id: brandId,
+      brand_other: isOther ? brandOther.trim() : undefined,
+      model: isGeneric ? undefined : model.trim() || undefined,
+    };
+  }
+
   async function send(text?: string) {
     const msg = (text ?? input).trim();
     if (!msg || typing) return;
+    if (isOther && !brandOther.trim()) {
+      setMessages((m) => [
+        ...m,
+        { role: "bot", text: "Enter the brand name under Other before sending a brand-specific question." },
+      ]);
+      return;
+    }
     setInput("");
-    setMessages((m) => [...m, { role: "user", text: msg }]);
+    const equipmentLabel =
+      !isGeneric && (selectedBrand?.name || brandOther)
+        ? ` [${isOther ? brandOther.trim() : selectedBrand?.name}${model.trim() ? ` · ${model.trim()}` : ""}]`
+        : "";
+    setMessages((m) => [...m, { role: "user", text: `${msg}${equipmentLabel}` }]);
     setTyping(true);
     setFeedbackFor(null);
     try {
       const sid = await ensureSession(level);
-      const data = await queryHvac(msg, sid, level);
+      const data = await queryHvac(msg, sid, level, equipmentPayload());
       setSessionId(data.session_id);
       if (data.suggest_level && data.suggest_level !== level) {
         setLevel(data.suggest_level);
       }
       let answer = data.answer;
+      if (data.answer_source === "openrouter") {
+        answer = `[OpenRouter · outside verified KB]\n\n${answer}`;
+      }
       if (data.citations.length) {
         answer += `\n\nSources: ${data.citations.slice(0, 3).join(" · ")}`;
       }
@@ -158,17 +201,103 @@ export function HvacSupportPortal() {
           api.brahmando.com/hvac is live.
         </div>
       )}
-      {health && health.kb_points < 5 && (
-        <div className="mb-4 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-3 text-sm text-amber-100">
-          Knowledge base is still seeding ({health.kb_points} chunks in <code className="text-amber-50">{health.collection}</code>).
-          Answers may be limited until more HVAC docs are ingested.
+      {health && (
+        <div className="mb-4 rounded-xl border border-slate-600/40 bg-slate-900/40 px-4 py-3 text-xs text-slate-300">
+          KB: {health.kb_points} chunks in <code className="text-slate-100">{health.collection}</code>
+          {health.openrouter_configured
+            ? " · OpenRouter fallback enabled for brand+model queries outside KB"
+            : " · OpenRouter fallback not configured on server"}
         </div>
       )}
-      {health && health.kb_points >= 5 && (
-        <div className="mb-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5 px-4 py-3 text-xs text-emerald-100/90">
-          KB ready — {health.kb_points} chunks in collection <code className="text-emerald-50">{health.collection}</code> (separate from Education&apos;s education_kb).
+
+      <div className="mb-4 rounded-xl border border-slate-700/60 bg-slate-900/30 p-4">
+        <p className="text-xs font-semibold uppercase tracking-wider text-orange-200/90">Equipment (optional)</p>
+        <p className="mt-1 text-xs text-slate-400">
+          Generic troubleshooting works without brand or model. Select both for equipment-specific help — OpenRouter
+          may answer when that brand/model is not in our knowledge base (Carrier, Trane, Lennox have partial coverage).
+        </p>
+        <div className="mt-3 grid gap-3 sm:grid-cols-2">
+          <label className="block text-xs text-slate-300">
+            Brand
+            <select
+              value={brandId}
+              onChange={(e) => {
+                setBrandId(e.target.value);
+                setModel("");
+              }}
+              className="mt-1 w-full rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
+            >
+              {brands.map((b) => (
+                <option key={b.id} value={b.id}>
+                  {b.name}
+                  {b.in_kb ? " · in KB" : b.custom ? "" : " · not in KB"}
+                </option>
+              ))}
+            </select>
+          </label>
+          {isOther ? (
+            <label className="block text-xs text-slate-300">
+              Brand name
+              <input
+                type="text"
+                value={brandOther}
+                onChange={(e) => setBrandOther(e.target.value)}
+                placeholder="e.g. Bryant, Mitsubishi"
+                className="mt-1 w-full rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
+              />
+            </label>
+          ) : (
+            <label className="block text-xs text-slate-300">
+              Model <span className="text-slate-500">(optional unless brand-specific)</span>
+              {selectedBrand && selectedBrand.models.length > 0 ? (
+                <select
+                  value={model}
+                  onChange={(e) => setModel(e.target.value)}
+                  disabled={isGeneric}
+                  className="mt-1 w-full rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100 disabled:opacity-50"
+                >
+                  <option value="">Select or type below…</option>
+                  {selectedBrand.models.map((m) => (
+                    <option key={m} value={m}>
+                      {m}
+                    </option>
+                  ))}
+                </select>
+              ) : (
+                <input
+                  type="text"
+                  value={model}
+                  onChange={(e) => setModel(e.target.value)}
+                  disabled={isGeneric}
+                  placeholder={isGeneric ? "Not needed for generic questions" : "Model number"}
+                  className="mt-1 w-full rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100 disabled:opacity-50"
+                />
+              )}
+            </label>
+          )}
         </div>
-      )}
+        {isOther && (
+          <label className="mt-3 block text-xs text-slate-300">
+            Model number
+            <input
+              type="text"
+              value={model}
+              onChange={(e) => setModel(e.target.value)}
+              placeholder="Required for OpenRouter brand-specific fallback"
+              className="mt-1 w-full rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
+            />
+          </label>
+        )}
+        {selectedBrand && selectedBrand.models.length > 0 && !isGeneric && !isOther && (
+          <input
+            type="text"
+            value={model}
+            onChange={(e) => setModel(e.target.value)}
+            placeholder="Or type a different model number"
+            className="mt-2 w-full rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-100"
+          />
+        )}
+      </div>
 
       <div className="mb-4 grid gap-2 sm:grid-cols-3">
         {LEVELS.map((l) => (
@@ -192,8 +321,8 @@ export function HvacSupportPortal() {
         <div ref={scrollRef} className="h-[420px] space-y-3 overflow-y-auto p-4">
           {messages.length === 0 && (
             <p className="text-sm text-slate-400">
-              Ask a real HVAC question — answers use the knowledge base + Ollama on the Brahmando cluster.
-              L3 opens a Nandi support ticket when escalation is needed.
+              Pick a support level and ask a question. Use Generic for universal steps (filter, thermostat, breaker).
+              Choose brand + model when you need equipment-specific guidance.
             </p>
           )}
           {messages.map((m, i) => (

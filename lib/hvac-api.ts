@@ -16,6 +16,26 @@ export function hvacApiBases(): string[] {
 }
 
 export type SupportLevel = "L1" | "L2" | "L3";
+export type AnswerSource = "kb" | "openrouter";
+
+export type HvacBrand = {
+  id: string;
+  name: string;
+  models: string[];
+  in_kb: boolean;
+  custom?: boolean;
+};
+
+export type HvacBrandCatalog = {
+  brands: HvacBrand[];
+  note: string;
+};
+
+export type HvacEquipment = {
+  brand_id: string;
+  brand_other?: string;
+  model?: string;
+};
 
 export type HvacQueryResponse = {
   session_id: string;
@@ -26,6 +46,10 @@ export type HvacQueryResponse = {
   escalated: boolean;
   ticket_id?: string | null;
   suggest_level?: SupportLevel | null;
+  answer_source?: AnswerSource;
+  brand?: string | null;
+  model?: string | null;
+  kb_confidence?: number | null;
 };
 
 export type HvacFeedbackResponse = {
@@ -40,6 +64,7 @@ export type HvacHealthResponse = {
   version: string;
   kb_points: number;
   collection: string;
+  openrouter_configured?: boolean;
 };
 
 async function getJson<T>(path: string): Promise<T> {
@@ -61,6 +86,10 @@ async function getJson<T>(path: string): Promise<T> {
 
 export async function fetchHvacHealth(): Promise<HvacHealthResponse> {
   return getJson<HvacHealthResponse>("/health");
+}
+
+export async function fetchHvacBrands(): Promise<HvacBrandCatalog> {
+  return getJson<HvacBrandCatalog>("/catalog/brands");
 }
 
 async function postJson<T>(path: string, body: unknown): Promise<T> {
@@ -95,6 +124,7 @@ export async function queryHvac(
   message: string,
   sessionId: string | null,
   level: SupportLevel,
+  equipment: HvacEquipment = { brand_id: "generic" },
   customerId = "C-02"
 ): Promise<HvacQueryResponse> {
   return postJson<HvacQueryResponse>("/query", {
@@ -102,6 +132,9 @@ export async function queryHvac(
     session_id: sessionId,
     level,
     customer_id: customerId,
+    brand_id: equipment.brand_id,
+    brand_other: equipment.brand_other || null,
+    model: equipment.model?.trim() || null,
   });
 }
 
