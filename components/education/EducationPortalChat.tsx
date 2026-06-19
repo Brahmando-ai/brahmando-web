@@ -93,13 +93,13 @@ export function EducationPortalChat() {
         type="button"
         onClick={toggleOpen}
         aria-label="Open Education Portal chat"
-        className="fixed bottom-5 right-5 z-[9999] flex h-14 w-14 items-center justify-center rounded-full bg-cyan-600 text-2xl text-white shadow-lg shadow-cyan-900/30 transition hover:bg-cyan-500"
+        className="fixed bottom-5 left-5 z-[9999] flex h-14 w-14 items-center justify-center rounded-full bg-cyan-600 text-2xl text-white shadow-lg shadow-cyan-900/30 transition hover:bg-cyan-500"
       >
         🎓
       </button>
 
       {open && (
-        <div className="fixed bottom-[5.5rem] right-5 z-[9999] flex h-[520px] w-[min(400px,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
+        <div className="fixed bottom-[5.5rem] left-5 z-[9999] flex h-[520px] w-[min(400px,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
           <div className="bg-cyan-600 px-4 py-3.5 text-sm font-semibold text-white">
             Education Portal · ManjuLab CSR
           </div>

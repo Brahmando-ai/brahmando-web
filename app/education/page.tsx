@@ -70,7 +70,7 @@ export default function EducationPage() {
             </Link>
           </div>
           <p className="mt-4 text-xs text-slate-400">
-            Or use the <strong className="text-cyan-300/90">🎓 chat button</strong> (bottom-right) for quick
+            Or use the <strong className="text-cyan-300/90">🎓 chat button</strong> (bottom-left on this page) for quick
             role-based questions — the original Education Portal interface.
           </p>
         </div>
