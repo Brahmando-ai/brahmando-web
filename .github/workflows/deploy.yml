@@ -48,9 +48,8 @@ jobs:
       - name: Copy CNAME to output directory
         run: cp public/CNAME out/CNAME
 
-      # The .nojekyll file prevents GitHub Pages from ignoring _next/ folder
       - name: Add .nojekyll
-        run: touch out/.nojekyll
+        run: cp .nojekyll out/.nojekyll 2>/dev/null || touch out/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
