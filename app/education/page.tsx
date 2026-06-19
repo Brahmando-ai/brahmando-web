@@ -53,26 +53,22 @@ export default function EducationPage() {
         </div>
 
         <div className="mb-12 rounded-2xl border border-cyan-300/30 bg-cyan-400/5 p-6 sm:p-8">
-          <h2 className="font-semibold text-cyan-100">Education Studio — try it live</h2>
+          <h2 className="font-semibold text-cyan-100">Try the Education Portal</h2>
           <p className="mt-2 text-sm text-slate-300 leading-relaxed max-w-3xl">
-            Act as <strong className="text-slate-100">Student</strong>, <strong className="text-slate-100">Teacher</strong>,{" "}
-            <strong className="text-slate-100">School</strong>, or <strong className="text-slate-100">Coaching center</strong> —
-            run workflows for syllabus planning, question papers, grading, mock tests, and CBSE trend analysis.
+            Use the <strong className="text-cyan-300/90">🎓 chat button</strong> (bottom-left on Education pages) for quick
+            role-based questions — students, teachers, schools, and coaching centers. Ask about CBSE exams, FAFSA,
+            lesson plans, mock tests, and syllabus planning.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="/education/studio" className="btn-primary inline-flex items-center gap-2 text-sm">
-              Open Education Studio
+            <Link href="/education" className="btn-primary inline-flex items-center gap-2 text-sm">
+              Open Education Portal
               <ArrowRight size={14} />
             </Link>
             <Link href="/education/explore" className="btn-secondary inline-flex items-center gap-2 text-sm">
-              Browse knowledge base
+              Explore knowledge base
               <ArrowRight size={14} />
             </Link>
           </div>
-          <p className="mt-4 text-xs text-slate-400">
-            Or use the <strong className="text-cyan-300/90">🎓 chat button</strong> (bottom-left on this page) for quick
-            role-based questions — the original Education Portal interface.
-          </p>
         </div>
 
         <div className="mb-12 rounded-2xl border border-violet-300/25 bg-violet-400/5 p-6 sm:p-8">

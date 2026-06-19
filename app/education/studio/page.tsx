@@ -1,5 +1,5 @@
-import { EducationStudio } from "@/components/education/EducationStudio";
+import { redirect } from "next/navigation";
 
 export default function EducationStudioPage() {
-  return <EducationStudio />;
+  redirect("/csr");
 }

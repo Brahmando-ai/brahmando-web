@@ -53,8 +53,8 @@ export default function DocsPage() {
 
           <p>
             If you are new to Brahmando, start with the{" "}
-            <Link href="/agents">Agents catalog</Link>. Documents become relevant once you are
-            running agents or designing workflows.
+            <Link href="/csr">CSR programs hub</Link>. Documents become relevant once you are
+            running agents or designing workflows under a customer agreement.
           </p>
 
           <p>

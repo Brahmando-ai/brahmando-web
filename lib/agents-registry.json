@@ -1,14 +1,14 @@
 {
-  "version": "1.1.0",
-  "updatedAt": "2026-05-03",
+  "version": "2.0.0",
+  "updatedAt": "2026-06-19",
   "agents": [
     {
       "id": "hermes",
       "name": "Hermes — SMB AI Copilot",
       "version": "0.2.0",
       "category": "Orchestration",
-      "description": "Multi-channel AI copilot for SMBs. Handles WhatsApp, Email, and Web messaging, classifies intent, generates daily business summaries, and delivers sales & finance insights through a single FastAPI service.",
-      "tags": ["orchestration", "smb", "whatsapp", "email", "copilot", "multi-agent"],
+      "description": "Multi-channel AI copilot for SMBs. Handles WhatsApp, Email, and Web messaging, classifies intent, generates daily business summaries, and delivers sales & finance insights.",
+      "tags": ["orchestration", "smb", "whatsapp", "email", "copilot"],
       "author": "ManjuLAB",
       "mcpServer": null,
       "port": 8100,
@@ -34,210 +34,24 @@
       "name": "Mercury — Startup Advisor",
       "version": "0.2.0",
       "category": "Advisory",
-      "description": "AI-powered startup advisor for founders. Provides actionable advice, SWOT analyses, pitch deck outlines, and market entry strategies tailored to your stage and industry.",
-      "tags": ["startup", "advisory", "swot", "pitch", "market", "founder"],
+      "description": "AI startup advisor and router — compliance, messaging, support tickets (Nandi), and general coaching for founders and SMB operators.",
+      "tags": ["startup", "advisory", "support", "routing"],
       "author": "ManjuLAB",
       "mcpServer": null,
-      "port": 8110,
+      "port": 9000,
       "inputSchema": {
         "type": "object",
         "properties": {
-          "business_name": { "type": "string" },
-          "industry": { "type": "string" },
-          "stage": { "type": "string", "enum": ["idea", "mvp", "growth", "scale"] },
-          "question": { "type": "string" }
+          "message": { "type": "string", "description": "User question or request" }
         },
-        "required": ["business_name", "industry", "question"]
+        "required": ["message"]
       },
       "outputSchema": {
         "type": "object",
         "properties": {
-          "advice": { "type": "string" },
-          "key_actions": { "type": "array" },
-          "risks": { "type": "array" }
-        }
-      }
-    },
-    {
-      "id": "researcher",
-      "name": "Researcher — AI Research Assistant",
-      "version": "0.2.0",
-      "category": "Research",
-      "description": "Deep-dive AI research assistant. Researches topics with configurable depth, summarises documents, compares options side-by-side, and generates structured research reports for any domain.",
-      "tags": ["research", "summarization", "comparison", "reports", "knowledge"],
-      "author": "ManjuLAB",
-      "mcpServer": null,
-      "port": 8111,
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "query": { "type": "string", "description": "Research question or topic" },
-          "depth": { "type": "string", "enum": ["quick", "deep"] },
-          "domain": { "type": "string" }
-        },
-        "required": ["query"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "report": { "type": "string" },
-          "key_findings": { "type": "array" },
-          "confidence": { "type": "string" }
-        }
-      }
-    },
-    {
-      "id": "compliance-analyzer",
-      "name": "Compliance Analyzer",
-      "version": "0.2.1",
-      "category": "Compliance",
-      "description": "Analyses documents and code against regulatory frameworks (GDPR, SOC2, HIPAA). Returns structured compliance findings with severity scores.",
-      "tags": ["compliance", "gdpr", "audit", "policy"],
-      "author": "ManjuLAB",
-      "mcpServer": "compliance-agent",
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "document": { "type": "string", "description": "Text content to analyse" },
-          "framework": { "type": "string", "enum": ["gdpr", "soc2", "hipaa"], "description": "Regulatory framework" }
-        },
-        "required": ["document", "framework"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "findings": { "type": "array" },
-          "score": { "type": "number" },
-          "summary": { "type": "string" }
-        }
-      }
-    },
-    {
-      "id": "finance-risk-scorer",
-      "name": "Finance Risk Scorer",
-      "version": "0.1.0",
-      "category": "Finance",
-      "description": "Evaluates financial documents, portfolio data, and market signals to generate structured risk scores and recommendations.",
-      "tags": ["finance", "risk", "portfolio", "analysis"],
-      "author": "ManjuLAB",
-      "mcpServer": "finance-agent",
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "data": { "type": "object", "description": "Financial data payload" },
-          "riskProfile": { "type": "string", "enum": ["conservative", "moderate", "aggressive"] }
-        },
-        "required": ["data"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "riskScore": { "type": "number" },
-          "factors": { "type": "array" },
-          "recommendation": { "type": "string" }
-        }
-      }
-    },
-    {
-      "id": "network-topology-analyzer",
-      "name": "Network Topology Analyzer",
-      "version": "0.1.2",
-      "category": "Network",
-      "description": "Ingests network configuration data and produces topology maps, anomaly alerts, and optimisation suggestions.",
-      "tags": ["network", "topology", "anomaly", "infrastructure"],
-      "author": "ManjuLAB",
-      "mcpServer": "network-agent",
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "config": { "type": "object", "description": "Network configuration object" }
-        },
-        "required": ["config"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "topology": { "type": "object" },
-          "anomalies": { "type": "array" },
-          "suggestions": { "type": "array" }
-        }
-      }
-    },
-    {
-      "id": "document-summarizer",
-      "name": "Document Summarizer",
-      "version": "0.3.0",
-      "category": "Productivity",
-      "description": "Produces structured summaries, key points, and action items from long-form documents, reports, and transcripts.",
-      "tags": ["nlp", "summarization", "productivity", "documents"],
-      "author": "ManjuLAB",
-      "mcpServer": null,
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "content": { "type": "string" },
-          "format": { "type": "string", "enum": ["bullets", "prose", "table"] }
-        },
-        "required": ["content"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "summary": { "type": "string" },
-          "keyPoints": { "type": "array" },
-          "actionItems": { "type": "array" }
-        }
-      }
-    },
-    {
-      "id": "code-reviewer",
-      "name": "Code Reviewer",
-      "version": "0.2.0",
-      "category": "Engineering",
-      "description": "Automated code review agent — checks for bugs, security issues, style violations, and suggests improvements.",
-      "tags": ["code", "review", "security", "engineering"],
-      "author": "ManjuLAB",
-      "mcpServer": null,
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "code": { "type": "string" },
-          "language": { "type": "string" }
-        },
-        "required": ["code", "language"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "issues": { "type": "array" },
-          "score": { "type": "number" },
-          "suggestions": { "type": "array" }
-        }
-      }
-    },
-    {
-      "id": "research-assistant",
-      "name": "Research Assistant",
-      "version": "0.1.0",
-      "category": "Research",
-      "description": "Conducts multi-source research on a given topic and returns a structured report with citations and confidence scores.",
-      "tags": ["research", "web", "citations", "knowledge"],
-      "author": "ManjuLAB",
-      "mcpServer": null,
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "query": { "type": "string" },
-          "depth": { "type": "string", "enum": ["quick", "deep"] }
-        },
-        "required": ["query"]
-      },
-      "outputSchema": {
-        "type": "object",
-        "properties": {
-          "report": { "type": "string" },
-          "sources": { "type": "array" },
-          "confidence": { "type": "number" }
+          "response": { "type": "string" },
+          "source": { "type": "string" },
+          "intent": { "type": "string" }
         }
       }
     }

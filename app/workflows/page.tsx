@@ -1,37 +1,5 @@
-import { GitBranch, Zap, Activity, ExternalLink } from "lucide-react";
+import { Activity, Ticket } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
-
-const N8N_URL = "https://n8n.brahmando.com";
-
-const n8nWorkflows = [
-  {
-    name: "lead-enrichment-ai",
-    description: "Automatically enrich CRM leads using AI research agents and web data.",
-    file: "lead-enrichment-ai.json",
-    nodes: 8,
-  },
-  {
-    name: "compliance-report-gen",
-    description: "Scheduled compliance scans and auto-generated PDF reports via MCP server.",
-    file: "compliance-report-gen.json",
-    nodes: 12,
-  },
-];
-
-const agenticWorkflows = [
-  {
-    name: "document-review-pipeline",
-    description: "Multi-agent pipeline for contract review, risk scoring, and summary generation.",
-    file: "document-review-pipeline.yaml",
-    steps: 5,
-  },
-  {
-    name: "research-and-report",
-    description: "Research a topic using multiple agents, aggregate findings, and generate a report.",
-    file: "research-and-report.yaml",
-    steps: 4,
-  },
-];
 
 const rhythmFeatures = [
   "Natural language workflow builder — describe intent, Rhythm generates the DAG",
@@ -41,6 +9,13 @@ const rhythmFeatures = [
   "Built-in WhatsApp, CRM, and email action nodes",
 ];
 
+const nandiFeatures = [
+  "Register from Mercury, chatbot, or REST — creator, plain-text type, optional attachment (100 KB default)",
+  "States: in_progress → success | failed | manual | cancelled → archived",
+  "Customer profiles C-01 / C-02 / C-03 with configurable idle archive (default 5 days)",
+  "Keyword ticket-type inference — AI only where agents already sit, not forced inside Nandi",
+];
+
 export default function WorkflowsPage() {
   return (
     <div className="py-16">
@@ -48,78 +23,42 @@ export default function WorkflowsPage() {
         <div className="mb-12">
           <h1 className="section-title">Workflows</h1>
           <p className="section-subtitle">
-            ManjuLAB R&D workflow catalog in Brahmando — n8n exports and YAML agentic pipelines. Operational
-            use and handoff are coordinated through ManjuLAB customer or community access.
+            ManjuLAB SMB workflow products on the Brahmando GPU stack —{" "}
+            <strong className="text-slate-100">Rhythm</strong> for automation and{" "}
+            <strong className="text-slate-100">Nandi</strong> for support ticketing.
           </p>
           <PartnerLogosBar className="mt-8" />
         </div>
 
-        <section className="mt-12">
-          <div className="flex items-center justify-between gap-4 mb-6 flex-wrap">
-            <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-orange-400/20">
-              <GitBranch size={16} className="text-orange-300" />
-            </div>
-            <h2 className="text-xl font-semibold text-slate-100">n8n Workflows</h2>
-            </div>
-            <a
-              href={N8N_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-2 text-sm"
-            >
-              Open n8n
-              <ExternalLink size={14} />
-            </a>
-          </div>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {n8nWorkflows.map((wf) => (
-              <a
-                key={wf.name}
-                href={N8N_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card group block transition-colors hover:border-orange-300/40"
-              >
-                <div className="flex items-start justify-between mb-3">
-                  <span className="tag border-orange-300/40 bg-orange-400/20 text-orange-200">n8n</span>
-                  <span className="text-xs text-slate-400">{wf.nodes} nodes</span>
-                </div>
-                <h3 className="font-mono text-sm font-semibold text-slate-100">{wf.name}</h3>
-                <p className="mt-2 text-sm text-slate-300">{wf.description}</p>
-                <p className="mt-3 text-xs font-mono text-slate-400">/workflows/n8n/{wf.file}</p>
-                <p className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-orange-200 group-hover:text-orange-100">
-                  Open in n8n
-                  <ExternalLink size={12} />
-                </p>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-12">
+        <section className="mb-12">
           <div className="flex items-center gap-2 mb-6">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-400/20">
-              <Zap size={16} className="text-cyan-200" />
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-400/20">
+              <Ticket size={16} className="text-amber-200" />
             </div>
-            <h2 className="text-xl font-semibold text-slate-100">Agentic Workflows</h2>
+            <h2 className="text-xl font-semibold text-slate-100">Nandi — SMB Support Ticketing</h2>
           </div>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {agenticWorkflows.map((wf) => (
-              <div key={wf.name} className="card">
-                <div className="flex items-start justify-between mb-3">
-                  <span className="tag">agentic</span>
-                  <span className="text-xs text-slate-400">{wf.steps} steps</span>
-                </div>
-                <h3 className="font-mono text-sm font-semibold text-slate-100">{wf.name}</h3>
-                <p className="mt-2 text-sm text-slate-300">{wf.description}</p>
-                <p className="mt-3 text-xs font-mono text-slate-400">/workflows/agentic/{wf.file}</p>
-              </div>
-            ))}
+          <div className="card">
+            <div className="flex items-start justify-between mb-3">
+              <span className="tag border-amber-300/40 bg-amber-400/20 text-amber-100">workflow</span>
+              <span className="text-xs font-mono text-slate-400">port 8210</span>
+            </div>
+            <p className="text-sm text-slate-300 leading-relaxed mb-4">
+              Lean support tickets for small business — simpler than Jira, wired into Mercury and the chatbot when users
+              ask for help or report an issue.
+            </p>
+            <ul className="space-y-1.5">
+              {nandiFeatures.map((f) => (
+                <li key={f} className="flex items-start gap-2 text-sm text-slate-300">
+                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-400" />
+                  {f}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-xs font-mono text-slate-400">/workflows/Nandi/</p>
           </div>
         </section>
 
-        <section className="mt-12">
+        <section>
           <div className="flex items-center gap-2 mb-6">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-violet-400/20">
               <Activity size={16} className="text-violet-300" />
@@ -132,7 +71,8 @@ export default function WorkflowsPage() {
               <span className="text-xs font-mono text-slate-400">ports 8085 / 8200</span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed mb-4">
-              Agent-first workflow automation for SMBs. Describe your automation in plain English and Rhythm builds the multi-agent execution DAG — no drag-and-drop needed.
+              Agent-first workflow automation for SMBs. Describe your automation in plain English and Rhythm builds the
+              multi-agent execution DAG — no drag-and-drop needed.
             </p>
             <ul className="space-y-1.5">
               {rhythmFeatures.map((f) => (

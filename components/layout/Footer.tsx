@@ -3,11 +3,11 @@ import Link from "next/link";
 import { branding } from "@/lib/branding";
 
 const footerLinks = {
-  Repository: [
-    { label: "Agents",      href: "/agents" },
-    { label: "MCP Servers", href: "/mcp-servers" },
-    { label: "Workflows",   href: "/workflows" },
-    { label: "Docs",        href: "/docs" },
+  Programs: [
+    { label: "CSR",                href: "/csr" },
+    { label: "Education Portal",   href: "/education" },
+    { label: "Platform status",    href: "/platform" },
+    { label: "Docs",               href: "/docs" },
   ],
   Company: [
     { label: "ManjuLAB",          href: "https://manjulab.com", external: true },
@@ -22,7 +22,6 @@ export function Footer() {
     <footer style={{ borderTop: "1px solid var(--border)", background: "rgba(0,0,0,0.35)" }}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
-          {/* Brand column */}
           <div>
             <div className="mb-4 flex items-center gap-2.5">
               <div
@@ -56,7 +55,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Link columns */}
           {Object.entries(footerLinks).map(([group, links]) => (
             <div key={group}>
               <h3 className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-600">

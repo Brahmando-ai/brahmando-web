@@ -109,8 +109,8 @@ export function KnowledgeExplorer() {
             exam body, and core academic subject — then search in plain English across ingested papers.
           </p>
         </div>
-        <Link href="/education/studio" className="btn-secondary inline-flex items-center gap-2 text-sm">
-          Open Education Studio
+        <Link href="/csr" className="btn-secondary inline-flex items-center gap-2 text-sm">
+          CSR program
           <ArrowRight size={14} />
         </Link>
       </div>

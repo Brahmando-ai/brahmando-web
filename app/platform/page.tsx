@@ -41,22 +41,22 @@ const SERVICES: Service[] = [
     key: "api",
     icon: "⚙️",
     title: "API Gateway",
-    description: "Edge gateway — Swagger docs & run-agent",
+    description: "Edge gateway — health, education proxy, run-agent",
     url: "https://api.brahmando.com/docs",
   },
   {
     key: "workflows",
     icon: "🧪",
-    title: "Workflows (n8n)",
-    description: "Agentic workflow orchestration on GPU",
-    url: "https://n8n.brahmando.com",
+    title: "Rhythm & Nandi",
+    description: "SMB workflow products on GPU",
+    url: "https://brahmando.com/workflows",
   },
   {
     key: "agents",
     icon: "🤖",
-    title: "Agents",
-    description: "Live agent catalog & try-it runners",
-    url: "https://brahmando.com/agents/",
+    title: "Live agents",
+    description: "Hermes & Mercury on cluster",
+    url: "https://brahmando.com/agents",
   },
   {
     key: "ollama",
@@ -67,10 +67,10 @@ const SERVICES: Service[] = [
   },
   {
     key: "mcp",
-    icon: "🧩",
-    title: "MCP Servers",
-    description: "Compliance, finance & network MCP agents",
-    url: "https://brahmando.com/mcp-servers/",
+    icon: "🎓",
+    title: "Education Portal",
+    description: "CSR knowledge base & actor chat",
+    url: "https://brahmando.com/csr",
   },
 ];
 
@@ -137,7 +137,7 @@ export default function PlatformPage() {
           <span className="text-gradient">Brahmando Platform</span>
         </h1>
         <p className="section-subtitle mx-auto mt-4 text-center">
-          AI + Workflows + Agents + Tools
+          CSR programs, live agents, and GPU-hosted services
         </p>
 
         {/* ── Summary bar ── */}

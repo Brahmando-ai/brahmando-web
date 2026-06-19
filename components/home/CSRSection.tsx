@@ -61,7 +61,11 @@ export function CSRSection() {
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Link href="/education" className="btn-primary inline-flex items-center gap-2 text-sm">
-              Explore Education Portal
+              Education Portal
+              <ArrowRight size={14} />
+            </Link>
+            <Link href="/education/explore" className="btn-secondary inline-flex items-center gap-2 text-sm">
+              Explore knowledge base
               <ArrowRight size={14} />
             </Link>
             <Link href="/education#fafsa" className="btn-secondary text-sm">

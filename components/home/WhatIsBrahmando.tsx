@@ -1,29 +1,29 @@
-import { Bot, Server, Workflow, Package } from "lucide-react";
+import { GraduationCap, Heart, Server, Workflow } from "lucide-react";
 
 const pillars = [
   {
-    icon: Bot,
-    title: "AI Agents",
+    icon: Heart,
+    title: "CSR & community",
     description:
-      "Precision-built agents for compliance, finance, research, and operations — each versioned, peer-reviewed, and ready to deploy exactly where your workflows need them most.",
+      "Free AI education tools for qualifying schools and nonprofits — Education Portal, FAFSA coaching, and knowledge-base search.",
   },
   {
-    icon: Server,
-    title: "MCP Servers",
+    icon: GraduationCap,
+    title: "Education Portal",
     description:
-      "Standardised FastAPI endpoints that expose domain intelligence to any AI integration. Plug-and-play intelligence, designed to slot into your stack without bespoke plumbing.",
+      "Flagship CSR program with role-based chat, syllabus filters, and ingested CBSE/competitive content — accessed through the CSR hub.",
   },
   {
     icon: Workflow,
-    title: "Agentic Workflows",
+    title: "SMB workflows",
     description:
-      "n8n exports and YAML pipelines that orchestrate agents, tools, and data into end-to-end automation — from raw trigger to executive output, no custom glue required.",
+      "Rhythm for agent-first automation and Nandi for lean support ticketing — product workflows on the same GPU stack, not a public demo catalog.",
   },
   {
-    icon: Package,
-    title: "Frameworks & SDKs",
+    icon: Server,
+    title: "Hosted platform",
     description:
-      "The TypeScript SDK and shared packages that underpin every Brahmando delivery — available to enterprise customers under commercial agreements.",
+      "GPU-backed API gateway, live agents, and observability for ManjuLAB customers — see Platform for current service health.",
   },
 ];
 
@@ -32,11 +32,10 @@ export function WhatIsBrahmando() {
     <section className="py-24" id="what-is-brahmando">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="text-center">
-          <h2 className="section-title">Four pillars of enterprise intelligence</h2>
+          <h2 className="section-title">What Brahmando is today</h2>
           <p className="section-subtitle mx-auto text-center">
-            Brahmando is the canonical repository for every asset the Brahmexa engineering arm
-            builds — a curated constellation of tools, each precision-crafted to close gaps in
-            what modern enterprise can do on its own.
+            A focused public site for community programs and platform access — not a sprawling
+            agent catalog. Enterprise assets deploy behind customer agreements.
           </p>
         </div>
 
