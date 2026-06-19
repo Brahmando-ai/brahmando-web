@@ -105,9 +105,8 @@ export function KnowledgeExplorer() {
           </p>
           <h1 className="mt-2 text-3xl font-bold text-slate-100">Browse & search</h1>
           <p className="mt-2 max-w-2xl text-sm text-slate-400">
-            Filter by syllabus (CBSE, ICSE), grade, board exams, competitive tracks (Medical,
-            Engineering, Civil Services…), and subject — then run natural-language search across
-            ingested past papers and guides.
+            Filter by syllabus (CBSE, ICSE), competitive track (Medical, Engineering, Civil Services…),
+            exam body, and core academic subject — then search in plain English across ingested papers.
           </p>
         </div>
         <Link href="/education/studio" className="btn-secondary inline-flex items-center gap-2 text-sm">
