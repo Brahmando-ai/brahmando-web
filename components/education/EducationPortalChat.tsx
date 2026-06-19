@@ -4,10 +4,17 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import {
+  type ActorChatResponse,
   type EducationActor,
   formatEducationResponse,
   postActorChat,
 } from "@/lib/education-api";
+import { canExportEducationContent } from "@/lib/education-access";
+import {
+  exportEducationJson,
+  exportEducationMarkdown,
+  exportEducationText,
+} from "@/lib/education-export";
 
 const ACTORS: { id: EducationActor; label: string; icon: string }[] = [
   { id: "student", label: "Student", icon: "🎓" },
@@ -36,11 +43,53 @@ const SAMPLES: Record<EducationActor, string[]> = {
   ],
 };
 
-type ChatMsg = { role: "user" | "bot"; text: string };
+type ChatMsg = { role: "user" | "bot"; text: string; meta?: ActorChatResponse };
 
 type Props = {
   mode?: "widget" | "page";
 };
+
+function BotMessageActions({ text, meta }: { text: string; meta?: ActorChatResponse }) {
+  const canExport = canExportEducationContent();
+  if (!meta || meta.module !== "exams") return null;
+
+  if (!canExport) {
+    return (
+      <p className="mt-2 text-[10px] text-slate-500">
+        Export (Markdown / JSON) is available for ManjuLAB customer accounts.{" "}
+        <Link href="/access#customer" className="text-cyan-700 underline">
+          Request access
+        </Link>
+      </p>
+    );
+  }
+
+  return (
+    <div className="mt-2 flex flex-wrap gap-1.5">
+      <button
+        type="button"
+        onClick={() => exportEducationMarkdown(meta, text)}
+        className="rounded border border-slate-300 bg-white px-2 py-0.5 text-[10px] text-slate-600 hover:border-cyan-400"
+      >
+        Export .md
+      </button>
+      <button
+        type="button"
+        onClick={() => exportEducationText(meta, text)}
+        className="rounded border border-slate-300 bg-white px-2 py-0.5 text-[10px] text-slate-600 hover:border-cyan-400"
+      >
+        Export .txt
+      </button>
+      <button
+        type="button"
+        onClick={() => exportEducationJson(meta, text)}
+        className="rounded border border-slate-300 bg-white px-2 py-0.5 text-[10px] text-slate-600 hover:border-cyan-400"
+      >
+        Export .json
+      </button>
+    </div>
+  );
+}
 
 function ChatPanel({
   actor,
@@ -97,6 +146,7 @@ function ChatPanel({
             }`}
           >
             {m.text}
+            {m.role === "bot" && <BotMessageActions text={m.text} meta={m.meta} />}
           </div>
         ))}
         {typing && <p className="text-xs text-slate-500">Thinking…</p>}
@@ -178,7 +228,8 @@ export function EducationPortalChat({ mode = "widget" }: Props) {
     setTyping(true);
     try {
       const data = await postActorChat(actor, msg, {});
-      setMessages((m) => [...m, { role: "bot", text: formatEducationResponse(data) }]);
+      const formatted = formatEducationResponse(data);
+      setMessages((m) => [...m, { role: "bot", text: formatted, meta: data }]);
     } catch (e) {
       setMessages((m) => [
         ...m,

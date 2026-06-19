@@ -78,6 +78,24 @@ export type ActorChatResponse = {
   guidance?: string;
   sources_used?: string[];
   detail?: string;
+  subject?: string;
+  topic?: string;
+  board?: string;
+  count?: number;
+  export?: {
+    format?: string;
+    title?: string;
+    subject?: string;
+    board?: string;
+    topic?: string;
+    difficulty?: string;
+    questions?: Array<{
+      question?: string;
+      options?: string[] | Record<string, string>;
+      answer?: string;
+      explanation?: string;
+    }>;
+  };
 };
 
 async function educationFetch<T>(path: string, init?: RequestInit): Promise<T> {
@@ -142,8 +160,73 @@ export async function postActorChat(
   });
 }
 
+function stripCodeFences(text: string): string {
+  let t = text.trim();
+  if (t.startsWith("```")) {
+    t = t.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
+  }
+  return t.trim();
+}
+
+function tryParseQuestionJson(text: string): Array<Record<string, unknown>> | null {
+  const cleaned = stripCodeFences(text);
+  const match = cleaned.match(/(\[[\s\S]+\]|\{[\s\S]+\})/);
+  const candidate = match ? match[1] : cleaned;
+  try {
+    const parsed = JSON.parse(candidate) as unknown;
+    if (Array.isArray(parsed)) return parsed.filter((q) => q && typeof q === "object") as Array<Record<string, unknown>>;
+    if (parsed && typeof parsed === "object" && Array.isArray((parsed as { questions?: unknown }).questions)) {
+      return ((parsed as { questions: unknown[] }).questions).filter((q) => q && typeof q === "object") as Array<
+        Record<string, unknown>
+      >;
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
+function formatQuestionsMarkdown(questions: Array<Record<string, unknown>>, meta?: ActorChatResponse): string {
+  const title = meta?.export?.title || `${meta?.board || "Exam"} ${meta?.subject || ""}`.trim();
+  const lines = [
+    `# ${title || "Practice questionnaire"}`,
+    "",
+    meta?.topic ? `**Topic:** ${meta.topic}` : "",
+    meta?.count ? `**Questions:** ${meta.count}` : `**Questions:** ${questions.length}`,
+    "",
+    "## Questions",
+    "",
+  ].filter(Boolean);
+
+  questions.forEach((q, i) => {
+    lines.push(`${i + 1}. ${String(q.question || "").trim()}`);
+    const options = q.options;
+    if (Array.isArray(options)) {
+      options.forEach((opt, j) => {
+        const label = String.fromCharCode(65 + j);
+        const optText = String(opt).trim();
+        lines.push(`   ${/^[A-D]\)/.test(optText) ? optText : `${label}) ${optText}`}`);
+      });
+    } else if (options && typeof options === "object") {
+      Object.entries(options as Record<string, string>).forEach(([k, v]) => {
+        lines.push(`   ${k}) ${v}`);
+      });
+    }
+    lines.push("");
+  });
+
+  lines.push("## Answer key", "");
+  questions.forEach((q, i) => {
+    const ans = q.answer ? String(q.answer) : "—";
+    const expl = q.explanation ? ` — ${String(q.explanation)}` : "";
+    lines.push(`${i + 1}. **Answer:** ${ans}${expl}`);
+  });
+
+  return lines.join("\n").trim();
+}
+
 export function formatEducationResponse(data: ActorChatResponse): string {
-  return (
+  const primary =
     data.answer ||
     data.analysis ||
     data.content ||
@@ -152,9 +235,19 @@ export function formatEducationResponse(data: ActorChatResponse): string {
     data.matches ||
     data.evaluation ||
     data.checklist ||
-    data.guidance ||
-    JSON.stringify(data, null, 2)
-  );
+    data.guidance;
+
+  if (primary) {
+    const parsed = tryParseQuestionJson(primary);
+    if (parsed?.length) return formatQuestionsMarkdown(parsed, data);
+    if (primary.trim().startsWith("[") || primary.trim().startsWith("{")) {
+      const fromExport = data.export?.questions;
+      if (fromExport?.length) return formatQuestionsMarkdown(fromExport as Array<Record<string, unknown>>, data);
+    }
+    return primary;
+  }
+
+  return JSON.stringify(data, null, 2);
 }
 
 export function facetOptions(
