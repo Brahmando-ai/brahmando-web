@@ -1,0 +1,8 @@
+name = "brahmando-education-proxy"
+main = "src/index.js"
+compatibility_date = "2024-06-01"
+
+routes = [
+  { pattern = "brahmando.com/api/education*", zone_name = "brahmando.com" },
+  { pattern = "www.brahmando.com/api/education*", zone_name = "brahmando.com" },
+]

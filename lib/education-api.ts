@@ -1,8 +1,22 @@
-/** Education Portal API — proxied via chat.brahmando.com */
+/** Education Portal — same-origin first, then global fallbacks for India/mobile. */
 
-export const EDUCATION_API =
-  process.env.NEXT_PUBLIC_EDUCATION_API_URL ||
-  "https://chat.brahmando.com/api/education";
+const FALLBACK_BASES = [
+  "/api/education",
+  "https://api.brahmando.com/education",
+  "https://chat.brahmando.com/api/education",
+];
+
+export function educationApiBases(): string[] {
+  if (typeof window === "undefined") {
+    const env = process.env.NEXT_PUBLIC_EDUCATION_API_URL;
+    return env ? [env.replace(/\/$/, "")] : [FALLBACK_BASES[2]!];
+  }
+  const env = process.env.NEXT_PUBLIC_EDUCATION_API_URL;
+  if (env) return [env.replace(/\/$/, "")];
+  return [...FALLBACK_BASES];
+}
+
+export const EDUCATION_API = educationApiBases()[0]!;
 
 export type EducationActor = "student" | "teacher" | "school" | "coaching_center";
 
@@ -67,29 +81,37 @@ export type ActorChatResponse = {
 };
 
 async function educationFetch<T>(path: string, init?: RequestInit): Promise<T> {
-  let res: Response;
-  try {
-    res = await fetch(`${EDUCATION_API.replace(/\/$/, "")}${path}`, {
-      ...init,
-      headers: { ...init?.headers, Accept: "application/json" },
-    });
-  } catch {
-    throw new Error(
-      "Could not reach Education Portal (network). The API may be starting up — try again shortly."
-    );
+  let lastError: Error | null = null;
+
+  for (const base of educationApiBases()) {
+    if (base.startsWith("/") && typeof window === "undefined") continue;
+    try {
+      const res = await fetch(`${base.replace(/\/$/, "")}${path}`, {
+        ...init,
+        headers: { ...init?.headers, Accept: "application/json" },
+        signal: AbortSignal.timeout(120_000),
+      });
+      let data: T & { detail?: string };
+      try {
+        data = (await res.json()) as T & { detail?: string };
+      } catch {
+        throw new Error(`Education Portal returned invalid response (HTTP ${res.status}).`);
+      }
+      if (!res.ok) {
+        throw new Error(
+          typeof data.detail === "string" ? data.detail : `Request failed (HTTP ${res.status})`
+        );
+      }
+      return data;
+    } catch (e) {
+      lastError = e instanceof Error ? e : new Error(String(e));
+    }
   }
-  let data: T & { detail?: string };
-  try {
-    data = (await res.json()) as T & { detail?: string };
-  } catch {
-    throw new Error(`Education Portal returned invalid response (HTTP ${res.status}).`);
-  }
-  if (!res.ok) {
-    throw new Error(
-      typeof data.detail === "string" ? data.detail : `Request failed (HTTP ${res.status})`
-    );
-  }
-  return data;
+
+  throw (
+    lastError ??
+    new Error("Could not reach Education Portal. Try again on a stable network.")
+  );
 }
 
 export async function getKnowledgeTaxonomy(): Promise<TaxonomyResponse> {
