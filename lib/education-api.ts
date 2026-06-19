@@ -145,6 +145,7 @@ export function facetOptions(
   const values = new Set([...staticVals, ...Object.keys(facetCounts)]);
   return [...values]
     .filter(Boolean)
+    .filter((value) => field !== "subject" || staticVals.includes(value))
     .sort((a, b) => (facetCounts[b] ?? 0) - (facetCounts[a] ?? 0))
     .map((value) => ({ value, count: facetCounts[value] }));
 }

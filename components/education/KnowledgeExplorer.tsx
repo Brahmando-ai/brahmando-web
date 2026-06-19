@@ -21,12 +21,9 @@ import {
 
 const FILTER_GROUPS: { key: keyof KnowledgeFilters; label: string }[] = [
   { key: "syllabus_board", label: "Syllabus / Board" },
-  { key: "grade", label: "Grade" },
-  { key: "board_exam", label: "Board exam" },
   { key: "competitive_track", label: "Competitive track" },
   { key: "subject", label: "Subject" },
   { key: "exam_body", label: "Exam body" },
-  { key: "content_type", label: "Content type" },
 ];
 
 function MetaChip({ label }: { label: string }) {
@@ -43,10 +40,7 @@ function hitMeta(hit: KnowledgeHit): string[] {
     hit.competitive_track,
     hit.subject,
     hit.syllabus_board,
-    hit.grade ? `Class ${hit.grade}` : null,
-    hit.board_exam,
     hit.exam_year ? String(hit.exam_year) : null,
-    hit.content_type,
   ].filter(Boolean) as string[];
 }
 

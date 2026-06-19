@@ -78,9 +78,9 @@ export default function EducationPage() {
         <div className="mb-12 rounded-2xl border border-violet-300/25 bg-violet-400/5 p-6 sm:p-8">
           <h2 className="font-semibold text-violet-100">Category filters + NLP search</h2>
           <p className="mt-2 text-sm text-slate-300 leading-relaxed max-w-3xl">
-            Filter by syllabus (CBSE, ICSE), grades 1–12, board exams (Class 10 & 12), competitive tracks
-            (Medical, Engineering, Civil Services, Banking…), and subject — then search in plain English across
-            past papers and guides in the knowledge base.
+            Filter by syllabus (CBSE, ICSE), competitive tracks
+            (Medical, Engineering, Civil Services, Banking…), exam body, and core academic subjects —
+            then search in plain English across past papers and guides.
           </p>
           <Link href="/education/explore" className="btn-secondary mt-5 inline-flex items-center gap-2 text-sm">
             Open Knowledge Explorer
