@@ -1,5 +1,6 @@
-import { GraduationCap, Heart, Server, Workflow } from "lucide-react";
+import { GraduationCap, Heart, Megaphone, Server, Workflow } from "lucide-react";
 import { platformStats } from "@/lib/platform-catalog";
+import { RHYTHM_SMB_VERTICALS_SUMMARY } from "@/lib/rhythm-verticals";
 
 const pillars = [
   {
@@ -16,9 +17,14 @@ const pillars = [
   },
   {
     icon: Workflow,
-    title: "SMB workflows",
+    title: "Rhythm · 4 SMB verticals",
+    description: RHYTHM_SMB_VERTICALS_SUMMARY,
+  },
+  {
+    icon: Megaphone,
+    title: "Reach marketing",
     description:
-      "Rhythm for agent-first automation and Nandi for lean support ticketing — product workflows on the same GPU stack, not a public demo catalog.",
+      "Agentic marketing orchestrator for local SMBs — website + owner briefs in, FB/Instagram/LinkedIn/email/YouTube and local group outreach out, with WhatsApp approval.",
   },
   {
     icon: Server,
@@ -38,7 +44,7 @@ export function WhatIsBrahmando() {
             A focused public site for community programs and platform access. The GPU stack currently runs{" "}
             <strong className="text-slate-200">{platformStats.agents} agents</strong>,{" "}
             <strong className="text-slate-200">{platformStats.mcpServers} MCP servers</strong>, and{" "}
-            <strong className="text-slate-200">{platformStats.workflows} SMB workflows</strong> (Rhythm + Nandi).
+            <strong className="text-slate-200">{platformStats.workflows} SMB workflows</strong> (Rhythm, Nandi, Reach marketing).
           </p>
         </div>
 

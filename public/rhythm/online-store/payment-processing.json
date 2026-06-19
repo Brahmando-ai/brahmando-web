@@ -1,0 +1,70 @@
+{
+  "name": "Brahmexa-Retail-PaymentProcessing",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "retail"}],
+  "nodes": [
+    {
+      "id": "retl-pp-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-pp-0002-4000-8000-000000000000",
+      "name": "Validate Payment",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nif (!payload.order_id || !payload.amount) {\n  throw new Error('Payment requires order_id and amount');\n}\nif (payload.amount <= 0) {\n  throw new Error('Payment amount must be greater than zero');\n}\nreturn [{\n  json: {\n    ...items[0].json,\n    order_id: payload.order_id,\n    amount: payload.amount,\n    currency: payload.currency || 'USD',\n    validated_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "retl-pp-0003-4000-8000-000000000000",
+      "name": "Charge Customer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [680, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.PAYMENT_SERVICE_URL}}/charge",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"order_id\": \"{{$json.order_id}}\", \"amount\": {{$json.amount}}, \"currency\": \"{{$json.currency}}\", \"payment_method\": \"{{$json.payload.payment_method || 'card'}}\"}"
+      }
+    },
+    {
+      "id": "retl-pp-0004-4000-8000-000000000000",
+      "name": "Issue Receipt",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-pp-0005-4000-8000-000000000000",
+      "name": "Update Ledger",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Validate Payment", "type": "main", "index": 0}]]
+    },
+    "Validate Payment": {
+      "main": [[{"node": "Charge Customer", "type": "main", "index": 0}]]
+    },
+    "Charge Customer": {
+      "main": [[{"node": "Issue Receipt", "type": "main", "index": 0}]]
+    },
+    "Issue Receipt": {
+      "main": [[{"node": "Update Ledger", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

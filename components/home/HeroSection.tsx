@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { PartnerLogosBar } from "@/components/branding/PartnerLogosBar";
 import { platformStats } from "@/lib/platform-catalog";
+import { RHYTHM_SMB_VERTICALS_SUMMARY } from "@/lib/rhythm-verticals";
 
 const stats = [
   { value: String(platformStats.agents), label: "Live agents" },
@@ -48,9 +49,10 @@ export function HeroSection() {
 
           <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg">
             Brahmando hosts ManjuLAB&apos;s GPU platform —{" "}
-            <strong className="text-slate-200">{platformStats.agents} live agents</strong> and{" "}
-            <strong className="text-slate-200">{platformStats.mcpServers} MCP servers</strong> on cluster today, plus
-            the <strong className="text-slate-200">Education Portal</strong> CSR program for schools and nonprofits.
+            <strong className="text-slate-200">{platformStats.agents} live agents</strong>,{" "}
+            <strong className="text-slate-200">{platformStats.mcpServers} MCP servers</strong>, and{" "}
+            <strong className="text-slate-200">{platformStats.workflows} SMB workflows</strong> on cluster today.
+            Rhythm ships {RHYTHM_SMB_VERTICALS_SUMMARY.toLowerCase()}
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

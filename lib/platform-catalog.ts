@@ -17,7 +17,7 @@ export const LIVE_MCP_SERVERS = [
   },
 ] as const;
 
-export const LIVE_WORKFLOWS = ["Rhythm", "Nandi"] as const;
+export const LIVE_WORKFLOWS = ["Rhythm", "Nandi", "Reach"] as const;
 
 export const platformStats = {
   agents: agentRegistry.agents.length,
@@ -62,7 +62,7 @@ export const VISITOR_DESTINATIONS: VisitorDestination[] = [
     id: "workflows",
     icon: "⚡",
     title: `SMB workflows (${platformStats.workflows})`,
-    description: "Rhythm industry samples and Nandi ticket paths — clickable walkthroughs with confidentiality notice.",
+    description: "Rhythm (4 SMB verticals), Nandi ticketing, and Reach agentic marketing — live samples with confidentiality notice.",
     href: "/workflows",
   },
   {

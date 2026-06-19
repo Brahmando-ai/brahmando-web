@@ -1,0 +1,68 @@
+{
+  "name": "Brahmexa-Retail-Fulfillment",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "retail"}],
+  "nodes": [
+    {
+      "id": "retl-ff-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-ff-0002-4000-8000-000000000000",
+      "name": "Pick Items",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-ff-0003-4000-8000-000000000000",
+      "name": "Pack Order",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-ff-0004-4000-8000-000000000000",
+      "name": "Generate Label",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.SHIPPING_SERVICE_URL}}/label",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"order_id\": \"{{$json.payload.order_id}}\", \"shipping_address\": {{$json.payload.shipping_address || {}}}, \"carrier\": \"{{$json.payload.carrier || 'standard'}}\"}"
+      }
+    },
+    {
+      "id": "retl-ff-0005-4000-8000-000000000000",
+      "name": "Hand to Carrier",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Pick Items", "type": "main", "index": 0}]]
+    },
+    "Pick Items": {
+      "main": [[{"node": "Pack Order", "type": "main", "index": 0}]]
+    },
+    "Pack Order": {
+      "main": [[{"node": "Generate Label", "type": "main", "index": 0}]]
+    },
+    "Generate Label": {
+      "main": [[{"node": "Hand to Carrier", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

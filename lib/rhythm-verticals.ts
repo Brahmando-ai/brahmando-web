@@ -135,6 +135,59 @@ const nursingHomeSubs: Omit<RhythmSubWorkflow, "isMaster">[] = [
   },
 ];
 
+const onlineStoreSubs: Omit<RhythmSubWorkflow, "isMaster">[] = [
+  {
+    id: "order-processing",
+    file: "order-processing.json",
+    workflowName: "Brahmexa-Retail-OrderProcessing",
+    title: "Order processing",
+    description: "Validates order, checks inventory, reserves stock, confirms with customer",
+    events: ["order.placed"],
+  },
+  {
+    id: "payment-processing",
+    file: "payment-processing.json",
+    workflowName: "Brahmexa-Retail-PaymentProcessing",
+    title: "Payment processing",
+    description: "Validates payment, charges customer, issues receipt, updates ledger",
+    events: ["payment.processed"],
+  },
+  {
+    id: "fulfillment",
+    file: "fulfillment.json",
+    workflowName: "Brahmexa-Retail-Fulfillment",
+    title: "Fulfillment",
+    description: "Picks items, packs order, generates shipping label, hands to carrier",
+    events: ["shipment.dispatched"],
+  },
+  {
+    id: "returns",
+    file: "returns.json",
+    workflowName: "Brahmexa-Retail-Returns",
+    title: "Returns & refunds",
+    description: "Validates return, inspects item, processes refund, restocks item",
+    events: ["return.requested"],
+  },
+  {
+    id: "inventory-management",
+    file: "inventory-management.json",
+    workflowName: "Brahmexa-Retail-InventoryManagement",
+    title: "Inventory management",
+    description: "Monitors SKU stock levels and triggers warehouse reorders",
+    events: ["stock.low"],
+  },
+];
+
+export const RHYTHM_SMB_VERTICALS_SUMMARY =
+  "4 SMB industry verticals — restaurant, landscaping, nursing home, and online store — each with an order-to-cash master workflow and business-process sub-workflows on local n8n.";
+
+export const RHYTHM_VERTICAL_NAMES = [
+  "Restaurant",
+  "Landscaping",
+  "Nursing home",
+  "Online store",
+] as const;
+
 function masterFor(
   vertical: string,
   label: string,
@@ -194,6 +247,20 @@ export const RHYTHM_VERTICALS: RhythmVertical[] = [
       ["patient.admitted", "patient.discharged", "resource.low", "alert.critical"]
     ),
     subWorkflows: nursingHomeSubs.map((w) => ({ ...w })),
+  },
+  {
+    id: "online-store",
+    name: "Online store",
+    tagline: "E-commerce order-to-cash — orders, payments, fulfillment, returns, and inventory",
+    icon: "🛒",
+    templateDir: "online-store",
+    master: masterFor(
+      "online-store",
+      "Retail",
+      "Master n8n dispatcher orchestrates web orders through payment, fulfillment, returns, and stock control",
+      ["order.placed", "payment.processed", "stock.low", "return.requested", "shipment.dispatched"]
+    ),
+    subWorkflows: onlineStoreSubs.map((w) => ({ ...w })),
   },
 ];
 

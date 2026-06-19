@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { WorkflowBackLink } from "@/components/workflows/FlowSteps";
 import { WorkflowDisclaimer } from "@/components/workflows/WorkflowDisclaimer";
-import { allRhythmWorkflows, RHYTHM_VERTICALS } from "@/lib/rhythm-verticals";
+import { RHYTHM_SMB_VERTICALS_SUMMARY, RHYTHM_VERTICALS } from "@/lib/rhythm-verticals";
 
 export default function RhythmWorkflowsPage() {
   return (
@@ -12,13 +12,17 @@ export default function RhythmWorkflowsPage() {
 
         <div className="mt-6 mb-8">
           <h1 className="section-title">Rhythm · n8n workflows</h1>
-          <p className="section-subtitle max-w-3xl">
-            Industry vertical packs with a master order-to-cash dispatcher and business-process sub-workflows.
-            Each canvas is rendered from the same n8n JSON templates used in local n8n.
+          <p className="section-subtitle max-w-3xl">{RHYTHM_SMB_VERTICALS_SUMMARY}</p>
+          <p className="mt-3 max-w-3xl text-sm text-slate-500">
+            Each canvas is rendered from the same n8n JSON templates used in local n8n. Pilot customers like{" "}
+            <a href="https://primovite.com" className="text-cyan-200 hover:text-cyan-100" target="_blank" rel="noopener noreferrer">
+              primovite.com
+            </a>{" "}
+            use the online-store vertical for order-to-cash alongside Reach marketing.
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {RHYTHM_VERTICALS.map((vertical) => (
             <Link
               key={vertical.id}
