@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   BookOpen,
   ChevronLeft,
@@ -21,6 +21,7 @@ import {
   speakTeacherScript,
   stopTeacherSpeech,
   TEACHER_VOICE_PRESETS,
+  type SpeechErrorInfo,
   type TeacherVoicePresetId,
 } from "@/lib/education/reviewMaterial/teacherVoice";
 import {
@@ -279,8 +280,10 @@ export function ReviewMaterialBoard() {
   const [notes, setNotes] = useState<ReviewNote[]>([]);
   const [allNotes, setAllNotes] = useState<ReviewNote[]>([]);
   const [speaking, setSpeaking] = useState(false);
-  const [voicePresetId, setVoicePresetId] = useState<TeacherVoicePresetId>("teacher-female-in");
+  const [voicePresetId, setVoicePresetId] = useState<TeacherVoicePresetId>("teacher-female-us");
   const [speechReady, setSpeechReady] = useState(false);
+  const [audioHint, setAudioHint] = useState<string | null>(null);
+  const audioScopeRef = useRef({ chapterId: "", sectionId: "" });
 
   const chapters = useMemo(
     () => REVIEW_CHAPTERS.filter((c) => subjectFilter === "all" || c.subject === subjectFilter),
@@ -308,13 +311,6 @@ export function ReviewMaterialBoard() {
       stopTeacherSpeech();
     };
   }, []);
-
-  useEffect(() => {
-    const defaultVoice = content?.teacherAudio?.defaultVoice as TeacherVoicePresetId | undefined;
-    if (defaultVoice && TEACHER_VOICE_PRESETS.some((p) => p.id === defaultVoice)) {
-      setVoicePresetId(defaultVoice);
-    }
-  }, [content?.teacherAudio?.defaultVoice]);
 
   useEffect(() => {
     setReviewer(getReviewerName());
@@ -372,28 +368,43 @@ export function ReviewMaterialBoard() {
   }
 
   useEffect(() => {
-    stopAudio();
+    const prev = audioScopeRef.current;
+    const scopeChanged =
+      (prev.chapterId && prev.chapterId !== chapterId) ||
+      (prev.sectionId && prev.sectionId !== sectionId);
+    audioScopeRef.current = { chapterId, sectionId };
+    if (scopeChanged) stopAudio();
   }, [sectionId, chapterId]);
 
   function playAudio() {
-    if (!isSpeechSupported()) return;
+    if (!isSpeechSupported()) {
+      setAudioHint("Speech is not supported in this browser.");
+      return;
+    }
 
     const script = teleprompterForSection(activeSection).trim();
     if (!script) return;
 
     if (speaking) {
       stopAudio();
+      setAudioHint(null);
       return;
     }
 
+    setAudioHint(null);
     preloadSpeechVoices();
     const preset = resolveVoicePreset(voicePresetId);
-    const started = speakTeacherScript(script, preset, {
-      onStart: () => setSpeaking(true),
+    speakTeacherScript(script, preset, {
+      onStart: () => {
+        setSpeaking(true);
+        setAudioHint(null);
+      },
       onEnd: () => setSpeaking(false),
-      onError: () => setSpeaking(false),
+      onError: (info: SpeechErrorInfo) => {
+        setSpeaking(false);
+        setAudioHint(info.message);
+      },
     });
-    if (started) setSpeaking(true);
   }
 
   const canPlayTeacherAudio = Boolean(
@@ -512,6 +523,9 @@ export function ReviewMaterialBoard() {
                   {speaking ? "Stop teacher audio" : "Play teacher audio"}
                 </button>
               </div>
+              {audioHint && (
+                <p className="mt-2 w-full text-xs text-amber-200/90">{audioHint}</p>
+              )}
             </div>
 
             {loading ? (
