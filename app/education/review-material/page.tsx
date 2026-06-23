@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function ReviewMaterialPage() {
   return (
-    <div className="mesh-bg min-h-screen">
+    <div className="mesh-bg relative z-10 min-h-screen">
       <div className="border-b border-slate-300/10 bg-slate-950/50 px-4 py-3 sm:px-6">
         <Link
           href="/education"

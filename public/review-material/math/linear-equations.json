@@ -1,0 +1,79 @@
+{
+  "chapterId": "math-linear-equations",
+  "title": "Pair of Linear Equations in Two Variables",
+  "subject": "math",
+  "audioScript": "Chapter review: Pair of Linear Equations in Two Variables.",
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": ""
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": ""
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": ""
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": ""
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": ""
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": ""
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": ""
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": ""
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": ""
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": ""
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": ""
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": ""
+    }
+  ],
+  "crawlMeta": {
+    "articleCount": 0,
+    "videoCount": 0,
+    "sourceUrls": [],
+    "builtAt": "2026-06-23T18:05:33+00:00"
+  }
+}

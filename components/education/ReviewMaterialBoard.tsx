@@ -56,7 +56,8 @@ function SectionBody({ body }: { body: string }) {
   if (!body.trim()) {
     return (
       <div className="rounded-xl border border-dashed border-slate-600/50 bg-slate-950/30 px-4 py-8 text-center text-sm text-slate-500">
-        Empty section — structure only, no review material loaded.
+        No crawled content in this section yet. Run the Education crawler{" "}
+        <code className="text-xs text-slate-400">build</code> step after <code className="text-xs text-slate-400">collect</code>.
       </div>
     );
   }
@@ -66,6 +67,24 @@ function SectionBody({ body }: { body: string }) {
       {body.split("\n").map((line, i) => (
         <p key={i}>{renderInline(line)}</p>
       ))}
+    </div>
+  );
+}
+
+function CrawlStatusBar({ content }: { content: ChapterReviewContent | null }) {
+  const meta = content?.crawlMeta;
+  if (!meta) {
+    return (
+      <div className="mb-4 rounded-xl border border-amber-400/25 bg-amber-500/10 px-4 py-3 text-sm text-amber-100/90">
+        No review JSON for this chapter yet. The internet crawler collects sources on the GPU server; run{" "}
+        <code className="text-xs">build</code> to publish <code className="text-xs">review-material/*.json</code> here.
+      </div>
+    );
+  }
+  return (
+    <div className="mb-4 rounded-xl border border-emerald-400/25 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-100/90">
+      Crawler data loaded — {meta.articleCount} article(s), {meta.videoCount} video link(s)
+      {meta.builtAt ? ` · built ${new Date(meta.builtAt).toLocaleString()}` : ""}.
     </div>
   );
 }
@@ -172,9 +191,10 @@ export function ReviewMaterialBoard() {
           <p className="text-xs font-semibold uppercase tracking-wider text-cyan-300">Content QA</p>
           <h1 className="text-2xl font-bold text-slate-50 sm:text-3xl">Review Material Board</h1>
           <p className="mt-2 max-w-2xl text-sm text-slate-400">
-            CBSE Class 10 Science &amp; Mathematics — structure-only scaffold for educator review. All 28 chapters and
-            13 sections per chapter are listed; no enriched content is loaded yet. Add observations and triage feedback
-            as material is published.
+            CBSE Class 10 Science &amp; Mathematics — educator review board. Chapter content is populated by the{" "}
+            <strong className="font-medium text-cyan-200/90">Education internet crawler</strong> (web pages, videos,
+            blogs) via <code className="text-xs text-slate-500">collect</code> then{" "}
+            <code className="text-xs text-slate-500">build</code>. Add observations and triage feedback below.
           </p>
         </div>
         <div className="flex gap-2">
@@ -252,6 +272,7 @@ export function ReviewMaterialBoard() {
               <p className="text-slate-400">Loading chapter content…</p>
             ) : (
               <>
+                <CrawlStatusBar content={content} />
                 <div className="mb-4 flex flex-wrap gap-2">
                   {content?.sections.map((s) => (
                     <button

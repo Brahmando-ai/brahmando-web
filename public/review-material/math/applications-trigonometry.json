@@ -1,0 +1,81 @@
+{
+  "chapterId": "math-trig-apps",
+  "title": "Some Applications of Trigonometry",
+  "subject": "math",
+  "audioScript": "Chapter review: Some Applications of Trigonometry. In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is o",
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\nThere is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the general concept of angle.[5]\nOne standard definition is that an angle is a figure consisting of two rays which lie in a plane and share a common endpoint. Alternatively, given such a figure, an angle might be defined as: the opening between the rays; the area of the plane that lies between the rays;…\n**Crawled sources (internet):**\n- [Angle - Wikipedia](https://en.wikipedia.org/wiki/Angle)"
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Definitions extracted from crawled pages:**\n\n-  In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\n- There is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the general concept of angle.[5]\n- It is common to consider that the sides of the angle divide the plane into two regions called the interior of the angle and the exterior of the angle. The interior of the angle is also referred to as an angular sector.[7][8][a]\n- An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .\n- In geometric figures and mathematical expressions, it is also common to use Greek letters (α, β, γ, θ, φ, ...) or lower case Roman letters (a, b, c, ...) as variables to represent the size of an angle.[12] Angular measure is commonly a scalar quantity,[13] although in physics and some fields of mathematics, signed angles are used by convention to indicate a direction of rotation: positive for anti-clockwise; negative for clockwise.[14]\n- Degrees and turns are defined directly with reference to a full angle, which measures 1 turn or 360°.[16] A measure in turns gives an angle's size as a proportion of a full angle and a degree can be considered as a subdivision of a turn. Radians are not defined directly in relation to a full angle (see § Measuring angles), but in such a way that its measure is 2π rad, approximately 6.28 rad.[17]\n- The angle addition postulate states that if D is a point lying in the interior of then:[18] This relationship defines what it means to add any two angles: their vertices are placed together while sharing a side to create a new larger angle. The measure of the new larger angle is the sum of the measures of the two angles. Subtraction follows from rearrangement of the formula.[18]\n- An angle equal to 0° or not turned is called a zero angle.[19]"
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\nThere is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the general concept of angle.[5]\nOne standard definition is that an angle is a figure consisting of two rays which lie in a plane and share a common endpoint. Alternatively, given such a figure, an angle might be defined as: the opening between the rays; the area of the plane that lies between the rays; or the amount of rotation about the vertex of one ray to the other.\nMore generally, angles are also formed wherever two line segments come together, such as at the corners of triangles and other polygons,[2] or at the intersection of two planes or curves, in which case the rays lying tangent to each curve at the point of intersection define the angle.[6]\nIt is common to consider that the sides of the angle divide the plane into two regions called the interior of the angle and the exterior of the angle. The interior of the angle is also referred to as an angular sector.[7][8][a]\nAn angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using th…"
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "**Formulas / relations found:**\n\n- The ratio s/r is called the \"radian measure\"[18] or \"circular measure\"[39][38][40] of an angle, but is also used to define a unit of measurement called a radian, which is defined as an angle for which the ratio s/r = 1.[39] Thus, the measurement of an angle given by s/r can be thought of in two\n- The reference angle (sometimes called related angle) for any angle θ in standard position is the positive acute angle between the terminal side of θ and the x-axis (positive or negative).[51] Procedurally, the magnitude of the reference angle for a given angle may determined by taking the angle's magnitude modulo 1/2 turn, 180°, or π radians, then stopping if the angle is acute, otherwise taking the supplementary angle, 180° minus the reduced magnitude. For example, an angle of 30 degrees is already a reference angle, and an angle of 150 degrees also has a reference angle of 30 degrees (180° − 150°). Angles of 210° and 510° correspond to a reference angle of 30 degrees as well (210° mod 180° = 30°, 510° mod 180° = 150° whose supplementary angle is 30°).\n- When two adjacent angles form a straight line, they are supplementary. Therefore, if we assume that the measure of angle A equals x, the measure of angle C would be 180° − x. Similarly, the measure of angle D would be 180° − x. Both angle C and angle D have measures equal to 180° − x and are congruent. Since angle B is supplementary to both angles C and D, either of these angle measures may be used to determine the measure of Angle B. Using the measure of either angle C or angle D, we find the measure of angle B to be 180° − (180° − x) = x. Therefore, both angle A and angle B have measures equal to x and are equal i"
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Example snippets:**\n\n- An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .\n- In mathematics and the International System of Quantities, an angle is defined as a dimensionless quantity,[42] and in particular, the radian is defined as dimensionless in the International System of Units.[43] This convention prevents angles providing information for dimensional analysis. For example, when one measures an angle in radians by dividing the arc length by the radius, one is essentially dividing a length by another length, and the units of length cancel each other out. Therefore the result—the angle—doesn't have a physical \"dimension\" like meters or seconds.[44] This holds true with all angle units, such as radians, degrees, or turns—they all represent a pure number quantifying how much something has turned.[45] This is why, in many equations, angle units seem to \"disappear\" during calculations, which feels inconsistent and can lead to mixing up angle units.[46][47]\n- In many contexts, an angle of −θ is effectively equivalent to an angle of \"one full turn minus θ\". For example, an orientation represented as −45° is effectively equal to an orientation defined as 360° − 45° or 315°. Although the final position is the same, a physical rotation (movement) of −45° is not the same as a rotation of 315° (for example, the rotation of a person holding a broom resting on a dusty floor would leave visually different traces of swept regions on the floor).\n- The reference angle (sometimes called related angle) for any angle θ in standard position is the positive acute angle between the terminal side of θ and the x-axis (positive or negative).[51] Procedurally, the magnitude of the reference angle for a given angle may determined by taking the angle's magnitude modulo 1/2 turn, 180°, or π radians, then stopping if the angle is acute, otherwise taking the supplementary angle, 180° minus the reduced magnitude. For example, an angle of 30 degrees is already a reference angle, and an angle of 150 degrees also has a reference angle of 30 degrees (180° − 150°). Angles of 210° and 510° correspond to a reference angle of 30 degrees as well (210° mod 180° = 30°, 510° mod 180° = 150° whose supplementary angle is 30°).\n- Astronomers also measure objects' apparent size as an angular diameter. For example, the full moon has an angular diameter of approximately 0.5°, or 30 arcminutes, when viewed from Earth. One could say, \"The Moon's diameter subtends an angle of half a degree.\" The small-angle formula can convert such an angular measurement into a distance/size ratio."
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_No crawled excerpts matched this section yet._"
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_No crawled excerpts matched this section yet._"
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "**Applications mentioned:**\n\n- In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into 100 equal parts called gradians.[37][38]\n- Godfrey, Charles; Siddons, A. W. (1919), Elementary geometry: practical and theoretical (3rd ed.), Cambridge University Press"
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_No crawled excerpts matched this section yet._"
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_No crawled excerpts matched this section yet._"
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\nThere is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the g…"
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the si…"
+    }
+  ],
+  "crawlMeta": {
+    "articleCount": 1,
+    "videoCount": 0,
+    "sourceUrls": [
+      "https://en.wikipedia.org/wiki/Angle"
+    ],
+    "builtAt": "2026-06-23T18:05:33+00:00"
+  }
+}

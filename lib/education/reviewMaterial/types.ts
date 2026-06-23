@@ -33,4 +33,10 @@ export type ChapterReviewContent = {
   subject: "science" | "math";
   audioScript: string;
   sections: ChapterSection[];
+  crawlMeta?: {
+    articleCount: number;
+    videoCount: number;
+    sourceUrls: string[];
+    builtAt: string;
+  };
 };

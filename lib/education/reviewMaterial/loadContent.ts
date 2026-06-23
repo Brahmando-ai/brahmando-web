@@ -25,7 +25,7 @@ function sectionId(title: string): string {
     .replace(/^-|-$/g, "");
 }
 
-/** Structure-only shell — no chapter body content until enricher publishes JSON. */
+/** Empty shell when crawler has not published JSON for this chapter yet. */
 export function chapterStructure(chapter: ReviewChapter): ChapterReviewContent {
   return {
     chapterId: chapter.id,
@@ -46,5 +46,13 @@ export function chapterContentUrl(chapter: ReviewChapter): string {
 }
 
 export async function fetchChapterContent(chapter: ReviewChapter): Promise<ChapterReviewContent> {
-  return chapterStructure(chapter);
+  try {
+    const res = await fetch(chapterContentUrl(chapter));
+    if (!res.ok) return chapterStructure(chapter);
+    const data = (await res.json()) as ChapterReviewContent;
+    if (!data.sections?.length) return chapterStructure(chapter);
+    return data;
+  } catch {
+    return chapterStructure(chapter);
+  }
 }
