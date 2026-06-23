@@ -53,6 +53,14 @@ function renderInline(text: string) {
 }
 
 function SectionBody({ body }: { body: string }) {
+  if (!body.trim()) {
+    return (
+      <div className="rounded-xl border border-dashed border-slate-600/50 bg-slate-950/30 px-4 py-8 text-center text-sm text-slate-500">
+        Empty section — structure only, no review material loaded.
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-3 text-sm leading-relaxed text-slate-200">
       {body.split("\n").map((line, i) => (
@@ -164,8 +172,9 @@ export function ReviewMaterialBoard() {
           <p className="text-xs font-semibold uppercase tracking-wider text-cyan-300">Content QA</p>
           <h1 className="text-2xl font-bold text-slate-50 sm:text-3xl">Review Material Board</h1>
           <p className="mt-2 max-w-2xl text-sm text-slate-400">
-            CBSE Class 10 Science &amp; Mathematics — chapter review for educators. Add observations, triage feedback
-            from multiple reviewers, and decide next actions.
+            CBSE Class 10 Science &amp; Mathematics — structure-only scaffold for educator review. All 28 chapters and
+            13 sections per chapter are listed; no enriched content is loaded yet. Add observations and triage feedback
+            as material is published.
           </p>
         </div>
         <div className="flex gap-2">
