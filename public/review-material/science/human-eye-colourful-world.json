@@ -24,7 +24,7 @@
       },
       {
         "sectionId": "key-definitions",
-        "teleprompter": "Let's lock in the must-know words for The Human Eye and the Colourful World. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's lock in the must-know words for The Human Eye and the Colourful World. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
       },
       {
         "sectionId": "core-concepts",
@@ -76,66 +76,60 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रय…\n**Crawled sources (internet):**\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारि…",
       "teacherNarration": {
         "teleprompter": "Good morning, everyone. Today we're opening The Human Eye and the Colourful World. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
         "style": "teacher-intro",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Concept Overview: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to",
+      "body": "**Key definitions:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to",
       "teacherNarration": {
-        "teleprompter": "Let's lock in the must-know words for The Human Eye and the Colourful World. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's lock in the must-know words for The Human Eye and the Colourful World. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
         "style": "teacher-definitions",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Key Definitions: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, supp…",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, support material, enrichment\n                activit…",
       "teacherNarration": {
         "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: The Human Eye and the Colourful World. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-explain",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Core Concepts: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "Formulas can feel scary, but they're just shortcuts. For The Human Eye and the Colourful World, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
         "style": "teacher-formulas",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Formulas / Theorems: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: The Human Eye and the Colourful World. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-example",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Solved Examples: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: The Human Eye and the Colourful World. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-coaching",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Common Mistakes: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
@@ -146,7 +140,6 @@
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For The Human Eye and the Colourful World, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Diagram Section: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' width='100%' role='img'><rect width='440' height='220' rx='12' fill='#0f172a'/><text x='220' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>The Human Eye and the Colourful World — ray / geometry view</text><line x1='30' y1='130' x2='410' y2='130' stroke='#475569' stroke-width='1'/><line x1='80' y1='130' x2='80' y2='90' stroke='#fbbf24' stroke-width='3'/><text x='80' y='82' text-anchor='middle' fill='#fbbf24' font-size='9'>Object</text><path d='M220 60 Q235 130 220 200' fill='none' stroke='#38bdf8' stroke-width='2'/><text x='235' y='125' fill='#38bdf8' font-size='9'>Mirror/Lens</text><line x1='80' y1='100' x2='218' y2='115' stroke='#f472b6' stroke-width='2'/><line x1='222' y1='118' x2='360' y2='85' stroke='#a78bfa' stroke-width='2'/><text x='300' y='78' fill='#a78bfa' font-size='9'>Image ray</text><text x='220' y='210' text-anchor='middle' fill='#94a3b8' font-size='10'>Reflection / Refraction</text></svg>",
@@ -155,18 +148,16 @@
         "title": "The Human Eye and the Colourful World — ray or geometry diagram",
         "caption": "Chapter-specific ray or geometry diagram from CBSE syllabus (diagram-v2).",
         "layout": "ray",
-        "synthetic": true,
         "nodes": []
       }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_Class 10 CBSE practice for **The Human Eye and the Colourful World**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **The Human Eye and the Colourful World** in 2–3 sentences. Use one example from The Human Eye and the Colourful World.\n- **MCQ (1 mark)** — MCQ: Which statement about **The Human Eye and the Colourful World** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **The Human Eye and the Colourful World**. Cover at least three syllabus topics and one real-life application.",
+      "body": "_Class 10 CBSE practice for **The Human Eye and the Colourful World**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **The Human Eye and the Colourful World** in 2–3 sentences. Use one example from The Human Eye and the Colourful World.\n- **MCQ (1 mark)** — MCQ: Which statement about **The Human Eye and the Colourful World** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **The Human Eye and the Colourful World**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
         "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on The Human Eye and the Colourful World, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Practice Questions: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "practiceQuestions": [
@@ -175,7 +166,6 @@
           "type": "short",
           "marks": 2,
           "topic": "The Human Eye and the Colourful World",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **The Human Eye and the Colourful World** in 2–3 sentences. Use one example from The Human Eye and the Colourful World."
         },
@@ -184,7 +174,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "The Human Eye and the Colourful World",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **The Human Eye and the Colourful World** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -193,7 +182,6 @@
           "type": "long",
           "marks": 5,
           "topic": "The Human Eye and the Colourful World",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Long answer: Describe the main ideas of **The Human Eye and the Colourful World**. Cover at least three syllabus topics and one real-life application."
         }
@@ -202,22 +190,20 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_Everyday connections for **The Human Eye and the Colourful World** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**",
+      "body": "_Everyday connections for **The Human Eye and the Colourful World**._\n\n**Applications:**",
       "teacherNarration": {
         "teleprompter": "Let's connect The Human Eye and the Colourful World to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Real World Applications: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_Recommended video learning for **The Human Eye and the Colourful World** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 The Human Eye and the Colourful World NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+The+Human+Eye+and+the+Colourful+World+NCERT+explained+Hindi+English)\n- [The Human Eye and the Colourful World class 10 one shot revision](https://www.youtube.com/results?search_query=The+Human+Eye+and+the+Colourful+World+class+10+one+shot+revision)\n- [NCERT Science class 10 The Human Eye and the Colourful World animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+The+Human+Eye+and+the+Colourful+World+animation)",
+      "body": "_Video learning for **The Human Eye and the Colourful World** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 The Human Eye and the Colourful World NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+The+Human+Eye+and+the+Colourful+World+NCERT+explained+Hindi+English)\n- [The Human Eye and the Colourful World class 10 one shot revision](https://www.youtube.com/results?search_query=The+Human+Eye+and+the+Colourful+World+class+10+one+shot+revision)\n- [NCERT Science class 10 The Human Eye and the Colourful World animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+The+Human+Eye+and+the+Colourful+World+animation)",
       "teacherNarration": {
         "teleprompter": "Before you press play on any video about The Human Eye and the Colourful World, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "videos": [
@@ -225,22 +211,19 @@
           "id": "search-01",
           "title": "CBSE class 10 The Human Eye and the Colourful World NCERT explained Hindi English",
           "url": "https://www.youtube.com/results?search_query=CBSE+class+10+The+Human+Eye+and+the+Colourful+World+NCERT+explained+Hindi+English",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-02",
           "title": "The Human Eye and the Colourful World class 10 one shot revision",
           "url": "https://www.youtube.com/results?search_query=The+Human+Eye+and+the+Colourful+World+class+10+one+shot+revision",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-03",
           "title": "NCERT Science class 10 The Human Eye and the Colourful World animation",
           "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+The+Human+Eye+and+the+Colourful+World+animation",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         }
       ]
     },
@@ -251,40 +234,33 @@
       "teacherNarration": {
         "teleprompter": "This is your recap if you watched a video on The Human Eye and the Colourful World — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व…",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रय…",
       "teacherNarration": {
         "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's The Human Eye and the Colourful World the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
         "style": "teacher-deep",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Teacher Explanation Module: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphas…",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Boar…",
       "teacherNarration": {
         "teleprompter": "Quick recap of The Human Eye and the Colourful World. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
         "style": "teacher-revision",
-        "simplifiedSummary": "The Human Eye and the Colourful World · Revision Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     }
   ],
   "crawlMeta": {
-    "articleCount": 2,
-    "videoCount": 3,
-    "sourceUrls": [
-      "https://cbseacademic.nic.in/",
-      "https://cbseacademic.nic.in/?ref=w3use"
-    ],
-    "builtAt": "2026-06-23T20:29:06+00:00"
+    "builtAt": "2026-06-23T21:05:14+00:00",
+    "completeness": 0.78,
+    "contentPass": true
   }
 }

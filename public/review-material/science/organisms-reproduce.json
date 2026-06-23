@@ -13,22 +13,22 @@
   "chapterId": "sci-reproduction",
   "title": "How Do Organisms Reproduce?",
   "subject": "science",
-  "audioScript": "Good morning, everyone. Today we're opening How Do Organisms Reproduce?. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go.",
+  "audioScript": "Good morning, everyone. Today we're opening How Do Organisms Reproduce?. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
   "teacherAudio": {
     "speakMaterial": false,
     "defaultVoice": "teacher-female-in",
     "segments": [
       {
         "sectionId": "concept-overview",
-        "teleprompter": "Good morning, everyone. Today we're opening How Do Organisms Reproduce?. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go."
+        "teleprompter": "Good morning, everyone. Today we're opening How Do Organisms Reproduce?. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
       },
       {
         "sectionId": "key-definitions",
-        "teleprompter": "Let's lock in the must-know words for How Do Organisms Reproduce?. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's lock in the must-know words for How Do Organisms Reproduce?. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
       },
       {
         "sectionId": "core-concepts",
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "formulas-theorems",
@@ -36,11 +36,11 @@
       },
       {
         "sectionId": "solved-examples",
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "common-mistakes",
-        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - Contraceptives are devices that prevent unwanted pregnancy and help avoid STDs. - Emergency pills are those pills which can be taken after coitus to avoid pregnancy. I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "diagram-section",
@@ -64,11 +64,11 @@
       },
       {
         "sectionId": "teacher-explanation-module",
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's How Do Organisms Reproduce? the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go."
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's How Do Organisms Reproduce? the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
       },
       {
         "sectionId": "revision-summary",
-        "teleprompter": "Quick recap of How Do Organisms Reproduce?. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go."
+        "teleprompter": "Quick recap of How Do Organisms Reproduce?. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
       }
     ]
   },
@@ -76,22 +76,20 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7.\nIntroduction\nAll living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\nHere, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual reproduction, and sexual reproduction.\nWatch the video below to learn about how organisms reproduce\nReproduction\nReproduction is the process by which all organisms multiply in number and increase their population.\nTo know more about Reproduction, visit here.\nAsexual Reproduction\nAsexual reproduction is a method of reproduction that involves only one organism. A single organism reproduces two or multiple organisms on its own. This is seen in all unicellular organisms, some multicellular organisms and a few plants.\nFor more information on Plant Reproduction, watch the below video\nTo know more about…\n**Crawled sources (internet):**\n- [How do Organisms Reproduce? Class 10 Notes](https://byjus.com/cbse-notes/cbse-class-10-science-notes-chapter-8-how-do-organisms-reproduce/)\n- [Class 10 Biology Notes: How Do Organisms Reproduce? - CBSE Guidance](https://www.cbseguidanceweb.com/how-organisms-reproduce-class-10-notes/)",
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7.\nIntroduction\nAll living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\nHere, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual reproduction, and sexual reproduction.\nWatch the video below to learn about how organisms reproduce\nReproduction\nReproduction is the process by which all organisms multiply in number and increase their population.\nTo know more about Reproduction, visit here.\nAsexual Reproduction\nAsexual reproduction is a method of reproduction that involves only one organism. A single organism reproduces two or multiple organisms on its own. This is seen in all unicellular organisms, some multicellular organisms and a few plants.\nFor more information on Plant Reproduction, watch the below video\nTo know more about…",
       "teacherNarration": {
-        "teleprompter": "Good morning, everyone. Today we're opening How Do Organisms Reproduce?. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go.",
+        "teleprompter": "Good morning, everyone. Today we're opening How Do Organisms Reproduce?. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
         "style": "teacher-intro",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Concept Overview: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\n- Here, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual reproduction, and sexual reproduction.\n- Reproduction is the process by which all organisms multiply in number and increase their population.\n- Asexual reproduction is a method of reproduction that involves only one organism. A single organism reproduces two or multiple organisms on its own. This is seen in all unicellular organisms, some multicellular organisms and a few plants.\n- Fission is an asexual reproduction that is common in most unicellular organisms.\n- When the fission results in two daughter cells, it is binary fission (e.g. paramecium).\n- When fission results in many daughter cells, it is called multiple fission (e.g. Plasmodium).\n- Budding is a type of asexual reproduction in which a small cyst-like structure is formed on the parent’s body, which gives rise to a new individual.",
+      "body": "**Key definitions:**\n\n- All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\n- Here, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual reproduction, and sexual reproduction.\n- Reproduction is the process by which all organisms multiply in number and increase their population.\n- Asexual reproduction is a method of reproduction that involves only one organism. A single organism reproduces two or multiple organisms on its own. This is seen in all unicellular organisms, some multicellular organisms and a few plants.\n- Fission is an asexual reproduction that is common in most unicellular organisms.\n- When the fission results in two daughter cells, it is binary fission (e.g. paramecium).\n- When fission results in many daughter cells, it is called multiple fission (e.g. Plasmodium).\n- Budding is a type of asexual reproduction in which a small cyst-like structure is formed on the parent’s body, which gives rise to a new individual.",
       "teacherNarration": {
-        "teleprompter": "Let's lock in the must-know words for How Do Organisms Reproduce?. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's lock in the must-know words for How Do Organisms Reproduce?. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
         "style": "teacher-definitions",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Key Definitions: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
@@ -100,42 +98,38 @@
       "title": "3. Core Concepts",
       "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7.\nIntroduction\nAll living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\nHere, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual reproduction, and sexual reproduction.\nWatch the video below to learn about how organisms reproduce\nReproduction\nReproduction is the process by which all organisms multiply in number and increase their population.\nTo know more about Reproduction, visit here.\nAsexual Reproduction\nAsexual reproduction is a method of reproduction that involves only one organism. A single organism reproduces two or multiple organisms on its own. This is seen in all unicellular organisms, some multicellular organisms and a few plants.\nFor more information on Plant Reproduction, watch the below video\nTo know more about Asexual reproduction, visit here.\nSexual Reproduction\nThe mode of reproduction involves two individuals; one male and one female. They produce sex cells or gametes, which fuse to form a new organism.\nTo know more about Sexual reproduction, visit here.\nAsexual Reproduction\nFission\n- Fission is an asexual reproduction that is common in most unicellular organisms.\n- When the fission results in two daughter cells, it is binary fission (e.g. paramecium).\n- When fission results in many daughter cells, it is called multiple fission (e.g. Plasmodium).\n- Planes of fission may be different for different organisms.\nTo know more about Binary Fission, visit here.\nBudding\n- Budding is a type of asexual reproduction in which a small cyst-like structure is formed on the parent’s body, which gives rise to…",
       "teacherNarration": {
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-explain",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Core Concepts: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "Formulas can feel scary, but they're just shortcuts. For How Do Organisms Reproduce?, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
         "style": "teacher-formulas",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Formulas / Theorems: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals.\n- Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts. That is, if the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals. For example, simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration.",
+      "body": "**Worked examples:**\n\n- In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals.\n- Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts. That is, if the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals. For example, simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration.",
       "teacherNarration": {
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-example",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Solved Examples: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "**Common pitfalls mentioned:**\n\n- Contraceptives are devices that prevent unwanted pregnancy and help avoid STDs.\n- Emergency pills are those pills which can be taken after coitus to avoid pregnancy.",
+      "body": "**Common mistakes to avoid:**\n\n- Contraceptives are devices that prevent unwanted pregnancy and help avoid STDs.\n- Emergency pills are those pills which can be taken after coitus to avoid pregnancy.",
       "teacherNarration": {
-        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - Contraceptives are devices that prevent unwanted pregnancy and help avoid STDs. - Emergency pills are those pills which can be taken after coitus to avoid pregnancy. I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-coaching",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Common Mistakes: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
@@ -146,7 +140,6 @@
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For How Do Organisms Reproduce?, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Diagram Section: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 280' width='100%' role='img'><rect width='400' height='280' rx='12' fill='#0f172a'/><text x='200' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>How Do Organisms Reproduce? — cycle</text><circle cx='200' cy='60' r='34' fill='#1e293b' stroke='#22d3ee' stroke-width='1.5'/><text x='200' y='64' text-anchor='middle' fill='#e2e8f0' font-size='9'>Input</text><line x1='200' y1='60' x2='290' y2='150' stroke='#64748b' stroke-width='1.2' stroke-dasharray='4 3'/><circle cx='290' cy='150' r='34' fill='#1e293b' stroke='#22d3ee' stroke-width='1.5'/><text x='290' y='154' text-anchor='middle' fill='#e2e8f0' font-size='9'>Process</text><line x1='290' y1='150' x2='200' y2='240' stroke='#64748b' stroke-width='1.2' stroke-dasharray='4 3'/><circle cx='200' cy='240' r='34' fill='#1e293b' stroke='#22d3ee' stroke-width='1.5'/><text x='200' y='244' text-anchor='middle' fill='#e2e8f0' font-size='9'>Output</text><line x1='200' y1='240' x2='110' y2='150' stroke='#64748b' stroke-width='1.2' stroke-dasharray='4 3'/><circle cx='110' cy='150' r='34' fill='#1e293b' stroke='#22d3ee' stroke-width='1.5'/><text x='110' y='154' text-anchor='middle' fill='#e2e8f0' font-size='9'>Feedback</text><line x1='110' y1='150' x2='200' y2='60' stroke='#64748b' stroke-width='1.2' stroke-dasharray='4 3'/><circle cx='200' cy='150' r='22' fill='#0f766e' stroke='#5eead4'/><text x='200' y='154' text-anchor='middle' fill='#ecfdf5' font-size='9'>Cycle</text></svg>",
@@ -155,18 +148,16 @@
         "title": "How Do Organisms Reproduce? — biological / process cycle",
         "caption": "Chapter-specific biological / process cycle from CBSE syllabus (diagram-v2).",
         "layout": "cycle",
-        "synthetic": true,
         "nodes": []
       }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_Class 10 CBSE practice for **How Do Organisms Reproduce?**._\n\n**Practice questions from crawled sources:**\n\n1. NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce?\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **How Do Organisms Reproduce?** in 2–3 sentences. Use one example from How Do Organisms Reproduce?.\n- **MCQ (1 mark)** — MCQ: Which statement about **How Do Organisms Reproduce?** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **How Do Organisms Reproduce?**. Cover at least three syllabus topics and one real-life application.",
+      "body": "_Class 10 CBSE practice for **How Do Organisms Reproduce?**._\n\n**Practice questions:**\n\n1. NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce?\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **How Do Organisms Reproduce?** in 2–3 sentences. Use one example from How Do Organisms Reproduce?.\n- **MCQ (1 mark)** — MCQ: Which statement about **How Do Organisms Reproduce?** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **How Do Organisms Reproduce?**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
         "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on How Do Organisms Reproduce?, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Practice Questions: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "practiceQuestions": [
@@ -175,7 +166,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "How Do Organisms Reproduce?",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce?"
         },
@@ -184,7 +174,6 @@
           "type": "short",
           "marks": 2,
           "topic": "How Do Organisms Reproduce?",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **How Do Organisms Reproduce?** in 2–3 sentences. Use one example from How Do Organisms Reproduce?."
         },
@@ -193,7 +182,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "How Do Organisms Reproduce?",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **How Do Organisms Reproduce?** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -202,7 +190,6 @@
           "type": "long",
           "marks": 5,
           "topic": "How Do Organisms Reproduce?",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Long answer: Describe the main ideas of **How Do Organisms Reproduce?**. Cover at least three syllabus topics and one real-life application."
         }
@@ -211,36 +198,32 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_Everyday connections for **How Do Organisms Reproduce?** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n\n**From crawled sources:**\n\n- In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals.\n- Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts. That is, if the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals. For example, simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration.",
+      "body": "_Everyday connections for **How Do Organisms Reproduce?**._\n\n**Applications:**\n\n- **How Do Organisms Reproduce?** — In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals.\n- **How Do Organisms Reproduce?** — Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts. That is, if the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals. For example, simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration.",
       "teacherNarration": {
         "teleprompter": "Let's connect How Do Organisms Reproduce? to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Real World Applications: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "applications": [
         {
           "id": "app-01",
           "topic": "How Do Organisms Reproduce?",
-          "example": "In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals.",
-          "source": "crawled"
+          "example": "In multi-cellular organisms with relatively simple body organization, simple reproductive methods can still work. Spirogyra, for example, simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals."
         },
         {
           "id": "app-02",
           "topic": "How Do Organisms Reproduce?",
-          "example": "Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts. That is, if the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals. For example, simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration.",
-          "source": "crawled"
+          "example": "Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts. That is, if the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals. For example, simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration."
         }
       ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_Recommended video learning for **How Do Organisms Reproduce?** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 How Do Organisms Reproduce? NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+How+Do+Organisms+Reproduce%3F+NCERT+explained+Hindi+English)\n- [How Do Organisms Reproduce? class 10 one shot revision](https://www.youtube.com/results?search_query=How+Do+Organisms+Reproduce%3F+class+10+one+shot+revision)\n- [NCERT Science class 10 How Do Organisms Reproduce? animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+How+Do+Organisms+Reproduce%3F+animation)",
+      "body": "_Video learning for **How Do Organisms Reproduce?** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 How Do Organisms Reproduce? NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+How+Do+Organisms+Reproduce%3F+NCERT+explained+Hindi+English)\n- [How Do Organisms Reproduce? class 10 one shot revision](https://www.youtube.com/results?search_query=How+Do+Organisms+Reproduce%3F+class+10+one+shot+revision)\n- [NCERT Science class 10 How Do Organisms Reproduce? animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+How+Do+Organisms+Reproduce%3F+animation)",
       "teacherNarration": {
         "teleprompter": "Before you press play on any video about How Do Organisms Reproduce?, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
       "videos": [
@@ -248,22 +231,19 @@
           "id": "search-01",
           "title": "CBSE class 10 How Do Organisms Reproduce? NCERT explained Hindi English",
           "url": "https://www.youtube.com/results?search_query=CBSE+class+10+How+Do+Organisms+Reproduce%3F+NCERT+explained+Hindi+English",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-02",
           "title": "How Do Organisms Reproduce? class 10 one shot revision",
           "url": "https://www.youtube.com/results?search_query=How+Do+Organisms+Reproduce%3F+class+10+one+shot+revision",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-03",
           "title": "NCERT Science class 10 How Do Organisms Reproduce? animation",
           "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+How+Do+Organisms+Reproduce%3F+animation",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         }
       ]
     },
@@ -274,7 +254,6 @@
       "teacherNarration": {
         "teleprompter": "This is your recap if you watched a video on How Do Organisms Reproduce? — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
@@ -283,9 +262,8 @@
       "title": "12. Teacher Explanation Module",
       "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7.\nIntroduction\nAll living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\nHere, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual reproduction, and sexual reproduction.\nWatch the video below to learn about how organisms reproduce\nReproduction\nReproduction is the process by which all organisms multiply in number and increase their population.\nTo know more about Reproduction, visit here.\nAsexual Reproduction\nAsexual reproduction is…",
       "teacherNarration": {
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's How Do Organisms Reproduce? the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go.",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's How Do Organisms Reproduce? the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
         "style": "teacher-deep",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Teacher Explanation Module: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     },
@@ -294,20 +272,15 @@
       "title": "13. Revision Summary",
       "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7.\nIntroduction\nAll living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential process for the existence of a species and the continuation of life.\nHere, in this chapter, we will learn about how different unicellular and multicellular organisms, such as bacteria, algae, plants, animals, and human beings, reproduce. Learn what the different reproductive structures are and about the modes of reproduction, such as cell division, vegetative reproduction, asexual rep…",
       "teacherNarration": {
-        "teleprompter": "Quick recap of How Do Organisms Reproduce?. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 7. Introduction All living organisms multiply or reproduce and produce offspring of a similar kind. Reproduction is an essential… I'll translate that into simpler language as we go.",
+        "teleprompter": "Quick recap of How Do Organisms Reproduce?. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
         "style": "teacher-revision",
-        "simplifiedSummary": "How Do Organisms Reproduce? · Revision Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       }
     }
   ],
   "crawlMeta": {
-    "articleCount": 2,
-    "videoCount": 3,
-    "sourceUrls": [
-      "https://byjus.com/cbse-notes/cbse-class-10-science-notes-chapter-8-how-do-organisms-reproduce/",
-      "https://www.cbseguidanceweb.com/how-organisms-reproduce-class-10-notes/"
-    ],
-    "builtAt": "2026-06-23T20:29:06+00:00"
+    "builtAt": "2026-06-23T21:05:14+00:00",
+    "completeness": 0.89,
+    "contentPass": true
   }
 }

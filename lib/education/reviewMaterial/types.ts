@@ -110,9 +110,8 @@ export type ChapterReviewContent = {
   teacherAudio?: TeacherAudio;
   sections: ChapterSection[];
   crawlMeta?: {
-    articleCount: number;
-    videoCount: number;
-    sourceUrls: string[];
-    builtAt: string;
+    builtAt?: string;
+    completeness?: number;
+    contentPass?: boolean;
   };
 };

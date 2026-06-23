@@ -19,34 +19,34 @@
   "chapterId": "math-circles",
   "title": "Circles",
   "subject": "math",
-  "audioScript": "Good morning, everyone. Today we're opening Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Tangent to a circle, Number of tangents from external point, and Angle properties. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go.",
+  "audioScript": "Good morning, everyone. Today we're opening Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Tangent to a circle, Number of tangents from external point, and Angle properties. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
   "teacherAudio": {
     "speakMaterial": false,
     "defaultVoice": "teacher-female-in",
     "segments": [
       {
         "sectionId": "concept-overview",
-        "teleprompter": "Good morning, everyone. Today we're opening Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Tangent to a circle, Number of tangents from external point, and Angle properties. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go."
+        "teleprompter": "Good morning, everyone. Today we're opening Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Tangent to a circle, Number of tangents from external point, and Angle properties. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
       },
       {
         "sectionId": "key-definitions",
-        "teleprompter": "Let's lock in the must-know words for Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's lock in the must-know words for Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
       },
       {
         "sectionId": "core-concepts",
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "formulas-theorems",
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the… I'll translate that into simpler language as we go."
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
       },
       {
         "sectionId": "solved-examples",
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "common-mistakes",
-        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - Van Brummelen, Glen (2018). \"The end of an error: Bianchini, Regiomontanus, and the tabulation of stellar coordinates\". Archive for History of Exact Sciences. 72 (5): 547–563.… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "diagram-section",
@@ -70,11 +70,11 @@
       },
       {
         "sectionId": "teacher-explanation-module",
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go."
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
       },
       {
         "sectionId": "revision-summary",
-        "teleprompter": "Quick recap of Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go."
+        "teleprompter": "Quick recap of Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
       }
     ]
   },
@@ -82,22 +82,20 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\nThe point where the tangent line and the curve meet or intersect is called the point of tangency. The tangent line is said to be \"going in the same direction\" as the curve, and is thus the best straight-line approximation to the curve at that point. The tangent line to a point on a differentiable curve can also be thought of as a tangent line approximation, the graph of the affine function that best approximates the original function at the given point.[3]\nSimilarly, the tangent plane to a surface at a given point is the plane that \"just touches\" the surface at that point. The concept of a tangent is one of the most fundamental notions in differenti…\n**Crawled sources (internet):**\n- [Tangent - Wikipedia](https://en.wikipedia.org/wiki/Tangent)\n- [Trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Trigonometric_functions)",
+      "body": "In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\nThe point where the tangent line and the curve meet or intersect is called the point of tangency. The tangent line is said to be \"going in the same direction\" as the curve, and is thus the best straight-line approximation to the curve at that point. The tangent line to a point on a differentiable curve can also be thought of as a tangent line approximation, the graph of the affine function that best approximates the original function at the given point.[3]\nSimilarly, the tangent plane to a surface at a given point is the plane that \"just touches\" the surface at that point. The concept of a tangent is one of the most fundamental notions in differenti…",
       "teacherNarration": {
-        "teleprompter": "Good morning, everyone. Today we're opening Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Tangent to a circle, Number of tangents from external point, and Angle properties. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go.",
+        "teleprompter": "Good morning, everyone. Today we're opening Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Tangent to a circle, Number of tangents from external point, and Angle properties. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
         "style": "teacher-intro",
-        "simplifiedSummary": "Circles · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n-  In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\n- Similarly, the tangent plane to a surface at a given point is the plane that \"just touches\" the surface at that point. The concept of a tangent is one of the most fundamental notions in differential geometry and has been extensively generalized; .\n- In the 1630s Fermat developed the technique of adequality to calculate tangents and other problems in analysis and used this to calculate tangents to the parabola. The technique of adequality is similar to taking the difference between and and dividing by a power of . Independently Descartes used his method of normals based on the observation that the radius of a circle is always normal to the circle itself.[7]\n- An 1828 definition of a tangent was \"a right line which touches a curve, but which when produced, does not cut it\".[10] This old definition prevents inflection points from having any tangent. It has been dismissed and the modern definitions are equivalent to those of Leibniz, who defined the tangent line as the line through a pair of infinitely close points on the curve; in modern terminology, this is expressed as: the tangent to a curve at a point P on the curve is the limit of the line passing through two points of the curve when these two points tends to P.\n- The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- The geometrical idea of the tangent line as the limit of secant lines serves as the motivation for analytical methods that are used to find tangent lines explicitly. The question of finding the tangent line to a graph, or the tangent line problem, was one of the central questions leading to the development of calculus in the 17th century. In the second book of his Geometry, René Descartes[11] said of the problem of constructing the tangent to a curve, \"And I dare say that this is not only the most useful and most general problem in geometry that I know, but even that I have ever desired to know\".[12]\n- Suppose that a curve is given as the graph of a function, y = f(x). To find the tangent line at the point p = (a, f(a)), consider another nearby point q = (a + h, f(a + h)) on the curve. The slope of the secant line passing through p and q is equal to the difference quotient",
+      "body": "**Key definitions:**\n\n- In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\n- Similarly, the tangent plane to a surface at a given point is the plane that \"just touches\" the surface at that point. The concept of a tangent is one of the most fundamental notions in differential geometry and has been extensively generalized; .\n- In the 1630s Fermat developed the technique of adequality to calculate tangents and other problems in analysis and used this to calculate tangents to the parabola. The technique of adequality is similar to taking the difference between and and dividing by a power of . Independently Descartes used his method of normals based on the observation that the radius of a circle is always normal to the circle itself.[7]\n- An 1828 definition of a tangent was \"a right line which touches a curve, but which when produced, does not cut it\".[10] This old definition prevents inflection points from having any tangent. It has been dismissed and the modern definitions are equivalent to those of Leibniz, who defined the tangent line as the line through a pair of infinitely close points on the curve; in modern terminology, this is expressed as: the tangent to a curve at a point P on the curve is the limit of the line passing through two points of the curve when these two points tends to P.\n- The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- The geometrical idea of the tangent line as the limit of secant lines serves as the motivation for analytical methods that are used to find tangent lines explicitly. The question of finding the tangent line to a graph, or the tangent line problem, was one of the central questions leading to the development of calculus in the 17th century. In the second book of his Geometry, René Descartes[11] said of the problem of constructing the tangent to a curve, \"And I dare say that this is not only the most useful and most general problem in geometry that I know, but even that I have ever desired to know\".[12]\n- Suppose that a curve is given as the graph of a function, y = f(x). To find the tangent line at the point p = (a, f(a)), consider another nearby point q = (a + h, f(a + h)) on the curve. The slope of the secant line passing through p and q is equal to the difference quotient",
       "teacherNarration": {
-        "teleprompter": "Let's lock in the must-know words for Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's lock in the must-know words for Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
         "style": "teacher-definitions",
-        "simplifiedSummary": "Circles · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
@@ -106,42 +104,38 @@
       "title": "3. Core Concepts",
       "body": "In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\nThe point where the tangent line and the curve meet or intersect is called the point of tangency. The tangent line is said to be \"going in the same direction\" as the curve, and is thus the best straight-line approximation to the curve at that point. The tangent line to a point on a differentiable curve can also be thought of as a tangent line approximation, the graph of the affine function that best approximates the original function at the given point.[3]\nSimilarly, the tangent plane to a surface at a given point is the plane that \"just touches\" the surface at that point. The concept of a tangent is one of the most fundamental notions in differential geometry and has been extensively generalized; .\nThe word tangent comes from the Latin tangens (meaning \"touching\"), the present participle of tangere (meaning \"to touch\").[4]\nEuclid makes several references to the tangent (ἐφαπτομένη ephaptoménē) to a circle in book III of the Elements (c. 300 BC).[5] In Apollonius' work Conics (c. 225 BC) he defines a tangent as being a line such that no other straight line could fall between it and the curve.[6]\nArchimedes (c. 287 – c. 212 BC) found the tangent to an Archimedean spiral by considering the path of a point moving along the curve.[6]\nIn the 1630s Fermat developed the technique of adequality to calculate tangents and other problems in analysis and used this to calculate tangents to the parabola. The technique of adequality is similar to t…",
       "teacherNarration": {
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-explain",
-        "simplifiedSummary": "Circles · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(\n- Suppose that a curve is given as the graph of a function, y = f(x). To find the tangent line at the point p = (a, f(a)), consider another nearby point q = (a + h, f(a + h)) on the curve. The slope of the secant line passing through p\n- To make the preceding reasoning rigorous, one has to explain what is meant by the difference quotient approaching a certain limiting value k. The precise mathematical formulation was given by Cauchy in the 19th century and is based on the notion of limit. Suppose that the graph does not have a break or a sharp edge at p and it is neither plumb nor too wiggly near p. Then there is a unique value of k such that, as h approaches 0, the difference quotient gets closer and closer to k, and the distance between them becomes negligible compared with the size of h, if h is small enough. This leads to the definition of the slope of the tangent line to the graph as the limit of the difference quotients for the function f. This limit is the derivative of the function f at x = a, denoted f ′(a). Using derivatives, the equation of the tangent line can be s\n- The graph y = x1/3 illustrates the first possibility: here the difference quotient at a = 0 is equal to h1/3/h = h−2/3, which becomes very large as h approaches 0. This curve has a tangent lin\n- The graph y = x2/3 illustrates another possibility: this graph has a cusp at the origin. This means that, when h approaches 0, the difference quotient at a = 0 approaches plus or minus infinity depending on the sign of x. Thus both branches of the curve are near to the half vertical line for which y=0, but none is near to the negative part of this line. Basically, there is no ta\n- The graph y = |x| of the absolute value function consists of two straight lines with differen\n- When the curve is given by y = f(x) then the slope of the tangent is so by the point–slope formula the equatio\n- When the curve is given by y = f(x), the tangent line's equation can also be found[14] by using polynomial div",
+      "body": "**Formulas and relations:**\n\n- In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(\n- Suppose that a curve is given as the graph of a function, y = f(x). To find the tangent line at the point p = (a, f(a)), consider another nearby point q = (a + h, f(a + h)) on the curve. The slope of the secant line passing through p\n- To make the preceding reasoning rigorous, one has to explain what is meant by the difference quotient approaching a certain limiting value k. The precise mathematical formulation was given by Cauchy in the 19th century and is based on the notion of limit. Suppose that the graph does not have a break or a sharp edge at p and it is neither plumb nor too wiggly near p. Then there is a unique value of k such that, as h approaches 0, the difference quotient gets closer and closer to k, and the distance between them becomes negligible compared with the size of h, if h is small enough. This leads to the definition of the slope of the tangent line to the graph as the limit of the difference quotients for the function f. This limit is the derivative of the function f at x = a, denoted f ′(a). Using derivatives, the equation of the tangent line can be s\n- The graph y = x1/3 illustrates the first possibility: here the difference quotient at a = 0 is equal to h1/3/h = h−2/3, which becomes very large as h approaches 0. This curve has a tangent lin\n- The graph y = x2/3 illustrates another possibility: this graph has a cusp at the origin. This means that, when h approaches 0, the difference quotient at a = 0 approaches plus or minus infinity depending on the sign of x. Thus both branches of the curve are near to the half vertical line for which y=0, but none is near to the negative part of this line. Basically, there is no ta\n- The graph y = |x| of the absolute value function consists of two straight lines with differen\n- When the curve is given by y = f(x) then the slope of the tangent is so by the point–slope formula the equatio\n- When the curve is given by y = f(x), the tangent line's equation can also be found[14] by using polynomial div",
       "teacherNarration": {
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the… I'll translate that into simpler language as we go.",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
         "style": "teacher-formulas",
-        "simplifiedSummary": "Circles · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- For example, the equation of the limaçon trisectrix shown to the right is\n- When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]\n- Sometimes the slopes of the left and right tangent lines are equal, so the tangent lines coincide. This is true, for example, for the curve y = x 2/3, for which both the left and right derivatives at x = 0 are infinite; both the left and right tangent lines have equation x = 0.\n- Conventionally, an abbreviation of each trigonometric function's name is used as its symbol in formulas. Today, the most common versions of these abbreviations are \"sin\" for sine, \"cos\" for cosine, \"tan\" or \"tg\" for tangent, \"sec\" for secant, \"csc\" or \"cosec\" for cosecant, and \"cot\" or \"ctg\" for cotangent. Historically, these abbreviations were first used in prose sentences to indicate particular line segments or their lengths related to an arc of an arbitrary circle, and later to indicate ratios of lengths, but as the function concept developed in the 17th–18th century, they began to be considered as functions of real-number-valued angle measures, and written with functional notation, for example sin(x). Parentheses are still often omitted to reduce clutter, but are sometimes necessary; for example the expression would typically be interpreted to mean so parentheses are required to express",
+      "body": "**Worked examples:**\n\n- The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- For example, the equation of the limaçon trisectrix shown to the right is\n- When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]\n- Sometimes the slopes of the left and right tangent lines are equal, so the tangent lines coincide. This is true, for example, for the curve y = x 2/3, for which both the left and right derivatives at x = 0 are infinite; both the left and right tangent lines have equation x = 0.\n- Conventionally, an abbreviation of each trigonometric function's name is used as its symbol in formulas. Today, the most common versions of these abbreviations are \"sin\" for sine, \"cos\" for cosine, \"tan\" or \"tg\" for tangent, \"sec\" for secant, \"csc\" or \"cosec\" for cosecant, and \"cot\" or \"ctg\" for cotangent. Historically, these abbreviations were first used in prose sentences to indicate particular line segments or their lengths related to an arc of an arbitrary circle, and later to indicate ratios of lengths, but as the function concept developed in the 17th–18th century, they began to be considered as functions of real-number-valued angle measures, and written with functional notation, for example sin(x). Parentheses are still often omitted to reduce clutter, but are sometimes necessary; for example the expression would typically be interpreted to mean so parentheses are required to express",
       "teacherNarration": {
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-example",
-        "simplifiedSummary": "Circles · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "**Common pitfalls mentioned:**\n\n- Van Brummelen, Glen (2018). \"The end of an error: Bianchini, Regiomontanus, and the tabulation of stellar coordinates\". Archive for History of Exact Sciences. 72 (5): 547–563. doi:10.1007/s00407-018-0214-2. JSTOR 45211959. S2CID 240294796.",
+      "body": "**Common mistakes to avoid:**\n\n- Van Brummelen, Glen (2018). \"The end of an error: Bianchini, Regiomontanus, and the tabulation of stellar coordinates\". Archive for History of Exact Sciences. 72 (5): 547–563. doi:10.1007/s00407-018-0214-2. JSTOR 45211959. S2CID 240294796.",
       "teacherNarration": {
-        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - Van Brummelen, Glen (2018). \"The end of an error: Bianchini, Regiomontanus, and the tabulation of stellar coordinates\". Archive for History of Exact Sciences. 72 (5): 547–563.… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-coaching",
-        "simplifiedSummary": "Circles · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
@@ -152,7 +146,6 @@
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Circles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
-        "simplifiedSummary": "Circles · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       },
       "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' width='100%' role='img'><rect width='440' height='220' rx='12' fill='#0f172a'/><text x='220' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Circles — ray / geometry view</text><line x1='30' y1='130' x2='410' y2='130' stroke='#475569' stroke-width='1'/><line x1='80' y1='130' x2='80' y2='90' stroke='#fbbf24' stroke-width='3'/><text x='80' y='82' text-anchor='middle' fill='#fbbf24' font-size='9'>Object</text><path d='M220 60 Q235 130 220 200' fill='none' stroke='#38bdf8' stroke-width='2'/><text x='235' y='125' fill='#38bdf8' font-size='9'>Mirror/Lens</text><line x1='80' y1='100' x2='218' y2='115' stroke='#f472b6' stroke-width='2'/><line x1='222' y1='118' x2='360' y2='85' stroke='#a78bfa' stroke-width='2'/><text x='300' y='78' fill='#a78bfa' font-size='9'>Image ray</text><text x='220' y='210' text-anchor='middle' fill='#94a3b8' font-size='10'>Tangent to a circle</text></svg>",
@@ -161,7 +154,6 @@
         "title": "Circles — ray or geometry diagram",
         "caption": "Chapter-specific ray or geometry diagram from CBSE syllabus (diagram-v2).",
         "layout": "ray",
-        "synthetic": true,
         "nodes": [
           {
             "id": "n0",
@@ -173,11 +165,10 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_Class 10 CBSE practice for **Circles**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Tangent to a circle** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Tangent to a circle** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Number of tangents from external point** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Number of tangents from external point** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Angle properties** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Angle properties** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **Tangent perpendicular to radius at point of contact**, solve a standard board-style problem from Circles. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Circles**. Cover at least three syllabus topics and one real-life application.",
+      "body": "_Class 10 CBSE practice for **Circles**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Tangent to a circle** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Tangent to a circle** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Number of tangents from external point** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Number of tangents from external point** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Angle properties** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Angle properties** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **Tangent perpendicular to radius at point of contact**, solve a standard board-style problem from Circles. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Circles**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
         "teleprompter": "Time to practise — not to panic. I've lined up about 8 questions on Circles, covering Tangent to a circle, Number of tangents from external point, and Angle properties. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
-        "simplifiedSummary": "Circles · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       },
       "practiceQuestions": [
@@ -186,7 +177,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Tangent to a circle",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Tangent to a circle** in 2–3 sentences. Use one example from Circles."
         },
@@ -195,7 +185,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "Tangent to a circle",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **Tangent to a circle** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -204,7 +193,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Number of tangents from external point",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Number of tangents from external point** in 2–3 sentences. Use one example from Circles."
         },
@@ -213,7 +201,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "Number of tangents from external point",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **Number of tangents from external point** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -222,7 +209,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Angle properties",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Angle properties** in 2–3 sentences. Use one example from Circles."
         },
@@ -231,7 +217,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "Angle properties",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **Angle properties** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -240,7 +225,6 @@
           "type": "numerical",
           "marks": 3,
           "topic": "Circles",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Using **Tangent perpendicular to radius at point of contact**, solve a standard board-style problem from Circles. Show all working steps."
         },
@@ -249,7 +233,6 @@
           "type": "long",
           "marks": 5,
           "topic": "Tangent to a circle",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Long answer: Describe the main ideas of **Circles**. Cover at least three syllabus topics and one real-life application."
         }
@@ -258,66 +241,57 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_Everyday connections for **Circles** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Tangent to a circle** — Look for **Tangent to a circle** in objects and processes around you — at home, in school labs, or in local industry.\n- **Number of tangents from external point** — Look for **Number of tangents from external point** in objects and processes around you — at home, in school labs, or in local industry.\n- **Angle properties** — Look for **Angle properties** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- For example, the equation of the limaçon trisectrix shown to the right is\n- When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]",
+      "body": "_Everyday connections for **Circles**._\n\n**Applications:**\n\n- **Tangent to a circle** — Look for **Tangent to a circle** in objects and processes around you — at home, in school labs, or in local industry.\n- **Number of tangents from external point** — Look for **Number of tangents from external point** in objects and processes around you — at home, in school labs, or in local industry.\n- **Angle properties** — Look for **Angle properties** in objects and processes around you — at home, in school labs, or in local industry.\n- **Circles** — The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- **Circles** — Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- **Circles** — For example, the equation of the limaçon trisectrix shown to the right is\n- **Circles** — When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]",
       "teacherNarration": {
         "teleprompter": "Let's connect Circles to real life — not just the textbook. I'll walk through everyday examples for Tangent to a circle, Number of tangents from external point, and Angle properties: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
-        "simplifiedSummary": "Circles · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       },
       "applications": [
         {
           "id": "app-01",
           "topic": "Tangent to a circle",
-          "example": "Look for **Tangent to a circle** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Tangent to a circle** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-02",
           "topic": "Number of tangents from external point",
-          "example": "Look for **Number of tangents from external point** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Number of tangents from external point** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-03",
           "topic": "Angle properties",
-          "example": "Look for **Angle properties** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Angle properties** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-04",
           "topic": "Circles",
-          "example": "The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.",
-          "source": "crawled"
+          "example": "The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex."
         },
         {
           "id": "app-05",
           "topic": "Circles",
-          "example": "Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.",
-          "source": "crawled"
+          "example": "Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines."
         },
         {
           "id": "app-06",
           "topic": "Circles",
-          "example": "For example, the equation of the limaçon trisectrix shown to the right is",
-          "source": "crawled"
+          "example": "For example, the equation of the limaçon trisectrix shown to the right is"
         },
         {
           "id": "app-07",
           "topic": "Circles",
-          "example": "When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]",
-          "source": "crawled"
+          "example": "When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]"
         }
       ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_Recommended video learning for **Circles** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Circles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Circles+NCERT+explained+Hindi+English)\n- [Circles class 10 one shot revision](https://www.youtube.com/results?search_query=Circles+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Circles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Circles+animation)",
+      "body": "_Video learning for **Circles** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Circles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Circles+NCERT+explained+Hindi+English)\n- [Circles class 10 one shot revision](https://www.youtube.com/results?search_query=Circles+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Circles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Circles+animation)",
       "teacherNarration": {
         "teleprompter": "Before you press play on any video about Circles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
-        "simplifiedSummary": "Circles · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       },
       "videos": [
@@ -325,22 +299,19 @@
           "id": "search-01",
           "title": "CBSE class 10 Circles NCERT explained Hindi English",
           "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Circles+NCERT+explained+Hindi+English",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-02",
           "title": "Circles class 10 one shot revision",
           "url": "https://www.youtube.com/results?search_query=Circles+class+10+one+shot+revision",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-03",
           "title": "NCERT Mathematics class 10 Circles animation",
           "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Circles+animation",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         }
       ]
     },
@@ -351,7 +322,6 @@
       "teacherNarration": {
         "teleprompter": "This is your recap if you watched a video on Circles — or if you prefer reading first. I'll walk through the lesson flow: Tangent to a circle, Number of tangents from external point, and Angle properties, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
-        "simplifiedSummary": "Circles · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
@@ -360,9 +330,8 @@
       "title": "12. Teacher Explanation Module",
       "body": "In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\nThe point where the tangent line and the curve meet or intersect is called the point of tangency. The tangent line is said to be \"going in the same direction\" as the curve, and is thus the best straight-line approximation to the curve at that point. The tangent line to a point on a differentiable curve can also be thought of as a tangent line approximatio…",
       "teacherNarration": {
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go.",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
         "style": "teacher-deep",
-        "simplifiedSummary": "Circles · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     },
@@ -371,20 +340,15 @@
       "title": "13. Revision Summary",
       "body": "In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of infinitely close points on the curve.[1][2] More precisely, a straight line is tangent to the curve y = f(x) at a point x = c if the line passes through the point (c, f(c)) on the curve and has slope f'(c), where f' is the derivative of f. A similar definition applies to space curves and curves in n-dimensional Euclidean space.\nThe point where the tangent line and the curve meet or in…",
       "teacherNarration": {
-        "teleprompter": "Quick recap of Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: In geometry, the tangent line (or simply tangent) to a plane curve at a given point is, intuitively, the straight line that \"just touches\" the curve at that point. Leibniz defined it as the line through a pair of… I'll translate that into simpler language as we go.",
+        "teleprompter": "Quick recap of Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
         "style": "teacher-revision",
-        "simplifiedSummary": "Circles · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       }
     }
   ],
   "crawlMeta": {
-    "articleCount": 2,
-    "videoCount": 3,
-    "sourceUrls": [
-      "https://en.wikipedia.org/wiki/Tangent",
-      "https://en.wikipedia.org/wiki/Trigonometric_functions"
-    ],
-    "builtAt": "2026-06-23T20:29:10+00:00"
+    "builtAt": "2026-06-23T21:05:17+00:00",
+    "completeness": 0.945,
+    "contentPass": true
   }
 }

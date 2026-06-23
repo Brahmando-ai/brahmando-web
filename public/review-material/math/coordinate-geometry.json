@@ -20,30 +20,30 @@
   "chapterId": "math-coordinate",
   "title": "Coordinate Geometry",
   "subject": "math",
-  "audioScript": "Good morning, everyone. Today we're opening Coordinate Geometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about Distance formula, Section formula, and Area of triangle. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go.",
+  "audioScript": "Good morning, everyone. Today we're opening Coordinate Geometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about Distance formula, Section formula, and Area of triangle. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
   "teacherAudio": {
     "speakMaterial": false,
     "defaultVoice": "teacher-female-in",
     "segments": [
       {
         "sectionId": "concept-overview",
-        "teleprompter": "Good morning, everyone. Today we're opening Coordinate Geometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about Distance formula, Section formula, and Area of triangle. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go."
+        "teleprompter": "Good morning, everyone. Today we're opening Coordinate Geometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about Distance formula, Section formula, and Area of triangle. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
       },
       {
         "sectionId": "key-definitions",
-        "teleprompter": "Let's lock in the must-know words for Coordinate Geometry. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's lock in the must-know words for Coordinate Geometry. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
       },
       {
         "sectionId": "core-concepts",
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "formulas-theorems",
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Coordinate Geometry, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - Distance AB = 6 – (-2) = 8 units - Distance CD = 4 – (-8) = 12 units - PQ2 = PT2 + QT2 = (x2 – x1)2 + (y2 – y1)2 - PQ = √[x2 – x1)2 + (y2 – y1)2] - d = √[x2 – x1)2+(y2 – y1)2] - 4 =… I'll translate that into simpler language as we go."
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Coordinate Geometry, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
       },
       {
         "sectionId": "solved-examples",
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "common-mistakes",
@@ -71,11 +71,11 @@
       },
       {
         "sectionId": "teacher-explanation-module",
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Coordinate Geometry the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go."
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Coordinate Geometry the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
       },
       {
         "sectionId": "revision-summary",
-        "teleprompter": "Quick recap of Coordinate Geometry. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go."
+        "teleprompter": "Quick recap of Coordinate Geometry. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
       }
     ]
   },
@@ -83,22 +83,20 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here\nClass 10 Maths Chapter 7 Coordinate Geometry Notes\nThe complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\nStudents can refer to the short notes and MCQ questions along with a separate solution pdf of this chapter for quick revision from the links below:\n- Coordinate Geometry Short Notes\n- Coordinate Geometry MCQ Practice Questions\n- Coordinate Geometry MCQ Practice Solutions\nBasics of Coordinate Geometry\nFor more information on the Basics of Coordinate Geometry, watch the below video\nTo know more about Coordinate Geometry, vis…\n**Crawled sources (internet):**\n- [Coordinate Geometry For Class 10](https://byjus.com/maths/coordinate-geometry-for-class-10/)\n- [NCERT solutions for Class 10 Maths Chapter 7 Coordinate Geometry](https://byjus.com/ncert-solutions-class-10-maths/chapter-7-coordinate-geometry/)\n- [Coordinate Geometry Class 10 Notes Maths Chapter 7](https://www.learncbse.in/coordinate-geometry-class-10-notes/)",
+      "body": "CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here\nClass 10 Maths Chapter 7 Coordinate Geometry Notes\nThe complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\nStudents can refer to the short notes and MCQ questions along with a separate solution pdf of this chapter for quick revision from the links below:\n- Coordinate Geometry Short Notes\n- Coordinate Geometry MCQ Practice Questions\n- Coordinate Geometry MCQ Practice Solutions\nBasics of Coordinate Geometry\nFor more information on the Basics of Coordinate Geometry, watch the below video\nTo know more about Coordinate Geometry, vis…",
       "teacherNarration": {
-        "teleprompter": "Good morning, everyone. Today we're opening Coordinate Geometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about Distance formula, Section formula, and Area of triangle. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go.",
+        "teleprompter": "Good morning, everyone. Today we're opening Coordinate Geometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about Distance formula, Section formula, and Area of triangle. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
         "style": "teacher-intro",
-        "simplifiedSummary": "Coordinate Geometry · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\n- A pair of numbers locate points on a plane called the coordinates. The distance of a point from the y-axis is known as abscissa or x-coordinate. The distance of a point from the x-axis is called ordinate or y-coordinate.\n- Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\n- The distance between two points that are on the same axis (x-axis or y-axis) is given by the difference between their ordinates if they are on the y-axis, else by the difference between their abscissa if they are on the x-axis.\n- ΔPTQ is right-angled at T.\n- Distance between any two points (x1, y1) and (x2, y2) is given by\n- Where d is the distance between the points (x1,y1) and (x2,y2).\n- If the point P(x, y) divides the line segment joining A(x1, y1) and B(x2, y2) internally in the ratio m:n, then, the coordinates of P are given by the section formula as:",
+      "body": "**Key definitions:**\n\n- The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\n- A pair of numbers locate points on a plane called the coordinates. The distance of a point from the y-axis is known as abscissa or x-coordinate. The distance of a point from the x-axis is called ordinate or y-coordinate.\n- Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\n- The distance between two points that are on the same axis (x-axis or y-axis) is given by the difference between their ordinates if they are on the y-axis, else by the difference between their abscissa if they are on the x-axis.\n- ΔPTQ is right-angled at T.\n- Distance between any two points (x1, y1) and (x2, y2) is given by\n- Where d is the distance between the points (x1,y1) and (x2,y2).\n- If the point P(x, y) divides the line segment joining A(x1, y1) and B(x2, y2) internally in the ratio m:n, then, the coordinates of P are given by the section formula as:",
       "teacherNarration": {
-        "teleprompter": "Let's lock in the must-know words for Coordinate Geometry. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's lock in the must-know words for Coordinate Geometry. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
         "style": "teacher-definitions",
-        "simplifiedSummary": "Coordinate Geometry · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
@@ -107,42 +105,38 @@
       "title": "3. Core Concepts",
       "body": "CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here\nClass 10 Maths Chapter 7 Coordinate Geometry Notes\nThe complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\nStudents can refer to the short notes and MCQ questions along with a separate solution pdf of this chapter for quick revision from the links below:\n- Coordinate Geometry Short Notes\n- Coordinate Geometry MCQ Practice Questions\n- Coordinate Geometry MCQ Practice Solutions\nBasics of Coordinate Geometry\nFor more information on the Basics of Coordinate Geometry, watch the below video\nTo know more about Coordinate Geometry, visit here.\nPoints on a Cartesian Plane\nA pair of numbers locate points on a plane called the coordinates. The distance of a point from the y-axis is known as abscissa or x-coordinate. The distance of a point from the x-axis is called ordinate or y-coordinate.\nExample: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\nDistance Formula\nDistance between Two Points on the Same Coordinate Axes\nThe distance between two points that are on the same axis (x-axis or y-axis) is given by the difference between their ordinates if they are on the y-axis, else by the difference between their abscissa if they are on the x-axis.\nDistance AB = 6 – (-2) = 8 units\nDistance CD =…",
       "teacherNarration": {
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-explain",
-        "simplifiedSummary": "Coordinate Geometry · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- Distance AB = 6 – (-2) = 8 units\n- Distance CD = 4 – (-8) = 12 units\n- PQ2 = PT2 + QT2 = (x2 – x1)2 + (y2 – y1)2\n- PQ = √[x2 – x1)2 + (y2 – y1)2]\n- d = √[x2 – x1)2+(y2 – y1)2]\n- 4 = (3k-6)/(k+1)\n- – 4k – 4 = 3k – 6\n- k : 1 = 2 : 7",
+      "body": "**Formulas and relations:**\n\n- Distance AB = 6 – (-2) = 8 units\n- Distance CD = 4 – (-8) = 12 units\n- PQ2 = PT2 + QT2 = (x2 – x1)2 + (y2 – y1)2\n- PQ = √[x2 – x1)2 + (y2 – y1)2]\n- d = √[x2 – x1)2+(y2 – y1)2]\n- 4 = (3k-6)/(k+1)\n- – 4k – 4 = 3k – 6\n- k : 1 = 2 : 7",
       "teacherNarration": {
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Coordinate Geometry, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - Distance AB = 6 – (-2) = 8 units - Distance CD = 4 – (-8) = 12 units - PQ2 = PT2 + QT2 = (x2 – x1)2 + (y2 – y1)2 - PQ = √[x2 – x1)2 + (y2 – y1)2] - d = √[x2 – x1)2+(y2 – y1)2] - 4 =… I'll translate that into simpler language as we go.",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Coordinate Geometry, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
         "style": "teacher-formulas",
-        "simplifiedSummary": "Coordinate Geometry · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\n- Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\n- Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?\n- Example: What is the midpoint of line segment PQ whose coordinates are P (-3, 3) and Q (1, 4), respectively.\n- Example: Find the coordinates of the points of trisection of the line segment joining the points A(2, – 2) and B(– 7, 4).\n- Example: Find the coordinates of the centroid of a triangle whose vertices are given as (-1, -3), (2, 1) and (8, -4)",
+      "body": "**Worked examples:**\n\n- The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\n- Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\n- Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?\n- Example: What is the midpoint of line segment PQ whose coordinates are P (-3, 3) and Q (1, 4), respectively.\n- Example: Find the coordinates of the points of trisection of the line segment joining the points A(2, – 2) and B(– 7, 4).\n- Example: Find the coordinates of the centroid of a triangle whose vertices are given as (-1, -3), (2, 1) and (8, -4)",
       "teacherNarration": {
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-example",
-        "simplifiedSummary": "Coordinate Geometry · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-coaching",
-        "simplifiedSummary": "Coordinate Geometry · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
@@ -153,7 +147,6 @@
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Coordinate Geometry, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
-        "simplifiedSummary": "Coordinate Geometry · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       },
       "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='100%' role='img'><rect width='400' height='260' rx='12' fill='#0f172a'/><text x='200' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Coordinate Geometry — formula map</text><polygon points='200,112 224,132 224,160 200,180 176,160 176,132' fill='#1e3a5f' stroke='#38bdf8'/><text x='200' y='145' text-anchor='middle' fill='#e2e8f0' font-size='9'>Key</text><line x1='200' y1='140' x2='80' y2='90' stroke='#475569' stroke-width='1'/><rect x='25' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='80' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>d = sqrt((x2-x1)^2</text><line x1='200' y1='140' x2='320' y2='90' stroke='#475569' stroke-width='1'/><rect x='265' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='320' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>Section: ((m1x2+m2</text></svg>",
@@ -162,7 +155,6 @@
         "title": "Coordinate Geometry — formula relationship map",
         "caption": "Chapter-specific formula relationship map from CBSE syllabus (diagram-v2).",
         "layout": "formula-hub",
-        "synthetic": true,
         "nodes": [
           {
             "id": "n0",
@@ -178,11 +170,10 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_Class 10 CBSE practice for **Coordinate Geometry**._\n\n**Practice questions from crawled sources:**\n\n1. 1. Find the distance between the following pairs of points:\n2. 2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns, A and B, discussed in Section 7.2?\n3. 3. Determine if the points (1, 5), (2, 3) and (-2, -11) are collinear.\n4. 4. Check whether (5, – 2), (6, 4) and (7, – 2) are the vertices of an isosceles triangle.\n5. 5. In a classroom, 4 friends are seated at points A, B, C and D, as shown in Fig. 7.8. Champa and Chameli walk into the class, and after observing for a few minutes, Champa asks Chameli, “Don’t you think ABCD is a square?” Chameli disagrees. Using the distance formula, find which of them is correct.\n6. 6. Name the type of quadrilateral formed, if any, by the following points, and give reasons for your answer:\n7. (i) Let the points (- 1, – 2), (1, 0), ( – 1, 2), and ( – 3, 0) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n8. (ii) Let the points (- 3, 5), (3, 1), (0, 3), and (- 1, – 4) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n9. (iii) Let the points (4, 5), (7, 6), (4, 3), and (1, 2) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n10. 7. Find the point on the x-axis which is equidistant from (2, – 5) and (- 2, 9).\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Distance formula** in 2–3 sentences. Use one example from Coordinate Geometry.\n- **MCQ (1 mark)** — MCQ: Which statement about **Distance formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Section formula** in 2–3 sentences. Use one example from Coordinate Geometry.",
+      "body": "_Class 10 CBSE practice for **Coordinate Geometry**._\n\n**Practice questions:**\n\n1. 1. Find the distance between the following pairs of points:\n2. 2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns, A and B, discussed in Section 7.2?\n3. 3. Determine if the points (1, 5), (2, 3) and (-2, -11) are collinear.\n4. 4. Check whether (5, – 2), (6, 4) and (7, – 2) are the vertices of an isosceles triangle.\n5. 5. In a classroom, 4 friends are seated at points A, B, C and D, as shown in Fig. 7.8. Champa and Chameli walk into the class, and after observing for a few minutes, Champa asks Chameli, “Don’t you think ABCD is a square?” Chameli disagrees. Using the distance formula, find which of them is correct.\n6. 6. Name the type of quadrilateral formed, if any, by the following points, and give reasons for your answer:\n7. (i) Let the points (- 1, – 2), (1, 0), ( – 1, 2), and ( – 3, 0) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n8. (ii) Let the points (- 3, 5), (3, 1), (0, 3), and (- 1, – 4) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n9. (iii) Let the points (4, 5), (7, 6), (4, 3), and (1, 2) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n10. 7. Find the point on the x-axis which is equidistant from (2, – 5) and (- 2, 9).\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **Distance formula** in 2–3 sentences. Use one example from Coordinate Geometry.\n- **MCQ (1 mark)** — MCQ: Which statement about **Distance formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Section formula** in 2–3 sentences. Use one example from Coordinate Geometry.",
       "teacherNarration": {
         "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Coordinate Geometry, covering Distance formula, Section formula, and Area of triangle. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
-        "simplifiedSummary": "Coordinate Geometry · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       },
       "practiceQuestions": [
@@ -191,7 +182,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "1. Find the distance between the following pairs of points:"
         },
@@ -200,7 +190,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns, A and B, discussed in Section 7.2?"
         },
@@ -209,7 +198,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "3. Determine if the points (1, 5), (2, 3) and (-2, -11) are collinear."
         },
@@ -218,7 +206,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "4. Check whether (5, – 2), (6, 4) and (7, – 2) are the vertices of an isosceles triangle."
         },
@@ -227,7 +214,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "5. In a classroom, 4 friends are seated at points A, B, C and D, as shown in Fig. 7.8. Champa and Chameli walk into the class, and after observing for a few minutes, Champa asks Chameli, “Don’t you think ABCD is a square?” Chameli disagrees. Using the distance formula, find which of them is correct."
         },
@@ -236,7 +222,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "6. Name the type of quadrilateral formed, if any, by the following points, and give reasons for your answer:"
         },
@@ -245,7 +230,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "(i) Let the points (- 1, – 2), (1, 0), ( – 1, 2), and ( – 3, 0) represent the vertices A, B, C, and D of the given quadrilateral, respectively."
         },
@@ -254,7 +238,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "(ii) Let the points (- 3, 5), (3, 1), (0, 3), and (- 1, – 4) represent the vertices A, B, C, and D of the given quadrilateral, respectively."
         },
@@ -263,7 +246,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "(iii) Let the points (4, 5), (7, 6), (4, 3), and (1, 2) represent the vertices A, B, C, and D of the given quadrilateral, respectively."
         },
@@ -272,7 +254,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "7. Find the point on the x-axis which is equidistant from (2, – 5) and (- 2, 9)."
         },
@@ -281,7 +262,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Distance formula",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Distance formula** in 2–3 sentences. Use one example from Coordinate Geometry."
         },
@@ -290,7 +270,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "Distance formula",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **Distance formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -299,7 +278,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Section formula",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Section formula** in 2–3 sentences. Use one example from Coordinate Geometry."
         }
@@ -308,66 +286,57 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_Everyday connections for **Coordinate Geometry** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Distance formula** — Look for **Distance formula** in objects and processes around you — at home, in school labs, or in local industry.\n- **Section formula** — Look for **Section formula** in objects and processes around you — at home, in school labs, or in local industry.\n- **Area of triangle** — Look for **Area of triangle** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\n- Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\n- Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?\n- Example: What is the midpoint of line segment PQ whose coordinates are P (-3, 3) and Q (1, 4), respectively.",
+      "body": "_Everyday connections for **Coordinate Geometry**._\n\n**Applications:**\n\n- **Distance formula** — Look for **Distance formula** in objects and processes around you — at home, in school labs, or in local industry.\n- **Section formula** — Look for **Section formula** in objects and processes around you — at home, in school labs, or in local industry.\n- **Area of triangle** — Look for **Area of triangle** in objects and processes around you — at home, in school labs, or in local industry.\n- **Coordinate Geometry** — The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\n- **Coordinate Geometry** — Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.\n- **Coordinate Geometry** — Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?\n- **Coordinate Geometry** — Example: What is the midpoint of line segment PQ whose coordinates are P (-3, 3) and Q (1, 4), respectively.",
       "teacherNarration": {
         "teleprompter": "Let's connect Coordinate Geometry to real life — not just the textbook. I'll walk through everyday examples for Distance formula, Section formula, and Area of triangle: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
-        "simplifiedSummary": "Coordinate Geometry · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       },
       "applications": [
         {
           "id": "app-01",
           "topic": "Distance formula",
-          "example": "Look for **Distance formula** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Distance formula** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-02",
           "topic": "Section formula",
-          "example": "Look for **Section formula** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Section formula** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-03",
           "topic": "Area of triangle",
-          "example": "Look for **Area of triangle** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Area of triangle** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-04",
           "topic": "Coordinate Geometry",
-          "example": "The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.",
-          "source": "crawled"
+          "example": "The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation."
         },
         {
           "id": "app-05",
           "topic": "Coordinate Geometry",
-          "example": "Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis.",
-          "source": "crawled"
+          "example": "Example: Consider a point P(3, 2), where 3 is the abscissa, and 2 is the ordinate. 3 represents the distance of point P from the y-axis, and 2 represents the distance of point P from the x-axis."
         },
         {
           "id": "app-06",
           "topic": "Coordinate Geometry",
-          "example": "Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?",
-          "source": "crawled"
+          "example": "Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?"
         },
         {
           "id": "app-07",
           "topic": "Coordinate Geometry",
-          "example": "Example: What is the midpoint of line segment PQ whose coordinates are P (-3, 3) and Q (1, 4), respectively.",
-          "source": "crawled"
+          "example": "Example: What is the midpoint of line segment PQ whose coordinates are P (-3, 3) and Q (1, 4), respectively."
         }
       ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_Recommended video learning for **Coordinate Geometry** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Coordinate Geometry NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Coordinate+Geometry+NCERT+explained+Hindi+English)\n- [Coordinate Geometry class 10 one shot revision](https://www.youtube.com/results?search_query=Coordinate+Geometry+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Coordinate Geometry animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Coordinate+Geometry+animation)",
+      "body": "_Video learning for **Coordinate Geometry** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Coordinate Geometry NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Coordinate+Geometry+NCERT+explained+Hindi+English)\n- [Coordinate Geometry class 10 one shot revision](https://www.youtube.com/results?search_query=Coordinate+Geometry+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Coordinate Geometry animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Coordinate+Geometry+animation)",
       "teacherNarration": {
         "teleprompter": "Before you press play on any video about Coordinate Geometry, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
-        "simplifiedSummary": "Coordinate Geometry · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       },
       "videos": [
@@ -375,22 +344,19 @@
           "id": "search-01",
           "title": "CBSE class 10 Coordinate Geometry NCERT explained Hindi English",
           "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Coordinate+Geometry+NCERT+explained+Hindi+English",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-02",
           "title": "Coordinate Geometry class 10 one shot revision",
           "url": "https://www.youtube.com/results?search_query=Coordinate+Geometry+class+10+one+shot+revision",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-03",
           "title": "NCERT Mathematics class 10 Coordinate Geometry animation",
           "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Coordinate+Geometry+animation",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         }
       ]
     },
@@ -401,7 +367,6 @@
       "teacherNarration": {
         "teleprompter": "This is your recap if you watched a video on Coordinate Geometry — or if you prefer reading first. I'll walk through the lesson flow: Distance formula, Section formula, and Area of triangle, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
-        "simplifiedSummary": "Coordinate Geometry · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
@@ -410,9 +375,8 @@
       "title": "12. Teacher Explanation Module",
       "body": "CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here\nClass 10 Maths Chapter 7 Coordinate Geometry Notes\nThe complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates of the points are given. Go through the below article and learn the points on the coordinate plane, distance formulas, section formulas and so on with a detailed explanation.\nStudents can refer to the short notes and MCQ questions along with a separate solution pdf of this chapter for quick revision…",
       "teacherNarration": {
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Coordinate Geometry the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go.",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Coordinate Geometry the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
         "style": "teacher-deep",
-        "simplifiedSummary": "Coordinate Geometry · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     },
@@ -421,21 +385,15 @@
       "title": "13. Revision Summary",
       "body": "CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here\nClass 10 Maths Chapter 7 Coordinate Geometry Notes\nThe complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches us the location of a point on a plane. For example, the coordinates of a point are (x, y), where x-coordinate (abscissa) denotes the distance of a point from the y-axis and y-coordinate (ordinate) denotes the distance of the point from the x-axis. Now we will learn to find the distance between two points and the area of a triangle using the distance formula when the coordinates o…",
       "teacherNarration": {
-        "teleprompter": "Quick recap of Coordinate Geometry. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: CBSE Class 10 Maths Coordinate Geometry Notes:-Download PDF Here Class 10 Maths Chapter 7 Coordinate Geometry Notes The complete notes on coordinate geometry for Class 10 are provided here. Coordinate geometry teaches… I'll translate that into simpler language as we go.",
+        "teleprompter": "Quick recap of Coordinate Geometry. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
         "style": "teacher-revision",
-        "simplifiedSummary": "Coordinate Geometry · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
       }
     }
   ],
   "crawlMeta": {
-    "articleCount": 3,
-    "videoCount": 3,
-    "sourceUrls": [
-      "https://byjus.com/maths/coordinate-geometry-for-class-10/",
-      "https://byjus.com/ncert-solutions-class-10-maths/chapter-7-coordinate-geometry/",
-      "https://www.learncbse.in/coordinate-geometry-class-10-notes/"
-    ],
-    "builtAt": "2026-06-23T20:29:09+00:00"
+    "builtAt": "2026-06-23T21:05:16+00:00",
+    "completeness": 0.915,
+    "contentPass": true
   }
 }

@@ -21,26 +21,26 @@
   "chapterId": "math-surface-volumes",
   "title": "Surface Areas and Volumes",
   "subject": "math",
-  "audioScript": "Good morning, everyone. Today we're opening Surface Areas and Volumes. Forget the heavy textbook tone for a moment — think of this chapter as a story about Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go.",
+  "audioScript": "Good morning, everyone. Today we're opening Surface Areas and Volumes. Forget the heavy textbook tone for a moment — think of this chapter as a story about Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
   "teacherAudio": {
     "speakMaterial": false,
     "defaultVoice": "teacher-female-in",
     "segments": [
       {
         "sectionId": "concept-overview",
-        "teleprompter": "Good morning, everyone. Today we're opening Surface Areas and Volumes. Forget the heavy textbook tone for a moment — think of this chapter as a story about Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go."
+        "teleprompter": "Good morning, everyone. Today we're opening Surface Areas and Volumes. Forget the heavy textbook tone for a moment — think of this chapter as a story about Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
       },
       {
         "sectionId": "key-definitions",
-        "teleprompter": "Let's lock in the must-know words for Surface Areas and Volumes. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's lock in the must-know words for Surface Areas and Volumes. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
       },
       {
         "sectionId": "core-concepts",
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Surface Areas and Volumes. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Surface Areas and Volumes. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "formulas-theorems",
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Surface Areas and Volumes, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - The Volume (V) of each cube is = 64 cm3 - This implies that a3 = 64 cm3 - Now, the side of the cube = a = 4 cm - So, the surface area of the cuboid = 2(lb+bh+lh) = 2(8×4+4×4+4×8) cm2 - =… I'll translate that into simpler language as we go."
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Surface Areas and Volumes, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
       },
       {
         "sectionId": "solved-examples",
@@ -72,11 +72,11 @@
       },
       {
         "sectionId": "teacher-explanation-module",
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Surface Areas and Volumes the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go."
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Surface Areas and Volumes the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
       },
       {
         "sectionId": "revision-summary",
-        "teleprompter": "Quick recap of Surface Areas and Volumes. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes I'll translate that into simpler language as we go."
+        "teleprompter": "Quick recap of Surface Areas and Volumes. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
       }
     ]
   },
@@ -84,66 +84,60 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes\n\nNCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\nThe solutions provided here are in the context of the latest update on the CBSE syllabus for 2023-24 and guidelines so that students can find it helpful to solve the exercise questions in the textbooks. We have covered all the questions with which the que…\n**Crawled sources (internet):**\n- [NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes](https://byjus.com/ncert-solutions-class-10-maths/chapter-13-surface-areas-and-volumes/)\n- [NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes Ex 13.1](https://www.learncbse.in/ncert-solutions-class-10th-maths-chapter-13-surface-areas-volumes/)\n- [Surface Areas and Volumes Class 10 Notes Maths Chapter 13](https://www.learncbse.in/surface-areas-and-volumes-class-10-notes/)",
+      "body": "NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\nThe solutions provided here are in the context of the latest update on the CBSE syllabus for 2023-24 and guidelines so that students can find it helpful to solve the exercise questions in the textbooks. We have covered all the questions with which the question papers might be prepared for the CBSE Board examination. Therefore, the…",
       "teacherNarration": {
-        "teleprompter": "Good morning, everyone. Today we're opening Surface Areas and Volumes. Forget the heavy textbook tone for a moment — think of this chapter as a story about Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go.",
+        "teleprompter": "Good morning, everyone. Today we're opening Surface Areas and Volumes. Forget the heavy textbook tone for a moment — think of this chapter as a story about Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
         "style": "teacher-intro",
-        "simplifiedSummary": "Surface Areas and Volumes · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\n- The solutions provided here are in the context of the latest update on the CBSE syllabus for 2023-24 and guidelines so that students can find it helpful to solve the exercise questions in the textbooks. We have covered all the questions with which the question papers might be prepared for the CBSE Board examination. Therefore, these NCERT Solutions are very helpful for students to use as a reference tool for preparing for the CBSE Class 10 Maths exam.\n- 1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.\n- The diagram is given as:\n- The Volume (V) of each cube is = 64 cm3\n- 2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm, and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.\n- The diagram is as follows:\n- 3. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy.",
+      "body": "**Key definitions:**\n\n- NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\n- The solutions provided here are in the context of the latest update on the CBSE syllabus for 2023-24 and guidelines so that students can find it helpful to solve the exercise questions in the textbooks. We have covered all the questions with which the question papers might be prepared for the CBSE Board examination. Therefore, these NCERT Solutions are very helpful for students to use as a reference tool for preparing for the CBSE Class 10 Maths exam.\n- 1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.\n- The diagram is given as:\n- The Volume (V) of each cube is = 64 cm3\n- 2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm, and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.\n- The diagram is as follows:\n- 3. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy.",
       "teacherNarration": {
-        "teleprompter": "Let's lock in the must-know words for Surface Areas and Volumes. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's lock in the must-know words for Surface Areas and Volumes. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
         "style": "teacher-definitions",
-        "simplifiedSummary": "Surface Areas and Volumes · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes\n\nNCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\nThe solutions provided here are in the context of the latest update on the CBSE syllabus for 2023-24 and guidelines so that students can find it helpful to solve the exercise questions in the textbooks. We have covered all the questions with which the question papers might be prepared for the CBSE Board examination. Therefore, these NCERT Solutions are very helpful for students to use as a reference tool for preparing for the CBSE Class 10 Maths exam.\nAccess Answers to Maths NCERT Class 10 Chapter 13 – Surface Areas and Volumes\nExercise: 13.1 (Page No: 244)\n1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.\nAnswer:\nThe diagram is given as:\nGiven,\nThe Volume (V) of each cube is = 64 cm3\nThis implies that a3 = 64 cm3\n∴ a = 4 cm\nNow, the side of the cube = a = 4 cm\nAlso, the length and breadth of the resulting cuboid will be 4 cm each, while its height will be 8 cm.\nSo, the surface area of the cuboid = 2(lb+bh+lh)\n= 2(8×4+4×4+4×8) cm2\n= 2(32+16+32) cm2\n= (2×80) cm2 = 160 cm2\n2. A vessel is i…",
+      "body": "NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\nThe solutions provided here are in the context of the latest update on the CBSE syllabus for 2023-24 and guidelines so that students can find it helpful to solve the exercise questions in the textbooks. We have covered all the questions with which the question papers might be prepared for the CBSE Board examination. Therefore, these NCERT Solutions are very helpful for students to use as a reference tool for preparing for the CBSE Class 10 Maths exam.\nAccess Answers to Maths NCERT Class 10 Chapter 13 – Surface Areas and Volumes\nExercise: 13.1 (Page No: 244)\n1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.\nAnswer:\nThe diagram is given as:\nGiven,\nThe Volume (V) of each cube is = 64 cm3\nThis implies that a3 = 64 cm3\n∴ a = 4 cm\nNow, the side of the cube = a = 4 cm\nAlso, the length and breadth of the resulting cuboid will be 4 cm each, while its height will be 8 cm.\nSo, the surface area of the cuboid = 2(lb+bh+lh)\n= 2(8×4+4×4+4×8) cm2\n= 2(32+16+32) cm2\n= (2×80) cm2 = 160 cm2\n2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter…",
       "teacherNarration": {
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Surface Areas and Volumes. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Surface Areas and Volumes. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-explain",
-        "simplifiedSummary": "Surface Areas and Volumes · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- The Volume (V) of each cube is = 64 cm3\n- This implies that a3 = 64 cm3\n- Now, the side of the cube = a = 4 cm\n- So, the surface area of the cuboid = 2(lb+bh+lh) = 2(8×4+4×4+4×8) cm2\n- = 2(32+16+32) cm2 = (2×80) cm2 = 160 cm2\n- The diameter of the hemisphere = D = 14 cm\n- The radius of the hemisphere = r = 7 cm\n- Also, the height of the cylinder = h = (13-7) = 6 cm",
+      "body": "**Formulas and relations:**\n\n- The Volume (V) of each cube is = 64 cm3\n- This implies that a3 = 64 cm3\n- Now, the side of the cube = a = 4 cm\n- So, the surface area of the cuboid = 2(lb+bh+lh) = 2(8×4+4×4+4×8) cm2\n- = 2(32+16+32) cm2 = (2×80) cm2 = 160 cm2\n- The diameter of the hemisphere = D = 14 cm\n- The radius of the hemisphere = r = 7 cm\n- Also, the height of the cylinder = h = (13-7) = 6 cm",
       "teacherNarration": {
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Surface Areas and Volumes, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - The Volume (V) of each cube is = 64 cm3 - This implies that a3 = 64 cm3 - Now, the side of the cube = a = 4 cm - So, the surface area of the cuboid = 2(lb+bh+lh) = 2(8×4+4×4+4×8) cm2 - =… I'll translate that into simpler language as we go.",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Surface Areas and Volumes, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
         "style": "teacher-formulas",
-        "simplifiedSummary": "Surface Areas and Volumes · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- For Example:",
+      "body": "**Worked examples:**\n\n- For Example:",
       "teacherNarration": {
         "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Surface Areas and Volumes. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-example",
-        "simplifiedSummary": "Surface Areas and Volumes · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Surface Areas and Volumes. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-coaching",
-        "simplifiedSummary": "Surface Areas and Volumes · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
@@ -154,7 +148,6 @@
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Surface Areas and Volumes, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
-        "simplifiedSummary": "Surface Areas and Volumes · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       },
       "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 200' width='100%' role='img'><rect width='420' height='200' rx='12' fill='#0f172a'/><text x='210' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Surface Areas and Volumes — compare</text><rect x='50' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='120' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Combinations of solids</text><text x='210' y='118' text-anchor='middle' fill='#94a3b8' font-size='14'>vs</text><rect x='230' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#a78bfa'/><text x='300' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Surface area of combin</text><text x='210' y='175' text-anchor='middle' fill='#94a3b8' font-size='9'>Also: Volume of combined shapes</text></svg>",
@@ -163,7 +156,6 @@
         "title": "Surface Areas and Volumes — comparison layout",
         "caption": "Chapter-specific comparison layout from CBSE syllabus (diagram-v2).",
         "layout": "compare",
-        "synthetic": true,
         "nodes": [
           {
             "id": "n0",
@@ -183,11 +175,10 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_Class 10 CBSE practice for **Surface Areas and Volumes**._\n\n**Practice questions from crawled sources:**\n\n1. 1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.\n2. 2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm, and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.\n3. 3. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy.\n4. 4. A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.\n5. 5. A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter l of the hemisphere is equal to the edge of the cube. Determine the surface area of the remaining solid.\n6. 6. A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm, and the diameter of the capsule is 5 mm. Find its surface area.\n7. 7. A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m, respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent. Also, find the cost of the canvas of the tent at the rate of Rs 500 per m2. (Note that the base of the tent will not be covered with canvas.)\n8. 8. From a solid cylinder whose height is 2.4 cm and diameter is 1.4 cm, a conical cavity of the\n9. 1. A solid is in the shape of a cone standing on a hemisphere, with both their radii being equal to 1 cm and the height of the cone being equal to its radius. Find the volume of the solid in terms of π.\n10. 2. Rachel, an engineering student, was asked to make a model shaped like a cylinder with two cones attached at its two ends by using a thin aluminium sheet. The diameter of the model is 3 cm, and its length is 12 cm. If each cone has a height of 2 cm, find the volume of air contained in the model that Rachel made. (Assume the outer and inner dimensions of the model are nearly the same.)\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Combinations of solids** in 2–3 sentences. Use one example from Surface Areas and Volumes.\n- **MCQ (1 mark)** — MCQ: Which statement about **Combinations of solids** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Surface area of combined shapes** in 2–3 sentences. Use one example from Surface Areas and Volumes.",
+      "body": "_Class 10 CBSE practice for **Surface Areas and Volumes**._\n\n**Practice questions:**\n\n1. 1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.\n2. 2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm, and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.\n3. 3. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy.\n4. 4. A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.\n5. 5. A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter l of the hemisphere is equal to the edge of the cube. Determine the surface area of the remaining solid.\n6. 6. A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm, and the diameter of the capsule is 5 mm. Find its surface area.\n7. 7. A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m, respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent. Also, find the cost of the canvas of the tent at the rate of Rs 500 per m2. (Note that the base of the tent will not be covered with canvas.)\n8. 8. From a solid cylinder whose height is 2.4 cm and diameter is 1.4 cm, a conical cavity of the\n9. 1. A solid is in the shape of a cone standing on a hemisphere, with both their radii being equal to 1 cm and the height of the cone being equal to its radius. Find the volume of the solid in terms of π.\n10. 2. Rachel, an engineering student, was asked to make a model shaped like a cylinder with two cones attached at its two ends by using a thin aluminium sheet. The diameter of the model is 3 cm, and its length is 12 cm. If each cone has a height of 2 cm, find the volume of air contained in the model that Rachel made. (Assume the outer and inner dimensions of the model are nearly the same.)\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **Combinations of solids** in 2–3 sentences. Use one example from Surface Areas and Volumes.\n- **MCQ (1 mark)** — MCQ: Which statement about **Combinations of solids** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Surface area of combined shapes** in 2–3 sentences. Use one example from Surface Areas and Volumes.",
       "teacherNarration": {
         "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Surface Areas and Volumes, covering Combinations of solids, Surface area of combined shapes, and Volume of combined shapes. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
-        "simplifiedSummary": "Surface Areas and Volumes · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       },
       "practiceQuestions": [
@@ -196,7 +187,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid."
         },
@@ -205,7 +195,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm, and the total height of the vessel is 13 cm. Find the inner surface area of the vessel."
         },
@@ -214,7 +203,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "3. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy."
         },
@@ -223,7 +211,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "4. A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid."
         },
@@ -232,7 +219,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "5. A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter l of the hemisphere is equal to the edge of the cube. Determine the surface area of the remaining solid."
         },
@@ -241,7 +227,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "6. A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm, and the diameter of the capsule is 5 mm. Find its surface area."
         },
@@ -250,7 +235,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "7. A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m, respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent. Also, find the cost of the canvas of the tent at the rate of Rs 500 per m2. (Note that the base of the tent will not be covered with canvas.)"
         },
@@ -259,7 +243,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "8. From a solid cylinder whose height is 2.4 cm and diameter is 1.4 cm, a conical cavity of the"
         },
@@ -268,7 +251,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "1. A solid is in the shape of a cone standing on a hemisphere, with both their radii being equal to 1 cm and the height of the cone being equal to its radius. Find the volume of the solid in terms of π."
         },
@@ -277,7 +259,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "2. Rachel, an engineering student, was asked to make a model shaped like a cylinder with two cones attached at its two ends by using a thin aluminium sheet. The diameter of the model is 3 cm, and its length is 12 cm. If each cone has a height of 2 cm, find the volume of air contained in the model that Rachel made. (Assume the outer and inner dimensions of the model are nearly the same.)"
         },
@@ -286,7 +267,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Combinations of solids",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Combinations of solids** in 2–3 sentences. Use one example from Surface Areas and Volumes."
         },
@@ -295,7 +275,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "Combinations of solids",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **Combinations of solids** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -304,7 +283,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Surface area of combined shapes",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Surface area of combined shapes** in 2–3 sentences. Use one example from Surface Areas and Volumes."
         }
@@ -313,48 +291,42 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_Everyday connections for **Surface Areas and Volumes** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Combinations of solids** — Look for **Combinations of solids** in objects and processes around you — at home, in school labs, or in local industry.\n- **Surface area of combined shapes** — Look for **Surface area of combined shapes** in objects and processes around you — at home, in school labs, or in local industry.\n- **Volume of combined shapes** — Look for **Volume of combined shapes** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- NCERT Solutions for Class 10 Maths Chapter 13 – Surface Areas and Volumes are made available for students who want to excel in the board exam. Let us discuss here the importance of this chapter in your academic and real life. You will face many real-life scenarios where the fundamentals of surface areas and volumes of real objects have to be configured. Some examples are rectangular boxes, gas cylinders, footballs, etc. They have 3D shapes which have both surface area and volume. And to calculate these quantities, we have to learn the formulas based on the dimensions of the object. Therefore, this NCERT Solutions of Class 10 will help you learn about the formulas of surface areas and volumes of 3D shapes such as spheres, cylinders, cones, cuboids, and combinations of any two solids. With the help of these solved questions, you can solve not only the questions present in your textbooks and exams, but they will also help in real-life scenarios.",
+      "body": "_Everyday connections for **Surface Areas and Volumes**._\n\n**Applications:**\n\n- **Combinations of solids** — Look for **Combinations of solids** in objects and processes around you — at home, in school labs, or in local industry.\n- **Surface area of combined shapes** — Look for **Surface area of combined shapes** in objects and processes around you — at home, in school labs, or in local industry.\n- **Volume of combined shapes** — Look for **Volume of combined shapes** in objects and processes around you — at home, in school labs, or in local industry.\n- **Surface Areas and Volumes** — NCERT Solutions for Class 10 Maths Chapter 13 – Surface Areas and Volumes are made available for students who want to excel in the board exam. Let us discuss here the importance of this chapter in your academic and real life. You will face many real-life scenarios where the fundamentals of surface areas and volumes of real objects have to be configured. Some examples are rectangular boxes, gas cylinders, footballs, etc. They have 3D shapes which have both surface area and volume. And to calculate these quantities, we have to learn the formulas based on the dimensions of the object. Therefore, this NCERT Solutions of Class 10 will help you learn about the formulas of surface areas and volumes of 3D shapes such as spheres, cylinders, cones, cuboids, and combinations of any two solids. With the help of these solved questions, you can solve not only the questions present in your textbooks and exams, but they will also help in real-life scenarios.",
       "teacherNarration": {
         "teleprompter": "Let's connect Surface Areas and Volumes to real life — not just the textbook. I'll walk through everyday examples for Combinations of solids, Surface area of combined shapes, and Volume of combined shapes: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
-        "simplifiedSummary": "Surface Areas and Volumes · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       },
       "applications": [
         {
           "id": "app-01",
           "topic": "Combinations of solids",
-          "example": "Look for **Combinations of solids** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Combinations of solids** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-02",
           "topic": "Surface area of combined shapes",
-          "example": "Look for **Surface area of combined shapes** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Surface area of combined shapes** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-03",
           "topic": "Volume of combined shapes",
-          "example": "Look for **Volume of combined shapes** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Volume of combined shapes** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-04",
           "topic": "Surface Areas and Volumes",
-          "example": "NCERT Solutions for Class 10 Maths Chapter 13 – Surface Areas and Volumes are made available for students who want to excel in the board exam. Let us discuss here the importance of this chapter in your academic and real life. You will face many real-life scenarios where the fundamentals of surface areas and volumes of real objects have to be configured. Some examples are rectangular boxes, gas cylinders, footballs, etc. They have 3D shapes which have both surface area and volume. And to calculate these quantities, we have to learn the formulas based on the dimensions of the object. Therefore, this NCERT Solutions of Class 10 will help you learn about the formulas of surface areas and volumes of 3D shapes such as spheres, cylinders, cones, cuboids, and combinations of any two solids. With the help of these solved questions, you can solve not only the questions present in your textbooks and exams, but they will also help in real-life scenarios.",
-          "source": "crawled"
+          "example": "NCERT Solutions for Class 10 Maths Chapter 13 – Surface Areas and Volumes are made available for students who want to excel in the board exam. Let us discuss here the importance of this chapter in your academic and real life. You will face many real-life scenarios where the fundamentals of surface areas and volumes of real objects have to be configured. Some examples are rectangular boxes, gas cylinders, footballs, etc. They have 3D shapes which have both surface area and volume. And to calculate these quantities, we have to learn the formulas based on the dimensions of the object. Therefore, this NCERT Solutions of Class 10 will help you learn about the formulas of surface areas and volumes of 3D shapes such as spheres, cylinders, cones, cuboids, and combinations of any two solids. With the help of these solved questions, you can solve not only the questions present in your textbooks and exams, but they will also help in real-life scenarios."
         }
       ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_Recommended video learning for **Surface Areas and Volumes** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Surface Areas and Volumes NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Surface+Areas+and+Volumes+NCERT+explained+Hindi+English)\n- [Surface Areas and Volumes class 10 one shot revision](https://www.youtube.com/results?search_query=Surface+Areas+and+Volumes+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Surface Areas and Volumes animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Surface+Areas+and+Volumes+animation)",
+      "body": "_Video learning for **Surface Areas and Volumes** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Surface Areas and Volumes NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Surface+Areas+and+Volumes+NCERT+explained+Hindi+English)\n- [Surface Areas and Volumes class 10 one shot revision](https://www.youtube.com/results?search_query=Surface+Areas+and+Volumes+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Surface Areas and Volumes animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Surface+Areas+and+Volumes+animation)",
       "teacherNarration": {
         "teleprompter": "Before you press play on any video about Surface Areas and Volumes, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
-        "simplifiedSummary": "Surface Areas and Volumes · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       },
       "videos": [
@@ -362,22 +334,19 @@
           "id": "search-01",
           "title": "CBSE class 10 Surface Areas and Volumes NCERT explained Hindi English",
           "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Surface+Areas+and+Volumes+NCERT+explained+Hindi+English",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-02",
           "title": "Surface Areas and Volumes class 10 one shot revision",
           "url": "https://www.youtube.com/results?search_query=Surface+Areas+and+Volumes+class+10+one+shot+revision",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-03",
           "title": "NCERT Mathematics class 10 Surface Areas and Volumes animation",
           "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Surface+Areas+and+Volumes+animation",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         }
       ]
     },
@@ -388,41 +357,33 @@
       "teacherNarration": {
         "teleprompter": "This is your recap if you watched a video on Surface Areas and Volumes — or if you prefer reading first. I'll walk through the lesson flow: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
-        "simplifiedSummary": "Surface Areas and Volumes · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes\n\nNCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10…",
+      "body": "NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared by our Maths experts to help students understand the concepts of different shapes. 3D figures have different measures of area and volume, which are explained and solved very clearly in the given NCERT Solutions for Class 10 Maths Chapter 13, Surface Areas and Volumes.\nThe solutions provided here are…",
       "teacherNarration": {
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Surface Areas and Volumes the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download According to the CBSE Syllabus 2023-24, this chapter has been renumbered as… I'll translate that into simpler language as we go.",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Surface Areas and Volumes the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
         "style": "teacher-deep",
-        "simplifiedSummary": "Surface Areas and Volumes · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes",
+      "body": "NCERT Solutions for Class 10 Maths Chapter 13 – CBSE Free PDF Download\n*According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 12.\nNCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes are provided here in a downloadable PDF. Here, in this chapter, you will learn to solve questions based on surface areas and volumes of different shapes, such as cones, spheres, cylinders, etc. Also, you will learn the conversion of a solid from one shape to another shape and then find the surface area and volume of the new shape formed. The solutions are prepared b…",
       "teacherNarration": {
-        "teleprompter": "Quick recap of Surface Areas and Volumes. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 13 Surface Areas and Volumes I'll translate that into simpler language as we go.",
+        "teleprompter": "Quick recap of Surface Areas and Volumes. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
         "style": "teacher-revision",
-        "simplifiedSummary": "Surface Areas and Volumes · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Combinations of solids, Surface area of combined shapes, and Volume of combined shapes.",
         "speakMaterial": false
       }
     }
   ],
   "crawlMeta": {
-    "articleCount": 3,
-    "videoCount": 3,
-    "sourceUrls": [
-      "https://byjus.com/ncert-solutions-class-10-maths/chapter-13-surface-areas-and-volumes/",
-      "https://www.learncbse.in/ncert-solutions-class-10th-maths-chapter-13-surface-areas-volumes/",
-      "https://www.learncbse.in/surface-areas-and-volumes-class-10-notes/"
-    ],
-    "builtAt": "2026-06-23T20:29:10+00:00"
+    "builtAt": "2026-06-23T21:05:18+00:00",
+    "completeness": 0.86,
+    "contentPass": true
   }
 }

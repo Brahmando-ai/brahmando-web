@@ -62,11 +62,10 @@ function renderInline(text: string) {
 }
 
 function SectionBody({ body }: { body: string }) {
-  if (!body.trim()) {
+  if (!body.trim() || body.includes("being enriched")) {
     return (
       <div className="rounded-xl border border-dashed border-slate-600/50 bg-slate-950/30 px-4 py-8 text-center text-sm text-slate-500">
-        No crawled content in this section yet. Run the Education crawler{" "}
-        <code className="text-xs text-slate-400">build</code> step after <code className="text-xs text-slate-400">collect</code>.
+        Content for this section is being prepared. Check back after the next enrichment pass.
       </div>
     );
   }
@@ -159,7 +158,6 @@ function PracticeQuestionsBlock({ questions }: { questions: PracticeQuestion[] }
             <span>{q.type}</span>
             <span>{q.marks} mark{q.marks !== 1 ? "s" : ""}</span>
             {q.topic && <span>{q.topic}</span>}
-            {q.source && <span className="text-slate-500">{q.source}</span>}
           </div>
           <p>{renderInline(q.stem)}</p>
         </div>
@@ -267,27 +265,34 @@ function TeacherNarrationCard({
         </button>
       </div>
       <p className="text-sm leading-relaxed text-indigo-50/95">{narration.teleprompter}</p>
-      {narration.simplifiedSummary && (
-        <p className="mt-2 text-xs text-indigo-200/70">{narration.simplifiedSummary}</p>
-      )}
     </div>
   );
 }
 
-function CrawlStatusBar({ content }: { content: ChapterReviewContent | null }) {
+function ContentStatusBar({ content }: { content: ChapterReviewContent | null }) {
   const meta = content?.crawlMeta;
   if (!meta) {
     return (
       <div className="mb-4 rounded-xl border border-amber-400/25 bg-amber-500/10 px-4 py-3 text-sm text-amber-100/90">
-        No review JSON for this chapter yet. The internet crawler collects sources on the GPU server; run{" "}
-        <code className="text-xs">build</code> to publish <code className="text-xs">review-material/*.json</code> here.
+        Chapter content is not available yet.
       </div>
     );
   }
+  const pct = meta.completeness != null ? Math.round(meta.completeness * 100) : null;
+  const ready = meta.contentPass === true;
   return (
-    <div className="mb-4 rounded-xl border border-emerald-400/25 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-100/90">
-      Crawler data loaded — {meta.articleCount} article(s), {meta.videoCount} video link(s)
-      {meta.builtAt ? ` · built ${new Date(meta.builtAt).toLocaleString()}` : ""}.
+    <div
+      className={`mb-4 rounded-xl border px-4 py-3 text-sm ${
+        ready
+          ? "border-emerald-400/25 bg-emerald-500/10 text-emerald-100/90"
+          : "border-amber-400/25 bg-amber-500/10 text-amber-100/90"
+      }`}
+    >
+      {ready
+        ? "Chapter content is ready for educator review."
+        : "Chapter content is still being enriched — some sections are incomplete."}
+      {pct != null ? ` Completeness: ${pct}%.` : ""}
+      {meta.builtAt ? ` Updated ${new Date(meta.builtAt).toLocaleString()}.` : ""}
     </div>
   );
 }
@@ -441,10 +446,8 @@ export function ReviewMaterialBoard() {
           <p className="text-xs font-semibold uppercase tracking-wider text-cyan-300">Content QA</p>
           <h1 className="text-2xl font-bold text-slate-50 sm:text-3xl">Review Material Board</h1>
           <p className="mt-2 max-w-2xl text-sm text-slate-400">
-            CBSE Class 10 Science &amp; Mathematics — educator review board. Chapter content is populated by the{" "}
-            <strong className="font-medium text-cyan-200/90">Education internet crawler</strong> (web pages, videos,
-            blogs) via <code className="text-xs text-slate-500">collect</code> then{" "}
-            <code className="text-xs text-slate-500">build</code>. Add observations and triage feedback below.
+            CBSE Class 10 Science &amp; Mathematics — educator review board. Review chapter sections,
+            teacher narration, and diagrams. Add observations and triage feedback below.
           </p>
         </div>
         <div className="flex gap-2">
@@ -543,7 +546,7 @@ export function ReviewMaterialBoard() {
               <p className="text-slate-400">Loading chapter content…</p>
             ) : (
               <>
-                <CrawlStatusBar content={content} />
+                <ContentStatusBar content={content} />
                 {content && <ChapterMetaStrip content={content} />}
                 <div className="mb-4 flex flex-wrap gap-2">
                   {content?.sections.map((s) => (

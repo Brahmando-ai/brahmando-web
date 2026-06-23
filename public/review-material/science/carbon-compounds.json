@@ -18,30 +18,30 @@
   "chapterId": "sci-carbon-compounds",
   "title": "Carbon and Its Compounds",
   "subject": "science",
-  "audioScript": "Good morning, everyone. Today we're opening Carbon and Its Compounds. Forget the heavy textbook tone for a moment — think of this chapter as a story about Covalent bonding, Homologous series, and Functional groups. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go.",
+  "audioScript": "Good morning, everyone. Today we're opening Carbon and Its Compounds. Forget the heavy textbook tone for a moment — think of this chapter as a story about Covalent bonding, Homologous series, and Functional groups. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
   "teacherAudio": {
     "speakMaterial": false,
     "defaultVoice": "teacher-female-in",
     "segments": [
       {
         "sectionId": "concept-overview",
-        "teleprompter": "Good morning, everyone. Today we're opening Carbon and Its Compounds. Forget the heavy textbook tone for a moment — think of this chapter as a story about Covalent bonding, Homologous series, and Functional groups. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go."
+        "teleprompter": "Good morning, everyone. Today we're opening Carbon and Its Compounds. Forget the heavy textbook tone for a moment — think of this chapter as a story about Covalent bonding, Homologous series, and Functional groups. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
       },
       {
         "sectionId": "key-definitions",
-        "teleprompter": "Let's lock in the must-know words for Carbon and Its Compounds. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Carbon is the 15th most abundant element in the earth's crust. -  Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's lock in the must-know words for Carbon and Its Compounds. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
       },
       {
         "sectionId": "core-concepts",
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "formulas-theorems",
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Carbon and Its Compounds, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - Ca(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate - In CH3Cl : C = 6, H = 1 and Cl = 17 And their electronic configuration is C – 2,4, H – 1 and Cl – 2, 8, 7 - For butanol, n = 4. So,… I'll translate that into simpler language as we go."
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Carbon and Its Compounds, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
       },
       {
         "sectionId": "solved-examples",
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Valency Example ElectronsShared Bond Type - For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid. - What is a homologous series ? Explain with an… I'll translate that into simpler language as we go."
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep."
       },
       {
         "sectionId": "common-mistakes",
@@ -69,11 +69,11 @@
       },
       {
         "sectionId": "teacher-explanation-module",
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Carbon and Its Compounds the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go."
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Carbon and Its Compounds the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
       },
       {
         "sectionId": "revision-summary",
-        "teleprompter": "Quick recap of Carbon and Its Compounds. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go."
+        "teleprompter": "Quick recap of Carbon and Its Compounds. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
       }
     ]
   },
@@ -81,22 +81,20 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "Facts about Carbon:\n□Carbon is the 15th most abundant element in the earth's crust.\n□ Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.\n□ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n□ The shells of aquatic animals are made from calcium carbonate.\nGive a Thought:\n□ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n□ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO₂ is produced.\nChemical Equation:\nC + O₂ CO₂\n→\nConfirmation Test of CO₂\n(Limewater) (Calcium Carbonate)\nCa(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate\nObservation:\nCO₂ turns limewater turbid/milky.\nReason:\nThe milkiness is due to the formation of insoluble calcium carbonate (CaCO₃).\n3.\nBonding in Carbon– The Covalent Bond\nThe bonds formed by the sharing of an electron pair between atoms are known as covalent bonds.\n1. Monovalency – Hydrogen (H₂)\nHydrogen atom shares 1 electron.\nH : H\n•Each H-atom shares 1 electron.\n•Forms a single covalent bond between two hydrogen atoms.\n2. Divalency –…\n**Crawled sources (internet):**\n- [Carbon-and-its-Compounds class x science](https://www.slideshare.net/slideshow/carbon-and-its-compounds-class-x-science/288142605)\n- [NCERT Solutions for Class 10 Science Chapter 4 Carbon and its Compounds](https://www.learncbse.in/ncert-solutions-for-class-10-science-chapter-4-carbon-and-its-compounds/)",
+      "body": "Facts about Carbon:\n□Carbon is the 15th most abundant element in the earth's crust.\n□ Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.\n□ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n□ The shells of aquatic animals are made from calcium carbonate.\nGive a Thought:\n□ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n□ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO₂ is produced.\nChemical Equation:\nC + O₂ CO₂\n→\nConfirmation Test of CO₂\n(Limewater) (Calcium Carbonate)\nCa(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate\nObservation:\nCO₂ turns limewater turbid/milky.\nReason:\nThe milkiness is due to the formation of insoluble calcium carbonate (CaCO₃).\n3.\nBonding in Carbon– The Covalent Bond\nThe bonds formed by the sharing of an electron pair between atoms are known as covalent bonds.\n1. Monovalency – Hydrogen (H₂)\nHydrogen atom shares 1 electron.\nH : H\n•Each H-atom shares 1 electron.\n•Forms a single covalent bond between two hydrogen atoms.\n2. Divalency –…",
       "teacherNarration": {
-        "teleprompter": "Good morning, everyone. Today we're opening Carbon and Its Compounds. Forget the heavy textbook tone for a moment — think of this chapter as a story about Covalent bonding, Homologous series, and Functional groups. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go.",
+        "teleprompter": "Good morning, everyone. Today we're opening Carbon and Its Compounds. Forget the heavy textbook tone for a moment — think of this chapter as a story about Covalent bonding, Homologous series, and Functional groups. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
         "style": "teacher-intro",
-        "simplifiedSummary": "Carbon and Its Compounds · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- □Carbon is the 15th most abundant element in the earth's crust.\n- □ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n- □ The shells of aquatic animals are made from calcium carbonate.\n- □ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n- □ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO₂ is produced.\n- The milkiness is due to the formation of insoluble calcium carbonate (CaCO₃).\n- The bonds formed by the sharing of an electron pair between atoms are known as covalent bonds.\n- C⁴⁺ is unstable as it has 6 protons in its nucleus holding only 2 electrons.",
+      "body": "**Key definitions:**\n\n- □Carbon is the 15th most abundant element in the earth's crust.\n- □ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n- □ The shells of aquatic animals are made from calcium carbonate.\n- □ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n- □ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO₂ is produced.\n- The milkiness is due to the formation of insoluble calcium carbonate (CaCO₃).\n- The bonds formed by the sharing of an electron pair between atoms are known as covalent bonds.\n- C⁴⁺ is unstable as it has 6 protons in its nucleus holding only 2 electrons.",
       "teacherNarration": {
-        "teleprompter": "Let's lock in the must-know words for Carbon and Its Compounds. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Carbon is the 15th most abundant element in the earth's crust. -  Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's lock in the must-know words for Carbon and Its Compounds. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
         "style": "teacher-definitions",
-        "simplifiedSummary": "Carbon and Its Compounds · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
@@ -105,42 +103,38 @@
       "title": "3. Core Concepts",
       "body": "Facts about Carbon:\n□Carbon is the 15th most abundant element in the earth's crust.\n□ Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.\n□ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n□ The shells of aquatic animals are made from calcium carbonate.\nGive a Thought:\n□ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n□ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO₂ is produced.\nChemical Equation:\nC + O₂ CO₂\n→\nConfirmation Test of CO₂\n(Limewater) (Calcium Carbonate)\nCa(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate\nObservation:\nCO₂ turns limewater turbid/milky.\nReason:\nThe milkiness is due to the formation of insoluble calcium carbonate (CaCO₃).\n3.\nBonding in Carbon– The Covalent Bond\nThe bonds formed by the sharing of an electron pair between atoms are known as covalent bonds.\n1. Monovalency – Hydrogen (H₂)\nHydrogen atom shares 1 electron.\nH : H\n•Each H-atom shares 1 electron.\n•Forms a single covalent bond between two hydrogen atoms.\n2. Divalency – Oxygen (O₂)\nOxygen atom shares 2 electrons.\nO :: O\n•Each O-atom shares 2 electrons.\n•Forms a double covalent bond between two oxygen atoms.\n3. Trivalency – Nitrogen (N₂)\nNitrogen atom shares 3 electrons.\nN N\n≡\nEach N-atom shares 3 electrons.\nForms a triple covalent bond between two nitrogen atoms.\n4.\nValency Example ElectronsShared Bond Type\nMonovalency Hydrogen (H₂) 1 Single Covalent Bond\nDivalency Oxygen (O₂) 2 Double Covalent Bond\nTrivalency Nitrogen (N₂) 3 Triple Covalent Bond\nSummary Table\nCase of Carbon\n•Carbon has 4 electrons in its outermost shell.\nCarbon cannot gain 4 electrons\n•Due to the small size of the carbon atom, 6 protons of carbon cannot hold 10 electrons.\n•Repulsion between electrons increases.\nCarbon cannot lose 4 electrons\n•It would require a large amount of energy to…",
       "teacherNarration": {
-        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-explain",
-        "simplifiedSummary": "Carbon and Its Compounds · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- Ca(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate\n- In CH3Cl : C = 6, H = 1 and Cl = 17 And their electronic configuration is C – 2,4, H – 1 and Cl – 2, 8, 7\n- For butanol, n = 4. So, formula is\n- (d) Propene, CH3CH=CH2 (ii) and propyne, CH3— C = CH (iii) both have double and triple bonds, respectively, hence are unsaturated\n- (b) Electronic configuration of carbon (C) = 2, 4 when it forms four covalent bonds by sharing its four valence electrons wi\n- Atomic number of carbon = 6\n- E.g. CH2 = CH2 + H2 + (Nickel catalyst) → CH3– CH3",
+      "body": "**Formulas and relations:**\n\n- Ca(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate\n- In CH3Cl : C = 6, H = 1 and Cl = 17 And their electronic configuration is C – 2,4, H – 1 and Cl – 2, 8, 7\n- For butanol, n = 4. So, formula is\n- (d) Propene, CH3CH=CH2 (ii) and propyne, CH3— C = CH (iii) both have double and triple bonds, respectively, hence are unsaturated\n- (b) Electronic configuration of carbon (C) = 2, 4 when it forms four covalent bonds by sharing its four valence electrons wi\n- Atomic number of carbon = 6\n- E.g. CH2 = CH2 + H2 + (Nickel catalyst) → CH3– CH3",
       "teacherNarration": {
-        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Carbon and Its Compounds, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - Ca(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate - In CH3Cl : C = 6, H = 1 and Cl = 17 And their electronic configuration is C – 2,4, H – 1 and Cl – 2, 8, 7 - For butanol, n = 4. So,… I'll translate that into simpler language as we go.",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Carbon and Its Compounds, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
         "style": "teacher-formulas",
-        "simplifiedSummary": "Carbon and Its Compounds · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- Valency Example ElectronsShared Bond Type\n- For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.\n- What is a homologous series ? Explain with an example.\n- (i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.\n- For example, general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon atoms in one molecule of alkane. Following are the first five members of the homologous series of alkanes (general formula CnH2n+2).\n- What is a homologous series? Explain with an example.",
+      "body": "**Worked examples:**\n\n- Valency Example ElectronsShared Bond Type\n- For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.\n- What is a homologous series ? Explain with an example.\n- (i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.\n- For example, general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon atoms in one molecule of alkane. Following are the first five members of the homologous series of alkanes (general formula CnH2n+2).\n- What is a homologous series? Explain with an example.",
       "teacherNarration": {
-        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Valency Example ElectronsShared Bond Type - For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid. - What is a homologous series ? Explain with an… I'll translate that into simpler language as we go.",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-example",
-        "simplifiedSummary": "Carbon and Its Compounds · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Content for this section is being enriched._",
       "teacherNarration": {
         "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
         "style": "teacher-coaching",
-        "simplifiedSummary": "Carbon and Its Compounds · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
@@ -151,7 +145,6 @@
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Carbon and Its Compounds, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
-        "simplifiedSummary": "Carbon and Its Compounds · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       },
       "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Carbon and Its Compounds — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Covalent bondi</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Homologous ser</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Functional gro</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Soaps and dete</text></svg>",
@@ -160,7 +153,6 @@
         "title": "Carbon and Its Compounds — process flowchart",
         "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
         "layout": "flowchart",
-        "synthetic": true,
         "nodes": [
           {
             "id": "n0",
@@ -184,11 +176,10 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_Class 10 CBSE practice for **Carbon and Its Compounds**._\n\n**Practice questions from crawled sources:**\n\n1. 3. Bonding in Carbon– The Covalent Bond\n2. 1. Monovalency – Hydrogen (H₂)\n3. 2. Divalency – Oxygen (O₂)\n4. 3. Trivalency – Nitrogen (N₂)\n5. 4. Valency Example ElectronsShared Bond Type\n6. 5. Properties of CovalentCompounds\n7. 1. Made from Molecules\n8. 3. Electrical Conductivity\n9. 5. Low Melting & Boiling Point\n10. 7. Allotropes of Carbon\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Covalent bonding** in 2–3 sentences. Use one example from Carbon and Its Compounds.\n- **MCQ (1 mark)** — MCQ: Which statement about **Covalent bonding** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Homologous series** in 2–3 sentences. Use one example from Carbon and Its Compounds.",
+      "body": "_Class 10 CBSE practice for **Carbon and Its Compounds**._\n\n**Practice questions:**\n\n1. 3. Bonding in Carbon– The Covalent Bond\n2. 1. Monovalency – Hydrogen (H₂)\n3. 2. Divalency – Oxygen (O₂)\n4. 3. Trivalency – Nitrogen (N₂)\n5. 4. Valency Example ElectronsShared Bond Type\n6. 5. Properties of CovalentCompounds\n7. 1. Made from Molecules\n8. 3. Electrical Conductivity\n9. 5. Low Melting & Boiling Point\n10. 7. Allotropes of Carbon\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **Covalent bonding** in 2–3 sentences. Use one example from Carbon and Its Compounds.\n- **MCQ (1 mark)** — MCQ: Which statement about **Covalent bonding** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Homologous series** in 2–3 sentences. Use one example from Carbon and Its Compounds.",
       "teacherNarration": {
         "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Carbon and Its Compounds, covering Covalent bonding, Homologous series, and Functional groups. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
-        "simplifiedSummary": "Carbon and Its Compounds · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       },
       "practiceQuestions": [
@@ -197,7 +188,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "3. Bonding in Carbon– The Covalent Bond"
         },
@@ -206,7 +196,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "1. Monovalency – Hydrogen (H₂)"
         },
@@ -215,7 +204,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "2. Divalency – Oxygen (O₂)"
         },
@@ -224,7 +212,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "3. Trivalency – Nitrogen (N₂)"
         },
@@ -233,7 +220,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "4. Valency Example ElectronsShared Bond Type"
         },
@@ -242,7 +228,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "5. Properties of CovalentCompounds"
         },
@@ -251,7 +236,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "1. Made from Molecules"
         },
@@ -260,7 +244,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "3. Electrical Conductivity"
         },
@@ -269,7 +252,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "5. Low Melting & Boiling Point"
         },
@@ -278,7 +260,6 @@
           "type": "extracted",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "crawled",
           "difficulty": "medium",
           "stem": "7. Allotropes of Carbon"
         },
@@ -287,7 +268,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Covalent bonding",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Covalent bonding** in 2–3 sentences. Use one example from Carbon and Its Compounds."
         },
@@ -296,7 +276,6 @@
           "type": "mcq",
           "marks": 1,
           "topic": "Covalent bonding",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "MCQ: Which statement about **Covalent bonding** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
         },
@@ -305,7 +284,6 @@
           "type": "short",
           "marks": 2,
           "topic": "Homologous series",
-          "source": "syllabus-generated",
           "difficulty": "medium",
           "stem": "Explain **Homologous series** in 2–3 sentences. Use one example from Carbon and Its Compounds."
         }
@@ -314,72 +292,62 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_Everyday connections for **Carbon and Its Compounds** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Covalent bonding** — Look for **Covalent bonding** in objects and processes around you — at home, in school labs, or in local industry.\n- **Homologous series** — Look for **Homologous series** in objects and processes around you — at home, in school labs, or in local industry.\n- **Functional groups** — Look for **Functional groups** in objects and processes around you — at home, in school labs, or in local industry.\n- **Soaps and detergents** — Look for **Soaps and detergents** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- Valency Example ElectronsShared Bond Type\n- For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.\n- What is a homologous series ? Explain with an example.\n- (i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.",
+      "body": "_Everyday connections for **Carbon and Its Compounds**._\n\n**Applications:**\n\n- **Covalent bonding** — Look for **Covalent bonding** in objects and processes around you — at home, in school labs, or in local industry.\n- **Homologous series** — Look for **Homologous series** in objects and processes around you — at home, in school labs, or in local industry.\n- **Functional groups** — Look for **Functional groups** in objects and processes around you — at home, in school labs, or in local industry.\n- **Soaps and detergents** — Look for **Soaps and detergents** in objects and processes around you — at home, in school labs, or in local industry.\n- **Carbon and Its Compounds** — Valency Example ElectronsShared Bond Type\n- **Carbon and Its Compounds** — For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.\n- **Carbon and Its Compounds** — What is a homologous series ? Explain with an example.\n- **Carbon and Its Compounds** — (i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.",
       "teacherNarration": {
         "teleprompter": "Let's connect Carbon and Its Compounds to real life — not just the textbook. I'll walk through everyday examples for Covalent bonding, Homologous series, and Functional groups: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
-        "simplifiedSummary": "Carbon and Its Compounds · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       },
       "applications": [
         {
           "id": "app-01",
           "topic": "Covalent bonding",
-          "example": "Look for **Covalent bonding** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Covalent bonding** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-02",
           "topic": "Homologous series",
-          "example": "Look for **Homologous series** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Homologous series** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-03",
           "topic": "Functional groups",
-          "example": "Look for **Functional groups** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Functional groups** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-04",
           "topic": "Soaps and detergents",
-          "example": "Look for **Soaps and detergents** in objects and processes around you — at home, in school labs, or in local industry.",
-          "source": "syllabus-generated"
+          "example": "Look for **Soaps and detergents** in objects and processes around you — at home, in school labs, or in local industry."
         },
         {
           "id": "app-05",
           "topic": "Carbon and Its Compounds",
-          "example": "Valency Example ElectronsShared Bond Type",
-          "source": "crawled"
+          "example": "Valency Example ElectronsShared Bond Type"
         },
         {
           "id": "app-06",
           "topic": "Carbon and Its Compounds",
-          "example": "For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.",
-          "source": "crawled"
+          "example": "For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid."
         },
         {
           "id": "app-07",
           "topic": "Carbon and Its Compounds",
-          "example": "What is a homologous series ? Explain with an example.",
-          "source": "crawled"
+          "example": "What is a homologous series ? Explain with an example."
         },
         {
           "id": "app-08",
           "topic": "Carbon and Its Compounds",
-          "example": "(i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.",
-          "source": "crawled"
+          "example": "(i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane."
         }
       ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_Recommended video learning for **Carbon and Its Compounds** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Carbon and Its Compounds NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Carbon+and+Its+Compounds+NCERT+explained+Hindi+English)\n- [Carbon and Its Compounds class 10 one shot revision](https://www.youtube.com/results?search_query=Carbon+and+Its+Compounds+class+10+one+shot+revision)\n- [NCERT Science class 10 Carbon and Its Compounds animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Carbon+and+Its+Compounds+animation)",
+      "body": "_Video learning for **Carbon and Its Compounds** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Carbon and Its Compounds NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Carbon+and+Its+Compounds+NCERT+explained+Hindi+English)\n- [Carbon and Its Compounds class 10 one shot revision](https://www.youtube.com/results?search_query=Carbon+and+Its+Compounds+class+10+one+shot+revision)\n- [NCERT Science class 10 Carbon and Its Compounds animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Carbon+and+Its+Compounds+animation)",
       "teacherNarration": {
         "teleprompter": "Before you press play on any video about Carbon and Its Compounds, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
-        "simplifiedSummary": "Carbon and Its Compounds · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       },
       "videos": [
@@ -387,22 +355,19 @@
           "id": "search-01",
           "title": "CBSE class 10 Carbon and Its Compounds NCERT explained Hindi English",
           "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Carbon+and+Its+Compounds+NCERT+explained+Hindi+English",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-02",
           "title": "Carbon and Its Compounds class 10 one shot revision",
           "url": "https://www.youtube.com/results?search_query=Carbon+and+Its+Compounds+class+10+one+shot+revision",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         },
         {
           "id": "search-03",
           "title": "NCERT Science class 10 Carbon and Its Compounds animation",
           "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Carbon+and+Its+Compounds+animation",
-          "kind": "search",
-          "source": "curated"
+          "kind": "search"
         }
       ]
     },
@@ -413,7 +378,6 @@
       "teacherNarration": {
         "teleprompter": "This is your recap if you watched a video on Carbon and Its Compounds — or if you prefer reading first. I'll walk through the lesson flow: Covalent bonding, Homologous series, and Functional groups, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
-        "simplifiedSummary": "Carbon and Its Compounds · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
@@ -422,9 +386,8 @@
       "title": "12. Teacher Explanation Module",
       "body": "Facts about Carbon:\n□Carbon is the 15th most abundant element in the earth's crust.\n□ Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.\n□ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n□ The shells of aquatic animals are made from calcium carbonate.\nGive a Thought:\n□ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n□ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO₂ is produced.\nChemical Equation:\nC + O₂ CO₂\n→\nConfirmation Test of CO₂\n(Limewater) (Calcium Carbonate)\nCa(OH)₂ = Calcium Hydroxide CaCO₃ = Calcium Carbonate\nObservation:\nCO₂ turns limewater turbid/milky.\nReason:\nThe milkiness is due to the formation of insoluble calcium carbonate (CaCO₃).\n3.\nBondin…",
       "teacherNarration": {
-        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Carbon and Its Compounds the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go.",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Carbon and Its Compounds the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
         "style": "teacher-deep",
-        "simplifiedSummary": "Carbon and Its Compounds · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     },
@@ -433,20 +396,15 @@
       "title": "13. Revision Summary",
       "body": "Facts about Carbon:\n□Carbon is the 15th most abundant element in the earth's crust.\n□ Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.\n□ Carbon is present in atmosphere primarily in the form of CO₂. Its concentration is 0.03%. Also traces of CO are found.\n□ The shells of aquatic animals are made from calcium carbonate.\nGive a Thought:\n□ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n□ To confirm this: On burning carbon-containing compounds, a colourless & odourless gas called CO…",
       "teacherNarration": {
-        "teleprompter": "Quick recap of Carbon and Its Compounds. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: Facts about Carbon: Carbon is the 15th most abundant element in the earth's crust.  Earth's crust has 0.02% carbon in form of minerals like carbonates, hydrogen carbonates, coal & petroleum.  Carbon is present in… I'll translate that into simpler language as we go.",
+        "teleprompter": "Quick recap of Carbon and Its Compounds. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
         "style": "teacher-revision",
-        "simplifiedSummary": "Carbon and Its Compounds · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       }
     }
   ],
   "crawlMeta": {
-    "articleCount": 2,
-    "videoCount": 3,
-    "sourceUrls": [
-      "https://www.slideshare.net/slideshow/carbon-and-its-compounds-class-x-science/288142605",
-      "https://www.learncbse.in/ncert-solutions-for-class-10-science-chapter-4-carbon-and-its-compounds/"
-    ],
-    "builtAt": "2026-06-23T20:29:04+00:00"
+    "builtAt": "2026-06-23T21:05:13+00:00",
+    "completeness": 0.945,
+    "contentPass": true
   }
 }
