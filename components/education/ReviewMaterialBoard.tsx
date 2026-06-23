@@ -15,8 +15,11 @@ import { REVIEW_CHAPTERS, type ReviewChapter } from "@/lib/education/reviewMater
 import { fetchChapterContent } from "@/lib/education/reviewMaterial/loadContent";
 import type { ChapterReviewContent, ChapterSection, PracticeQuestion, ReviewNote, ReviewNoteCategory, ReviewNoteStatus } from "@/lib/education/reviewMaterial/types";
 import {
-  pickSpeechVoice,
+  isSpeechSupported,
+  preloadSpeechVoices,
   resolveVoicePreset,
+  speakTeacherScript,
+  stopTeacherSpeech,
   TEACHER_VOICE_PRESETS,
   type TeacherVoicePresetId,
 } from "@/lib/education/reviewMaterial/teacherVoice";
@@ -187,7 +190,12 @@ function TeacherNarrationCard({
         <p className="text-xs font-semibold uppercase tracking-wide text-indigo-200">
           Teacher teleprompter · not verbatim material
         </p>
-        <button type="button" className="btn-secondary !py-1 !text-xs" onClick={onPlay}>
+        <button
+          type="button"
+          className="btn-secondary !py-1 !text-xs"
+          onClick={onPlay}
+          onMouseDown={preloadSpeechVoices}
+        >
           {speaking ? <Pause className="mr-1 inline h-3 w-3" /> : <Play className="mr-1 inline h-3 w-3" />}
           {speaking ? "Stop" : "Play this section"}
         </button>
@@ -247,11 +255,18 @@ export function ReviewMaterialBoard() {
   }, [chapterId]);
 
   useEffect(() => {
-    if (typeof window === "undefined" || !window.speechSynthesis) return;
-    const load = () => setVoicesReady(window.speechSynthesis.getVoices().length > 0);
+    if (!isSpeechSupported()) return;
+    preloadSpeechVoices();
+    const load = () => {
+      preloadSpeechVoices();
+      setVoicesReady(window.speechSynthesis.getVoices().length > 0);
+    };
     load();
     window.speechSynthesis.addEventListener("voiceschanged", load);
-    return () => window.speechSynthesis.removeEventListener("voiceschanged", load);
+    return () => {
+      window.speechSynthesis.removeEventListener("voiceschanged", load);
+      stopTeacherSpeech();
+    };
   }, []);
 
   useEffect(() => {
@@ -304,39 +319,35 @@ export function ReviewMaterialBoard() {
   }
 
   function stopAudio() {
-    if (typeof window !== "undefined" && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-    }
+    stopTeacherSpeech();
     setSpeaking(false);
   }
 
   function teleprompterForSection(section: ChapterSection | undefined): string {
     if (!section) return "";
     if (section.teacherNarration?.teleprompter) return section.teacherNarration.teleprompter;
-    if (content?.teacherAudio?.speakMaterial === false) {
-      const segment = content.teacherAudio.segments?.find((s) => s.sectionId === section.id);
-      if (segment?.teleprompter) return segment.teleprompter;
-    }
+    const segment = content?.teacherAudio?.segments?.find((s) => s.sectionId === section.id);
+    if (segment?.teleprompter) return segment.teleprompter;
     return content?.audioScript ?? "";
   }
 
   function playTeleprompter(text?: string) {
     const script = (text ?? teleprompterForSection(activeSection)).trim();
-    if (!script || typeof window === "undefined" || !window.speechSynthesis) return;
-    if (content?.teacherAudio?.speakMaterial === false && activeSection?.body && script === activeSection.body.trim()) {
+    if (!script || !isSpeechSupported()) return;
+
+    if (speaking) {
+      stopAudio();
       return;
     }
-    stopAudio();
+
+    preloadSpeechVoices();
     const preset = resolveVoicePreset(voicePresetId);
-    const utterance = new SpeechSynthesisUtterance(script);
-    utterance.rate = 0.92;
-    utterance.lang = preset.lang;
-    const voice = pickSpeechVoice(preset);
-    if (voice) utterance.voice = voice;
-    utterance.onend = () => setSpeaking(false);
-    utterance.onerror = () => setSpeaking(false);
-    setSpeaking(true);
-    window.speechSynthesis.speak(utterance);
+    const started = speakTeacherScript(script, preset, {
+      onStart: () => setSpeaking(true),
+      onEnd: () => setSpeaking(false),
+      onError: () => setSpeaking(false),
+    });
+    if (!started) setSpeaking(false);
   }
 
   function playAudio() {
@@ -449,7 +460,13 @@ export function ReviewMaterialBoard() {
                 <button type="button" className="btn-secondary !px-2 !py-2" onClick={() => goChapter(1)} disabled={chapterIndex >= chapters.length - 1}>
                   <ChevronRight className="h-4 w-4" />
                 </button>
-                <button type="button" className="btn-primary !py-2" onClick={speaking ? stopAudio : playAudio} disabled={!canPlayTeacherAudio}>
+                <button
+                  type="button"
+                  className="btn-primary !py-2"
+                  onClick={playAudio}
+                  onMouseDown={preloadSpeechVoices}
+                  disabled={!canPlayTeacherAudio || !isSpeechSupported()}
+                >
                   {speaking ? <Pause className="mr-2 h-4 w-4" /> : <Play className="mr-2 h-4 w-4" />}
                   {speaking ? "Stop teacher audio" : "Play teacher audio"}
                 </button>
@@ -480,7 +497,7 @@ export function ReviewMaterialBoard() {
                     <TeacherNarrationCard
                       narration={activeSection.teacherNarration}
                       speaking={speaking}
-                      onPlay={() => (speaking ? stopAudio() : playTeleprompter())}
+                      onPlay={() => playTeleprompter()}
                     />
                     {(activeSection.visualSvg || activeSection.media?.length || activeSection.diagram) && (
                       <SectionDiagramBlock section={activeSection} />

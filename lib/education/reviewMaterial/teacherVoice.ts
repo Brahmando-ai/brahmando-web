@@ -24,8 +24,17 @@ export const TEACHER_VOICE_PRESETS: TeacherVoicePreset[] = [
   { id: "teacher-male-us", label: "Male · US English", lang: "en-US", localeHint: "en-us", gender: "male" },
 ];
 
+/** Keep references so Chrome does not garbage-collect utterances mid-playback. */
+let activeUtterance: SpeechSynthesisUtterance | null = null;
+let speakTimer: ReturnType<typeof setTimeout> | null = null;
+
 export function resolveVoicePreset(id: string | undefined): TeacherVoicePreset {
   return TEACHER_VOICE_PRESETS.find((p) => p.id === id) ?? TEACHER_VOICE_PRESETS[0];
+}
+
+export function preloadSpeechVoices(): void {
+  if (typeof window === "undefined" || !window.speechSynthesis) return;
+  window.speechSynthesis.getVoices();
 }
 
 export function pickSpeechVoice(preset: TeacherVoicePreset): SpeechSynthesisVoice | null {
@@ -52,5 +61,62 @@ export function pickSpeechVoice(preset: TeacherVoicePreset): SpeechSynthesisVoic
   });
 
   scored.sort((a, b) => b.score - a.score);
-  return scored[0]?.voice ?? null;
+  const best = scored[0];
+  return best && best.score >= 10 ? best.voice : null;
+}
+
+export function stopTeacherSpeech(): void {
+  if (typeof window === "undefined" || !window.speechSynthesis) return;
+  if (speakTimer) {
+    clearTimeout(speakTimer);
+    speakTimer = null;
+  }
+  window.speechSynthesis.cancel();
+  activeUtterance = null;
+}
+
+export function speakTeacherScript(
+  script: string,
+  preset: TeacherVoicePreset,
+  handlers?: { onStart?: () => void; onEnd?: () => void; onError?: () => void },
+): boolean {
+  if (typeof window === "undefined" || !window.speechSynthesis) return false;
+
+  const trimmed = script.trim();
+  if (!trimmed) return false;
+
+  const synth = window.speechSynthesis;
+  stopTeacherSpeech();
+  preloadSpeechVoices();
+
+  const utterance = new SpeechSynthesisUtterance(trimmed);
+  activeUtterance = utterance;
+  utterance.rate = 0.92;
+  utterance.lang = preset.lang;
+
+  const voice = pickSpeechVoice(preset);
+  if (voice) utterance.voice = voice;
+
+  utterance.onstart = () => handlers?.onStart?.();
+  utterance.onend = () => {
+    activeUtterance = null;
+    handlers?.onEnd?.();
+  };
+  utterance.onerror = () => {
+    activeUtterance = null;
+    handlers?.onError?.();
+  };
+
+  // Chrome/Edge: speak() right after cancel() is ignored — brief delay + resume fixes it.
+  synth.resume();
+  speakTimer = setTimeout(() => {
+    speakTimer = null;
+    synth.speak(utterance);
+  }, 80);
+
+  return true;
+}
+
+export function isSpeechSupported(): boolean {
+  return typeof window !== "undefined" && "speechSynthesis" in window;
 }
