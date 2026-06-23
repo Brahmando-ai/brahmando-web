@@ -7,7 +7,7 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "CBSE Class 10 Maths Arithmetic Progression Notes:-Download PDF Here\nGet the complete notes on arithmetic progressions in this article. These notes are useful for the students who are preparing for the CBSE board exams 2023-24. In this article, we will discuss the introduction to Arithmetic Progression (AP), general terms, and various formulas in AP, such as the sum of n terms of an AP, nth term of an AP and so on in detail.\nIntroduction to AP\nSequences, Series and Progressions\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A progression is a sequence in which the general term can be can be expressed using a mathematical formula.\nFor any finite sequence, it is generally represented as a1, a2, a3, ……an, where 1, 2, 3, …, n represents the position of the term. As the series is represented as the sum of sequences, it is represented as a1 + a2 + a3 + …. + an.\nFor any infinite sequence…\n**Crawled sources (internet):**\n- [Arithmetic Progression For Class 10](https://byjus.com/maths/arithmetic-progression-for-class-10/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)"
+      "body": "CBSE Class 10 Maths Arithmetic Progression Notes:-Download PDF Here\nGet the complete notes on arithmetic progressions in this article. These notes are useful for the students who are preparing for the CBSE board exams 2023-24. In this article, we will discuss the introduction to Arithmetic Progression (AP), general terms, and various formulas in AP, such as the sum of n terms of an AP, nth term of an AP and so on in detail.\nIntroduction to AP\nSequences, Series and Progressions\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A progression is a sequence in which the general term can be can be expressed using a mathematical formula.\nFor any finite sequence, it is generally represented as a1, a2, a3, ……an, where 1, 2, 3, …, n represents the position of the term. As the series is represented as the sum of sequences, it is represented as a1 + a2 + a3 + …. + an.\nFor any infinite sequence…\n**Crawled sources (internet):**\n- [Arithmetic Progression For Class 10](https://byjus.com/maths/arithmetic-progression-for-class-10/)\n- [Summation - Wikipedia](https://en.m.wikipedia.org/wiki/Summation)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)"
     },
     {
       "id": "key-definitions",
@@ -32,7 +32,7 @@
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "**Common pitfalls mentioned:**\n\n- since the right-hand side is by definition the limit for of the left-hand side. However, for a given summation n is fixed, and little can be said about the error in the above approximation without additional assumptions about f: it is clear that for wildly oscillating functions the Riemann sum can be arbitrarily far from the Riemann integral."
     },
     {
       "id": "diagram-section",
@@ -47,7 +47,7 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "**Applications mentioned:**\n\n- An example of application of the above equation is the following:\n- (another application of commutativity and associativity)"
     },
     {
       "id": "video-learning-resources",
@@ -71,13 +71,14 @@
     }
   ],
   "crawlMeta": {
-    "articleCount": 3,
+    "articleCount": 4,
     "videoCount": 0,
     "sourceUrls": [
       "https://byjus.com/maths/arithmetic-progression-for-class-10/",
+      "https://en.m.wikipedia.org/wiki/Summation",
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use"
     ],
-    "builtAt": "2026-06-23T19:24:43+00:00"
+    "builtAt": "2026-06-23T19:34:48+00:00"
   }
 }

@@ -7,7 +7,7 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres woul…\n**Crawled sources (internet):**\n- [Area - Wikipedia](https://en.wikipedia.org/wiki/Area)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [CBSE Notes For Class 10 Maths Chapter 11 Areas Related To Circles](https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles)"
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres woul…\n**Crawled sources (internet):**\n- [Area - Wikipedia](https://en.wikipedia.org/wiki/Area)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [CBSE Notes For Class 10 Maths Chapter 11 Areas Related To Circles](https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles)\n- [Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths](https://www.scribd.com/document/795092660/Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths)"
     },
     {
       "id": "key-definitions",
@@ -71,13 +71,15 @@
     }
   ],
   "crawlMeta": {
-    "articleCount": 3,
+    "articleCount": 5,
     "videoCount": 0,
     "sourceUrls": [
       "https://en.wikipedia.org/wiki/Area",
       "https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html",
-      "https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles"
+      "https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html",
+      "https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles",
+      "https://www.scribd.com/document/795092660/Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths"
     ],
-    "builtAt": "2026-06-23T19:24:44+00:00"
+    "builtAt": "2026-06-23T19:34:50+00:00"
   }
 }

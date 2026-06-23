@@ -52,12 +52,12 @@
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "**Videos discovered by crawler:**\n\n- https://www.youtube.com/watch?v=A6e_U7btm3g"
+      "body": "_No crawled excerpts matched this section yet._"
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_Video transcript extraction is planned (Step 5 — yt-dlp / youtube-transcript-api)._"
+      "body": "_No crawled excerpts matched this section yet._"
     },
     {
       "id": "teacher-explanation-module",
@@ -72,12 +72,12 @@
   ],
   "crawlMeta": {
     "articleCount": 3,
-    "videoCount": 1,
+    "videoCount": 0,
     "sourceUrls": [
       "https://byjus.com/cbse-notes/cbse-class-10-maths-notes-chapter-3-pair-of-linear-equations-in-two-variables/",
       "https://byjus.com/ncert-solutions-class-10-maths/chapter-3-linear-equations-in-two-variables/",
       "https://deekshalearning.com/maths/algebraic-methods-of-solving-a-pair-of-linear-equations/"
     ],
-    "builtAt": "2026-06-23T19:24:43+00:00"
+    "builtAt": "2026-06-23T19:34:48+00:00"
   }
 }
