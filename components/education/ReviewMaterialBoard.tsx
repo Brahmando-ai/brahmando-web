@@ -238,33 +238,32 @@ function ChapterMetaStrip({ content }: { content: ChapterReviewContent }) {
   );
 }
 
-function TeacherNarrationCard({
-  narration,
-  onPlay,
+function TeacherAudioBar({
   speaking,
+  canPlay,
+  speechSupported,
+  onPlay,
 }: {
-  narration: ChapterSection["teacherNarration"];
-  onPlay: () => void;
   speaking: boolean;
+  canPlay: boolean;
+  speechSupported: boolean;
+  onPlay: () => void;
 }) {
-  if (!narration?.teleprompter) return null;
+  if (!canPlay) return null;
   return (
-    <div className="mb-4 rounded-xl border border-indigo-400/25 bg-indigo-500/10 p-4">
-      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-        <p className="text-xs font-semibold uppercase tracking-wide text-indigo-200">
-          Teacher teleprompter · not verbatim material
-        </p>
-        <button
-          type="button"
-          className="btn-secondary !py-1 !text-xs"
-          onClick={onPlay}
-          onMouseDown={preloadSpeechVoices}
-        >
-          {speaking ? <Pause className="mr-1 inline h-3 w-3" /> : <Play className="mr-1 inline h-3 w-3" />}
-          {speaking ? "Stop" : "Play this section"}
-        </button>
-      </div>
-      <p className="text-sm leading-relaxed text-indigo-50/95">{narration.teleprompter}</p>
+    <div className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-indigo-400/25 bg-indigo-500/10 px-4 py-3">
+      <p className="text-xs font-semibold uppercase tracking-wide text-indigo-200">Teacher narration</p>
+      <button
+        type="button"
+        className="btn-secondary !py-1 !text-xs"
+        onClick={onPlay}
+        onMouseDown={preloadSpeechVoices}
+        disabled={!speechSupported}
+        title={speechSupported ? undefined : "Speech not supported in this browser"}
+      >
+        {speaking ? <Pause className="mr-1 inline h-3 w-3" /> : <Play className="mr-1 inline h-3 w-3" />}
+        {speaking ? "Stop" : "Play this section"}
+      </button>
     </div>
   );
 }
@@ -312,6 +311,7 @@ export function ReviewMaterialBoard() {
   const [speaking, setSpeaking] = useState(false);
   const [voicePresetId, setVoicePresetId] = useState<TeacherVoicePresetId>("teacher-female-in");
   const [voicesReady, setVoicesReady] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(false);
 
   const chapters = useMemo(
     () => REVIEW_CHAPTERS.filter((c) => subjectFilter === "all" || c.subject === subjectFilter),
@@ -326,6 +326,7 @@ export function ReviewMaterialBoard() {
   }, [chapterId]);
 
   useEffect(() => {
+    setSpeechSupported(isSpeechSupported());
     if (!isSpeechSupported()) return;
     preloadSpeechVoices();
     const load = () => {
@@ -402,9 +403,13 @@ export function ReviewMaterialBoard() {
     return content?.audioScript ?? "";
   }
 
+  useEffect(() => {
+    stopAudio();
+  }, [sectionId, chapterId]);
+
   function playTeleprompter(text?: string) {
     const script = (text ?? teleprompterForSection(activeSection)).trim();
-    if (!script || !isSpeechSupported()) return;
+    if (!script || !speechSupported) return;
 
     if (speaking) {
       stopAudio();
@@ -534,7 +539,7 @@ export function ReviewMaterialBoard() {
                   className="btn-primary !py-2"
                   onClick={playAudio}
                   onMouseDown={preloadSpeechVoices}
-                  disabled={!canPlayTeacherAudio || !isSpeechSupported()}
+                  disabled={!canPlayTeacherAudio || !speechSupported}
                 >
                   {speaking ? <Pause className="mr-2 h-4 w-4" /> : <Play className="mr-2 h-4 w-4" />}
                   {speaking ? "Stop teacher audio" : "Play teacher audio"}
@@ -563,9 +568,10 @@ export function ReviewMaterialBoard() {
                 {activeSection && (
                   <div>
                     <h3 className="mb-3 text-lg font-medium text-cyan-100">{activeSection.title}</h3>
-                    <TeacherNarrationCard
-                      narration={activeSection.teacherNarration}
+                    <TeacherAudioBar
                       speaking={speaking}
+                      canPlay={canPlayTeacherAudio}
+                      speechSupported={speechSupported}
                       onPlay={() => playTeleprompter()}
                     />
                     {(activeSection.visualSvg || activeSection.media?.length || activeSection.diagram) && (
