@@ -2,37 +2,37 @@
   "chapterId": "math-areas-circles",
   "title": "Areas Related to Circles",
   "subject": "math",
-  "audioScript": "Chapter review: Areas Related to Circles.",
+  "audioScript": "Chapter review: Areas Related to Circles. | Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the s",
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": ""
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres woul…\n**Crawled sources (internet):**\n- [Area - Wikipedia](https://en.wikipedia.org/wiki/Area)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [CBSE Notes For Class 10 Maths Chapter 11 Areas Related To Circles](https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles)"
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": ""
+      "body": "**Definitions extracted from crawled pages:**\n\n- Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\n- The area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\n- There are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\n- Area plays an important role in modern mathematics. In addition to its obvious importance in geometry and calculus, area is related to the definition of determinants in linear algebra, and is a basic property of surfaces in differential geometry.[8] In analysis, the area of a subset of the plane is defined using Lebesgue measure,[9] though not every subset is measurable if one supposes the axiom of choice.[10] In general, area in higher mathematics is seen as a special case of volume for two-dimensional regions.[1]\n- An approach to defining what is meant by \"area\" is through axioms. \"Area\" can be defined as a function from a collection M of a special kinds of plane figures (termed measurable sets) to the set of real numbers, which satisfies the following properties:[11]\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T)."
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": ""
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\nThere are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\nFor a solid shape such as a sphere, cone, or cylinder, the area of its boundary surface is called the surface area.[1][6][7] Formulas for the surface areas of simple shapes were computed by…"
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": ""
+      "body": "**Formulas / relations found:**\n\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T).\n- Every rectangle R is in M. If the rectangle has length h and breadth k then a(R) = hk.\n- Let Q be a set enclosed between two step regions S and T. A step region is formed from a finite union of adjacent rectangles resting on a common base, i.e. S ⊆ Q ⊆ T. If there is a unique number c such that a(S) ≤ c ≤ a(T) for all such step regions S and T, then a(Q) = c.\n- 1 metre × 1 metre = 1 m2\n- 3 metres × 2 metres = 6 m2. This is equivalent to 6 million square millimetres. Other useful conversi\n- 1 square kilometre = 1,000,000 square metres"
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": ""
+      "body": "**Example snippets:**\n\n- Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any parallelogram can be subdivided into a trapezoid and a right triangle, as shown in figure to the left. If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle. It follows that the area of the parallelogram is the same as the area of the rectangle:[2]\n- Most basic formulas for surface area can be obtained by cutting surfaces and flattening them out (see: developable surfaces). For example, if the side surface of a cylinder (or any prism) is cut lengthwise, the surface can be flattened out into a rectangle. Similarly, if a cut is made along the side of a cone, the side surface can be flattened out into a sector of a circle, and the resulting area computed.\n- Example 1: Area of Sector (Easy)\n- Example 2: Arc Length (Moderate)\n- Example 3: Area of Segment\n- Example 4: Board-Level Word Problem (5 Marks)"
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": ""
+      "body": "**Common pitfalls mentioned:**\n\n- Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors. The limit of the areas of the approximate parallelograms is exactly πr2, which is the area of the circle.[28]\n- Common Mistakes to Avoid\n- | Mistake | Correction |"
     },
     {
       "id": "diagram-section",
@@ -42,38 +42,42 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": ""
+      "body": "**Practice-style lines from sources:**\n\n- Is Areas Related to Circles important for CBSE Class 10 board exam?\n- When should I use 22/7 and when to use 3.14?\n- Are these CBSE Class 10 Maths Notes based on NCERT?\n- How can I download these Class 10 Maths Notes PDF?\n- What are the sectors, segments, and lengths of an arc of a circle?"
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": ""
+      "body": "**Applications mentioned:**\n\n- This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is now recognized as a precursor to integral calculus. Using modern methods, the area of a circle can be computed using a definite integral:\n- Word Problems - Real-life application questions"
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": ""
+      "body": "_No crawled excerpts matched this section yet._"
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": ""
+      "body": "_No crawled excerpts matched this section yet._"
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": ""
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area…"
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": ""
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dim…"
     }
   ],
   "crawlMeta": {
-    "articleCount": 0,
+    "articleCount": 3,
     "videoCount": 0,
-    "sourceUrls": [],
-    "builtAt": "2026-06-23T18:05:33+00:00"
+    "sourceUrls": [
+      "https://en.wikipedia.org/wiki/Area",
+      "https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html",
+      "https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles"
+    ],
+    "builtAt": "2026-06-23T19:24:44+00:00"
   }
 }

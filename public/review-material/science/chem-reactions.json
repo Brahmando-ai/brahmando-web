@@ -7,7 +7,7 @@
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\nKhan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\nThe origins of Khan Academy date to 2004, when Salman \"Sal\" Khan began tutoring a cousin in mathematics online using a service called Yahoo!…\n**Crawled sources (internet):**\n- [Khan Academy - Wikipedia](https://en.wikipedia.org/wiki/Khan_Academy)\n- [Client Challenge](https://www.khanacademy.org/)"
+      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\nKhan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\nThe origins of Khan Academy date to 2004, when Salman \"Sal\" Khan began tutoring a cousin in mathematics online using a service called Yahoo!…\n**Crawled sources (internet):**\n- [Khan Academy - Wikipedia](https://en.wikipedia.org/wiki/Khan_Academy)\n- [Khan Academy India | Master the India curriculum for free](https://india.khanacademy.org/)\n- [Client Challenge](https://en.khanacademy.org/science/ncert-class-10-science/x86cb04ca33008b40:chemical-reactions-and-equations/x86cb04ca33008b40:intro-to-chemical-reactions-and-equations/v/intro-to-chemical-reactions)"
     },
     {
       "id": "key-definitions",
@@ -71,12 +71,13 @@
     }
   ],
   "crawlMeta": {
-    "articleCount": 2,
+    "articleCount": 3,
     "videoCount": 0,
     "sourceUrls": [
       "https://en.wikipedia.org/wiki/Khan_Academy",
-      "https://www.khanacademy.org/"
+      "https://india.khanacademy.org/",
+      "https://en.khanacademy.org/science/ncert-class-10-science/x86cb04ca33008b40:chemical-reactions-and-equations/x86cb04ca33008b40:intro-to-chemical-reactions-and-equations/v/intro-to-chemical-reactions"
     ],
-    "builtAt": "2026-06-23T18:05:32+00:00"
+    "builtAt": "2026-06-23T19:24:40+00:00"
   }
 }
