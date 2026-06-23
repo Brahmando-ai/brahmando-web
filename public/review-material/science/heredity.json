@@ -1,73 +1,229 @@
 {
+  "schemaVersion": 2,
+  "registryId": "sci-heredity",
+  "analyticsId": "heredity",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 0,
+  "difficulty": "medium",
+  "topics": [],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
   "chapterId": "sci-heredity",
   "title": "Heredity",
   "subject": "science",
-  "audioScript": "Chapter review: Heredity. You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes i",
+  "audioScript": "Good morning, everyone. Today we're opening Heredity. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Heredity. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Heredity. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Strong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way. I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Heredity, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Heredity, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Heredity the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Heredity. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board exams.\nStrong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.\n| Unit | Chapter No. | Chapter Name | \n| Unit I: Chemical Substances – Nature and Behaviour | 1 | Chemical Reactions and Equations | \n| 2 | Acids, Bases and Salts | |\n| 3 | Metals and Non-metals | |\n| 4 | Carbon and Its Compounds | |\n| Unit II: World of Living | 5 | Life Processes | \n| 6 | Control and Coordination | |\n| 7 | How do Organisms Reproduce | |\n| 8 | Heredity and Evolution | |\n| Unit III: Natural Phenomena | 9 | Light – Re…\n**Crawled sources (internet):**\n- [CBSE Class 10 Science NCERT Solutions 2026-27](https://www.pw.live/school-prep/exams/ncert-solutions-class-10-science)"
+      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board exams.\nStrong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.\n| Unit | Chapter No. | Chapter Name | \n| Unit I: Chemical Substances – Nature and Behaviour | 1 | Chemical Reactions and Equations | \n| 2 | Acids, Bases and Salts | |\n| 3 | Metals and Non-metals | |\n| 4 | Carbon and Its Compounds | |\n| Unit II: World of Living | 5 | Life Processes | \n| 6 | Control and Coordination | |\n| 7 | How do Organisms Reproduce | |\n| 8 | Heredity and Evolution | |\n| Unit III: Natural Phenomena | 9 | Light – Re…\n**Crawled sources (internet):**\n- [CBSE Class 10 Science NCERT Solutions 2026-27](https://www.pw.live/school-prep/exams/ncert-solutions-class-10-science)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Heredity. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Heredity · Concept Overview: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- Strong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way."
+      "body": "**Definitions extracted from crawled pages:**\n\n- Strong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Heredity. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Strong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way. I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Heredity · Key Definitions: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board exams.\nStrong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.\n| Unit | Chapter No. | Chapter Name | \n| Unit I: Chemical Substances – Nature and Behaviour | 1 | Chemical Reactions and Equations | \n| 2 | Acids, Bases and Salts | |\n| 3 | Metals and Non-metals | |\n| 4 | Carbon and Its Compounds | |\n| Unit II: World of Living | 5 | Life Processes | \n| 6 | Control and Coordination | |\n| 7 | How do Organisms Reproduce | |\n| 8 | Heredity and Evolution | |\n| Unit III: Natural Phenomena | 9 | Light – Reflection and Refraction | \n| 10 | Human Eye and the Colourful World | |\n| Unit IV: Effects of Current | 11 | Electricity | \n| 12 | Magnetic Effects of Electric Current | |\n| Unit V: Natural Resources | 13 | Sources of Energy | \nPreparing for the Class 10 Science becomes more effective when you combine concept learning with regular practice and revision. PW supports your preparation at every stage, helping you understand topics clearly, practise consistently, and track your progress with the right resources."
+      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board exams.\nStrong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.\n| Unit | Chapter No. | Chapter Name | \n| Unit I: Chemical Substances – Nature and Behaviour | 1 | Chemical Reactions and Equations | \n| 2 | Acids, Bases and Salts | |\n| 3 | Metals and Non-metals | |\n| 4 | Carbon and Its Compounds | |\n| Unit II: World of Living | 5 | Life Processes | \n| 6 | Control and Coordination | |\n| 7 | How do Organisms Reproduce | |\n| 8 | Heredity and Evolution | |\n| Unit III: Natural Phenomena | 9 | Light – Reflection and Refraction | \n| 10 | Human Eye and the Colourful World | |\n| Unit IV: Effects of Current | 11 | Electricity | \n| 12 | Magnetic Effects of Electric Current | |\n| Unit V: Natural Resources | 13 | Sources of Energy | \nPreparing for the Class 10 Science becomes more effective when you combine concept learning with regular practice and revision. PW supports your preparation at every stage, helping you understand topics clearly, practise consistently, and track your progress with the right resources.",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Heredity · Core Concepts: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Heredity, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Heredity · Formulas / Theorems: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Heredity · Solved Examples: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Heredity · Common Mistakes: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Heredity, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Heredity · Diagram Section: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Heredity</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Key idea</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Definition</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Example</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Exam tip</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Heredity — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": []
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Heredity · Practice Questions: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Heredity · Real World Applications: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Heredity · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Heredity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Heredity · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board exams.\nStrong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.\n| Unit | Chapter No. | Chapter Name | \n| Unit I: Chemical Substances – Nature and Behaviour | 1 | Chemical Reactions and Equations | \n|…"
+      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board exams.\nStrong concepts and regular practice are important for success in Science. With CBSE Class 10 NCERT Solutions, you can learn answers in a clear and easy way.\n| Unit | Chapter No. | Chapter Name | \n| Unit I: Chemical Substances – Nature and Behaviour | 1 | Chemical Reactions and Equations | \n|…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Heredity the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Heredity · Teacher Explanation Module: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board e…"
+      "body": "You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key points, and difficulty in applying concepts to questions can lead to loss of marks, even when the basics are known.\nCBSE Class 10 Science NCERT Solutions 2026–27 help address this by providing clear explanations, accurate step-by-step answers, and exam-focused guidance. This makes it easier to understand concepts, structure answers properly, and prepare with confidence for board e…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Heredity. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: You may struggle with Class 10 Science because simply reading NCERT is often not enough to fully understand concepts or write precise, step-by-step answers in exams. Confusion around how to frame answers, missing key… I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Heredity · Revision Summary: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -76,6 +232,6 @@
     "sourceUrls": [
       "https://www.pw.live/school-prep/exams/ncert-solutions-class-10-science"
     ],
-    "builtAt": "2026-06-23T19:34:45+00:00"
+    "builtAt": "2026-06-23T19:57:52+00:00"
   }
 }

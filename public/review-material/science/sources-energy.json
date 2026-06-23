@@ -1,73 +1,229 @@
 {
+  "schemaVersion": 2,
+  "registryId": "sci-energy",
+  "analyticsId": "energy",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 0,
+  "difficulty": "medium",
+  "topics": [],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
   "chapterId": "sci-energy",
   "title": "Sources of Energy",
   "subject": "science",
-  "audioScript": "Chapter review: Sources of Energy. ### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) O",
+  "audioScript": "Good morning, everyone. Today we're opening Sources of Energy. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Sources of Energy. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Sources of Energy. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - National Institute of Solar Energy, an autonomous institution of Ministry of New and Renewable (MNRE), is the apex institute for research and development in the field Solar… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Sources of Energy, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - = 2018. All other values for 2019. - Renewable capacity statistics 2026 (PDF). March 2026. ISBN 978-92-9260-725-8. Retrieved 5 April 2026.{{cite book}}:website=ignored (help) - The total… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Sources of Energy, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Sources of Energy the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Sources of Energy. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) Order, 2024 dated 08th October 2024\n- Guidelines for Quantifying Greenhouse Gas (GHG) Emissions from Offsite Water Drawl and Treatment, Ensuring Compliance with the Green Hydrogen Certification Scheme of India.\nACHIEVEMENTS\nAs per IRENA, Globally 3th position in overall Renewable Energy Capacity\n53.7% Cumulative Installed Capacity from non-fossil fuel sources\nRenewable Power generation increased nearly 2.5 times from 190 BU to 477 BU since 2014\nSolar Power installed capacity increased approx 55.7 times from 2.82 GW to 157.05 GW since 2014\nWind capacity increased 2.7 times from 21 GW to 56.81 GW since 2014\nAs per IRENA, Globally 4th Position in Wind Power Capacity & 3rd in Solar Power Capacity…\n**Crawled sources (internet):**\n- [Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India](https://mnre.gov.in/en/)\n- [Solar Overview | MINISTRY OF NEW AND RENEWABLE ENERGY | India](https://mnre.gov.in/en/solar-overview/)\n- [Renewable energy - Wikipedia](https://en.wikipedia.org/wiki/Renewable_energy)\n- [Solar energy - Wikipedia](https://en.wikipedia.org/wiki/Solar_energy)\n- [Solar | MINISTRY OF NEW AND RENEWABLE ENERGY | India](https://mnre.gov.in/en/solar/)"
+      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) Order, 2024 dated 08th October 2024\n- Guidelines for Quantifying Greenhouse Gas (GHG) Emissions from Offsite Water Drawl and Treatment, Ensuring Compliance with the Green Hydrogen Certification Scheme of India.\nACHIEVEMENTS\nAs per IRENA, Globally 3th position in overall Renewable Energy Capacity\n53.7% Cumulative Installed Capacity from non-fossil fuel sources\nRenewable Power generation increased nearly 2.5 times from 190 BU to 477 BU since 2014\nSolar Power installed capacity increased approx 55.7 times from 2.82 GW to 157.05 GW since 2014\nWind capacity increased 2.7 times from 21 GW to 56.81 GW since 2014\nAs per IRENA, Globally 4th Position in Wind Power Capacity & 3rd in Solar Power Capacity…\n**Crawled sources (internet):**\n- [Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India](https://mnre.gov.in/en/)\n- [Solar Overview | MINISTRY OF NEW AND RENEWABLE ENERGY | India](https://mnre.gov.in/en/solar-overview/)\n- [Renewable energy - Wikipedia](https://en.wikipedia.org/wiki/Renewable_energy)\n- [Solar energy - Wikipedia](https://en.wikipedia.org/wiki/Solar_energy)\n- [Solar | MINISTRY OF NEW AND RENEWABLE ENERGY | India](https://mnre.gov.in/en/solar/)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Sources of Energy. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Sources of Energy · Concept Overview: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- National Institute of Solar Energy, an autonomous institution of Ministry of New and Renewable (MNRE), is the apex institute for research and development in the field Solar Energy.\n- National Institute of Wind Energy (NIWE) established in Chennai in 1998 by the Ministry of New and Renewable Energy (MNRE), Government of India is an autonomous research and development institution.\n- Sardar Swaran Singh National Institute of Renewable Energy (SSS-NIBE), Kapurthala (Punjab) is an autonomous Institution of the Ministry of New and Renewable Energy.\n- Indian Renewable Energy Development Agency Limited (IREDA) is a 'Navratna' non-banking financial institution under the administrative control of Ministry of New and Renewable Energy (MNRE). IREDA is engaged in promoting, developing and extending financial assistance for setting up projects.\n- Ministry of New & Renewable Energy (MNRE) is the nodal agency at the central level for promotion of grid-connected and off-grid renewable energy in the country. Ministry’s programmes are implemented in close coordination with State Nodal Agencies (SNAs) for renewable energy (RE).\n- A treaty-based international intergovernmental organization, International Solar Alliance (ISA), aims at mobilizing more than USD 1000 billion of investment needed by 2030 for the massive deployment of solar energy. Established by Prime Minister Narendra Modi and President of France Francois Hollande on November 30, 2015, ISA’s objective is to scale up solar energy, reduce the cost of solar power generation through aggregation of demand for solar finance, technologies, innovation, research and development, and capacity building.\n-  The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if\n-  | This article needs to be updated. The reason given is: Some of the sources used in this article are over 10 years old. Adoption, energy efficiency, price and storage capacity for renewable energies has changed significantly in that period of time. (April 2026) |"
+      "body": "**Definitions extracted from crawled pages:**\n\n- National Institute of Solar Energy, an autonomous institution of Ministry of New and Renewable (MNRE), is the apex institute for research and development in the field Solar Energy.\n- National Institute of Wind Energy (NIWE) established in Chennai in 1998 by the Ministry of New and Renewable Energy (MNRE), Government of India is an autonomous research and development institution.\n- Sardar Swaran Singh National Institute of Renewable Energy (SSS-NIBE), Kapurthala (Punjab) is an autonomous Institution of the Ministry of New and Renewable Energy.\n- Indian Renewable Energy Development Agency Limited (IREDA) is a 'Navratna' non-banking financial institution under the administrative control of Ministry of New and Renewable Energy (MNRE). IREDA is engaged in promoting, developing and extending financial assistance for setting up projects.\n- Ministry of New & Renewable Energy (MNRE) is the nodal agency at the central level for promotion of grid-connected and off-grid renewable energy in the country. Ministry’s programmes are implemented in close coordination with State Nodal Agencies (SNAs) for renewable energy (RE).\n- A treaty-based international intergovernmental organization, International Solar Alliance (ISA), aims at mobilizing more than USD 1000 billion of investment needed by 2030 for the massive deployment of solar energy. Established by Prime Minister Narendra Modi and President of France Francois Hollande on November 30, 2015, ISA’s objective is to scale up solar energy, reduce the cost of solar power generation through aggregation of demand for solar finance, technologies, innovation, research and development, and capacity building.\n-  The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if\n-  | This article needs to be updated. The reason given is: Some of the sources used in this article are over 10 years old. Adoption, energy efficiency, price and storage capacity for renewable energies has changed significantly in that period of time. (April 2026) |",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Sources of Energy. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - National Institute of Solar Energy, an autonomous institution of Ministry of New and Renewable (MNRE), is the apex institute for research and development in the field Solar… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Sources of Energy · Key Definitions: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) Order, 2024 dated 08th October 2024\n- Guidelines for Quantifying Greenhouse Gas (GHG) Emissions from Offsite Water Drawl and Treatment, Ensuring Compliance with the Green Hydrogen Certification Scheme of India.\nACHIEVEMENTS\nAs per IRENA, Globally 3th position in overall Renewable Energy Capacity\n53.7% Cumulative Installed Capacity from non-fossil fuel sources\nRenewable Power generation increased nearly 2.5 times from 190 BU to 477 BU since 2014\nSolar Power installed capacity increased approx 55.7 times from 2.82 GW to 157.05 GW since 2014\nWind capacity increased 2.7 times from 21 GW to 56.81 GW since 2014\nAs per IRENA, Globally 4th Position in Wind Power Capacity & 3rd in Solar Power Capacity\nRecord RE capacity addition of 132.5 GW in last 5 years\nInnovative policy interventions such as ISTS waiver, RPO trajectory till 2029-30, Green Open Access Rules introduced\nINSTITUTES & AGENCIES\nNATIONAL INSTITUTE OF SOLAR ENERGY\nNational Institute of Solar Energy, an autonomous institution of Ministry of New and Renewable (MNRE), is the apex institute for research and development in the field Solar Energy.\nNATIONAL INSTITUTE OF WIND ENERGY\nNational Institute of Wind Energy (NIWE) established in Chennai in 1998 by the Ministry of New and Renewable Energy (MNRE), Government of India is an autonomous research and development institution.\nNATIONAL INSTITUTE OF BIO ENERGY\nSardar Swaran Singh National Institute of Renewable Energy (SSS-NIBE), Kapurthala (Punjab) is an autonomous Institution of…"
+      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) Order, 2024 dated 08th October 2024\n- Guidelines for Quantifying Greenhouse Gas (GHG) Emissions from Offsite Water Drawl and Treatment, Ensuring Compliance with the Green Hydrogen Certification Scheme of India.\nACHIEVEMENTS\nAs per IRENA, Globally 3th position in overall Renewable Energy Capacity\n53.7% Cumulative Installed Capacity from non-fossil fuel sources\nRenewable Power generation increased nearly 2.5 times from 190 BU to 477 BU since 2014\nSolar Power installed capacity increased approx 55.7 times from 2.82 GW to 157.05 GW since 2014\nWind capacity increased 2.7 times from 21 GW to 56.81 GW since 2014\nAs per IRENA, Globally 4th Position in Wind Power Capacity & 3rd in Solar Power Capacity\nRecord RE capacity addition of 132.5 GW in last 5 years\nInnovative policy interventions such as ISTS waiver, RPO trajectory till 2029-30, Green Open Access Rules introduced\nINSTITUTES & AGENCIES\nNATIONAL INSTITUTE OF SOLAR ENERGY\nNational Institute of Solar Energy, an autonomous institution of Ministry of New and Renewable (MNRE), is the apex institute for research and development in the field Solar Energy.\nNATIONAL INSTITUTE OF WIND ENERGY\nNational Institute of Wind Energy (NIWE) established in Chennai in 1998 by the Ministry of New and Renewable Energy (MNRE), Government of India is an autonomous research and development institution.\nNATIONAL INSTITUTE OF BIO ENERGY\nSardar Swaran Singh National Institute of Renewable Energy (SSS-NIBE), Kapurthala (Punjab) is an autonomous Institution of…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Sources of Energy · Core Concepts: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- = 2018. All other values for 2019.\n- Renewable capacity statistics 2026 (PDF). March 2026. ISBN 978-92-9260-725-8. Retrieved 5 April 2026.{{cite book}}:|website=ignored (help)\n- The total solar energy absorbed by Earth's atmosphere, oceans and land masses is approximately 122 PW·year = 3,850,000 exajoules (EJ) per year.[12] In 2002 (2019), this was more energy in\n- | 1 Energy given in Exajoule (EJ) = 1018 J = 278 TWh 2 Consumption as of year 2019 | ||"
+      "body": "**Formulas / relations found:**\n\n- = 2018. All other values for 2019.\n- Renewable capacity statistics 2026 (PDF). March 2026. ISBN 978-92-9260-725-8. Retrieved 5 April 2026.{{cite book}}:|website=ignored (help)\n- The total solar energy absorbed by Earth's atmosphere, oceans and land masses is approximately 122 PW·year = 3,850,000 exajoules (EJ) per year.[12] In 2002 (2019), this was more energy in\n- | 1 Energy given in Exajoule (EJ) = 1018 J = 278 TWh 2 Consumption as of year 2019 | ||",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Sources of Energy, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - = 2018. All other values for 2019. - Renewable capacity statistics 2026 (PDF). March 2026. ISBN 978-92-9260-725-8. Retrieved 5 April 2026.{{cite book}}:website=ignored (help) - The total… I'll translate that into simpler language as we go.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Sources of Energy · Formulas / Theorems: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as nuclear power,[contradictory]generate almost no emissions, while some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants.[12] Renewable energy is also distinct from sustainable energy, a more abstract concept that seeks to group energy sources based on their overall permanent impact on future generations of humans. For example, biomass is often associated with unsustainable deforestation.[26]\n- Sector coupling of the power generation sector with other sectors may increase flexibility: for example the transport sector can be coupled by charging electric vehicles and sending electricity from vehicle to grid.[39] Similarly the industry sector can be coupled by hydrogen produced by electrolysis,[40] and the buildings sector by thermal energy storage for space heating and cooling.[41]\n- Technical advances may eventually make geothermal power more widely available. For example, enhanced geothermal systems involve drilling around 10 kilometres (6.2 mi) into the Earth, breaking apart hot rocks and extracting the heat using water. In theory, this type of geothermal energy extraction could be done anywhere on Earth.[147]\n- The transition to renewable energy requires increased extraction of certain metals and minerals. Like all mining, this impacts the environment[300] and can lead to environmental conflict.[301] For example, lithium mining uses around 65% of the water in the Salar de Atacama desert forcing farmers and llama herders to abandon their ancestral settlements and creating environment degradation,[302] in several African countries, the green energy transition has created a mining boom, causing deforestation, and threatening already endangered species.[303] Wind power requires large amounts of copper and zinc, as well as smaller amounts of the rarer metal neodymium. Solar power is less resource-intensive, but still requires significant amounts of aluminum. The expansion of electrical grids requires both copper and aluminum. Batteries, which are critical to enable storage of renewable energy, use large quantities of copper, nickel, aluminum and graphite. Demand for lithium is expected to grow 42-fold from 2020 to 2040. Demand for nickel, cobalt and graphite is expected to grow by a factor of about 20–25.[304] For each of the most relevant minerals and metals, its mining is dominated by a single country: copper in Chile, nickel in Indonesia, rare earths in China, cobalt in the Democratic Republic of the Congo (DRC), and lithium in Australia. China dominates processing of all of these.[304]\n- Climate change is making weather patterns less predictable. This can seriously hamper the use of renewable energy. For example, in the year 2023, in Sudan and Namibia, hydropower production dropped by more than half due to drastic reduction in rainfall, in China, India and some regions in Africa unusual weather phenomena reduced the amount of produced wind energy, heatwaves and clouds reduce the effectiveness of solar panels, melting glaciers create problems to hydropower. Nuclear energy is also affected as drought creates water shortage, so nuclear power plants sometimes do not have enough water for cooling.[314]\n- The common features of passive solar architecture are orientation relative to the Sun, compact proportion (a low surface area to volume ratio), selective shading (overhangs) and thermal mass.[77] When these features are tailored to the local climate and environment, they can produce well-lit spaces that stay in a comfortable temperature range. Socrates' Megaron House is a classic example of passive solar design.[77] The most recent approaches to solar design use computer modeling tying together solar lighting, heating and ventilation systems in an integrated solar design package.[79] Active solar equipment such as pumps, fans, and switchable windows can complement passive design and improve system performance."
+      "body": "**Example snippets:**\n\n- Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as nuclear power,[contradictory]generate almost no emissions, while some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants.[12] Renewable energy is also distinct from sustainable energy, a more abstract concept that seeks to group energy sources based on their overall permanent impact on future generations of humans. For example, biomass is often associated with unsustainable deforestation.[26]\n- Sector coupling of the power generation sector with other sectors may increase flexibility: for example the transport sector can be coupled by charging electric vehicles and sending electricity from vehicle to grid.[39] Similarly the industry sector can be coupled by hydrogen produced by electrolysis,[40] and the buildings sector by thermal energy storage for space heating and cooling.[41]\n- Technical advances may eventually make geothermal power more widely available. For example, enhanced geothermal systems involve drilling around 10 kilometres (6.2 mi) into the Earth, breaking apart hot rocks and extracting the heat using water. In theory, this type of geothermal energy extraction could be done anywhere on Earth.[147]\n- The transition to renewable energy requires increased extraction of certain metals and minerals. Like all mining, this impacts the environment[300] and can lead to environmental conflict.[301] For example, lithium mining uses around 65% of the water in the Salar de Atacama desert forcing farmers and llama herders to abandon their ancestral settlements and creating environment degradation,[302] in several African countries, the green energy transition has created a mining boom, causing deforestation, and threatening already endangered species.[303] Wind power requires large amounts of copper and zinc, as well as smaller amounts of the rarer metal neodymium. Solar power is less resource-intensive, but still requires significant amounts of aluminum. The expansion of electrical grids requires both copper and aluminum. Batteries, which are critical to enable storage of renewable energy, use large quantities of copper, nickel, aluminum and graphite. Demand for lithium is expected to grow 42-fold from 2020 to 2040. Demand for nickel, cobalt and graphite is expected to grow by a factor of about 20–25.[304] For each of the most relevant minerals and metals, its mining is dominated by a single country: copper in Chile, nickel in Indonesia, rare earths in China, cobalt in the Democratic Republic of the Congo (DRC), and lithium in Australia. China dominates processing of all of these.[304]\n- Climate change is making weather patterns less predictable. This can seriously hamper the use of renewable energy. For example, in the year 2023, in Sudan and Namibia, hydropower production dropped by more than half due to drastic reduction in rainfall, in China, India and some regions in Africa unusual weather phenomena reduced the amount of produced wind energy, heatwaves and clouds reduce the effectiveness of solar panels, melting glaciers create problems to hydropower. Nuclear energy is also affected as drought creates water shortage, so nuclear power plants sometimes do not have enough water for cooling.[314]\n- The common features of passive solar architecture are orientation relative to the Sun, compact proportion (a low surface area to volume ratio), selective shading (overhangs) and thermal mass.[77] When these features are tailored to the local climate and environment, they can produce well-lit spaces that stay in a comfortable temperature range. Socrates' Megaron House is a classic example of passive solar design.[77] The most recent approaches to solar design use computer modeling tying together solar lighting, heating and ventilation systems in an integrated solar design package.[79] Active solar equipment such as pumps, fans, and switchable windows can complement passive design and improve system performance.",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as… I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Sources of Energy · Solved Examples: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Sources of Energy · Common Mistakes: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Sources of Energy, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Sources of Energy · Diagram Section: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Sources of Energy</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Key idea</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Definition</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Example</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Exam tip</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Sources of Energy — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": []
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Sources of Energy · Practice Questions: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if\n- Globally, the long-term technical potential of wind energy is believed to be five times total current global energy production, or 40 times current electricity demand, assuming all practical barriers needed were overcome. This would require wind turbines to be installed over large areas, particularly in areas of higher wind resources, such as offshore, and likely also industrial use of new types of VAWT turbines in addition to the horizontal axis units currently in use. As offshore wind speeds average ~90% greater than that of land, offshore resources can contribute substantially more energy than land-stationed turbines.[104]\n- Comparison of the theoretical and practical potentials of different renewable energy technologies\n- In conclusion, I would say that however great the scientific importance of this discovery may be, its practical value will be no less obvious when we reflect that the supply of solar energy is both without limit and without cost, and that it will continue to pour down upon us for countless ages after all the coal deposits of the earth have been exhausted and forgotten.[335]\n- Renewable heat – Application of renewable energy\n- Sommerfeldt, Nelson; Madani, Hatef (July 2017). \"Revisiting the techno-economic analysis process for building-mounted, grid-connected solar photovoltaic systems: Part two - Application\". Renewable and Sustainable Energy Reviews. 74: 1394–1404. Bibcode:2017RSERv..74.1394S. doi:10.1016/j.rser.2017.03.010."
+      "body": "**Applications mentioned:**\n\n- The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if\n- Globally, the long-term technical potential of wind energy is believed to be five times total current global energy production, or 40 times current electricity demand, assuming all practical barriers needed were overcome. This would require wind turbines to be installed over large areas, particularly in areas of higher wind resources, such as offshore, and likely also industrial use of new types of VAWT turbines in addition to the horizontal axis units currently in use. As offshore wind speeds average ~90% greater than that of land, offshore resources can contribute substantially more energy than land-stationed turbines.[104]\n- Comparison of the theoretical and practical potentials of different renewable energy technologies\n- In conclusion, I would say that however great the scientific importance of this discovery may be, its practical value will be no less obvious when we reflect that the supply of solar energy is both without limit and without cost, and that it will continue to pour down upon us for countless ages after all the coal deposits of the earth have been exhausted and forgotten.[335]\n- Renewable heat – Application of renewable energy\n- Sommerfeldt, Nelson; Madani, Hatef (July 2017). \"Revisiting the techno-economic analysis process for building-mounted, grid-connected solar photovoltaic systems: Part two - Application\". Renewable and Sustainable Energy Reviews. 74: 1394–1404. Bibcode:2017RSERv..74.1394S. doi:10.1016/j.rser.2017.03.010.",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar… I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Sources of Energy · Real World Applications: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Sources of Energy · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Sources of Energy · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) Order, 2024 dated 08th October 2024\n- Guidelines for Quantifying Greenhouse Gas (GHG) Emissions from Offsite Water Drawl and Treatment, Ensuring Compliance with the Green Hydrogen Certification Scheme of India.\nACHIEVEMENTS\nAs per IRENA, Globally 3th position in overall Renewable Energy Capacity\n53.7% Cumulative Installed Capacity from non-fossil fuel sources\nRenewable Power generation increased ne…"
+      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India\n\n- \n            Pralhad Venkatesh Joshi(Hon'ble Cabinet Minister) \n- \n            Shripad Yesso Naik(Hon'ble Minister of State) \nWHAT'S NEW\n- Uploading of Bid Document on MNRE Website for wider publicity\n- Clarification/ Amendment to ALMM OM dated 25.05.2026 – for RE Power Projects other than Rooftop Solar Projects\n- Clarification on Solar Thermal Systems, Devices and Components (Quality Control) Order, 2024 dated 08th October 2024\n- Guidelines for Quantifying Greenhouse Gas (GHG) Emissions from Offsite Water Drawl and Treatment, Ensuring Compliance with the Green Hydrogen Certification Scheme of India.\nACHIEVEMENTS\nAs per IRENA, Globally 3th position in overall Renewable Energy Capacity\n53.7% Cumulative Installed Capacity from non-fossil fuel sources\nRenewable Power generation increased ne…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Sources of Energy the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Sources of Energy · Teacher Explanation Module: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India"
+      "body": "### Homepage | MINISTRY OF NEW AND RENEWABLE ENERGY | MINISTRY OF NEW AND RENEWABLE ENERGY | India",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Sources of Energy. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Sources of Energy · Revision Summary: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -80,6 +236,6 @@
       "https://en.wikipedia.org/wiki/Solar_energy",
       "https://mnre.gov.in/en/solar/"
     ],
-    "builtAt": "2026-06-23T19:34:47+00:00"
+    "builtAt": "2026-06-23T19:57:54+00:00"
   }
 }

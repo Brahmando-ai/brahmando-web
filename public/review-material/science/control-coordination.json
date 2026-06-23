@@ -1,73 +1,251 @@
 {
+  "schemaVersion": 2,
+  "registryId": "sci-control-coordination",
+  "analyticsId": "control-coordination",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 6,
+  "difficulty": "medium",
+  "topics": [
+    "Nervous system",
+    "Reflex action",
+    "Plant hormones",
+    "Endocrine system"
+  ],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
   "chapterId": "sci-control-coordination",
   "title": "Control and Coordination",
   "subject": "science",
-  "audioScript": "Chapter review: Control and Coordination. According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is moveme",
+  "audioScript": "Good morning, everyone. Today we're opening Control and Coordination. Forget the heavy textbook tone for a moment — think of this chapter as a story about Nervous system, Reflex action, and Plant hormones. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Control and Coordination. Forget the heavy textbook tone for a moment — think of this chapter as a story about Nervous system, Reflex action, and Plant hormones. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Control and Coordination. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The ability of organisms to move certain body parts is movement. - When they move from one place to another, it is called locomotion. - All the activities in animals are… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6. Introduction The human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Control and Coordination, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - Plants have some of the largest genomes of all organisms.[73] The largest plant genome (in terms of gene number) is that of wheat (Triticum aestivum), predicted to encode ≈94,000 genes[74]… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Many legumes have Rhizobium nitrogen-fixing bacteria in nodules of their roots, which fix nitrogen from the air for the plant to use; in return, the plants supply sugars to the bacteria.[88] Nitrogen… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Control and Coordination, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What is the function of the Central nervous system? - What are some facts about the human brain? - How many parts does the human eye have? I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016. I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Control and Coordination the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6. Introduction The human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Control and Coordination. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6. Introduction The human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore… I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Hormones in plants coordinate the movements.\nFor more information on Nervous System, watch the below video\nTo know more about The Nervous System, visit here.\nThe Nervous System\nNeuron\nNeuron is the str…\n**Crawled sources (internet):**\n- [Control and Coordination Class 10 Notes](https://byjus.com/cbse-notes/cbse-class-10-science-notes-chapter-7-control-and-coordination/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)\n- [Plant - Wikipedia](https://en.m.wikipedia.org/wiki/Plant)"
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Hormones in plants coordinate the movements.\nFor more information on Nervous System, watch the below video\nTo know more about The Nervous System, visit here.\nThe Nervous System\nNeuron\nNeuron is the str…\n**Crawled sources (internet):**\n- [Control and Coordination Class 10 Notes](https://byjus.com/cbse-notes/cbse-class-10-science-notes-chapter-7-control-and-coordination/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)\n- [Plant - Wikipedia](https://en.m.wikipedia.org/wiki/Plant)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Control and Coordination. Forget the heavy textbook tone for a moment — think of this chapter as a story about Nervous system, Reflex action, and Plant hormones. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Control and Coordination · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- The ability of organisms to move certain body parts is movement.\n- When they move from one place to another, it is called locomotion.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Neuron is the structural and functional unit of the nervous system.\n- The impulse transmission is faster in myelinated neurons.\n- The central nervous system (CNS) is made up of the brain and the spinal cord. The functions of different parts of the brain are:\n- The cerebrum is responsible for reasoning, logic, emotions, speech, memory, visual processing, recognition of auditory and taste stimuli, etc."
+      "body": "**Definitions extracted from crawled pages:**\n\n- The ability of organisms to move certain body parts is movement.\n- When they move from one place to another, it is called locomotion.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Neuron is the structural and functional unit of the nervous system.\n- The impulse transmission is faster in myelinated neurons.\n- The central nervous system (CNS) is made up of the brain and the spinal cord. The functions of different parts of the brain are:\n- The cerebrum is responsible for reasoning, logic, emotions, speech, memory, visual processing, recognition of auditory and taste stimuli, etc.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Control and Coordination. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The ability of organisms to move certain body parts is movement. - When they move from one place to another, it is called locomotion. - All the activities in animals are… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Control and Coordination · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Hormones in plants coordinate the movements.\nFor more information on Nervous System, watch the below video\nTo know more about The Nervous System, visit here.\nThe Nervous System\nNeuron\nNeuron is the structural and functional unit of the nervous system.\n- Each neuron has three main parts: dendrites, cyton/soma/cell body and axon.\n- Dendrites receive impulses from other neurons.\n- Cyton/soma processes the impulse.\n- Axon transmits the impulse, either to another neuron or to muscles/glands, etc.\n- Axon may be myelinated or non-myelinated.\n- The impulse transmission is faster in myelinated neurons.\nCentral Nervous System\nThe central nervous system (CNS) is made up of the brain and the spinal cord. The functions of different parts of the brain are:\n- The cerebrum is responsible for reasoning, logic, emotions, speech, memory, visual processing, recognition of auditory and taste stimuli, etc.\n- Cerebellum regulates and coordinates body movements, posture and balance.\n- Pons relays signals from…"
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Hormones in plants coordinate the movements.\nFor more information on Nervous System, watch the below video\nTo know more about The Nervous System, visit here.\nThe Nervous System\nNeuron\nNeuron is the structural and functional unit of the nervous system.\n- Each neuron has three main parts: dendrites, cyton/soma/cell body and axon.\n- Dendrites receive impulses from other neurons.\n- Cyton/soma processes the impulse.\n- Axon transmits the impulse, either to another neuron or to muscles/glands, etc.\n- Axon may be myelinated or non-myelinated.\n- The impulse transmission is faster in myelinated neurons.\nCentral Nervous System\nThe central nervous system (CNS) is made up of the brain and the spinal cord. The functions of different parts of the brain are:\n- The cerebrum is responsible for reasoning, logic, emotions, speech, memory, visual processing, recognition of auditory and taste stimuli, etc.\n- Cerebellum regulates and coordinates body movements, posture and balance.\n- Pons relays signals from…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6. Introduction The human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Control and Coordination · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- Plants have some of the largest genomes of all organisms.[73] The largest plant genome (in terms of gene number) is that of wheat (Triticum aestivum), predicted to encode ≈94,000 genes[74] and thus almost 5 times as many as the human genome. The first"
+      "body": "**Formulas / relations found:**\n\n- Plants have some of the largest genomes of all organisms.[73] The largest plant genome (in terms of gene number) is that of wheat (Triticum aestivum), predicted to encode ≈94,000 genes[74] and thus almost 5 times as many as the human genome. The first",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Control and Coordination, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - Plants have some of the largest genomes of all organisms.[73] The largest plant genome (in terms of gene number) is that of wheat (Triticum aestivum), predicted to encode ≈94,000 genes[74]… I'll translate that into simpler language as we go.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Control and Coordination · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- Many legumes have Rhizobium nitrogen-fixing bacteria in nodules of their roots, which fix nitrogen from the air for the plant to use; in return, the plants supply sugars to the bacteria.[88] Nitrogen fixed in this way can become available to other plants, and is important in agriculture; for example, farmers may grow a crop rotation of a legume such as beans, followed by a cereal such as wheat, to provide cash crops with a reduced input of nitrogen fertilizer.[89]\n- Plants, including trees, appear in mythology, religion, and literature.[128][129][130] In multiple Indo-European, Siberian, and Native American religions, the world tree motif is depicted as a colossal tree growing on the earth, supporting the heavens, and with its roots reaching into the underworld. It may also appear as a cosmic tree or an eagle and serpent tree.[131][132] Forms of the world tree include the archetypal tree of life, which is in turn connected to the Eurasian concept of the sacred tree.[133] Another widespread ancient motif, found for example in Iran, has a tree of life flanked by a pair of confronted animals.[134]"
+      "body": "**Example snippets:**\n\n- Many legumes have Rhizobium nitrogen-fixing bacteria in nodules of their roots, which fix nitrogen from the air for the plant to use; in return, the plants supply sugars to the bacteria.[88] Nitrogen fixed in this way can become available to other plants, and is important in agriculture; for example, farmers may grow a crop rotation of a legume such as beans, followed by a cereal such as wheat, to provide cash crops with a reduced input of nitrogen fertilizer.[89]\n- Plants, including trees, appear in mythology, religion, and literature.[128][129][130] In multiple Indo-European, Siberian, and Native American religions, the world tree motif is depicted as a colossal tree growing on the earth, supporting the heavens, and with its roots reaching into the underworld. It may also appear as a cosmic tree or an eagle and serpent tree.[131][132] Forms of the world tree include the archetypal tree of life, which is in turn connected to the Eurasian concept of the sacred tree.[133] Another widespread ancient motif, found for example in Iran, has a tree of life flanked by a pair of confronted animals.[134]",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Many legumes have Rhizobium nitrogen-fixing bacteria in nodules of their roots, which fix nitrogen from the air for the plant to use; in return, the plants supply sugars to the bacteria.[88] Nitrogen… I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Control and Coordination · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Control and Coordination · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Control and Coordination, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Control and Coordination · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Control and Coordination</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Nervous system</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Reflex action</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Plant hormones</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Endocrine system</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Control and Coordination — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Nervous system"
+          },
+          {
+            "id": "n1",
+            "label": "Reflex action"
+          },
+          {
+            "id": "n2",
+            "label": "Plant hormones"
+          },
+          {
+            "id": "n3",
+            "label": "Endocrine system"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- What is the function of the Central nervous system?\n- What are some facts about the human brain?\n- How many parts does the human eye have?"
+      "body": "**Practice-style lines from sources:**\n\n- What is the function of the Central nervous system?\n- What are some facts about the human brain?\n- How many parts does the human eye have?",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What is the function of the Central nervous system? - What are some facts about the human brain? - How many parts does the human eye have? I'll translate that into simpler language as we go.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Control and Coordination · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016."
+      "body": "**Applications mentioned:**\n\n- Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016.",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016. I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Control and Coordination · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Control and Coordination · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Control and Coordination · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which ass…"
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which ass…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Control and Coordination the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6. Introduction The human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Control and Coordination · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in r…"
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in r…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Control and Coordination. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes: According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6. Introduction The human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore… I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Control and Coordination · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -79,6 +257,6 @@
       "https://cbseacademic.nic.in/?ref=w3use",
       "https://en.m.wikipedia.org/wiki/Plant"
     ],
-    "builtAt": "2026-06-23T19:34:45+00:00"
+    "builtAt": "2026-06-23T19:57:52+00:00"
   }
 }

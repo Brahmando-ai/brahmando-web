@@ -1,73 +1,249 @@
 {
+  "schemaVersion": 2,
+  "registryId": "math-areas-circles",
+  "analyticsId": "areas-circles",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 10,
+  "difficulty": "medium",
+  "topics": [
+    "Area of sector",
+    "Area of segment",
+    "Perimeter of sector"
+  ],
+  "formulas": [
+    "Area of sector = (theta/360) x pi r^2",
+    "Length of arc = (theta/360) x 2 pi r"
+  ],
+  "recommendedDifficulty": "medium",
   "chapterId": "math-areas-circles",
   "title": "Areas Related to Circles",
   "subject": "math",
-  "audioScript": "Chapter review: Areas Related to Circles. | Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the s",
+  "audioScript": "Good morning, everyone. Today we're opening Areas Related to Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Area of sector, Area of segment, and Perimeter of sector. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Areas Related to Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Area of sector, Area of segment, and Perimeter of sector. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Areas Related to Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Areas Related to Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T). - If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S). - If a set S is in M… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors. The limit of the areas of the… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Areas Related to Circles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Is Areas Related to Circles important for CBSE Class 10 board exam? - When should I use 22/7 and when to use 3.14? - Are these CBSE Class 10 Maths Notes based on NCERT? - How can I… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Areas Related to Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Areas Related to Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres woul…\n**Crawled sources (internet):**\n- [Area - Wikipedia](https://en.wikipedia.org/wiki/Area)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [CBSE Notes For Class 10 Maths Chapter 11 Areas Related To Circles](https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles)\n- [Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths](https://www.scribd.com/document/795092660/Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths)"
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres woul…\n**Crawled sources (internet):**\n- [Area - Wikipedia](https://en.wikipedia.org/wiki/Area)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [Class 10 Maths Chapter 12 Areas Related to Circles: NCERT Solutions, Important Questions & Notes PDF](https://www.pwnotes.in/2026/02/cbse-class-10-mathschapter-11-areas-related-to-circles-ncert-solutions.html)\n- [CBSE Notes For Class 10 Maths Chapter 11 Areas Related To Circles](https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles)\n- [Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths](https://www.scribd.com/document/795092660/Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Areas Related to Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Area of sector, Area of segment, and Perimeter of sector. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Areas Related to Circles · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\n- The area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\n- There are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\n- Area plays an important role in modern mathematics. In addition to its obvious importance in geometry and calculus, area is related to the definition of determinants in linear algebra, and is a basic property of surfaces in differential geometry.[8] In analysis, the area of a subset of the plane is defined using Lebesgue measure,[9] though not every subset is measurable if one supposes the axiom of choice.[10] In general, area in higher mathematics is seen as a special case of volume for two-dimensional regions.[1]\n- An approach to defining what is meant by \"area\" is through axioms. \"Area\" can be defined as a function from a collection M of a special kinds of plane figures (termed measurable sets) to the set of real numbers, which satisfies the following properties:[11]\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T)."
+      "body": "**Definitions extracted from crawled pages:**\n\n- Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\n- The area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\n- There are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\n- Area plays an important role in modern mathematics. In addition to its obvious importance in geometry and calculus, area is related to the definition of determinants in linear algebra, and is a basic property of surfaces in differential geometry.[8] In analysis, the area of a subset of the plane is defined using Lebesgue measure,[9] though not every subset is measurable if one supposes the axiom of choice.[10] In general, area in higher mathematics is seen as a special case of volume for two-dimensional regions.[1]\n- An approach to defining what is meant by \"area\" is through axioms. \"Area\" can be defined as a function from a collection M of a special kinds of plane figures (termed measurable sets) to the set of real numbers, which satisfies the following properties:[11]\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T).",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Areas Related to Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Areas Related to Circles · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\nThere are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\nFor a solid shape such as a sphere, cone, or cylinder, the area of its boundary surface is called the surface area.[1][6][7] Formulas for the surface areas of simple shapes were computed by…"
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\nThere are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\nFor a solid shape such as a sphere, cone, or cylinder, the area of its boundary surface is called the surface area.[1][6][7] Formulas for the surface areas of simple shapes were computed by…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Areas Related to Circles · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T).\n- Every rectangle R is in M. If the rectangle has length h and breadth k then a(R) = hk.\n- Let Q be a set enclosed between two step regions S and T. A step region is formed from a finite union of adjacent rectangles resting on a common base, i.e. S ⊆ Q ⊆ T. If there is a unique number c such that a(S) ≤ c ≤ a(T) for all such step regions S and T, then a(Q) = c.\n- 1 metre × 1 metre = 1 m2\n- 3 metres × 2 metres = 6 m2. This is equivalent to 6 million square millimetres. Other useful conversi\n- 1 square kilometre = 1,000,000 square metres"
+      "body": "**Formulas / relations found:**\n\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T).\n- Every rectangle R is in M. If the rectangle has length h and breadth k then a(R) = hk.\n- Let Q be a set enclosed between two step regions S and T. A step region is formed from a finite union of adjacent rectangles resting on a common base, i.e. S ⊆ Q ⊆ T. If there is a unique number c such that a(S) ≤ c ≤ a(T) for all such step regions S and T, then a(Q) = c.\n- 1 metre × 1 metre = 1 m2\n- 3 metres × 2 metres = 6 m2. This is equivalent to 6 million square millimetres. Other useful conversi\n- 1 square kilometre = 1,000,000 square metres",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Areas Related to Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T). - If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S). - If a set S is in M… I'll translate that into simpler language as we go.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Areas Related to Circles · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any parallelogram can be subdivided into a trapezoid and a right triangle, as shown in figure to the left. If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle. It follows that the area of the parallelogram is the same as the area of the rectangle:[2]\n- Most basic formulas for surface area can be obtained by cutting surfaces and flattening them out (see: developable surfaces). For example, if the side surface of a cylinder (or any prism) is cut lengthwise, the surface can be flattened out into a rectangle. Similarly, if a cut is made along the side of a cone, the side surface can be flattened out into a sector of a circle, and the resulting area computed.\n- Example 1: Area of Sector (Easy)\n- Example 2: Arc Length (Moderate)\n- Example 3: Area of Segment\n- Example 4: Board-Level Word Problem (5 Marks)"
+      "body": "**Example snippets:**\n\n- Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any parallelogram can be subdivided into a trapezoid and a right triangle, as shown in figure to the left. If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle. It follows that the area of the parallelogram is the same as the area of the rectangle:[2]\n- Most basic formulas for surface area can be obtained by cutting surfaces and flattening them out (see: developable surfaces). For example, if the side surface of a cylinder (or any prism) is cut lengthwise, the surface can be flattened out into a rectangle. Similarly, if a cut is made along the side of a cone, the side surface can be flattened out into a sector of a circle, and the resulting area computed.\n- Example 1: Area of Sector (Easy)\n- Example 2: Arc Length (Moderate)\n- Example 3: Area of Segment\n- Example 4: Board-Level Word Problem (5 Marks)",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any… I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Areas Related to Circles · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "**Common pitfalls mentioned:**\n\n- Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors. The limit of the areas of the approximate parallelograms is exactly πr2, which is the area of the circle.[28]\n- Common Mistakes to Avoid\n- | Mistake | Correction |"
+      "body": "**Common pitfalls mentioned:**\n\n- Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors. The limit of the areas of the approximate parallelograms is exactly πr2, which is the area of the circle.[28]\n- Common Mistakes to Avoid\n- | Mistake | Correction |",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors. The limit of the areas of the… I'll translate that into simpler language as we go.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Areas Related to Circles · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Areas Related to Circles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Areas Related to Circles · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 196' width='100%' role='img'><rect width='420' height='196' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Areas Related to Circles</text><circle cx='210' cy='98' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='102' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='132' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Area of sector</text><line x1='210' y1='132' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Area of segment</text><line x1='210' y1='132' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Perimeter of sector</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Areas Related to Circles — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Area of sector"
+          },
+          {
+            "id": "n1",
+            "label": "Area of segment"
+          },
+          {
+            "id": "n2",
+            "label": "Perimeter of sector"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- Is Areas Related to Circles important for CBSE Class 10 board exam?\n- When should I use 22/7 and when to use 3.14?\n- Are these CBSE Class 10 Maths Notes based on NCERT?\n- How can I download these Class 10 Maths Notes PDF?\n- What are the sectors, segments, and lengths of an arc of a circle?"
+      "body": "**Practice-style lines from sources:**\n\n- Is Areas Related to Circles important for CBSE Class 10 board exam?\n- When should I use 22/7 and when to use 3.14?\n- Are these CBSE Class 10 Maths Notes based on NCERT?\n- How can I download these Class 10 Maths Notes PDF?\n- What are the sectors, segments, and lengths of an arc of a circle?",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Is Areas Related to Circles important for CBSE Class 10 board exam? - When should I use 22/7 and when to use 3.14? - Are these CBSE Class 10 Maths Notes based on NCERT? - How can I… I'll translate that into simpler language as we go.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Areas Related to Circles · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is now recognized as a precursor to integral calculus. Using modern methods, the area of a circle can be computed using a definite integral:\n- Word Problems - Real-life application questions"
+      "body": "**Applications mentioned:**\n\n- This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is now recognized as a precursor to integral calculus. Using modern methods, the area of a circle can be computed using a definite integral:\n- Word Problems - Real-life application questions",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is… I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Areas Related to Circles · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Areas Related to Circles · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Areas Related to Circles · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area…"
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Areas Related to Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Areas Related to Circles · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dim…"
+      "body": "| Area | |\n|---|---|\n| Common symbols | A[a] or S | \n| SI unit | Square metre [m2] | \n| In SI base units | 1 m2 | \n| Dimension | |\nArea is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dim…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Areas Related to Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Area   ------  Common symbols  A[a] or S   SI unit  Square metre [m2]   In SI base units  1 m2   Dimension   Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the… I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Areas Related to Circles · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -80,6 +256,6 @@
       "https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles",
       "https://www.scribd.com/document/795092660/Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths"
     ],
-    "builtAt": "2026-06-23T19:34:50+00:00"
+    "builtAt": "2026-06-23T19:57:56+00:00"
   }
 }

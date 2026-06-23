@@ -15,6 +15,12 @@ import { REVIEW_CHAPTERS, type ReviewChapter } from "@/lib/education/reviewMater
 import { fetchChapterContent } from "@/lib/education/reviewMaterial/loadContent";
 import type { ChapterReviewContent, ChapterSection, ReviewNote, ReviewNoteCategory, ReviewNoteStatus } from "@/lib/education/reviewMaterial/types";
 import {
+  pickSpeechVoice,
+  resolveVoicePreset,
+  TEACHER_VOICE_PRESETS,
+  type TeacherVoicePresetId,
+} from "@/lib/education/reviewMaterial/teacherVoice";
+import {
   addNote,
   exportNotesJson,
   getReviewerName,
@@ -71,6 +77,108 @@ function SectionBody({ body }: { body: string }) {
   );
 }
 
+function SectionDiagramBlock({ section }: { section: ChapterSection }) {
+  return (
+    <div className="mb-4 space-y-4">
+      {section.visualSvg && (
+        <div
+          className="overflow-hidden rounded-xl border border-slate-700/50 bg-slate-950/50 p-4"
+          dangerouslySetInnerHTML={{ __html: section.visualSvg }}
+        />
+      )}
+      {section.diagram?.caption && (
+        <p className="text-xs text-slate-400">{section.diagram.caption}</p>
+      )}
+      {section.media && section.media.length > 0 && (
+        <div className="grid gap-3 sm:grid-cols-2">
+          {section.media.map((item, i) => (
+            <figure
+              key={`${item.url}-${i}`}
+              className="overflow-hidden rounded-xl border border-slate-700/50 bg-slate-950/40"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={item.url}
+                alt={item.caption ?? "Chapter diagram"}
+                className="max-h-64 w-full object-contain bg-white/5"
+                loading="lazy"
+                referrerPolicy="no-referrer"
+              />
+              {item.caption && (
+                <figcaption className="border-t border-slate-700/40 px-3 py-2 text-xs text-slate-400">
+                  {item.caption}
+                </figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ChapterMetaStrip({ content }: { content: ChapterReviewContent }) {
+  if (!content.schemaVersion && !content.analyticsId && !content.difficulty) return null;
+  return (
+    <div className="mb-4 flex flex-wrap gap-2 text-xs">
+      {content.schemaVersion && (
+        <span className="rounded-full border border-slate-600/40 bg-slate-900/60 px-3 py-1 text-slate-300">
+          Schema v{content.schemaVersion}
+        </span>
+      )}
+      {content.analyticsId && (
+        <span className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-cyan-100">
+          analyticsId: {content.analyticsId}
+        </span>
+      )}
+      {content.difficulty && (
+        <span className="rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 capitalize text-violet-100">
+          {content.difficulty}
+        </span>
+      )}
+      {content.sku && (
+        <span className="rounded-full border border-slate-600/40 px-3 py-1 text-slate-400">
+          {content.board ?? "CBSE"} · Grade {content.grade ?? 10} · {content.sku}
+        </span>
+      )}
+      {content.topics && content.topics.length > 0 && (
+        <span className="rounded-full border border-slate-600/40 px-3 py-1 text-slate-400">
+          {content.topics.length} syllabus topic(s)
+        </span>
+      )}
+    </div>
+  );
+}
+
+function TeacherNarrationCard({
+  narration,
+  onPlay,
+  speaking,
+}: {
+  narration: ChapterSection["teacherNarration"];
+  onPlay: () => void;
+  speaking: boolean;
+}) {
+  if (!narration?.teleprompter) return null;
+  return (
+    <div className="mb-4 rounded-xl border border-indigo-400/25 bg-indigo-500/10 p-4">
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+        <p className="text-xs font-semibold uppercase tracking-wide text-indigo-200">
+          Teacher teleprompter · not verbatim material
+        </p>
+        <button type="button" className="btn-secondary !py-1 !text-xs" onClick={onPlay}>
+          {speaking ? <Pause className="mr-1 inline h-3 w-3" /> : <Play className="mr-1 inline h-3 w-3" />}
+          {speaking ? "Stop" : "Play this section"}
+        </button>
+      </div>
+      <p className="text-sm leading-relaxed text-indigo-50/95">{narration.teleprompter}</p>
+      {narration.simplifiedSummary && (
+        <p className="mt-2 text-xs text-indigo-200/70">{narration.simplifiedSummary}</p>
+      )}
+    </div>
+  );
+}
+
 function CrawlStatusBar({ content }: { content: ChapterReviewContent | null }) {
   const meta = content?.crawlMeta;
   if (!meta) {
@@ -102,6 +210,8 @@ export function ReviewMaterialBoard() {
   const [notes, setNotes] = useState<ReviewNote[]>([]);
   const [allNotes, setAllNotes] = useState<ReviewNote[]>([]);
   const [speaking, setSpeaking] = useState(false);
+  const [voicePresetId, setVoicePresetId] = useState<TeacherVoicePresetId>("teacher-female-in");
+  const [voicesReady, setVoicesReady] = useState(false);
 
   const chapters = useMemo(
     () => REVIEW_CHAPTERS.filter((c) => subjectFilter === "all" || c.subject === subjectFilter),
@@ -114,6 +224,21 @@ export function ReviewMaterialBoard() {
     setNotes(listNotes(chapterId));
     setAllNotes(listNotes());
   }, [chapterId]);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || !window.speechSynthesis) return;
+    const load = () => setVoicesReady(window.speechSynthesis.getVoices().length > 0);
+    load();
+    window.speechSynthesis.addEventListener("voiceschanged", load);
+    return () => window.speechSynthesis.removeEventListener("voiceschanged", load);
+  }, []);
+
+  useEffect(() => {
+    const defaultVoice = content?.teacherAudio?.defaultVoice as TeacherVoicePresetId | undefined;
+    if (defaultVoice && TEACHER_VOICE_PRESETS.some((p) => p.id === defaultVoice)) {
+      setVoicePresetId(defaultVoice);
+    }
+  }, [content?.teacherAudio?.defaultVoice]);
 
   useEffect(() => {
     setReviewer(getReviewerName());
@@ -164,16 +289,43 @@ export function ReviewMaterialBoard() {
     setSpeaking(false);
   }
 
-  function playAudio() {
-    if (!content?.audioScript || typeof window === "undefined" || !window.speechSynthesis) return;
+  function teleprompterForSection(section: ChapterSection | undefined): string {
+    if (!section) return "";
+    if (section.teacherNarration?.teleprompter) return section.teacherNarration.teleprompter;
+    if (content?.teacherAudio?.speakMaterial === false) {
+      const segment = content.teacherAudio.segments?.find((s) => s.sectionId === section.id);
+      if (segment?.teleprompter) return segment.teleprompter;
+    }
+    return content?.audioScript ?? "";
+  }
+
+  function playTeleprompter(text?: string) {
+    const script = (text ?? teleprompterForSection(activeSection)).trim();
+    if (!script || typeof window === "undefined" || !window.speechSynthesis) return;
+    if (content?.teacherAudio?.speakMaterial === false && activeSection?.body && script === activeSection.body.trim()) {
+      return;
+    }
     stopAudio();
-    const utterance = new SpeechSynthesisUtterance(content.audioScript);
-    utterance.rate = 0.95;
+    const preset = resolveVoicePreset(voicePresetId);
+    const utterance = new SpeechSynthesisUtterance(script);
+    utterance.rate = 0.92;
+    utterance.lang = preset.lang;
+    const voice = pickSpeechVoice(preset);
+    if (voice) utterance.voice = voice;
     utterance.onend = () => setSpeaking(false);
     utterance.onerror = () => setSpeaking(false);
     setSpeaking(true);
     window.speechSynthesis.speak(utterance);
   }
+
+  function playAudio() {
+    playTeleprompter();
+  }
+
+  const canPlayTeacherAudio = Boolean(
+    teleprompterForSection(activeSection) ||
+      content?.teacherAudio?.segments?.some((s) => s.teleprompter)
+  );
 
   function handleImport(file: File) {
     const reader = new FileReader();
@@ -254,16 +406,31 @@ export function ReviewMaterialBoard() {
                 <h2 className="text-xl font-semibold text-slate-50">{content?.title ?? chapter?.title}</h2>
                 <p className="text-xs text-slate-500">{chapter?.id}</p>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <select
+                  className="rounded-lg border border-slate-600/50 bg-slate-900/80 px-2 py-2 text-xs text-slate-200"
+                  value={voicePresetId}
+                  onChange={(e) => setVoicePresetId(e.target.value as TeacherVoicePresetId)}
+                  title="Teacher voice accent"
+                >
+                  {TEACHER_VOICE_PRESETS.map((p) => (
+                    <option key={p.id} value={p.id}>
+                      {p.label}
+                    </option>
+                  ))}
+                </select>
+                {!voicesReady && (
+                  <span className="text-[10px] text-slate-500">Loading voices…</span>
+                )}
                 <button type="button" className="btn-secondary !px-2 !py-2" onClick={() => goChapter(-1)} disabled={chapterIndex <= 0}>
                   <ChevronLeft className="h-4 w-4" />
                 </button>
                 <button type="button" className="btn-secondary !px-2 !py-2" onClick={() => goChapter(1)} disabled={chapterIndex >= chapters.length - 1}>
                   <ChevronRight className="h-4 w-4" />
                 </button>
-                <button type="button" className="btn-primary !py-2" onClick={speaking ? stopAudio : playAudio} disabled={!content?.audioScript}>
+                <button type="button" className="btn-primary !py-2" onClick={speaking ? stopAudio : playAudio} disabled={!canPlayTeacherAudio}>
                   {speaking ? <Pause className="mr-2 h-4 w-4" /> : <Play className="mr-2 h-4 w-4" />}
-                  {speaking ? "Stop audio" : "Play audio"}
+                  {speaking ? "Stop teacher audio" : "Play teacher audio"}
                 </button>
               </div>
             </div>
@@ -273,6 +440,7 @@ export function ReviewMaterialBoard() {
             ) : (
               <>
                 <CrawlStatusBar content={content} />
+                {content && <ChapterMetaStrip content={content} />}
                 <div className="mb-4 flex flex-wrap gap-2">
                   {content?.sections.map((s) => (
                     <button
@@ -288,11 +456,13 @@ export function ReviewMaterialBoard() {
                 {activeSection && (
                   <div>
                     <h3 className="mb-3 text-lg font-medium text-cyan-100">{activeSection.title}</h3>
-                    {activeSection.visualSvg && (
-                      <div
-                        className="mb-4 overflow-hidden rounded-xl border border-slate-700/50 bg-slate-950/50 p-4"
-                        dangerouslySetInnerHTML={{ __html: activeSection.visualSvg }}
-                      />
+                    <TeacherNarrationCard
+                      narration={activeSection.teacherNarration}
+                      speaking={speaking}
+                      onPlay={() => (speaking ? stopAudio() : playTeleprompter())}
+                    />
+                    {(activeSection.visualSvg || activeSection.media?.length || activeSection.diagram) && (
+                      <SectionDiagramBlock section={activeSection} />
                     )}
                     <SectionBody body={activeSection.body} />
                   </div>

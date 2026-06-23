@@ -1,73 +1,254 @@
 {
+  "schemaVersion": 2,
+  "registryId": "math-real-numbers",
+  "analyticsId": "real-numbers",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 1,
+  "difficulty": "medium",
+  "topics": [
+    "Euclid's division lemma",
+    "Fundamental Theorem of Arithmetic",
+    "Irrational numbers",
+    "Decimal expansions"
+  ],
+  "formulas": [
+    "HCF(a,b) x LCM(a,b) = a x b",
+    "sqrt(p) is irrational for prime p"
+  ],
+  "recommendedDifficulty": "medium",
   "chapterId": "math-real-numbers",
   "title": "Real Numbers",
   "subject": "math",
-  "audioScript": "Chapter review: Real Numbers. | Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euc",
+  "audioScript": "Good morning, everyone. Today we're opening Real Numbers. Forget the heavy textbook tone for a moment — think of this chapter as a story about Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Real Numbers. Forget the heavy textbook tone for a moment — think of this chapter as a story about Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Real Numbers. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Euclid   ------  Εὐκλείδης    Years active  fl. 300 BC   Known for    Scientific career    Fields  Mathematics (Geometry)  Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Real Numbers, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The Porisms (Ancient Greek: Πορίσματα; lit. 'Corollaries') was, based on accounts from Pappus and Proclus, probably a three-book treatise with approximately 200 propositions.[61][60] The term… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Real Numbers, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Real Numbers the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Euclid   ------  Εὐκλείδης    Years active  fl. 300 BC   Known for    Scientific career    Fields  Mathematics (Geometry)  Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Real Numbers. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Euclid   ------  Εὐκλείδης    Years active  fl. 300 BC   Known for    Scientific career    Fields  Mathematics (Geometry)  Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as… I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\nVery little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now ge…\n**Crawled sources (internet):**\n- [Euclid - Wikipedia](https://en.wikipedia.org/wiki/Euclid)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)"
+      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\nVery little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now ge…\n**Crawled sources (internet):**\n- [Euclid - Wikipedia](https://en.wikipedia.org/wiki/Euclid)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Real Numbers. Forget the heavy textbook tone for a moment — think of this chapter as a story about Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Real Numbers · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\n- Very little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.\n- In the Elements, Euclid deduced the theorems from a small set of axioms. He also wrote works on perspective, conic sections, spherical geometry, number theory, and mathematical rigour. In addition to the Elements, Euclid wrote a central early text in the optics field, Optics, and lesser-known works including Data and Phaenomena. Euclid's authorship of On Divisions of Figures and Catoptrics has been questioned. He is thought to have written many lost works.\n- The English name 'Euclid' is the anglicized version of the Ancient Greek name Eukleídes (Εὐκλείδης).[4][a] It is derived from 'eu-' (εὖ; 'well'), 'klês' (-κλῆς; 'fame'), meaning \"renowned, glorious\",[6] and the suffix '-ides' (-ίδης, 'son of'). In English, by metonymy, 'Euclid' can mean his most well-known work, Euclid's Elements, or a copy thereof,[5] and is sometimes synonymous with 'geometry'.[2]\n- In his Collection, Pappus mentions that Apollonius studied with Euclid's students in Alexandria, and this has been taken to imply that Euclid worked and founded a mathematical tradition there.[8][21][19] The city was founded by Alexander the Great in 331 BC,[22] and the rule of Ptolemy I from 306 BC onwards gave it a stability which was relatively unique amid the chaotic wars over dividing Alexander's empire.[23] Ptolemy began a process of hellenization and commissioned numerous constructions, building the massive Musaeum institution, which was a leading center of education.[15][g] Euclid is speculated to have been among the Musaeum's first scholars.[22] Euclid's date of death is unknown; it has been speculated that he died c. 270 BC.[22]\n- Islamic biographical sources contain several detailed accounts of Euclid’s life; however, these reports are widely considered to be late and unsubstantiated. One such account is preserved by Ali Ibn Yusuf al-Qifti, who writes:\n- \"Euclid, the engineer, the carpenter of Tyre, son of Naucrates son of Berenice, the one who manifested geometry and excelled in it, known as the lord of Geometry. The name of his book on geometry in Greek is Stoicheia, which means The Elements of Geometry. He was an ancient sage, Greek by origin, Syrian in residence, Tyrian by city, and a carpenter by trade. He possessed a mighty hand in the science of geometry. His famous book, known as The Book of the Elements, is the name by which it was known among the sages of the Greeks. The Romans after him called it The Investigations, and the Muslims called it The Principles.\"[25]\n- Medieval Arabic sources give vast amounts of information concerning Euclid's life, but are completely unverifiable.[4] Euclid, who was supposedly a Tyre-born Greek domiciled at Damascus, was claimed to have been the son of Naucrates.[30] Most scholars consider them of dubious authenticity.[8] Heath in particular contends that the fictionalization was done to strengthen the connection between a revered mathematician and the Arab world.[17] There are also numerous anecdotal stories concerning to Euclid, all of uncertain historicity, which \"picture him as a kindly and gentle old man\".[31] The best known of these is Proclus' story about Ptolemy asking Euclid if there was a quicker path to learning geometry than reading his Elements, which Euclid replied with \"there is no royal road to geometry\".[31][32] This anecdote is questionable since a very similar interaction between Menaechmus and Alexander the Great is recorded from Stobaeus.[33] Both accounts were written in the 5th century AD, neither indicates its source, and neither appears in ancient Greek literature.[34]"
+      "body": "**Definitions extracted from crawled pages:**\n\n- Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\n- Very little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.\n- In the Elements, Euclid deduced the theorems from a small set of axioms. He also wrote works on perspective, conic sections, spherical geometry, number theory, and mathematical rigour. In addition to the Elements, Euclid wrote a central early text in the optics field, Optics, and lesser-known works including Data and Phaenomena. Euclid's authorship of On Divisions of Figures and Catoptrics has been questioned. He is thought to have written many lost works.\n- The English name 'Euclid' is the anglicized version of the Ancient Greek name Eukleídes (Εὐκλείδης).[4][a] It is derived from 'eu-' (εὖ; 'well'), 'klês' (-κλῆς; 'fame'), meaning \"renowned, glorious\",[6] and the suffix '-ides' (-ίδης, 'son of'). In English, by metonymy, 'Euclid' can mean his most well-known work, Euclid's Elements, or a copy thereof,[5] and is sometimes synonymous with 'geometry'.[2]\n- In his Collection, Pappus mentions that Apollonius studied with Euclid's students in Alexandria, and this has been taken to imply that Euclid worked and founded a mathematical tradition there.[8][21][19] The city was founded by Alexander the Great in 331 BC,[22] and the rule of Ptolemy I from 306 BC onwards gave it a stability which was relatively unique amid the chaotic wars over dividing Alexander's empire.[23] Ptolemy began a process of hellenization and commissioned numerous constructions, building the massive Musaeum institution, which was a leading center of education.[15][g] Euclid is speculated to have been among the Musaeum's first scholars.[22] Euclid's date of death is unknown; it has been speculated that he died c. 270 BC.[22]\n- Islamic biographical sources contain several detailed accounts of Euclid’s life; however, these reports are widely considered to be late and unsubstantiated. One such account is preserved by Ali Ibn Yusuf al-Qifti, who writes:\n- \"Euclid, the engineer, the carpenter of Tyre, son of Naucrates son of Berenice, the one who manifested geometry and excelled in it, known as the lord of Geometry. The name of his book on geometry in Greek is Stoicheia, which means The Elements of Geometry. He was an ancient sage, Greek by origin, Syrian in residence, Tyrian by city, and a carpenter by trade. He possessed a mighty hand in the science of geometry. His famous book, known as The Book of the Elements, is the name by which it was known among the sages of the Greeks. The Romans after him called it The Investigations, and the Muslims called it The Principles.\"[25]\n- Medieval Arabic sources give vast amounts of information concerning Euclid's life, but are completely unverifiable.[4] Euclid, who was supposedly a Tyre-born Greek domiciled at Damascus, was claimed to have been the son of Naucrates.[30] Most scholars consider them of dubious authenticity.[8] Heath in particular contends that the fictionalization was done to strengthen the connection between a revered mathematician and the Arab world.[17] There are also numerous anecdotal stories concerning to Euclid, all of uncertain historicity, which \"picture him as a kindly and gentle old man\".[31] The best known of these is Proclus' story about Ptolemy asking Euclid if there was a quicker path to learning geometry than reading his Elements, which Euclid replied with \"there is no royal road to geometry\".[31][32] This anecdote is questionable since a very similar interaction between Menaechmus and Alexander the Great is recorded from Stobaeus.[33] Both accounts were written in the 5th century AD, neither indicates its source, and neither appears in ancient Greek literature.[34]",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Real Numbers. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Real Numbers · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\nVery little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.\nIn the Elements, Euclid deduced the theorems from a small set of axioms. He also wrote works on perspective, conic sections, spherical geometry, number theory, and mathematical rigour. In addition to the Elements, Euclid wrote a central early text in the optics field, Optics, and lesser-known works including Data and Phaenomena. Euclid's authorship of On Divisions of Figures and Catoptrics has been questioned. He is thought to have written many lost works.\nL…"
+      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\nVery little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.\nIn the Elements, Euclid deduced the theorems from a small set of axioms. He also wrote works on perspective, conic sections, spherical geometry, number theory, and mathematical rigour. In addition to the Elements, Euclid wrote a central early text in the optics field, Optics, and lesser-known works including Data and Phaenomena. Euclid's authorship of On Divisions of Figures and Catoptrics has been questioned. He is thought to have written many lost works.\nL…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Euclid   ------  Εὐκλείδης    Years active  fl. 300 BC   Known for    Scientific career    Fields  Mathematics (Geometry)  Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Real Numbers · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Real Numbers, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Real Numbers · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- The Porisms (Ancient Greek: Πορίσματα; lit. 'Corollaries') was, based on accounts from Pappus and Proclus, probably a three-book treatise with approximately 200 propositions.[61][60] The term 'porism' in this context does not refer to a corollary, but to \"a third type of proposition—an intermediate between a theorem and a problem—the aim of which is to discover a feature of an existing geometrical entity, for example, to find the centre of a circle\".[60] The mathematician Michel Chasles speculated that these now-lost propositions included content related to the modern theories of transversals and projective geometry.[61][p]"
+      "body": "**Example snippets:**\n\n- The Porisms (Ancient Greek: Πορίσματα; lit. 'Corollaries') was, based on accounts from Pappus and Proclus, probably a three-book treatise with approximately 200 propositions.[61][60] The term 'porism' in this context does not refer to a corollary, but to \"a third type of proposition—an intermediate between a theorem and a problem—the aim of which is to discover a feature of an existing geometrical entity, for example, to find the centre of a circle\".[60] The mathematician Michel Chasles speculated that these now-lost propositions included content related to the modern theories of transversals and projective geometry.[61][p]",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The Porisms (Ancient Greek: Πορίσματα; lit. 'Corollaries') was, based on accounts from Pappus and Proclus, probably a three-book treatise with approximately 200 propositions.[61][60] The term… I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Real Numbers · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Real Numbers · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Real Numbers, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Real Numbers · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Real Numbers</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Euclid&#x27;s division lemma</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Fundamental Theorem of Arithmetic</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Irrational numbers</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Decimal expansions</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Real Numbers — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Euclid's division lemma"
+          },
+          {
+            "id": "n1",
+            "label": "Fundamental Theorem of Arithmetic"
+          },
+          {
+            "id": "n2",
+            "label": "Irrational numbers"
+          },
+          {
+            "id": "n3",
+            "label": "Decimal expansions"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Real Numbers · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Real Numbers · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Real Numbers · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Real Numbers · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\nVery little is known of Eu…"
+      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.\nVery little is known of Eu…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Real Numbers the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Euclid   ------  Εὐκλείδης    Years active  fl. 300 BC   Known for    Scientific career    Fields  Mathematics (Geometry)  Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Real Numbers · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek…"
+      "body": "| Euclid | |\n|---|---|\n| Εὐκλείδης | |\n| Years active | fl. 300 BC | \n| Known for | |\n| Scientific career | |\n| Fields | Mathematics (Geometry) | \nEuclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician.[2] Considered the \"father of geometry\",[3] he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Real Numbers. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Euclid   ------  Εὐκλείδης    Years active  fl. 300 BC   Known for    Scientific career    Fields  Mathematics (Geometry)  Euclid (//; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as… I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Real Numbers · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -78,6 +259,6 @@
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use"
     ],
-    "builtAt": "2026-06-23T19:34:48+00:00"
+    "builtAt": "2026-06-23T19:57:54+00:00"
   }
 }

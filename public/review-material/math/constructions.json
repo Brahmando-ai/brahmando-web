@@ -1,73 +1,229 @@
 {
+  "schemaVersion": 2,
+  "registryId": "math-constructions",
+  "analyticsId": "constructions",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 0,
+  "difficulty": "medium",
+  "topics": [],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
   "chapterId": "math-constructions",
   "title": "Constructions",
   "subject": "math",
-  "audioScript": "Chapter review: Constructions. | \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    em",
+  "audioScript": "Good morning, everyone. Today we're opening Constructions. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Constructions. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Constructions. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Constructions, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - \"Construction\". Online Etymology Dictionary http://www.etymonline.com/index.php?term=construction accessed 3/6/2014 I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - When applicable, a proposed construction project must comply with local land-use planning policies including zoning and building code requirements. A project will normally be assessed (by… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Constructions, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Constructions the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Constructions. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रय…\n**Crawled sources (internet):**\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)\n- [Construction - Wikipedia](https://en.wikipedia.org/wiki/Construction)"
+      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रय…\n**Crawled sources (internet):**\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/)\n- [CBSE | Central Board of Secondary Education](https://cbseacademic.nic.in/?ref=w3use)\n- [Construction - Wikipedia](https://en.wikipedia.org/wiki/Construction)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Constructions. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Constructions · Concept Overview: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n-  Construction is the process involved in delivering buildings, infrastructure, industrial facilities, and associated activities through to the end of their life. It typically starts with planning, financing, and design that continues until the asset is built and ready for use. Construction also covers repairs and maintenance work, any work to expand, extend, and improve the asset, and its eventual demolition, dismantling, or decommissioning.\n- The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US industry fatalities in 2019 happened in construction.[2]\n- \"Construction\" stems from the Latin word constructio (which comes from com- \"together\" and struere \"to pile up\") as well as Old French construction.[3] \"To construct\" is a verb: the act of building. The noun is \"construction\": how something is built or the nature of its structure.\n- Fast-track construction has been increasingly popular in the 21st century. Some estimates suggest that 40% of construction projects are now fast-track construction.[4]\n- Broadly, there are three sectors of construction: buildings, infrastructure and industrial:[5]\n- Building construction is usually further divided into residential and non-residential."
+      "body": "**Definitions extracted from crawled pages:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n-  Construction is the process involved in delivering buildings, infrastructure, industrial facilities, and associated activities through to the end of their life. It typically starts with planning, financing, and design that continues until the asset is built and ready for use. Construction also covers repairs and maintenance work, any work to expand, extend, and improve the asset, and its eventual demolition, dismantling, or decommissioning.\n- The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US industry fatalities in 2019 happened in construction.[2]\n- \"Construction\" stems from the Latin word constructio (which comes from com- \"together\" and struere \"to pile up\") as well as Old French construction.[3] \"To construct\" is a verb: the act of building. The noun is \"construction\": how something is built or the nature of its structure.\n- Fast-track construction has been increasingly popular in the 21st century. Some estimates suggest that 40% of construction projects are now fast-track construction.[4]\n- Broadly, there are three sectors of construction: buildings, infrastructure and industrial:[5]\n- Building construction is usually further divided into residential and non-residential.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Constructions. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Constructions · Key Definitions: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, supp…"
+      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, supp…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Constructions · Core Concepts: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- \"Construction\". Online Etymology Dictionary http://www.etymonline.com/index.php?term=construction accessed 3/6/2014"
+      "body": "**Formulas / relations found:**\n\n- \"Construction\". Online Etymology Dictionary http://www.etymonline.com/index.php?term=construction accessed 3/6/2014",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Constructions, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - \"Construction\". Online Etymology Dictionary http://www.etymonline.com/index.php?term=construction accessed 3/6/2014 I'll translate that into simpler language as we go.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Constructions · Formulas / Theorems: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US industry fatalities in 2019 happened in construction.[2]\n- The industry can also be classified into sectors or markets.[6] For example, Engineering News-Record (ENR), a US-based construction trade magazine, has compiled and reported data about the size of design and construction contractors. In 2014, it split the data into nine market segments: transportation, petroleum, buildings, power, industrial, water, manufacturing, sewage/waste, telecom, hazardous waste, and a tenth category for other projects.[7] ENR used data on transportation, sewage, hazardous waste and water to rank firms as heavy contractors.[8]\n- These processes also affect procurement strategies. Clients may, for example, appoint a business to design the project, after which a competitive process is undertaken to appoint a lead contractor to construct the asset (design–bid–build); they may appoint a business to lead both design and construction (design-build); or they may directly appoint a designer, contractor and specialist subcontractors (construction management).[15] Some forms of procurement emphasize collaborative relationships (partnering, alliancing) between the client, the contractor, and other stakeholders within a construction project, seeking to ameliorate often highly competitive and adversarial industry practices. DfMA (design for manufacture and assembly) and so-called modern methods of construction approaches also emphasize early collaboration with manufacturers and suppliers regarding products and components.\n- Law related to construction primarily focuses around contracts and obligations, as well as planning permissions and legal matters on topics such as infrastructure, housing, engineering, insurance, the environment and building warrants.[22][23] A construction project is a complex net of construction contracts and other legal obligations, each of which all parties must carefully consider. A contract is the exchange of a set of obligations between two or more parties, and provides structures to manage issues.[24] For example, construction delays can be costly, so construction contracts set out clear expectations and clear paths to manage delays. Poorly drafted contracts can lead to confusion and costly disputes. At the start of a project, legal advisors seek to identify ambiguities and other potential sources of trouble in the contract structures, and to present options for preventing problems. During projects, they work to avoid and resolve conflicts that arise and processes such as negotiation and arbitration may take place.[25]\n- On some projects, work on-site will not start until design work is largely complete; on others, some design work may be undertaken concurrently with the early stages of on-site activity (for example, work on a building's foundations may commence while designers are still working on the detailed designs of the building's internal spaces). Some projects may include elements that are designed for off-site construction (see also DfMA, prefabrication and modular building) and are then delivered to the site ready for erection, installation or assembly.\n- Construction is a major source of employment in most countries; high reliance on small businesses, and under-representation of women are common traits. For example:"
+      "body": "**Example snippets:**\n\n- The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US industry fatalities in 2019 happened in construction.[2]\n- The industry can also be classified into sectors or markets.[6] For example, Engineering News-Record (ENR), a US-based construction trade magazine, has compiled and reported data about the size of design and construction contractors. In 2014, it split the data into nine market segments: transportation, petroleum, buildings, power, industrial, water, manufacturing, sewage/waste, telecom, hazardous waste, and a tenth category for other projects.[7] ENR used data on transportation, sewage, hazardous waste and water to rank firms as heavy contractors.[8]\n- These processes also affect procurement strategies. Clients may, for example, appoint a business to design the project, after which a competitive process is undertaken to appoint a lead contractor to construct the asset (design–bid–build); they may appoint a business to lead both design and construction (design-build); or they may directly appoint a designer, contractor and specialist subcontractors (construction management).[15] Some forms of procurement emphasize collaborative relationships (partnering, alliancing) between the client, the contractor, and other stakeholders within a construction project, seeking to ameliorate often highly competitive and adversarial industry practices. DfMA (design for manufacture and assembly) and so-called modern methods of construction approaches also emphasize early collaboration with manufacturers and suppliers regarding products and components.\n- Law related to construction primarily focuses around contracts and obligations, as well as planning permissions and legal matters on topics such as infrastructure, housing, engineering, insurance, the environment and building warrants.[22][23] A construction project is a complex net of construction contracts and other legal obligations, each of which all parties must carefully consider. A contract is the exchange of a set of obligations between two or more parties, and provides structures to manage issues.[24] For example, construction delays can be costly, so construction contracts set out clear expectations and clear paths to manage delays. Poorly drafted contracts can lead to confusion and costly disputes. At the start of a project, legal advisors seek to identify ambiguities and other potential sources of trouble in the contract structures, and to present options for preventing problems. During projects, they work to avoid and resolve conflicts that arise and processes such as negotiation and arbitration may take place.[25]\n- On some projects, work on-site will not start until design work is largely complete; on others, some design work may be undertaken concurrently with the early stages of on-site activity (for example, work on a building's foundations may commence while designers are still working on the detailed designs of the building's internal spaces). Some projects may include elements that are designed for off-site construction (see also DfMA, prefabrication and modular building) and are then delivered to the site ready for erection, installation or assembly.\n- Construction is a major source of employment in most countries; high reliance on small businesses, and under-representation of women are common traits. For example:",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US… I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Constructions · Solved Examples: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "**Common pitfalls mentioned:**\n\n- When applicable, a proposed construction project must comply with local land-use planning policies including zoning and building code requirements. A project will normally be assessed (by the 'authority having jurisdiction', AHJ, typically the municipality where the project will be located) for its potential impacts on neighbouring properties, and upon existing infrastructure (transportation, social infrastructure, and utilities including water supply, sewerage, electricity, telecommunications, etc.). Data may be gathered through site analysis, site surveys and geotechnical investigations. Construction normally cannot start until planning permission has been granted, and may require preparatory work to ensure relevant infrastructure has been upgraded before building work can commence. Preparatory works will also include surveys of existing utility lines to avoid damage-causing outages and other hazardous situations.\n- Law related to construction primarily focuses around contracts and obligations, as well as planning permissions and legal matters on topics such as infrastructure, housing, engineering, insurance, the environment and building warrants.[22][23] A construction project is a complex net of construction contracts and other legal obligations, each of which all parties must carefully consider. A contract is the exchange of a set of obligations between two or more parties, and provides structures to manage issues.[24] For example, construction delays can be costly, so construction contracts set out clear expectations and clear paths to manage delays. Poorly drafted contracts can lead to confusion and costly disputes. At the start of a project, legal advisors seek to identify ambiguities and other potential sources of trouble in the contract structures, and to present options for preventing problems. During projects, they work to avoid and resolve conflicts that arise and processes such as negotiation and arbitration may take place.[25]"
+      "body": "**Common pitfalls mentioned:**\n\n- When applicable, a proposed construction project must comply with local land-use planning policies including zoning and building code requirements. A project will normally be assessed (by the 'authority having jurisdiction', AHJ, typically the municipality where the project will be located) for its potential impacts on neighbouring properties, and upon existing infrastructure (transportation, social infrastructure, and utilities including water supply, sewerage, electricity, telecommunications, etc.). Data may be gathered through site analysis, site surveys and geotechnical investigations. Construction normally cannot start until planning permission has been granted, and may require preparatory work to ensure relevant infrastructure has been upgraded before building work can commence. Preparatory works will also include surveys of existing utility lines to avoid damage-causing outages and other hazardous situations.\n- Law related to construction primarily focuses around contracts and obligations, as well as planning permissions and legal matters on topics such as infrastructure, housing, engineering, insurance, the environment and building warrants.[22][23] A construction project is a complex net of construction contracts and other legal obligations, each of which all parties must carefully consider. A contract is the exchange of a set of obligations between two or more parties, and provides structures to manage issues.[24] For example, construction delays can be costly, so construction contracts set out clear expectations and clear paths to manage delays. Poorly drafted contracts can lead to confusion and costly disputes. At the start of a project, legal advisors seek to identify ambiguities and other potential sources of trouble in the contract structures, and to present options for preventing problems. During projects, they work to avoid and resolve conflicts that arise and processes such as negotiation and arbitration may take place.[25]",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - When applicable, a proposed construction project must comply with local land-use planning policies including zoning and building code requirements. A project will normally be assessed (by… I'll translate that into simpler language as we go.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Constructions · Common Mistakes: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Constructions, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Constructions · Diagram Section: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Constructions</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Key idea</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Definition</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Example</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Exam tip</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Constructions — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": []
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Constructions · Practice Questions: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor correcting the defect.[29]\n- Tabei, Sayed Mohammad Amin; Bagherpour, Morteza; Mahmoudi, Amin (2019-03-19). \"Application of Fuzzy Modelling to Predict Construction Projects Cash Flow\". Periodica Polytechnica Civil Engineering. doi:10.3311/ppci.13402. ISSN 1587-3773. S2CID 116421818.\n- \"Construction\". Practical Law. Retrieved 2026-06-04.\n- \"TED: The Economics Daily (March 3, 2017)\". US Bureau of Labor Statistics. Retrieved 30 April 2020."
+      "body": "**Applications mentioned:**\n\n- A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor correcting the defect.[29]\n- Tabei, Sayed Mohammad Amin; Bagherpour, Morteza; Mahmoudi, Amin (2019-03-19). \"Application of Fuzzy Modelling to Predict Construction Projects Cash Flow\". Periodica Polytechnica Civil Engineering. doi:10.3311/ppci.13402. ISSN 1587-3773. S2CID 116421818.\n- \"Construction\". Practical Law. Retrieved 2026-06-04.\n- \"TED: The Economics Daily (March 3, 2017)\". US Bureau of Labor Statistics. Retrieved 30 April 2020.",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor… I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Constructions · Real World Applications: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Constructions · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Constructions · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व…"
+      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Constructions the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Constructions · Teacher Explanation Module: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphas…"
+      "body": "| \n                CBSE VISIONके.मा.शि.बो. संदृश्य\n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphas…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Constructions. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Constructions · Revision Summary: explained in everyday language for Class 10 CBSE.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -78,6 +234,6 @@
       "https://cbseacademic.nic.in/?ref=w3use",
       "https://en.wikipedia.org/wiki/Construction"
     ],
-    "builtAt": "2026-06-23T19:34:50+00:00"
+    "builtAt": "2026-06-23T19:57:56+00:00"
   }
 }

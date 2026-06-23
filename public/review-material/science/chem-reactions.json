@@ -1,73 +1,256 @@
 {
+  "schemaVersion": 2,
+  "registryId": "sci-chem-reactions",
+  "analyticsId": "chem-reactions",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 1,
+  "difficulty": "medium",
+  "topics": [
+    "Balanced chemical equations",
+    "Combination reactions",
+    "Decomposition reactions",
+    "Displacement reactions",
+    "Oxidation and reduction"
+  ],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
   "chapterId": "sci-chem-reactions",
   "title": "Chemical Reactions and Equations",
   "subject": "science",
-  "audioScript": "Chapter review: Chemical Reactions and Equations. | Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free ",
+  "audioScript": "Good morning, everyone. Today we're opening Chemical Reactions and Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Balanced chemical equations, Combination reactions, and Decomposition reactions. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Chemical Reactions and Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Balanced chemical equations, Combination reactions, and Decomposition reactions. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Chemical Reactions and Equations. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Khan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Chemical Reactions and Equations, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - [[1](https://www.khanacademy.org/about/our-supporters) \"Our supporters\"]. Khan Academy. Retrieved May 18, 2026.{{cite web}}: Checkurl=value (help) I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Chemical Reactions and Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - In 2018, Khan Academy launched an application called Khan Academy Kids for children aged two to seven to learn basic maths, reading and social skills.[51][52] I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Chemical Reactions and Equations the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Chemical Reactions and Equations. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\nKhan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\nThe origins of Khan Academy date to 2004, when Salman \"Sal\" Khan began tutoring a cousin in mathematics online using a service called Yahoo!…\n**Crawled sources (internet):**\n- [Khan Academy - Wikipedia](https://en.wikipedia.org/wiki/Khan_Academy)\n- [Khan Academy India | Master the India curriculum for free](https://india.khanacademy.org/)\n- [Client Challenge](https://en.khanacademy.org/science/ncert-class-10-science/x86cb04ca33008b40:chemical-reactions-and-equations/x86cb04ca33008b40:intro-to-chemical-reactions-and-equations/v/intro-to-chemical-reactions)\n- [Client Challenge](https://www.khanacademy.org/)"
+      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\nKhan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\nThe origins of Khan Academy date to 2004, when Salman \"Sal\" Khan began tutoring a cousin in mathematics online using a service called Yahoo!…\n**Crawled sources (internet):**\n- [Khan Academy - Wikipedia](https://en.wikipedia.org/wiki/Khan_Academy)\n- [Khan Academy India | Master the India curriculum for free](https://india.khanacademy.org/)\n- [Client Challenge](https://en.khanacademy.org/science/ncert-class-10-science/x86cb04ca33008b40:chemical-reactions-and-equations/x86cb04ca33008b40:intro-to-chemical-reactions-and-equations/v/intro-to-chemical-reactions)\n- [Client Challenge](https://www.khanacademy.org/)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Chemical Reactions and Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Balanced chemical equations, Combination reactions, and Decomposition reactions. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Chemical Reactions and Equations · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- Khan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\n- The Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\n- Khan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\n- Khan Academy's lessons are primarily delivered through short instructional videos paired with interactive practice exercises and assessments.[10][11] Studies have found that use of Khan Academy resources is associated with improved student academic performance.[12]\n- The videos display a recording of drawings on an electronic blackboard, which are similar to the style of a teacher giving a lecture. The narrator describes each drawing and how the drawings relate to the material being taught.[28][29] Furthermore, throughout the lessons, users can earn badges and energy points, which can be displayed on their profiles. Non-profit groups have distributed offline versions of the videos to rural areas in Asia, Latin America, and Africa.[30][31][32] Videos range from all subjects covered in school and for all grades from kindergarten up through high school. The Khan Academy website also hosts content from educational YouTube channels and organizations such as Crash Course and the Museum of Modern Art.[33] It also provides online courses for preparing for standardized tests, including the SAT, AP Chemistry, Praxis Core and MCAT[34] and released LSAT preparation lessons in 2018.[35] It also has a collaboration with independent chemists, which are mentioned in \"Meet the chemistry professional\". Khan Academy has also supported Code.org's Hour of Code, providing coding lessons on its website.[36]\n- Since 2015, Khan Academy has been one of the official SAT preparation websites. According to reports, studying for the SAT for at least 20 hours at Khan Academy is associated with a 115-point average score increase.[48]\n- \"What is the history of Khan Academy?\". Khan Academy Help Center. Retrieved August 24, 2021.\n- \"What is the history of Khan Academy?\". khanacademy.org. Archived from the original on August 10, 2021. Retrieved August 10, 2021."
+      "body": "**Definitions extracted from crawled pages:**\n\n- Khan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\n- The Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\n- Khan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\n- Khan Academy's lessons are primarily delivered through short instructional videos paired with interactive practice exercises and assessments.[10][11] Studies have found that use of Khan Academy resources is associated with improved student academic performance.[12]\n- The videos display a recording of drawings on an electronic blackboard, which are similar to the style of a teacher giving a lecture. The narrator describes each drawing and how the drawings relate to the material being taught.[28][29] Furthermore, throughout the lessons, users can earn badges and energy points, which can be displayed on their profiles. Non-profit groups have distributed offline versions of the videos to rural areas in Asia, Latin America, and Africa.[30][31][32] Videos range from all subjects covered in school and for all grades from kindergarten up through high school. The Khan Academy website also hosts content from educational YouTube channels and organizations such as Crash Course and the Museum of Modern Art.[33] It also provides online courses for preparing for standardized tests, including the SAT, AP Chemistry, Praxis Core and MCAT[34] and released LSAT preparation lessons in 2018.[35] It also has a collaboration with independent chemists, which are mentioned in \"Meet the chemistry professional\". Khan Academy has also supported Code.org's Hour of Code, providing coding lessons on its website.[36]\n- Since 2015, Khan Academy has been one of the official SAT preparation websites. According to reports, studying for the SAT for at least 20 hours at Khan Academy is associated with a 115-point average score increase.[48]\n- \"What is the history of Khan Academy?\". Khan Academy Help Center. Retrieved August 24, 2021.\n- \"What is the history of Khan Academy?\". khanacademy.org. Archived from the original on August 10, 2021. Retrieved August 10, 2021.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Chemical Reactions and Equations. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Khan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Chemical Reactions and Equations · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\nKhan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\nThe origins of Khan Academy date to 2004, when Salman \"Sal\" Khan began tutoring a cousin in mathematics online using a service called Yahoo! Doodle Images.[3][4] As additional relatives began using the lessons, Khan started recording instructional videos and publishing them on YouTube to make the material more widely accessible.[5] Early tutorials were recorded on Khan's personal computer using drawing applications such as SmoothDraw and ArtRage, often with the aid of a Wacom tablet.[6]\nPublic response, including coverage in USA Today, led Khan to incorporate Khan Academy as a nonprofit organization in 2008 and leave his job in finance to work on the project full time.[7] The organization was established with the goal of providing free learning resources to students worldwide.[8][1][9]\nKhan Academy's lessons are primarily delivered through short instructional videos paired with interactive practice exercises and assessments.[10…"
+      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive practice activities.\nKhan Academy is supported primarily through philanthropic donations, allowing its educational materials to remain freely available to users.\nThe origins of Khan Academy date to 2004, when Salman \"Sal\" Khan began tutoring a cousin in mathematics online using a service called Yahoo! Doodle Images.[3][4] As additional relatives began using the lessons, Khan started recording instructional videos and publishing them on YouTube to make the material more widely accessible.[5] Early tutorials were recorded on Khan's personal computer using drawing applications such as SmoothDraw and ArtRage, often with the aid of a Wacom tablet.[6]\nPublic response, including coverage in USA Today, led Khan to incorporate Khan Academy as a nonprofit organization in 2008 and leave his job in finance to work on the project full time.[7] The organization was established with the goal of providing free learning resources to students worldwide.[8][1][9]\nKhan Academy's lessons are primarily delivered through short instructional videos paired with interactive practice exercises and assessments.[10…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Chemical Reactions and Equations · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- [[1](https://www.khanacademy.org/about/our-supporters) \"Our supporters\"]. Khan Academy. Retrieved May 18, 2026.{{cite web}}: Check|url=value (help)"
+      "body": "**Formulas / relations found:**\n\n- [[1](https://www.khanacademy.org/about/our-supporters) \"Our supporters\"]. Khan Academy. Retrieved May 18, 2026.{{cite web}}: Check|url=value (help)",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Chemical Reactions and Equations, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - [[1](https://www.khanacademy.org/about/our-supporters) \"Our supporters\"]. Khan Academy. Retrieved May 18, 2026.{{cite web}}: Checkurl=value (help) I'll translate that into simpler language as we go.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Chemical Reactions and Equations · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Chemical Reactions and Equations · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Chemical Reactions and Equations · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Chemical Reactions and Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Chemical Reactions and Equations · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='100%' role='img'><rect width='420' height='300' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Chemical Reactions and Equations</text><circle cx='210' cy='150' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='154' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='184' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Balanced chemical equations</text><line x1='210' y1='184' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Combination reactions</text><line x1='210' y1='184' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Decomposition reactions</text><line x1='210' y1='184' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Displacement reactions</text><line x1='210' y1='184' x2='210' y2='234' stroke='#475569' stroke-width='1.5'/><rect x='60' y='226' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='244' text-anchor='middle' fill='#cbd5e1' font-size='11'>Oxidation and reduction</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Chemical Reactions and Equations — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Balanced chemical equations"
+          },
+          {
+            "id": "n1",
+            "label": "Combination reactions"
+          },
+          {
+            "id": "n2",
+            "label": "Decomposition reactions"
+          },
+          {
+            "id": "n3",
+            "label": "Displacement reactions"
+          },
+          {
+            "id": "n4",
+            "label": "Oxidation and reduction"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Chemical Reactions and Equations · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- In 2018, Khan Academy launched an application called Khan Academy Kids for children aged two to seven to learn basic maths, reading and social skills.[51][52]"
+      "body": "**Applications mentioned:**\n\n- In 2018, Khan Academy launched an application called Khan Academy Kids for children aged two to seven to learn basic maths, reading and social skills.[51][52]",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - In 2018, Khan Academy launched an application called Khan Academy Kids for children aged two to seven to learn basic maths, reading and social skills.[51][52] I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Chemical Reactions and Equations · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Chemical Reactions and Equations · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Chemical Reactions and Equations · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive pra…"
+      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers instructional videos, practice exercises, teaching tools, test preparation and assessment tests, across a range of subjects including mathematics, sciences, history, literature, economics and computer science. Lessons are typically delivered through short instructional videos paired with interactive pra…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Chemical Reactions and Equations the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Chemical Reactions and Equations · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers inst…"
+      "body": "| Type of site | 501(c)(3) | \n|---|---|\n| Available in | Multiple languages | \n| Owner | Khan Academy, Inc. | \n| Founder | Sal Khan[1][2] | \n| URL | KhanAcademy.org | \n| Launched | 2008 | \n| YouTube information | |\n| Channel | |\n| Years active | 2008–present | \n| Genre | Education | \n| Subscribers | 9,280,594 | \n| Views | 2,205,163,846 | \n| Last updated: March 2nd, 2026 | |\nKhan Academy is an American educational nonprofit organization founded in 2008 by Sal Khan. The organization provides free online learning resources for students and teachers worldwide.\nThe Khan Academy platform offers inst…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Chemical Reactions and Equations. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Type of site  501(c)(3)  ------  Available in  Multiple languages   Owner  Khan Academy, Inc.   Founder  Sal Khan[1][2]   URL  KhanAcademy.org   Launched  2008   YouTube information    Channel    Years active … I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Chemical Reactions and Equations · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -79,6 +262,6 @@
       "https://en.khanacademy.org/science/ncert-class-10-science/x86cb04ca33008b40:chemical-reactions-and-equations/x86cb04ca33008b40:intro-to-chemical-reactions-and-equations/v/intro-to-chemical-reactions",
       "https://www.khanacademy.org/"
     ],
-    "builtAt": "2026-06-23T19:34:44+00:00"
+    "builtAt": "2026-06-23T19:57:50+00:00"
   }
 }

@@ -1,73 +1,249 @@
 {
+  "schemaVersion": 2,
+  "registryId": "math-polynomials",
+  "analyticsId": "polynomials",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 2,
+  "difficulty": "medium",
+  "topics": [
+    "Zeros of a polynomial",
+    "Relationship between zeros and coefficients",
+    "Division algorithm for polynomials"
+  ],
+  "formulas": [
+    "For ax^2 + bx + c: sum of zeros = -b/a",
+    "Product of zeros = c/a"
+  ],
+  "recommendedDifficulty": "medium",
   "chapterId": "math-polynomials",
   "title": "Polynomials",
   "subject": "math",
-  "audioScript": "Chapter review: Polynomials. ### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, a",
+  "audioScript": "Good morning, everyone. Today we're opening Polynomials. Forget the heavy textbook tone for a moment — think of this chapter as a story about Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Polynomials. Forget the heavy textbook tone for a moment — think of this chapter as a story about Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Polynomials. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - A polynomial in is an expression of the form , where are real numbers and is a non-negative integer. - The degree of a polynomial is the highest power of with a non-zero… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Polynomials, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Solved Example 1: Finding Sum and Product - Solved Example 2: Cubic Polynomial - Solved Example 3: Forming a Polynomial - Solved Example 4: Zeroes with Given Conditions - Solved Example 5: Finding a… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - 1. Sign Error in Sum of Zeroes: - Mistake: Writing instead of . - Mistake: Thinking the zeroes are the coefficients , , . - Mistake: Subtracting incorrectly during polynomial long division,… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Polynomials, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - AI Coach: Get insights on whether your errors are in sign handling, division, or concept application. Targeted practice recommendations save you time. I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Polynomials the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Polynomials. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, and more importantly, the concepts here directly connect to Quadratic Equations (Chapter 4), which carries even more marks.\nThe chapter focuses on three big ideas:\n1. Zeroes of a polynomial — the values of  where the polynomial equals zero.\n2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. Division algorithm — dividing one polynomial by another, just like long division with numbers.\nMaster these three, and you'll breeze through both this chapter and Quadratic Equations. Let's dive in!\nTypes of Polynomials: Quick Recap\nA polynomial in is an expression of the form , where are real numbers and is a non-negative int…\n**Crawled sources (internet):**\n- [Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes](https://www.sparkedmaths.com/blog/cbse-class-10-polynomials-guide)"
+      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, and more importantly, the concepts here directly connect to Quadratic Equations (Chapter 4), which carries even more marks.\nThe chapter focuses on three big ideas:\n1. Zeroes of a polynomial — the values of  where the polynomial equals zero.\n2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. Division algorithm — dividing one polynomial by another, just like long division with numbers.\nMaster these three, and you'll breeze through both this chapter and Quadratic Equations. Let's dive in!\nTypes of Polynomials: Quick Recap\nA polynomial in is an expression of the form , where are real numbers and is a non-negative int…\n**Crawled sources (internet):**\n- [Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes](https://www.sparkedmaths.com/blog/cbse-class-10-polynomials-guide)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Polynomials. Forget the heavy textbook tone for a moment — think of this chapter as a story about Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Polynomials · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- A polynomial in is an expression of the form , where are real numbers and is a non-negative integer.\n- The degree of a polynomial is the highest power of with a non-zero coefficient.\n- The zeroes of a polynomial are the -coordinates of the points where the graph of intersects the -axis.\n- Linear polynomial : The graph is a straight line. It intersects the -axis at exactly one point , which is the only zero.\n- Quadratic polynomial : The graph is a parabola. It can intersect the -axis at:\n- This is the most important section of the chapter and the most frequently tested concept in board exams.\n- where is any non-zero real number (usually taken as 1 for simplicity).\n- Problem: If one zero of is the reciprocal of the other, find the value of ."
+      "body": "**Definitions extracted from crawled pages:**\n\n- A polynomial in is an expression of the form , where are real numbers and is a non-negative integer.\n- The degree of a polynomial is the highest power of with a non-zero coefficient.\n- The zeroes of a polynomial are the -coordinates of the points where the graph of intersects the -axis.\n- Linear polynomial : The graph is a straight line. It intersects the -axis at exactly one point , which is the only zero.\n- Quadratic polynomial : The graph is a parabola. It can intersect the -axis at:\n- This is the most important section of the chapter and the most frequently tested concept in board exams.\n- where is any non-zero real number (usually taken as 1 for simplicity).\n- Problem: If one zero of is the reciprocal of the other, find the value of .",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Polynomials. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - A polynomial in is an expression of the form , where are real numbers and is a non-negative integer. - The degree of a polynomial is the highest power of with a non-zero… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Polynomials · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, and more importantly, the concepts here directly connect to Quadratic Equations (Chapter 4), which carries even more marks.\nThe chapter focuses on three big ideas:\n1. Zeroes of a polynomial — the values of  where the polynomial equals zero.\n2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. Division algorithm — dividing one polynomial by another, just like long division with numbers.\nMaster these three, and you'll breeze through both this chapter and Quadratic Equations. Let's dive in!\nTypes of Polynomials: Quick Recap\nA polynomial in is an expression of the form , where are real numbers and is a non-negative integer.\nThe degree of a polynomial is the highest power of with a non-zero coefficient.\n| Degree | Name | General Form | Max Zeroes | \n|---|---|---|---|\n| 0 | Constant | (where ) | 0 | \n| 1 | Linear | 1 | |\n| 2 | Quadratic | 2 | |\n| 3 | Cubic | 3 | \nImportant: A polynomial of degree has at most zeroes. It could have fewer (some might be complex numbers, which you'll learn in higher classes), but never more than .\nGeometrical Meaning of Zeroes\nThe zeroes of a polynomial are the -coordinates of the points where the graph of intersects the -axis.\nLinear polynomial : The graph is a straight line. It intersects the -axis at exactly one point , which is the only zero.\nQuadratic polynomial : The graph is a parabola. It can intersect the -axis at:\n- Two points — two distinct real zeroes (discriminan…"
+      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, and more importantly, the concepts here directly connect to Quadratic Equations (Chapter 4), which carries even more marks.\nThe chapter focuses on three big ideas:\n1. Zeroes of a polynomial — the values of  where the polynomial equals zero.\n2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. Division algorithm — dividing one polynomial by another, just like long division with numbers.\nMaster these three, and you'll breeze through both this chapter and Quadratic Equations. Let's dive in!\nTypes of Polynomials: Quick Recap\nA polynomial in is an expression of the form , where are real numbers and is a non-negative integer.\nThe degree of a polynomial is the highest power of with a non-zero coefficient.\n| Degree | Name | General Form | Max Zeroes | \n|---|---|---|---|\n| 0 | Constant | (where ) | 0 | \n| 1 | Linear | 1 | |\n| 2 | Quadratic | 2 | |\n| 3 | Cubic | 3 | \nImportant: A polynomial of degree has at most zeroes. It could have fewer (some might be complex numbers, which you'll learn in higher classes), but never more than .\nGeometrical Meaning of Zeroes\nThe zeroes of a polynomial are the -coordinates of the points where the graph of intersects the -axis.\nLinear polynomial : The graph is a straight line. It intersects the -axis at exactly one point , which is the only zero.\nQuadratic polynomial : The graph is a parabola. It can intersect the -axis at:\n- Two points — two distinct real zeroes (discriminan…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Polynomials · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Polynomials, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Polynomials · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- Solved Example 1: Finding Sum and Product\n- Solved Example 2: Cubic Polynomial\n- Solved Example 3: Forming a Polynomial\n- Solved Example 4: Zeroes with Given Conditions\n- Solved Example 5: Finding a Polynomial from Related Zeroes\n- Solved Example 6: Basic Polynomial Division"
+      "body": "**Example snippets:**\n\n- Solved Example 1: Finding Sum and Product\n- Solved Example 2: Cubic Polynomial\n- Solved Example 3: Forming a Polynomial\n- Solved Example 4: Zeroes with Given Conditions\n- Solved Example 5: Finding a Polynomial from Related Zeroes\n- Solved Example 6: Basic Polynomial Division",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - Solved Example 1: Finding Sum and Product - Solved Example 2: Cubic Polynomial - Solved Example 3: Forming a Polynomial - Solved Example 4: Zeroes with Given Conditions - Solved Example 5: Finding a… I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Polynomials · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "**Common pitfalls mentioned:**\n\n- 1. Sign Error in Sum of Zeroes:\n- Mistake: Writing instead of .\n- Mistake: Thinking the zeroes are the coefficients , , .\n- Mistake: Subtracting incorrectly during polynomial long division, especially with negative signs.\n- Mistake: Claiming the polynomial is unique when only given the zeroes.\n- Mistake: Assuming a degree- polynomial always has real zeroes."
+      "body": "**Common pitfalls mentioned:**\n\n- 1. Sign Error in Sum of Zeroes:\n- Mistake: Writing instead of .\n- Mistake: Thinking the zeroes are the coefficients , , .\n- Mistake: Subtracting incorrectly during polynomial long division, especially with negative signs.\n- Mistake: Claiming the polynomial is unique when only given the zeroes.\n- Mistake: Assuming a degree- polynomial always has real zeroes.",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Common pitfalls mentioned: - 1. Sign Error in Sum of Zeroes: - Mistake: Writing instead of . - Mistake: Thinking the zeroes are the coefficients , , . - Mistake: Subtracting incorrectly during polynomial long division,… I'll translate that into simpler language as we go.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Polynomials · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Polynomials, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Polynomials · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 196' width='100%' role='img'><rect width='420' height='196' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Polynomials</text><circle cx='210' cy='98' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='102' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='132' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Zeros of a polynomial</text><line x1='210' y1='132' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Relationship between zeros and coefficient</text><line x1='210' y1='132' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Division algorithm for polynomials</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Polynomials — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Zeros of a polynomial"
+          },
+          {
+            "id": "n1",
+            "label": "Relationship between zeros and coefficients"
+          },
+          {
+            "id": "n2",
+            "label": "Division algorithm for polynomials"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Polynomials · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- AI Coach: Get insights on whether your errors are in sign handling, division, or concept application. Targeted practice recommendations save you time."
+      "body": "**Applications mentioned:**\n\n- AI Coach: Get insights on whether your errors are in sign handling, division, or concept application. Targeted practice recommendations save you time.",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - AI Coach: Get insights on whether your errors are in sign handling, division, or concept application. Targeted practice recommendations save you time. I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Polynomials · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Polynomials · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Polynomials · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, and more importantly, the concepts here directly connect to Quadratic Equations (Chapter 4), which carries even more marks.\nThe chapter focuses on three big ideas:\n1. Zeroes of a polynomial — the values of  where the polynomial equals zero.\n2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. Division algorithm — dividin…"
+      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\n\nPolynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes\nYour complete guide to zeroes, sum-product relationships, division algorithm, and forming polynomials from zeroes!\nWhy Polynomials Matters More Than You Think\nPolynomials (NCERT Chapter 2) might seem like a short chapter, but it's foundational for your entire algebra preparation. It typically carries 3-5 marks in the CBSE board exam, and more importantly, the concepts here directly connect to Quadratic Equations (Chapter 4), which carries even more marks.\nThe chapter focuses on three big ideas:\n1. Zeroes of a polynomial — the values of  where the polynomial equals zero.\n2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. Division algorithm — dividin…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Polynomials the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes Your complete guide to zeroes, sum-product relationships,… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Polynomials · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes"
+      "body": "### Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Polynomials. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  Polynomials Class 10: Zeroes, Division Algorithm & Relationship Between Zeroes I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Polynomials · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -76,6 +252,6 @@
     "sourceUrls": [
       "https://www.sparkedmaths.com/blog/cbse-class-10-polynomials-guide"
     ],
-    "builtAt": "2026-06-23T19:34:48+00:00"
+    "builtAt": "2026-06-23T19:57:54+00:00"
   }
 }

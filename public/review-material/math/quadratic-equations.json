@@ -1,73 +1,255 @@
 {
+  "schemaVersion": 2,
+  "registryId": "math-quadratic",
+  "analyticsId": "quadratic",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 4,
+  "difficulty": "medium",
+  "topics": [
+    "Standard form",
+    "Factorization method",
+    "Quadratic formula",
+    "Nature of roots"
+  ],
+  "formulas": [
+    "ax^2 + bx + c = 0",
+    "x = (-b +/- sqrt(b^2 - 4ac)) / 2a",
+    "D = b^2 - 4ac"
+  ],
+  "recommendedDifficulty": "medium",
   "chapterId": "math-quadratic",
   "title": "Quadratic Equations",
   "subject": "math",
-  "audioScript": "Chapter review: Quadratic Equations. ### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the stude",
+  "audioScript": "Good morning, everyone. Today we're opening Quadratic Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Standard form, Factorization method, and Quadratic formula. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Quadratic Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Standard form, Factorization method, and Quadratic formula. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Quadratic Equations. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Quadratic Equations, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - 2. Solve the problems given in Example 1. - 2Solve the problems given in Example 1 (i.e., find the dimensions of the rectangular plot with area Show solution I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Quadratic Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics? - How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics? - Where can I get… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Quadratic Equations the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Quadratic Equations. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\nQuadratic equations arise in several situations around us. Hence, students should give special attention to learning the concepts related to this chapter of the latest CBSE Syllabus for 2023-24 thoroughly to excel i…\n**Crawled sources (internet):**\n- [NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations](https://byjus.com/ncert-solutions-class-10-maths/chapter-4-quadratic-equations/)\n- [Quadratic Equations NCERT Solutions — CBSE 10 | Super Tutor](https://supertutor.in/resources/cbse/class-10/maths/ncert-solutions/quadratic-equations/)\n- [NCERT Solutions For Class 10 Maths Chapter 4 Quadratic Equations Ex 4.1](https://www.learncbse.in/ncert-solutions-for-class-10-maths-chapter-4-quadratic-equations/)\n- [Quadratic Equations Class 10 Notes Maths Chapter 4](https://www.learncbse.in/quadratic-equations-class-10-notes/)"
+      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\nQuadratic equations arise in several situations around us. Hence, students should give special attention to learning the concepts related to this chapter of the latest CBSE Syllabus for 2023-24 thoroughly to excel i…\n**Crawled sources (internet):**\n- [NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations](https://byjus.com/ncert-solutions-class-10-maths/chapter-4-quadratic-equations/)\n- [Quadratic Equations NCERT Solutions — CBSE 10 | Super Tutor](https://supertutor.in/resources/cbse/class-10/maths/ncert-solutions/quadratic-equations/)\n- [NCERT Solutions For Class 10 Maths Chapter 4 Quadratic Equations Ex 4.1](https://www.learncbse.in/ncert-solutions-for-class-10-maths-chapter-4-quadratic-equations/)\n- [Quadratic Equations Class 10 Notes Maths Chapter 4](https://www.learncbse.in/quadratic-equations-class-10-notes/)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Quadratic Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Standard form, Factorization method, and Quadratic formula. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Quadratic Equations · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\n- Quadratic equations arise in several situations around us. Hence, students should give special attention to learning the concepts related to this chapter of the latest CBSE Syllabus for 2023-24 thoroughly to excel in Class 10 Maths examinations. NCERT Solutions help the students in learning these concepts as well as in evaluating themselves. Practising these solutions repeatedly is bound to help the students in overcoming their shortcomings. Maths has either a correct answer or a wrong one. Therefore, it is imperative to concentrate while solving the questions to score full marks.\n- 1. Check whether the following are quadratic equations:\n- The above equation is in the form of ax2 + bx + c = 0\n- Therefore, the given equation is a quadratic equation.\n- The above equation is not in the form of ax2 + bx + c = 0\n- Therefore, the given equation is not a quadratic equation.\n- The above equation is in the form of ax2 + bx + c = 0."
+      "body": "**Definitions extracted from crawled pages:**\n\n- NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\n- Quadratic equations arise in several situations around us. Hence, students should give special attention to learning the concepts related to this chapter of the latest CBSE Syllabus for 2023-24 thoroughly to excel in Class 10 Maths examinations. NCERT Solutions help the students in learning these concepts as well as in evaluating themselves. Practising these solutions repeatedly is bound to help the students in overcoming their shortcomings. Maths has either a correct answer or a wrong one. Therefore, it is imperative to concentrate while solving the questions to score full marks.\n- 1. Check whether the following are quadratic equations:\n- The above equation is in the form of ax2 + bx + c = 0\n- Therefore, the given equation is a quadratic equation.\n- The above equation is not in the form of ax2 + bx + c = 0\n- Therefore, the given equation is not a quadratic equation.\n- The above equation is in the form of ax2 + bx + c = 0.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Quadratic Equations. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Quadratic Equations · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\nQuadratic equations arise in several situations around us. Hence, students should give special attention to learning the concepts related to this chapter of the latest CBSE Syllabus for 2023-24 thoroughly to excel in Class 10 Maths examinations. NCERT Solutions help the students in learning these concepts as well as in evaluating themselves. Practising these solutions repeatedly is bound to help the students in overcoming their shortcomings. Maths has either a correct answer or a wrong one. Therefore, it is imperative to concentrate while solving the questions to score full marks.\nAccess answers to NCERT Class 10 Maths Chapter 4 – Quadratic Equations\nExercise 4.1 Page: 73\n1. Check whether the following are quadratic equations:\n(i) (x + 1)2 = 2(x – 3)\n(ii) x2 – 2x = (–2) (3 – x)\n(iii) (x – 2)(x + 1) = (x – 1)(x + 3)\n(iv) (x – 3)(2x +1) = x(x + 5)\n(v) (2x – 1)(x – 3) = (x + 5)(x – 1)\n(vi) x2 + 3x + 1 = (x – 2)2\n(vii) (x + 2)3 = 2x (x2 – 1)\n(viii) x3 – 4x2 – x + 1 = (x – 2)3\nSolutions:\n(i) Given,\n(x + 1…"
+      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\nQuadratic equations arise in several situations around us. Hence, students should give special attention to learning the concepts related to this chapter of the latest CBSE Syllabus for 2023-24 thoroughly to excel in Class 10 Maths examinations. NCERT Solutions help the students in learning these concepts as well as in evaluating themselves. Practising these solutions repeatedly is bound to help the students in overcoming their shortcomings. Maths has either a correct answer or a wrong one. Therefore, it is imperative to concentrate while solving the questions to score full marks.\nAccess answers to NCERT Class 10 Maths Chapter 4 – Quadratic Equations\nExercise 4.1 Page: 73\n1. Check whether the following are quadratic equations:\n(i) (x + 1)2 = 2(x – 3)\n(ii) x2 – 2x = (–2) (3 – x)\n(iii) (x – 2)(x + 1) = (x – 1)(x + 3)\n(iv) (x – 3)(2x +1) = x(x + 5)\n(v) (2x – 1)(x – 3) = (x + 5)(x – 1)\n(vi) x2 + 3x + 1 = (x – 2)2\n(vii) (x + 2)3 = 2x (x2 – 1)\n(viii) x3 – 4x2 – x + 1 = (x – 2)3\nSolutions:\n(i) Given,\n(x + 1…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Quadratic Equations · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "**Formulas / relations found:**\n\n- NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\n- (i) (x + 1)2 = 2(x – 3)\n- (ii) x2 – 2x = (–2) (3 – x)\n- (iii) (x – 2)(x + 1) = (x – 1)(x + 3)\n- (iv) (x – 3)(2x +1) = x(x + 5)\n- (v) (2x – 1)(x – 3) = (x + 5)(x – 1)\n- (vi) x2 + 3x + 1 = (x – 2)2\n- (vii) (x + 2)3 = 2x (x2 – 1)"
+      "body": "**Formulas / relations found:**\n\n- NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0. That is, ax2+ bx + c = 0, a ≠ 0 is called the standard form of a quadratic equation.\n- (i) (x + 1)2 = 2(x – 3)\n- (ii) x2 – 2x = (–2) (3 – x)\n- (iii) (x – 2)(x + 1) = (x – 1)(x + 3)\n- (iv) (x – 3)(2x +1) = x(x + 5)\n- (v) (2x – 1)(x – 3) = (x + 5)(x – 1)\n- (vi) x2 + 3x + 1 = (x – 2)2\n- (vii) (x + 2)3 = 2x (x2 – 1)",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Quadratic Equations, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board. One idea from the notes: Formulas / relations found: - NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The… I'll translate that into simpler language as we go.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Quadratic Equations · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "**Example snippets:**\n\n- 2. Solve the problems given in Example 1.\n- 2Solve the problems given in Example 1 (i.e., find the dimensions of the rectangular plot with area Show solution"
+      "body": "**Example snippets:**\n\n- 2. Solve the problems given in Example 1.\n- 2Solve the problems given in Example 1 (i.e., find the dimensions of the rectangular plot with area Show solution",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Example snippets: - 2. Solve the problems given in Example 1. - 2Solve the problems given in Example 1 (i.e., find the dimensions of the rectangular plot with area Show solution I'll translate that into simpler language as we go.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Quadratic Equations · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Quadratic Equations · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Quadratic Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Quadratic Equations · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Quadratic Equations</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Standard form</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Factorization method</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Quadratic formula</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Nature of roots</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Quadratic Equations — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Standard form"
+          },
+          {
+            "id": "n1",
+            "label": "Factorization method"
+          },
+          {
+            "id": "n2",
+            "label": "Quadratic formula"
+          },
+          {
+            "id": "n3",
+            "label": "Nature of roots"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics?\n- How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics?\n- Where can I get free NCERT Solutions for Quadratic Equations Class 10 Mathematics?"
+      "body": "**Practice-style lines from sources:**\n\n- What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics?\n- How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics?\n- Where can I get free NCERT Solutions for Quadratic Equations Class 10 Mathematics?",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics? - How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics? - Where can I get… I'll translate that into simpler language as we go.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Quadratic Equations · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will study quadratic equations and various ways of finding their roots. They will also see some applications of quadratic equations in daily life situations."
+      "body": "**Applications mentioned:**\n\n- If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will study quadratic equations and various ways of finding their roots. They will also see some applications of quadratic equations in daily life situations.",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will… I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Quadratic Equations · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Quadratic Equations · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Quadratic Equations · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0.…"
+      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations\n\nNCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download\nNCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions to the problems provided in the Class 10 Maths NCERT textbook for CBSE exam preparations. The questions from every section are framed and solved accurately by the subject experts. NCERT Solutions for Class 10 are detailed and step-by-step guides to all the queries of the students. The exercises present in the chapter should be dealt with utmost sincerity if one wants to score well in the examinations. Maths is a subject that requires a good understanding and a lot of practice. The tips and tricks to solve the problems easily are also provided here. A quadratic equation in the variable x is an equation of the form ax2+ bx + c = 0, where a, b, c are real numbers, a ≠ 0.…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Quadratic Equations the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations NCERT Solutions Class 10 Maths Chapter 4 – CBSE Free PDF Download NCERT Solutions Class 10 Maths Chapter 4 Quadratic Equations contain all the solutions… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Quadratic Equations · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations"
+      "body": "### NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Quadratic Equations. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  NCERT Solutions for Class 10 Maths Chapter 4 Quadratic Equations I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Quadratic Equations · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -79,6 +261,6 @@
       "https://www.learncbse.in/ncert-solutions-for-class-10-maths-chapter-4-quadratic-equations/",
       "https://www.learncbse.in/quadratic-equations-class-10-notes/"
     ],
-    "builtAt": "2026-06-23T19:34:48+00:00"
+    "builtAt": "2026-06-23T19:57:54+00:00"
   }
 }

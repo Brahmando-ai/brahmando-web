@@ -1,73 +1,249 @@
 {
+  "schemaVersion": 2,
+  "registryId": "math-triangles",
+  "analyticsId": "triangles",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 7,
+  "difficulty": "medium",
+  "topics": [
+    "Similar triangles",
+    "Basic Proportionality Theorem",
+    "Pythagoras theorem"
+  ],
+  "formulas": [
+    "AB/DE = BC/EF = AC/DF",
+    "AB^2 + BC^2 = AC^2"
+  ],
+  "recommendedDifficulty": "medium",
   "chapterId": "math-triangles",
   "title": "Triangles",
   "subject": "math",
-  "audioScript": "Chapter review: Triangles. ### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas suc",
+  "audioScript": "Good morning, everyone. Today we're opening Triangles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Triangles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Triangles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Teerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Triangles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Triangles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - Bachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Triangles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Triangles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration I'll translate that into simpler language as we go."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "concept-overview",
       "title": "1. Concept Overview",
-      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\nRecognised as one of the most promising healthcare courses in India, the BPT programme equips students with both theoretical knowledge and practical skills essential for diagnosing and treating physical impairments. Graduates can pursue careers as licensed physiotherapists, rehabilitation specialists, or sports therapists in diverse settings such as multispeciality hospi…\n**Crawled sources (internet):**\n- [BPT Admission 2026: Course Eligibility, Fees, and Duration](https://www.tmu.ac.in/programme/bachelor-of-physiotherapy-programme)"
+      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\nRecognised as one of the most promising healthcare courses in India, the BPT programme equips students with both theoretical knowledge and practical skills essential for diagnosing and treating physical impairments. Graduates can pursue careers as licensed physiotherapists, rehabilitation specialists, or sports therapists in diverse settings such as multispeciality hospi…\n**Crawled sources (internet):**\n- [BPT Admission 2026: Course Eligibility, Fees, and Duration](https://www.tmu.ac.in/programme/bachelor-of-physiotherapy-programme)",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Triangles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go.",
+        "style": "teacher-intro",
+        "simplifiedSummary": "Triangles · Concept Overview: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "key-definitions",
       "title": "2. Key Definitions",
-      "body": "**Definitions extracted from crawled pages:**\n\n- Teerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This course equips students with essential clinical and practical skills, preparing them for a successful career in the dynamic field of physiotherapy. Graduates gain hands-on experience in patient care, rehabilitation techniques, and therapeutic interventions, ensuring they are industry-ready and capable of making a real impact in healthcare.\n- Remarks: Scholarships are available in the admission Year only. These rules are not applicable on programmes of one year or less than one year duration & Multiple scholarships will not be available.\n- Here are several prominent career paths you can pursue after earning your Bachelor of Physiotherapy (BPT):"
+      "body": "**Definitions extracted from crawled pages:**\n\n- Teerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This course equips students with essential clinical and practical skills, preparing them for a successful career in the dynamic field of physiotherapy. Graduates gain hands-on experience in patient care, rehabilitation techniques, and therapeutic interventions, ensuring they are industry-ready and capable of making a real impact in healthcare.\n- Remarks: Scholarships are available in the admission Year only. These rules are not applicable on programmes of one year or less than one year duration & Multiple scholarships will not be available.\n- Here are several prominent career paths you can pursue after earning your Bachelor of Physiotherapy (BPT):",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Triangles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there. One idea from the notes: Definitions extracted from crawled pages: - Teerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This… I'll translate that into simpler language as we go.",
+        "style": "teacher-definitions",
+        "simplifiedSummary": "Triangles · Key Definitions: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "core-concepts",
       "title": "3. Core Concepts",
-      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\nRecognised as one of the most promising healthcare courses in India, the BPT programme equips students with both theoretical knowledge and practical skills essential for diagnosing and treating physical impairments. Graduates can pursue careers as licensed physiotherapists, rehabilitation specialists, or sports therapists in diverse settings such as multispeciality hospitals, sports teams, wellness centres, and academia. With increasing awareness of preventive healthcare and physiotherapy, the demand for qualified physiotherapists continues to rise in India and abroad. Teerthanker Mahaveer University takes pride in presenting a comprehensive BPT programme, meticulously crafted to empower students with the skills and knowledge imperative for a flourishing career in Physiotherapy.\nTeerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This course equips students with essential clinical and practical skills, preparing them for a successful career in the dynamic field of physiotherapy. Graduates gain hands-on experience in patient care, rehabilita…"
+      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\nRecognised as one of the most promising healthcare courses in India, the BPT programme equips students with both theoretical knowledge and practical skills essential for diagnosing and treating physical impairments. Graduates can pursue careers as licensed physiotherapists, rehabilitation specialists, or sports therapists in diverse settings such as multispeciality hospitals, sports teams, wellness centres, and academia. With increasing awareness of preventive healthcare and physiotherapy, the demand for qualified physiotherapists continues to rise in India and abroad. Teerthanker Mahaveer University takes pride in presenting a comprehensive BPT programme, meticulously crafted to empower students with the skills and knowledge imperative for a flourishing career in Physiotherapy.\nTeerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This course equips students with essential clinical and practical skills, preparing them for a successful career in the dynamic field of physiotherapy. Graduates gain hands-on experience in patient care, rehabilita…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go.",
+        "style": "teacher-explain",
+        "simplifiedSummary": "Triangles · Core Concepts: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "formulas-theorems",
       "title": "4. Formulas / Theorems",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Triangles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "simplifiedSummary": "Triangles · Formulas / Theorems: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "solved-examples",
       "title": "5. Solved Examples",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "simplifiedSummary": "Triangles · Solved Examples: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "common-mistakes",
       "title": "6. Common Mistakes",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "simplifiedSummary": "Triangles · Common Mistakes: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "_Diagrams from crawled pages are not auto-rendered yet. Review source pages for figures._"
+      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Triangles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "simplifiedSummary": "Triangles · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 196' width='100%' role='img'><rect width='420' height='196' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Triangles</text><circle cx='210' cy='98' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='102' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='132' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Similar triangles</text><line x1='210' y1='132' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Basic Proportionality Theorem</text><line x1='210' y1='132' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Pythagoras theorem</text></svg>",
+      "diagram": {
+        "type": "concept-map",
+        "title": "Triangles — concept map",
+        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
+        "layout": "tree",
+        "synthetic": true,
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Similar triangles"
+          },
+          {
+            "id": "n1",
+            "label": "Basic Proportionality Theorem"
+          },
+          {
+            "id": "n2",
+            "label": "Pythagoras theorem"
+          }
+        ]
+      }
     },
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-practice",
+        "simplifiedSummary": "Triangles · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- Bachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\n- Recognised as one of the most promising healthcare courses in India, the BPT programme equips students with both theoretical knowledge and practical skills essential for diagnosing and treating physical impairments. Graduates can pursue careers as licensed physiotherapists, rehabilitation specialists, or sports therapists in diverse settings such as multispeciality hospitals, sports teams, wellness centres, and academia. With increasing awareness of preventive healthcare and physiotherapy, the demand for qualified physiotherapists continues to rise in India and abroad. Teerthanker Mahaveer University takes pride in presenting a comprehensive BPT programme, meticulously crafted to empower students with the skills and knowledge imperative for a flourishing career in Physiotherapy.\n- Teerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This course equips students with essential clinical and practical skills, preparing them for a successful career in the dynamic field of physiotherapy. Graduates gain hands-on experience in patient care, rehabilitation techniques, and therapeutic interventions, ensuring they are industry-ready and capable of making a real impact in healthcare.\n- | 7 | Application Fees | Rs 1,000 /- ( One Time ) |\n- BPT stands for Bachelor of Physiotherapy, a 4-year undergraduate programme followed by a 1-year compulsory clinical internship that focuses on the study and application of physiotherapeutic techniques to promote health, rehabilitation, and wellness. The programme combines strong theoretical knowledge with extensive practical training, ensuring that students gain hands-on experience and receive high-quality education to become skilled physiotherapy professionals."
+      "body": "**Applications mentioned:**\n\n- Bachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\n- Recognised as one of the most promising healthcare courses in India, the BPT programme equips students with both theoretical knowledge and practical skills essential for diagnosing and treating physical impairments. Graduates can pursue careers as licensed physiotherapists, rehabilitation specialists, or sports therapists in diverse settings such as multispeciality hospitals, sports teams, wellness centres, and academia. With increasing awareness of preventive healthcare and physiotherapy, the demand for qualified physiotherapists continues to rise in India and abroad. Teerthanker Mahaveer University takes pride in presenting a comprehensive BPT programme, meticulously crafted to empower students with the skills and knowledge imperative for a flourishing career in Physiotherapy.\n- Teerthanker Mahaveer University stands among the top BPT colleges in India, offering a Bachelor of Physiotherapy (BPT) programme that goes beyond traditional academics. This course equips students with essential clinical and practical skills, preparing them for a successful career in the dynamic field of physiotherapy. Graduates gain hands-on experience in patient care, rehabilitation techniques, and therapeutic interventions, ensuring they are industry-ready and capable of making a real impact in healthcare.\n- | 7 | Application Fees | Rs 1,000 /- ( One Time ) |\n- BPT stands for Bachelor of Physiotherapy, a 4-year undergraduate programme followed by a 1-year compulsory clinical internship that focuses on the study and application of physiotherapeutic techniques to promote health, rehabilitation, and wellness. The programme combines strong theoretical knowledge with extensive practical training, ensuring that students gain hands-on experience and receive high-quality education to become skilled physiotherapy professionals.",
+      "teacherNarration": {
+        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - Bachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement… I'll translate that into simpler language as we go.",
+        "style": "teacher-everyday",
+        "simplifiedSummary": "Triangles · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-video",
+        "simplifiedSummary": "Triangles · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._"
+      "body": "_No crawled excerpts matched this section yet._",
+      "teacherNarration": {
+        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-recap",
+        "simplifiedSummary": "Triangles · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "teacher-explanation-module",
       "title": "12. Teacher Explanation Module",
-      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\nRecognised as one of the most promising healthcare courses in India, the…"
+      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration\n\nDiscover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.\nBachelor of Physiotherapy (BPT) is a 4-year undergraduate programme followed by a 1-year compulsory clinical internship, designed for students passionate about physical rehabilitation, movement science, and restoring mobility in patients. The course curriculum covers core areas such as anatomy, physiology, biomechanics, kinesiology, and therapeutic exercises. The mandatory internship provides hands-on clinical training in leading hospitals, rehabilitation centres, and physiotherapy clinics, enabling students to develop practical skills and gain real-world experience in patient care and rehabilitation.\nRecognised as one of the most promising healthcare courses in India, the…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Triangles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration Discover how the Bachelor of Physiotherapy (BPT) programme at TMU can shape your future and empower you to make a meaningful impact in your chosen field.… I'll translate that into simpler language as we go.",
+        "style": "teacher-deep",
+        "simplifiedSummary": "Triangles · Teacher Explanation Module: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     },
     {
       "id": "revision-summary",
       "title": "13. Revision Summary",
-      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration"
+      "body": "### BPT Admission 2026: Course Eligibility, Fees, and Duration",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Triangles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision. One idea from the notes:  BPT Admission 2026: Course Eligibility, Fees, and Duration I'll translate that into simpler language as we go.",
+        "style": "teacher-revision",
+        "simplifiedSummary": "Triangles · Revision Summary: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
+        "speakMaterial": false
+      }
     }
   ],
   "crawlMeta": {
@@ -76,6 +252,6 @@
     "sourceUrls": [
       "https://www.tmu.ac.in/programme/bachelor-of-physiotherapy-programme"
     ],
-    "builtAt": "2026-06-23T19:34:48+00:00"
+    "builtAt": "2026-06-23T19:57:55+00:00"
   }
 }
