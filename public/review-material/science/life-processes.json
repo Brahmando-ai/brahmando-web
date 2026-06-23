@@ -53,7 +53,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Life Processes. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What is Photosynthesis in biology class 10? - How do raw materials for photosynthesis become available to the plant? - Did you check the Life Process Important Questions which were… I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Life Processes, covering Nutrition, Respiration, and Transportation. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -184,13 +184,132 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- What is Photosynthesis in biology class 10?\n- How do raw materials for photosynthesis become available to the plant?\n- Did you check the Life Process Important Questions which were given in the previous Board Papers?\n- What Are Life Processes?\n- Why is diffusion insufficient to meet the oxygen requirements of multicellular organisms like humans ?\n- What criteria do we use to decide whether something is alive ?\n- What are outside raw materials used by an organism ?\n- What processes would you consider essential for maintaining life ?\n- What are the differences between autotrophic nutrition and heterotrophic nutrition ?\n- Where do plants get each of the raw materials required for photosynthesis ?",
+      "body": "_Class 10 CBSE practice for **Life Processes**._\n\n**Practice questions from crawled sources:**\n\n1. 1. Autotrophic Nutrition.\n2. 2. Heterotrophic Nutrition.\n3. 1. Heart: Heart is a muscular organ, which is composed of cardiac muscles.\n4. 4. Capillaries: These are the blood vessels which have single-celled walls.\n5. What Are Life Processes?\n6. (iii) Transportation\n7. (i) Carbon dioxide : Plants get carbon dioxide from the environment/atmosphere through stomata.\n8. (ii) Water : Plants absorb water from the soil through roots and transport to leaves.\n9. (iii) Sunlight : Plants get sunlight from the sun.\n10. (iv) Chlorophyll : It is present in chloroplast found in green leaves and green parts of plants.\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Nutrition** in 2–3 sentences. Use one example from Life Processes.\n- **MCQ (1 mark)** — MCQ: Which statement about **Nutrition** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Respiration** in 2–3 sentences. Use one example from Life Processes.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Life Processes. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What is Photosynthesis in biology class 10? - How do raw materials for photosynthesis become available to the plant? - Did you check the Life Process Important Questions which were… I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Life Processes, covering Nutrition, Respiration, and Transportation. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Life Processes · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Nutrition, Respiration, and Transportation.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Autotrophic Nutrition."
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Heterotrophic Nutrition."
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Heart: Heart is a muscular organ, which is composed of cardiac muscles."
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "4. Capillaries: These are the blood vessels which have single-celled walls."
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "What Are Life Processes?"
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(iii) Transportation"
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(i) Carbon dioxide : Plants get carbon dioxide from the environment/atmosphere through stomata."
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(ii) Water : Plants absorb water from the soil through roots and transport to leaves."
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(iii) Sunlight : Plants get sunlight from the sun."
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(iv) Chlorophyll : It is present in chloroplast found in green leaves and green parts of plants."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Nutrition",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Nutrition** in 2–3 sentences. Use one example from Life Processes."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Nutrition",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Nutrition** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Respiration",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Respiration** in 2–3 sentences. Use one example from Life Processes."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -257,6 +376,6 @@
       "https://www.learncbse.in/life-processes-class-10-notes/",
       "https://www.learncbse.in/ncert-solutions-for-class-10-science-chapter-6-life-processes/"
     ],
-    "builtAt": "2026-06-23T19:57:51+00:00"
+    "builtAt": "2026-06-23T20:10:42+00:00"
   }
 }

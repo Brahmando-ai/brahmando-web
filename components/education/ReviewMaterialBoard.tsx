@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { REVIEW_CHAPTERS, type ReviewChapter } from "@/lib/education/reviewMaterial/chapters";
 import { fetchChapterContent } from "@/lib/education/reviewMaterial/loadContent";
-import type { ChapterReviewContent, ChapterSection, ReviewNote, ReviewNoteCategory, ReviewNoteStatus } from "@/lib/education/reviewMaterial/types";
+import type { ChapterReviewContent, ChapterSection, PracticeQuestion, ReviewNote, ReviewNoteCategory, ReviewNoteStatus } from "@/lib/education/reviewMaterial/types";
 import {
   pickSpeechVoice,
   resolveVoicePreset,
@@ -77,6 +77,28 @@ function SectionBody({ body }: { body: string }) {
   );
 }
 
+function PracticeQuestionsBlock({ questions }: { questions: PracticeQuestion[] }) {
+  if (!questions.length) return null;
+  return (
+    <div className="mb-4 space-y-2">
+      {questions.map((q) => (
+        <div
+          key={q.id}
+          className="rounded-lg border border-amber-500/20 bg-amber-500/5 px-4 py-3 text-sm text-slate-200"
+        >
+          <div className="mb-1 flex flex-wrap gap-2 text-[10px] uppercase tracking-wide text-amber-200/80">
+            <span>{q.type}</span>
+            <span>{q.marks} mark{q.marks !== 1 ? "s" : ""}</span>
+            {q.topic && <span>{q.topic}</span>}
+            {q.source && <span className="text-slate-500">{q.source}</span>}
+          </div>
+          <p>{renderInline(q.stem)}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function SectionDiagramBlock({ section }: { section: ChapterSection }) {
   return (
     <div className="mb-4 space-y-4">
@@ -118,7 +140,6 @@ function SectionDiagramBlock({ section }: { section: ChapterSection }) {
 }
 
 function ChapterMetaStrip({ content }: { content: ChapterReviewContent }) {
-  if (!content.schemaVersion && !content.analyticsId && !content.difficulty) return null;
   return (
     <div className="mb-4 flex flex-wrap gap-2 text-xs">
       {content.schemaVersion && (
@@ -463,6 +484,9 @@ export function ReviewMaterialBoard() {
                     />
                     {(activeSection.visualSvg || activeSection.media?.length || activeSection.diagram) && (
                       <SectionDiagramBlock section={activeSection} />
+                    )}
+                    {activeSection.practiceQuestions && activeSection.practiceQuestions.length > 0 && (
+                      <PracticeQuestionsBlock questions={activeSection.practiceQuestions} />
                     )}
                     <SectionBody body={activeSection.body} />
                   </div>

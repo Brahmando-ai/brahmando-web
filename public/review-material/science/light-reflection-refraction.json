@@ -58,7 +58,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Light – Reflection and Refraction, covering Spherical mirrors, Spherical lenses, and Mirror formula. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -193,13 +193,123 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Light – Reflection and Refraction**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Spherical mirrors** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Spherical mirrors** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Spherical lenses** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Spherical lenses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Mirror formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Mirror formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Lens formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Lens formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Magnification** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Magnification** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **1/f = 1/v + 1/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps.\n- **SHORT (3 marks)** — Using **m = h'/h = -v/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Light – Reflection and Refraction, covering Spherical mirrors, Spherical lenses, and Mirror formula. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Light – Reflection and Refraction · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Spherical mirrors, Spherical lenses, and Mirror formula.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Spherical mirrors",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Spherical mirrors** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Spherical mirrors",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Spherical mirrors** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Spherical lenses",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Spherical lenses** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Spherical lenses",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Spherical lenses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Mirror formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Mirror formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Mirror formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Mirror formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Lens formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Lens formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Lens formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Lens formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Magnification",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Magnification** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Magnification",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Magnification** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "short",
+          "marks": 3,
+          "topic": "Light – Reflection and Refraction",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **1/f = 1/v + 1/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps."
+        },
+        {
+          "id": "pq-12",
+          "type": "short",
+          "marks": 3,
+          "topic": "Light – Reflection and Refraction",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **m = h'/h = -v/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -264,6 +374,6 @@
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use"
     ],
-    "builtAt": "2026-06-23T19:57:52+00:00"
+    "builtAt": "2026-06-23T20:10:43+00:00"
   }
 }

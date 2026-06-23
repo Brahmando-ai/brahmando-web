@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Statistics, covering Mean of grouped data, Median of grouped data, and Mode of grouped data. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,96 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Statistics**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Mean of grouped data** in 2–3 sentences. Use one example from Statistics.\n- **MCQ (1 mark)** — MCQ: Which statement about **Mean of grouped data** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Median of grouped data** in 2–3 sentences. Use one example from Statistics.\n- **MCQ (1 mark)** — MCQ: Which statement about **Median of grouped data** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Mode of grouped data** in 2–3 sentences. Use one example from Statistics.\n- **MCQ (1 mark)** — MCQ: Which statement about **Mode of grouped data** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **Mean = sum(fx) / sum(f)**, solve a standard board-style problem from Statistics. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **Median class formula**, solve a standard board-style problem from Statistics. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Statistics**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Statistics, covering Mean of grouped data, Median of grouped data, and Mode of grouped data. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Statistics · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Mean of grouped data, Median of grouped data, and Mode of grouped data.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Mean of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Explain **Mean of grouped data** in 2–3 sentences. Use one example from Statistics."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Mean of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Mean of grouped data** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Median of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Explain **Median of grouped data** in 2–3 sentences. Use one example from Statistics."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Median of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Median of grouped data** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Mode of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Explain **Mode of grouped data** in 2–3 sentences. Use one example from Statistics."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Mode of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Mode of grouped data** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Statistics",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Using **Mean = sum(fx) / sum(f)**, solve a standard board-style problem from Statistics. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Statistics",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Using **Median class formula**, solve a standard board-style problem from Statistics. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "Mean of grouped data",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Long answer: Describe the main ideas of **Statistics**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -252,6 +335,6 @@
     "sourceUrls": [
       "https://en.wikipedia.org/wiki/Statistics"
     ],
-    "builtAt": "2026-06-23T19:57:57+00:00"
+    "builtAt": "2026-06-23T20:10:48+00:00"
   }
 }

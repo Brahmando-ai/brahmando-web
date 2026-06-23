@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Probability, covering Classical definition of probability, Elementary events, and Complementary events. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,96 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Probability**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Classical definition of probability** in 2–3 sentences. Use one example from Probability.\n- **MCQ (1 mark)** — MCQ: Which statement about **Classical definition of probability** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Elementary events** in 2–3 sentences. Use one example from Probability.\n- **MCQ (1 mark)** — MCQ: Which statement about **Elementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Complementary events** in 2–3 sentences. Use one example from Probability.\n- **MCQ (1 mark)** — MCQ: Which statement about **Complementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **P(E) = favourable outcomes / total outcomes**, solve a standard board-style problem from Probability. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **P(not E) = 1 - P(E)**, solve a standard board-style problem from Probability. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Probability**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Probability, covering Classical definition of probability, Elementary events, and Complementary events. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Probability · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Classical definition of probability, Elementary events, and Complementary events.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Classical definition of probability",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Explain **Classical definition of probability** in 2–3 sentences. Use one example from Probability."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Classical definition of probability",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Classical definition of probability** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Elementary events",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Explain **Elementary events** in 2–3 sentences. Use one example from Probability."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Elementary events",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Elementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Complementary events",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Explain **Complementary events** in 2–3 sentences. Use one example from Probability."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Complementary events",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Complementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Probability",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Using **P(E) = favourable outcomes / total outcomes**, solve a standard board-style problem from Probability. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Probability",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Using **P(not E) = 1 - P(E)**, solve a standard board-style problem from Probability. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "Classical definition of probability",
+          "source": "syllabus-generated",
+          "difficulty": "easy",
+          "stem": "Long answer: Describe the main ideas of **Probability**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -253,6 +336,6 @@
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use"
     ],
-    "builtAt": "2026-06-23T19:57:57+00:00"
+    "builtAt": "2026-06-23T20:10:48+00:00"
   }
 }

@@ -53,7 +53,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What is the function of the Central nervous system? - What are some facts about the human brain? - How many parts does the human eye have? I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 6 questions on Control and Coordination, covering Nervous system, Reflex action, and Plant hormones. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -184,13 +184,96 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- What is the function of the Central nervous system?\n- What are some facts about the human brain?\n- How many parts does the human eye have?",
+      "body": "_Class 10 CBSE practice for **Control and Coordination**._\n\n**Practice questions from crawled sources:**\n\n1. 1. 60% of the human brain is composed of fat.\n2. 2. The brain contains about 100 billion neurons and 100 trillion connections.\n3. 3. The texture of the brain is similar to that of firm jelly.\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Nervous system** in 2–3 sentences. Use one example from Control and Coordination.\n- **MCQ (1 mark)** — MCQ: Which statement about **Nervous system** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Reflex action** in 2–3 sentences. Use one example from Control and Coordination.\n- **MCQ (1 mark)** — MCQ: Which statement about **Reflex action** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Plant hormones** in 2–3 sentences. Use one example from Control and Coordination.\n- **MCQ (1 mark)** — MCQ: Which statement about **Plant hormones** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What is the function of the Central nervous system? - What are some facts about the human brain? - How many parts does the human eye have? I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 6 questions on Control and Coordination, covering Nervous system, Reflex action, and Plant hormones. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Control and Coordination · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nervous system",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. 60% of the human brain is composed of fat."
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nervous system",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. The brain contains about 100 billion neurons and 100 trillion connections."
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nervous system",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. The texture of the brain is similar to that of firm jelly."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Nervous system",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Nervous system** in 2–3 sentences. Use one example from Control and Coordination."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Nervous system",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Nervous system** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Reflex action",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Reflex action** in 2–3 sentences. Use one example from Control and Coordination."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Reflex action",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Reflex action** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Plant hormones",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Plant hormones** in 2–3 sentences. Use one example from Control and Coordination."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Plant hormones",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Plant hormones** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -257,6 +340,6 @@
       "https://cbseacademic.nic.in/?ref=w3use",
       "https://en.m.wikipedia.org/wiki/Plant"
     ],
-    "builtAt": "2026-06-23T19:57:52+00:00"
+    "builtAt": "2026-06-23T20:10:42+00:00"
   }
 }

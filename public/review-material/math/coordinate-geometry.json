@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)? - 2. Find the distance between the points (0, 0) and (36, 15). Can… I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Coordinate Geometry, covering Distance formula, Section formula, and Area of triangle. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,132 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)?\n- 2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns, A and B, discussed in Section 7.2?\n- 3. To conduct sports day activities in your rectangular-shaped school ground ABCD, lines have been drawn with chalk powder at a distance of 1 m each. 100 flower pots have been placed at a distance of 1 m from each other along AD, as shown in the following figure. Niharika runs 1/4th the distance AD on the 2nd line and posts a green flag. Preet runs 1/5th the distance AD on the eighth line and posts a red flag. What is the distance between both flags? If Rashmi has to post a blue flag exactly halfway between the line segment joining the two flags, where should she post her flag?\n- (ii) What will be the coordinates of the vertices of triangle PQR if C is the origin?\n- Also, calculate the areas of the triangles in these cases. What do you observe?\n- (iv) What do you observe?",
+      "body": "_Class 10 CBSE practice for **Coordinate Geometry**._\n\n**Practice questions from crawled sources:**\n\n1. 1. Find the distance between the following pairs of points:\n2. 2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns, A and B, discussed in Section 7.2?\n3. 3. Determine if the points (1, 5), (2, 3) and (-2, -11) are collinear.\n4. 4. Check whether (5, – 2), (6, 4) and (7, – 2) are the vertices of an isosceles triangle.\n5. 5. In a classroom, 4 friends are seated at points A, B, C and D, as shown in Fig. 7.8. Champa and Chameli walk into the class, and after observing for a few minutes, Champa asks Chameli, “Don’t you think ABCD is a square?” Chameli disagrees. Using the distance formula, find which of them is correct.\n6. 6. Name the type of quadrilateral formed, if any, by the following points, and give reasons for your answer:\n7. (i) Let the points (- 1, – 2), (1, 0), ( – 1, 2), and ( – 3, 0) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n8. (ii) Let the points (- 3, 5), (3, 1), (0, 3), and (- 1, – 4) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n9. (iii) Let the points (4, 5), (7, 6), (4, 3), and (1, 2) represent the vertices A, B, C, and D of the given quadrilateral, respectively.\n10. 7. Find the point on the x-axis which is equidistant from (2, – 5) and (- 2, 9).\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Distance formula** in 2–3 sentences. Use one example from Coordinate Geometry.\n- **MCQ (1 mark)** — MCQ: Which statement about **Distance formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Section formula** in 2–3 sentences. Use one example from Coordinate Geometry.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Coordinate Geometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Example: Find the ratio when point (– 4, 6) divide the line segment joining the points A(– 6, 10) and B(3, – 8)? - 2. Find the distance between the points (0, 0) and (36, 15). Can… I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Coordinate Geometry, covering Distance formula, Section formula, and Area of triangle. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Coordinate Geometry · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Distance formula, Section formula, and Area of triangle.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Find the distance between the following pairs of points:"
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns, A and B, discussed in Section 7.2?"
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. Determine if the points (1, 5), (2, 3) and (-2, -11) are collinear."
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "4. Check whether (5, – 2), (6, 4) and (7, – 2) are the vertices of an isosceles triangle."
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "5. In a classroom, 4 friends are seated at points A, B, C and D, as shown in Fig. 7.8. Champa and Chameli walk into the class, and after observing for a few minutes, Champa asks Chameli, “Don’t you think ABCD is a square?” Chameli disagrees. Using the distance formula, find which of them is correct."
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "6. Name the type of quadrilateral formed, if any, by the following points, and give reasons for your answer:"
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(i) Let the points (- 1, – 2), (1, 0), ( – 1, 2), and ( – 3, 0) represent the vertices A, B, C, and D of the given quadrilateral, respectively."
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(ii) Let the points (- 3, 5), (3, 1), (0, 3), and (- 1, – 4) represent the vertices A, B, C, and D of the given quadrilateral, respectively."
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(iii) Let the points (4, 5), (7, 6), (4, 3), and (1, 2) represent the vertices A, B, C, and D of the given quadrilateral, respectively."
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "7. Find the point on the x-axis which is equidistant from (2, – 5) and (- 2, 9)."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Distance formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Distance formula** in 2–3 sentences. Use one example from Coordinate Geometry."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Distance formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Distance formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Section formula",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Section formula** in 2–3 sentences. Use one example from Coordinate Geometry."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -254,6 +373,6 @@
       "https://byjus.com/ncert-solutions-class-10-maths/chapter-7-coordinate-geometry/",
       "https://www.learncbse.in/coordinate-geometry-class-10-notes/"
     ],
-    "builtAt": "2026-06-23T19:57:55+00:00"
+    "builtAt": "2026-06-23T20:10:46+00:00"
   }
 }

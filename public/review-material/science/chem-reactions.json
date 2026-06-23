@@ -54,7 +54,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Chemical Reactions and Equations, covering Balanced chemical equations, Combination reactions, and Decomposition reactions. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -189,13 +189,114 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Chemical Reactions and Equations**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Balanced chemical equations** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Balanced chemical equations** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Combination reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Combination reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Decomposition reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Decomposition reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Displacement reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Displacement reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Oxidation and reduction** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Oxidation and reduction** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Chemical Reactions and Equations**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Chemical Reactions and Equations, covering Balanced chemical equations, Combination reactions, and Decomposition reactions. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Chemical Reactions and Equations · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Balanced chemical equations, Combination reactions, and Decomposition reactions.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Balanced chemical equations",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Balanced chemical equations** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Balanced chemical equations",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Balanced chemical equations** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Combination reactions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Combination reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Combination reactions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Combination reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Decomposition reactions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Decomposition reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Decomposition reactions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Decomposition reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Displacement reactions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Displacement reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Displacement reactions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Displacement reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Oxidation and reduction",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Oxidation and reduction** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Oxidation and reduction",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Oxidation and reduction** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "long",
+          "marks": 5,
+          "topic": "Balanced chemical equations",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Chemical Reactions and Equations**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -262,6 +363,6 @@
       "https://en.khanacademy.org/science/ncert-class-10-science/x86cb04ca33008b40:chemical-reactions-and-equations/x86cb04ca33008b40:intro-to-chemical-reactions-and-equations/v/intro-to-chemical-reactions",
       "https://www.khanacademy.org/"
     ],
-    "builtAt": "2026-06-23T19:57:50+00:00"
+    "builtAt": "2026-06-23T20:10:41+00:00"
   }
 }

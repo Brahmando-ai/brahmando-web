@@ -57,7 +57,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics? - How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics? - Where can I get… I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Quadratic Equations, covering Standard form, Factorization method, and Quadratic formula. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -188,13 +188,132 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics?\n- How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics?\n- Where can I get free NCERT Solutions for Quadratic Equations Class 10 Mathematics?",
+      "body": "_Class 10 CBSE practice for **Quadratic Equations**._\n\n**Practice questions from crawled sources:**\n\n1. 1. Check whether the following are quadratic equations:\n2. (viii) x3 – 4x2 – x + 1 = (x – 2)3\n3. (ii) Given, x2 – 2x = (–2) (3 – x)\n4. (iii) Given, (x – 2)(x + 1) = (x – 1)(x + 3)\n5. (iv) Given, (x – 3)(2x +1) = x(x + 5)\n6. (v) Given, (2x – 1)(x – 3) = (x + 5)(x – 1)\n7. (vi) Given, x2 + 3x + 1 = (x – 2)2\n8. (vii) Given, (x + 2)3 = 2x(x2 – 1)\n9. (viii) Given, x3 – 4x2 – x + 1 = (x – 2)3\n10. 2. Represent the following situations in the form of quadratic equations:\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Standard form** in 2–3 sentences. Use one example from Quadratic Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Standard form** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Factorization method** in 2–3 sentences. Use one example from Quadratic Equations.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - What are the important topics in Quadratic Equations for CBSE Class 10 Mathematics? - How to score full marks in Quadratic Equations — CBSE Class 10 Mathematics? - Where can I get… I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Quadratic Equations, covering Standard form, Factorization method, and Quadratic formula. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Quadratic Equations · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Check whether the following are quadratic equations:"
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(viii) x3 – 4x2 – x + 1 = (x – 2)3"
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(ii) Given, x2 – 2x = (–2) (3 – x)"
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(iii) Given, (x – 2)(x + 1) = (x – 1)(x + 3)"
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(iv) Given, (x – 3)(2x +1) = x(x + 5)"
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(v) Given, (2x – 1)(x – 3) = (x + 5)(x – 1)"
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(vi) Given, x2 + 3x + 1 = (x – 2)2"
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(vii) Given, (x + 2)3 = 2x(x2 – 1)"
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "(viii) Given, x3 – 4x2 – x + 1 = (x – 2)3"
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Represent the following situations in the form of quadratic equations:"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Standard form",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Standard form** in 2–3 sentences. Use one example from Quadratic Equations."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Standard form",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Standard form** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Factorization method",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Factorization method** in 2–3 sentences. Use one example from Quadratic Equations."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -261,6 +380,6 @@
       "https://www.learncbse.in/ncert-solutions-for-class-10-maths-chapter-4-quadratic-equations/",
       "https://www.learncbse.in/quadratic-equations-class-10-notes/"
     ],
-    "builtAt": "2026-06-23T19:57:54+00:00"
+    "builtAt": "2026-06-23T20:10:45+00:00"
   }
 }

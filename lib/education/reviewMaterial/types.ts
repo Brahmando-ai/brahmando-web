@@ -42,6 +42,16 @@ export type SectionDiagram = {
   nodes?: { id: string; label: string }[];
 };
 
+export type PracticeQuestion = {
+  id: string;
+  type: string;
+  marks: number;
+  topic?: string;
+  source?: string;
+  difficulty?: string;
+  stem: string;
+};
+
 export type ChapterSection = {
   id: string;
   title: string;
@@ -50,6 +60,7 @@ export type ChapterSection = {
   teacherNarration?: TeacherNarration;
   diagram?: SectionDiagram;
   media?: SectionMedia[];
+  practiceQuestions?: PracticeQuestion[];
 };
 
 export type TeacherAudioSegment = {

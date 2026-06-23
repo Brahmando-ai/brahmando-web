@@ -56,7 +56,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Magnetic Effects of Electric Current, covering Magnetic field, Fleming's Left Hand Rule, and Electromagnets. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -191,13 +191,123 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "",
+      "body": "_Class 10 CBSE practice for **Magnetic Effects of Electric Current**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Magnetic field** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Magnetic field** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Fleming's Left Hand Rule** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Fleming's Left Hand Rule** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Electromagnets** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Electromagnets** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Electric motor** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Electric motor** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Domestic circuits** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Domestic circuits** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **F = BIL sin(theta)**, solve a standard board-style problem from Magnetic Effects of Electric Current. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Magnetic Effects of Electric Current**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Magnetic Effects of Electric Current, covering Magnetic field, Fleming's Left Hand Rule, and Electromagnets. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Magnetic Effects of Electric Current · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Magnetic field, Fleming's Left Hand Rule, and Electromagnets.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Magnetic field",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Magnetic field** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Magnetic field",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Magnetic field** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Fleming's Left Hand Rule",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Fleming's Left Hand Rule** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Fleming's Left Hand Rule",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Fleming's Left Hand Rule** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Electromagnets",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Electromagnets** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Electromagnets",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Electromagnets** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Electric motor",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Electric motor** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Electric motor",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Electric motor** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Domestic circuits",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Domestic circuits** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Domestic circuits",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Domestic circuits** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "short",
+          "marks": 3,
+          "topic": "Magnetic Effects of Electric Current",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **F = BIL sin(theta)**, solve a standard board-style problem from Magnetic Effects of Electric Current. Show all working steps."
+        },
+        {
+          "id": "pq-12",
+          "type": "long",
+          "marks": 5,
+          "topic": "Magnetic field",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Magnetic Effects of Electric Current**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -259,6 +369,6 @@
     "articleCount": 0,
     "videoCount": 0,
     "sourceUrls": [],
-    "builtAt": "2026-06-23T19:57:52+00:00"
+    "builtAt": "2026-06-23T20:10:43+00:00"
   }
 }

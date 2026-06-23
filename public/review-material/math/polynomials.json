@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Polynomials, covering Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,132 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Polynomials**._\n\n**Practice questions from crawled sources:**\n\n1. 1. Zeroes of a polynomial — the values of where the polynomial equals zero.\n2. 2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients.\n3. 3. Division algorithm — dividing one polynomial by another, just like long division with numbers.\n4. 1. Arrange both polynomials in descending order of degree.\n5. 2. Divide the leading term of the dividend by the leading term of the divisor. This is the first term of the quotient.\n6. 3. Multiply the divisor by this term and subtract from the dividend.\n7. 4. The result is the new dividend. Repeat from step 2.\n8. 5. Continue until the degree of the remainder is less than the degree of the divisor.\n9. 1. Sign Error in Sum of Zeroes:\n10. 2. Confusing Zeroes with Coefficients:\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Zeros of a polynomial** in 2–3 sentences. Use one example from Polynomials.\n- **MCQ (1 mark)** — MCQ: Which statement about **Zeros of a polynomial** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Relationship between zeros and coefficients** in 2–3 sentences. Use one example from Polynomials.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Polynomials. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Polynomials, covering Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Polynomials · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Zeros of a polynomial, Relationship between zeros and coefficients, and Division algorithm for polynomials.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Zeroes of a polynomial — the values of where the polynomial equals zero."
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Relationship between zeroes and coefficients — elegant formulas connecting the sum and product of zeroes to the coefficients."
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. Division algorithm — dividing one polynomial by another, just like long division with numbers."
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Arrange both polynomials in descending order of degree."
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Divide the leading term of the dividend by the leading term of the divisor. This is the first term of the quotient."
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. Multiply the divisor by this term and subtract from the dividend."
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "4. The result is the new dividend. Repeat from step 2."
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "5. Continue until the degree of the remainder is less than the degree of the divisor."
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Sign Error in Sum of Zeroes:"
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Confusing Zeroes with Coefficients:"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Zeros of a polynomial",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Zeros of a polynomial** in 2–3 sentences. Use one example from Polynomials."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Zeros of a polynomial",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Zeros of a polynomial** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Relationship between zeros and coefficients",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Relationship between zeros and coefficients** in 2–3 sentences. Use one example from Polynomials."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -252,6 +371,6 @@
     "sourceUrls": [
       "https://www.sparkedmaths.com/blog/cbse-class-10-polynomials-guide"
     ],
-    "builtAt": "2026-06-23T19:57:54+00:00"
+    "builtAt": "2026-06-23T20:10:45+00:00"
   }
 }

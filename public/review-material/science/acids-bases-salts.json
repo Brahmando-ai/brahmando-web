@@ -56,7 +56,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - For example, what is the pH of a 0.01 M solution of benzoic acid, pKa = 4.19? I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Acids, Bases and Salts, covering pH scale, Neutralization, and Common acids and bases. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -187,13 +187,123 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- For example, what is the pH of a 0.01 M solution of benzoic acid, pKa = 4.19?",
+      "body": "_Class 10 CBSE practice for **Acids, Bases and Salts**._\n\n**Practice questions from crawled sources:**\n\n1. 3) and a hydrogen cation (H+). The presence of free hydrogen cations (H+) lowers the pH of the ocean.\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **pH scale** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **pH scale** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Neutralization** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **Neutralization** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Common acids and bases** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **Common acids and bases** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Salts and their uses** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **Salts and their uses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **pH = -log[H+]**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps.\n- **SHORT (3 marks)** — Using **Acid + Base -> Salt + Water**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Acids, Bases and Salts**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - For example, what is the pH of a 0.01 M solution of benzoic acid, pKa = 4.19? I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Acids, Bases and Salts, covering pH scale, Neutralization, and Common acids and bases. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Acids, Bases and Salts · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: pH scale, Neutralization, and Common acids and bases.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "pH scale",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3) and a hydrogen cation (H+). The presence of free hydrogen cations (H+) lowers the pH of the ocean."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "pH scale",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **pH scale** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "pH scale",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **pH scale** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Neutralization",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Neutralization** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Neutralization",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Neutralization** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Common acids and bases",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Common acids and bases** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Common acids and bases",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Common acids and bases** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Salts and their uses",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Salts and their uses** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Salts and their uses",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Salts and their uses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 3,
+          "topic": "Acids, Bases and Salts",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **pH = -log[H+]**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps."
+        },
+        {
+          "id": "pq-10",
+          "type": "short",
+          "marks": 3,
+          "topic": "Acids, Bases and Salts",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **Acid + Base -> Salt + Water**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps."
+        },
+        {
+          "id": "pq-11",
+          "type": "long",
+          "marks": 5,
+          "topic": "pH scale",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Acids, Bases and Salts**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -257,6 +367,6 @@
     "sourceUrls": [
       "https://en.m.wikipedia.org/wiki/PH"
     ],
-    "builtAt": "2026-06-23T19:57:51+00:00"
+    "builtAt": "2026-06-23T20:10:41+00:00"
   }
 }

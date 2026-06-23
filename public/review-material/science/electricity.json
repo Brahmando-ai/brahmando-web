@@ -59,7 +59,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Electricity. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Electricity, covering Ohm's law, Resistance, and Series and parallel circuits. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -194,13 +194,123 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Electricity**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Ohm's law** in 2–3 sentences. Use one example from Electricity.\n- **MCQ (1 mark)** — MCQ: Which statement about **Ohm's law** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Resistance** in 2–3 sentences. Use one example from Electricity.\n- **MCQ (1 mark)** — MCQ: Which statement about **Resistance** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Series and parallel circuits** in 2–3 sentences. Use one example from Electricity.\n- **MCQ (1 mark)** — MCQ: Which statement about **Series and parallel circuits** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Electric power** in 2–3 sentences. Use one example from Electricity.\n- **MCQ (1 mark)** — MCQ: Which statement about **Electric power** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Heating effect of current** in 2–3 sentences. Use one example from Electricity.\n- **MCQ (1 mark)** — MCQ: Which statement about **Heating effect of current** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **V = IR**, solve a standard board-style problem from Electricity. Show all working steps.\n- **SHORT (3 marks)** — Using **P = VI**, solve a standard board-style problem from Electricity. Show all working steps.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Electricity. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Electricity, covering Ohm's law, Resistance, and Series and parallel circuits. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Electricity · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Ohm's law, Resistance, and Series and parallel circuits.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Ohm's law",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Ohm's law** in 2–3 sentences. Use one example from Electricity."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Ohm's law",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Ohm's law** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Resistance",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Resistance** in 2–3 sentences. Use one example from Electricity."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Resistance",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Resistance** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Series and parallel circuits",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Series and parallel circuits** in 2–3 sentences. Use one example from Electricity."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Series and parallel circuits",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Series and parallel circuits** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Electric power",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Electric power** in 2–3 sentences. Use one example from Electricity."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Electric power",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Electric power** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Heating effect of current",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Heating effect of current** in 2–3 sentences. Use one example from Electricity."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Heating effect of current",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Heating effect of current** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "short",
+          "marks": 3,
+          "topic": "Electricity",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **V = IR**, solve a standard board-style problem from Electricity. Show all working steps."
+        },
+        {
+          "id": "pq-12",
+          "type": "short",
+          "marks": 3,
+          "topic": "Electricity",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **P = VI**, solve a standard board-style problem from Electricity. Show all working steps."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -266,6 +376,6 @@
       "https://cbseacademic.nic.in/?ref=w3use",
       "https://ncert.nic.in/textbook.php"
     ],
-    "builtAt": "2026-06-23T19:57:52+00:00"
+    "builtAt": "2026-06-23T20:10:43+00:00"
   }
 }

@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Triangles, covering Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,96 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Triangles**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Similar triangles** in 2–3 sentences. Use one example from Triangles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Similar triangles** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Basic Proportionality Theorem** in 2–3 sentences. Use one example from Triangles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Basic Proportionality Theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Pythagoras theorem** in 2–3 sentences. Use one example from Triangles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Pythagoras theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **AB/DE = BC/EF = AC/DF**, solve a standard board-style problem from Triangles. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **AB^2 + BC^2 = AC^2**, solve a standard board-style problem from Triangles. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Triangles**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Triangles, covering Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Triangles · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Similar triangles",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Similar triangles** in 2–3 sentences. Use one example from Triangles."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Similar triangles",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Similar triangles** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Basic Proportionality Theorem",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Basic Proportionality Theorem** in 2–3 sentences. Use one example from Triangles."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Basic Proportionality Theorem",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Basic Proportionality Theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Pythagoras theorem",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Pythagoras theorem** in 2–3 sentences. Use one example from Triangles."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Pythagoras theorem",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Pythagoras theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Triangles",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **AB/DE = BC/EF = AC/DF**, solve a standard board-style problem from Triangles. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Triangles",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **AB^2 + BC^2 = AC^2**, solve a standard board-style problem from Triangles. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "Similar triangles",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Triangles**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -252,6 +335,6 @@
     "sourceUrls": [
       "https://www.tmu.ac.in/programme/bachelor-of-physiotherapy-programme"
     ],
-    "builtAt": "2026-06-23T19:57:55+00:00"
+    "builtAt": "2026-06-23T20:10:46+00:00"
   }
 }

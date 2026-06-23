@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636? - In a school, students thought of planting trees in and around the school to reduce air pollution. It… I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Arithmetic Progressions, covering nth term of AP, Sum of first n terms, and Applications in daily life. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,105 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636?\n- In a school, students thought of planting trees in and around the school to reduce air pollution. It was decided that the number of trees that each section of each class will plant will be the same as the class in which they are studying, e.g., a section of Class I will plant 1 tree, a section of Class II will plant 2 trees and so on till Class XII. There are three sections of each class. How many trees will be planted by the students?",
+      "body": "_Class 10 CBSE practice for **Arithmetic Progressions**._\n\n**Practice questions from crawled sources:**\n\n1. How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636?\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **nth term of AP** in 2–3 sentences. Use one example from Arithmetic Progressions.\n- **MCQ (1 mark)** — MCQ: Which statement about **nth term of AP** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Sum of first n terms** in 2–3 sentences. Use one example from Arithmetic Progressions.\n- **MCQ (1 mark)** — MCQ: Which statement about **Sum of first n terms** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Applications in daily life** in 2–3 sentences. Use one example from Arithmetic Progressions.\n- **MCQ (1 mark)** — MCQ: Which statement about **Applications in daily life** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **a_n = a + (n-1)d**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **S_n = n/2 [2a + (n-1)d]**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Arithmetic Progressions**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636? - In a school, students thought of planting trees in and around the school to reduce air pollution. It… I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Arithmetic Progressions, covering nth term of AP, Sum of first n terms, and Applications in daily life. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Arithmetic Progressions · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: nth term of AP, Sum of first n terms, and Applications in daily life.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "nth term of AP",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636?"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "nth term of AP",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **nth term of AP** in 2–3 sentences. Use one example from Arithmetic Progressions."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "nth term of AP",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **nth term of AP** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Sum of first n terms",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Sum of first n terms** in 2–3 sentences. Use one example from Arithmetic Progressions."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Sum of first n terms",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Sum of first n terms** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Applications in daily life",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Applications in daily life** in 2–3 sentences. Use one example from Arithmetic Progressions."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Applications in daily life",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Applications in daily life** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Arithmetic Progressions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **a_n = a + (n-1)d**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Arithmetic Progressions",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **S_n = n/2 [2a + (n-1)d]**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "nth term of AP",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Arithmetic Progressions**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -255,6 +347,6 @@
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use"
     ],
-    "builtAt": "2026-06-23T19:57:55+00:00"
+    "builtAt": "2026-06-23T20:10:46+00:00"
   }
 }

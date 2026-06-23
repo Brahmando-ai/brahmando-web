@@ -48,7 +48,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce? - What is the difference between fission and fusion? - What is fragmentation? - What is a gamete cell? I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on How Do Organisms Reproduce?, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -162,13 +162,51 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce?\n- What is the difference between fission and fusion?\n- What is fragmentation?\n- What is a gamete cell?",
+      "body": "_Class 10 CBSE practice for **How Do Organisms Reproduce?**._\n\n**Practice questions from crawled sources:**\n\n1. NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce?\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **How Do Organisms Reproduce?** in 2–3 sentences. Use one example from How Do Organisms Reproduce?.\n- **MCQ (1 mark)** — MCQ: Which statement about **How Do Organisms Reproduce?** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **How Do Organisms Reproduce?**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: How Do Organisms Reproduce?. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce? - What is the difference between fission and fusion? - What is fragmentation? - What is a gamete cell? I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on How Do Organisms Reproduce?, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "How Do Organisms Reproduce? · Practice Questions: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "How Do Organisms Reproduce?",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "NCERT Solutions for Class 10 Science Chapter 8: How do Organisms Reproduce?"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "How Do Organisms Reproduce?",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **How Do Organisms Reproduce?** in 2–3 sentences. Use one example from How Do Organisms Reproduce?."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "How Do Organisms Reproduce?",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **How Do Organisms Reproduce?** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "long",
+          "marks": 5,
+          "topic": "How Do Organisms Reproduce?",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **How Do Organisms Reproduce?**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -233,6 +271,6 @@
       "https://byjus.com/cbse-notes/cbse-class-10-science-notes-chapter-8-how-do-organisms-reproduce/",
       "https://www.cbseguidanceweb.com/how-organisms-reproduce-class-10-notes/"
     ],
-    "builtAt": "2026-06-23T19:57:52+00:00"
+    "builtAt": "2026-06-23T20:10:42+00:00"
   }
 }

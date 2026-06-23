@@ -55,7 +55,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Is Areas Related to Circles important for CBSE Class 10 board exam? - When should I use 22/7 and when to use 3.14? - Are these CBSE Class 10 Maths Notes based on NCERT? - How can I… I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Areas Related to Circles, covering Area of sector, Area of segment, and Perimeter of sector. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -182,13 +182,132 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- Is Areas Related to Circles important for CBSE Class 10 board exam?\n- When should I use 22/7 and when to use 3.14?\n- Are these CBSE Class 10 Maths Notes based on NCERT?\n- How can I download these Class 10 Maths Notes PDF?\n- What are the sectors, segments, and lengths of an arc of a circle?",
+      "body": "_Class 10 CBSE practice for **Areas Related to Circles**._\n\n**Practice questions from crawled sources:**\n\n1. 4-5 Mark Word Problems\n2. Q1. If the circumference of a circle is 44 cm, then its area is:\n3. Q2. The area of a sector of angle θ (in degrees) of a circle with radius R is:\n4. Q3. Assertion (A): The area of a circle is 154 cm², then its perimeter is 44 cm.\n5. Q4. A racing track is in the form of a ring with inner circumference 352 m and outer circumference 396 m. Find:\n6. Q5. A round table cover has six equal designs as shown in the figure. If the radius of the cover is 28 cm, find the cost of making the designs at the rate of Rs.0.35 per cm². (Use √3 = 1.7)\n7. Question 1: The area of a sector of a circle of radius 36 cm is . Find the length of the corresponding arc of the sector.\n8. Question 2: In the given figure, find the area of the shaded region given that the radius of the circle that is inscribed in a square is 7.5cm.\n9. Question 3: A chord of a circle of radius 20 cm subtends an angle of 90° at the centre. Find the area of the corresponding major segment of the circle. (Use π = 3.14).\n10. Question 4: A calf is tied with a rope of length 6 m at the corner of a square grassy lawn of side 20 m. If the length of the rope is increased by 5.5m, find the increase in the area of the grassy lawn in which the calf can graze.\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Area of sector** in 2–3 sentences. Use one example from Areas Related to Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Area of sector** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Area of segment** in 2–3 sentences. Use one example from Areas Related to Circles.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Is Areas Related to Circles important for CBSE Class 10 board exam? - When should I use 22/7 and when to use 3.14? - Are these CBSE Class 10 Maths Notes based on NCERT? - How can I… I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Areas Related to Circles, covering Area of sector, Area of segment, and Perimeter of sector. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Areas Related to Circles · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Area of sector, Area of segment, and Perimeter of sector.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "4-5 Mark Word Problems"
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Q1. If the circumference of a circle is 44 cm, then its area is:"
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Q2. The area of a sector of angle θ (in degrees) of a circle with radius R is:"
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Q3. Assertion (A): The area of a circle is 154 cm², then its perimeter is 44 cm."
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Q4. A racing track is in the form of a ring with inner circumference 352 m and outer circumference 396 m. Find:"
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Q5. A round table cover has six equal designs as shown in the figure. If the radius of the cover is 28 cm, find the cost of making the designs at the rate of Rs.0.35 per cm². (Use √3 = 1.7)"
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Question 1: The area of a sector of a circle of radius 36 cm is . Find the length of the corresponding arc of the sector."
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Question 2: In the given figure, find the area of the shaded region given that the radius of the circle that is inscribed in a square is 7.5cm."
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Question 3: A chord of a circle of radius 20 cm subtends an angle of 90° at the centre. Find the area of the corresponding major segment of the circle. (Use π = 3.14)."
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "Question 4: A calf is tied with a rope of length 6 m at the corner of a square grassy lawn of side 20 m. If the length of the rope is increased by 5.5m, find the increase in the area of the grassy lawn in which the calf can graze."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Area of sector",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Area of sector** in 2–3 sentences. Use one example from Areas Related to Circles."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Area of sector",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Area of sector** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Area of segment",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Area of segment** in 2–3 sentences. Use one example from Areas Related to Circles."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -256,6 +375,6 @@
       "https://allen.in/cbse-notes/class-10-maths-notes-chapter-11-areas-related-to-circles",
       "https://www.scribd.com/document/795092660/Areas-Related-To-Circles-Notes-CBSE-Class-10-Maths"
     ],
-    "builtAt": "2026-06-23T19:57:56+00:00"
+    "builtAt": "2026-06-23T20:10:47+00:00"
   }
 }

@@ -54,7 +54,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 8 questions on Circles, covering Tangent to a circle, Number of tangents from external point, and Angle properties. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -181,13 +181,87 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Circles**._\n\n**Syllabus-based cbse practice set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Tangent to a circle** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Tangent to a circle** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Number of tangents from external point** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Number of tangents from external point** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Angle properties** in 2–3 sentences. Use one example from Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Angle properties** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **Tangent perpendicular to radius at point of contact**, solve a standard board-style problem from Circles. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Circles**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 8 questions on Circles, covering Tangent to a circle, Number of tangents from external point, and Angle properties. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Circles · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Tangent to a circle",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Tangent to a circle** in 2–3 sentences. Use one example from Circles."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Tangent to a circle",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Tangent to a circle** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Number of tangents from external point",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Number of tangents from external point** in 2–3 sentences. Use one example from Circles."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Number of tangents from external point",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Number of tangents from external point** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Angle properties",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Angle properties** in 2–3 sentences. Use one example from Circles."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Angle properties",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Angle properties** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Circles",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Using **Tangent perpendicular to radius at point of contact**, solve a standard board-style problem from Circles. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "long",
+          "marks": 5,
+          "topic": "Tangent to a circle",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Circles**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -252,6 +326,6 @@
       "https://en.wikipedia.org/wiki/Tangent",
       "https://en.wikipedia.org/wiki/Trigonometric_functions"
     ],
-    "builtAt": "2026-06-23T19:57:55+00:00"
+    "builtAt": "2026-06-23T20:10:47+00:00"
   }
 }

@@ -48,7 +48,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Sources of Energy, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -162,13 +162,51 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Class 10 CBSE practice for **Sources of Energy**._\n\n**Practice questions from crawled sources:**\n\n1. 53.7% Cumulative Installed Capacity from non-fossil fuel sources\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Sources of Energy** in 2–3 sentences. Use one example from Sources of Energy.\n- **MCQ (1 mark)** — MCQ: Which statement about **Sources of Energy** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Sources of Energy**. Cover at least three syllabus topics and one real-life application.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Sources of Energy, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Sources of Energy · Practice Questions: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Sources of Energy",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "53.7% Cumulative Installed Capacity from non-fossil fuel sources"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Sources of Energy",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Sources of Energy** in 2–3 sentences. Use one example from Sources of Energy."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Sources of Energy",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Sources of Energy** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "long",
+          "marks": 5,
+          "topic": "Sources of Energy",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Sources of Energy**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -236,6 +274,6 @@
       "https://en.wikipedia.org/wiki/Solar_energy",
       "https://mnre.gov.in/en/solar/"
     ],
-    "builtAt": "2026-06-23T19:57:54+00:00"
+    "builtAt": "2026-06-23T20:10:44+00:00"
   }
 }

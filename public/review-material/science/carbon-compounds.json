@@ -53,7 +53,7 @@
       },
       {
         "sectionId": "practice-questions",
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Is the covalent bond a weaker bond? - Why Carbon ShowsCatenation to the Maximum Extent? - What would be the electron dot structure of carbon dioxide which has the formula CO2 ? - How… I'll translate that into simpler language as we go."
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Carbon and Its Compounds, covering Covalent bonding, Homologous series, and Functional groups. Cover your notes, attempt each question in exam order, then check against the sections above."
       },
       {
         "sectionId": "real-world-applications",
@@ -184,13 +184,132 @@
     {
       "id": "practice-questions",
       "title": "8. Practice Questions",
-      "body": "**Practice-style lines from sources:**\n\n- Is the covalent bond a weaker bond?\n- Why Carbon ShowsCatenation to the Maximum Extent?\n- What would be the electron dot structure of carbon dioxide which has the formula CO2 ?\n- How many structural isomers can you draw for pentane ?\n- What are the two properties of carbon which lead to the huge number of carbon compounds we see around us ?\n- What will be the formula and electron dot structure of cyclopentane ?\n- How would you name the following compounds ?\n- Why is the conversion of ethanol to ethanoic acid an oxidation reaction ?\n- A mixture of oxygen and ethyne is burnt for welding. Can you tell why a mixture of ethyne and air is not used ?\n- How would you distinguish experimentally between an alcohol and a carboxylic acid ?",
+      "body": "_Class 10 CBSE practice for **Carbon and Its Compounds**._\n\n**Practice questions from crawled sources:**\n\n1. 3. Bonding in Carbon– The Covalent Bond\n2. 1. Monovalency – Hydrogen (H₂)\n3. 2. Divalency – Oxygen (O₂)\n4. 3. Trivalency – Nitrogen (N₂)\n5. 4. Valency Example ElectronsShared Bond Type\n6. 5. Properties of CovalentCompounds\n7. 1. Made from Molecules\n8. 3. Electrical Conductivity\n9. 5. Low Melting & Boiling Point\n10. 7. Allotropes of Carbon\n\n**Additional syllabus-based set** _(auto-generated for review — Phase-II ingest)_\n\n- **SHORT (2 marks)** — Explain **Covalent bonding** in 2–3 sentences. Use one example from Carbon and Its Compounds.\n- **MCQ (1 mark)** — MCQ: Which statement about **Covalent bonding** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Homologous series** in 2–3 sentences. Use one example from Carbon and Its Compounds.",
       "teacherNarration": {
-        "teleprompter": "In this part — practice questions — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Practice-style lines from sources: - Is the covalent bond a weaker bond? - Why Carbon ShowsCatenation to the Maximum Extent? - What would be the electron dot structure of carbon dioxide which has the formula CO2 ? - How… I'll translate that into simpler language as we go.",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Carbon and Its Compounds, covering Covalent bonding, Homologous series, and Functional groups. Cover your notes, attempt each question in exam order, then check against the sections above.",
         "style": "teacher-practice",
         "simplifiedSummary": "Carbon and Its Compounds · Practice Questions: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. Bonding in Carbon– The Covalent Bond"
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Monovalency – Hydrogen (H₂)"
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "2. Divalency – Oxygen (O₂)"
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. Trivalency – Nitrogen (N₂)"
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "4. Valency Example ElectronsShared Bond Type"
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "5. Properties of CovalentCompounds"
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "1. Made from Molecules"
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "3. Electrical Conductivity"
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "5. Low Melting & Boiling Point"
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "crawled",
+          "difficulty": "medium",
+          "stem": "7. Allotropes of Carbon"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Covalent bonding",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Covalent bonding** in 2–3 sentences. Use one example from Carbon and Its Compounds."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Covalent bonding",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Covalent bonding** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Homologous series",
+          "source": "syllabus-generated",
+          "difficulty": "medium",
+          "stem": "Explain **Homologous series** in 2–3 sentences. Use one example from Carbon and Its Compounds."
+        }
+      ]
     },
     {
       "id": "real-world-applications",
@@ -255,6 +374,6 @@
       "https://www.slideshare.net/slideshow/carbon-and-its-compounds-class-x-science/288142605",
       "https://www.learncbse.in/ncert-solutions-for-class-10-science-chapter-4-carbon-and-its-compounds/"
     ],
-    "builtAt": "2026-06-23T19:57:51+00:00"
+    "builtAt": "2026-06-23T20:10:41+00:00"
   }
 }
