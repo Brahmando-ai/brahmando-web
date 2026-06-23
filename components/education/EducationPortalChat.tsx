@@ -109,7 +109,7 @@ function ChatPanel({
   input: string;
   setInput: (v: string) => void;
   send: (text?: string) => void;
-  scrollRef: React.RefObject<HTMLDivElement | null>;
+  scrollRef: React.RefObject<HTMLDivElement>;
   className?: string;
 }) {
   return (
