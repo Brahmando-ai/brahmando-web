@@ -57,15 +57,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: -  Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc. - What is hydrogenation ? What is its industrial application ? - Application : The… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Carbon and Its Compounds to real life — not just the textbook. I'll walk through everyday examples for Covalent bonding, Homologous series, and Functional groups: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Carbon and Its Compounds, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Carbon and Its Compounds — or if you prefer reading first. I'll walk through the lesson flow: Covalent bonding, Homologous series, and Functional groups, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -147,19 +147,19 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **process flowchart** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Carbon and Its Compounds, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Carbon and Its Compounds · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Carbon and Its Compounds</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Covalent bonding</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Homologous series</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Functional groups</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Soaps and detergents</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Carbon and Its Compounds — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Covalent bondi</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Homologous ser</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Functional gro</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Soaps and dete</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Carbon and Its Compounds — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "flowchart",
+        "title": "Carbon and Its Compounds — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
         "synthetic": true,
         "nodes": [
           {
@@ -314,31 +314,104 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- □ Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc.\n- What is hydrogenation ? What is its industrial application ?\n- Application : The process of hydrogenation has an important industrial application. It is used to prepare vegetable ghee (or vanaspati ghee) from vegetable oils.\n- What is hydrogenation? What is its industrial application?",
+      "body": "_Everyday connections for **Carbon and Its Compounds** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Covalent bonding** — Look for **Covalent bonding** in objects and processes around you — at home, in school labs, or in local industry.\n- **Homologous series** — Look for **Homologous series** in objects and processes around you — at home, in school labs, or in local industry.\n- **Functional groups** — Look for **Functional groups** in objects and processes around you — at home, in school labs, or in local industry.\n- **Soaps and detergents** — Look for **Soaps and detergents** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- Valency Example ElectronsShared Bond Type\n- For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.\n- What is a homologous series ? Explain with an example.\n- (i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: -  Most of the things that we use daily are made up of compounds of carbon like – books, clothes, food, etc. - What is hydrogenation ? What is its industrial application ? - Application : The… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Carbon and Its Compounds to real life — not just the textbook. I'll walk through everyday examples for Covalent bonding, Homologous series, and Functional groups: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Carbon and Its Compounds · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Covalent bonding",
+          "example": "Look for **Covalent bonding** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Homologous series",
+          "example": "Look for **Homologous series** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Functional groups",
+          "example": "Look for **Functional groups** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Soaps and detergents",
+          "example": "Look for **Soaps and detergents** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-05",
+          "topic": "Carbon and Its Compounds",
+          "example": "Valency Example ElectronsShared Bond Type",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Carbon and Its Compounds",
+          "example": "For example, acidic K2Cr2O7 is an oxidising agent, that converts (oxidises) ethanol into ethanoic acid.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-07",
+          "topic": "Carbon and Its Compounds",
+          "example": "What is a homologous series ? Explain with an example.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-08",
+          "topic": "Carbon and Its Compounds",
+          "example": "(i) All members of a homologous series can be represented by the same general formula. For example, the general formula of the homologous series of alkanes is CnH2n+2, in which ‘n’ denotes number of carbon and hydrogen atoms in one molecule of alkane.",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Carbon and Its Compounds** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Carbon and Its Compounds NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Carbon+and+Its+Compounds+NCERT+explained+Hindi+English)\n- [Carbon and Its Compounds class 10 one shot revision](https://www.youtube.com/results?search_query=Carbon+and+Its+Compounds+class+10+one+shot+revision)\n- [NCERT Science class 10 Carbon and Its Compounds animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Carbon+and+Its+Compounds+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Carbon and Its Compounds, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Carbon and Its Compounds · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Carbon and Its Compounds NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Carbon+and+Its+Compounds+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Carbon and Its Compounds class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Carbon+and+Its+Compounds+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Carbon and Its Compounds animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Carbon+and+Its+Compounds+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Carbon and Its Compounds** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Carbon and Its Compounds, not a textbook definition.\n2. **Covalent bonding** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Homologous series** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Functional groups** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Soaps and detergents** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Covalent bonding in everyday language.\n- Draw or describe one diagram related to Carbon and Its Compounds.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Carbon and Its Compounds NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Carbon+and+Its+Compounds+NCERT+explained+Hindi+English)\n- 🔍 [Carbon and Its Compounds class 10 one shot revision](https://www.youtube.com/results?search_query=Carbon+and+Its+Compounds+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Carbon and Its Compounds animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Carbon+and+Its+Compounds+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Carbon and Its Compounds. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Carbon and Its Compounds — or if you prefer reading first. I'll walk through the lesson flow: Covalent bonding, Homologous series, and Functional groups, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Carbon and Its Compounds · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Covalent bonding, Homologous series, and Functional groups.",
         "speakMaterial": false
@@ -369,11 +442,11 @@
   ],
   "crawlMeta": {
     "articleCount": 2,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://www.slideshare.net/slideshow/carbon-and-its-compounds-class-x-science/288142605",
       "https://www.learncbse.in/ncert-solutions-for-class-10-science-chapter-4-carbon-and-its-compounds/"
     ],
-    "builtAt": "2026-06-23T20:10:41+00:00"
+    "builtAt": "2026-06-23T20:29:04+00:00"
   }
 }

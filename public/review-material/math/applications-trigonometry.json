@@ -52,15 +52,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Some Applications of Trigonometry to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Some Applications of Trigonometry, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Some Applications of Trigonometry — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -142,19 +142,19 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **ray or geometry diagram** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Some Applications of Trigonometry, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Some Applications of Trigonometry · Diagram Section: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Some Applications of Trigonometry</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Key idea</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Definition</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Example</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Exam tip</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' width='100%' role='img'><rect width='440' height='220' rx='12' fill='#0f172a'/><text x='220' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Some Applications of Trigonometry — ray / geometry view</text><line x1='30' y1='130' x2='410' y2='130' stroke='#475569' stroke-width='1'/><line x1='80' y1='130' x2='80' y2='90' stroke='#fbbf24' stroke-width='3'/><text x='80' y='82' text-anchor='middle' fill='#fbbf24' font-size='9'>Object</text><path d='M220 60 Q235 130 220 200' fill='none' stroke='#38bdf8' stroke-width='2'/><text x='235' y='125' fill='#38bdf8' font-size='9'>Mirror/Lens</text><line x1='80' y1='100' x2='218' y2='115' stroke='#f472b6' stroke-width='2'/><line x1='222' y1='118' x2='360' y2='85' stroke='#a78bfa' stroke-width='2'/><text x='300' y='78' fill='#a78bfa' font-size='9'>Image ray</text><text x='220' y='210' text-anchor='middle' fill='#94a3b8' font-size='10'>Reflection / Refraction</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Some Applications of Trigonometry — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "ray",
+        "title": "Some Applications of Trigonometry — ray or geometry diagram",
+        "caption": "Chapter-specific ray or geometry diagram from CBSE syllabus (diagram-v2).",
+        "layout": "ray",
         "synthetic": true,
         "nodes": []
       }
@@ -202,31 +202,80 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into 100 equal parts called gradians.[37][38]\n- Godfrey, Charles; Siddons, A. W. (1919), Elementary geometry: practical and theoretical (3rd ed.), Cambridge University Press",
+      "body": "_Everyday connections for **Some Applications of Trigonometry** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n\n**From crawled sources:**\n\n- An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .\n- In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into 100 equal parts called gradians.[37][38]\n- In mathematics and the International System of Quantities, an angle is defined as a dimensionless quantity,[42] and in particular, the radian is defined as dimensionless in the International System of Units.[43] This convention prevents angles providing information for dimensional analysis. For example, when one measures an angle in radians by dividing the arc length by the radius, one is essentially dividing a length by another length, and the units of length cancel each other out. Therefore the result—the angle—doesn't have a physical \"dimension\" like meters or seconds.[44] This holds true with all angle units, such as radians, degrees, or turns—they all represent a pure number quantifying how much something has turned.[45] This is why, in many equations, angle units seem to \"disappear\" during calculations, which feels inconsistent and can lead to mixing up angle units.[46][47]\n- In many contexts, an angle of −θ is effectively equivalent to an angle of \"one full turn minus θ\". For example, an orientation represented as −45° is effectively equal to an orientation defined as 360° − 45° or 315°. Although the final position is the same, a physical rotation (movement) of −45° is not the same as a rotation of 315° (for example, the rotation of a person holding a broom resting on a dusty floor would leave visually different traces of swept regions on the floor).",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Some Applications of Trigonometry to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Some Applications of Trigonometry · Real World Applications: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Some Applications of Trigonometry",
+          "example": "An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .",
+          "source": "crawled"
+        },
+        {
+          "id": "app-02",
+          "topic": "Some Applications of Trigonometry",
+          "example": "In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into 100 equal parts called gradians.[37][38]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-03",
+          "topic": "Some Applications of Trigonometry",
+          "example": "In mathematics and the International System of Quantities, an angle is defined as a dimensionless quantity,[42] and in particular, the radian is defined as dimensionless in the International System of Units.[43] This convention prevents angles providing information for dimensional analysis. For example, when one measures an angle in radians by dividing the arc length by the radius, one is essentially dividing a length by another length, and the units of length cancel each other out. Therefore the result—the angle—doesn't have a physical \"dimension\" like meters or seconds.[44] This holds true with all angle units, such as radians, degrees, or turns—they all represent a pure number quantifying how much something has turned.[45] This is why, in many equations, angle units seem to \"disappear\" during calculations, which feels inconsistent and can lead to mixing up angle units.[46][47]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-04",
+          "topic": "Some Applications of Trigonometry",
+          "example": "In many contexts, an angle of −θ is effectively equivalent to an angle of \"one full turn minus θ\". For example, an orientation represented as −45° is effectively equal to an orientation defined as 360° − 45° or 315°. Although the final position is the same, a physical rotation (movement) of −45° is not the same as a rotation of 315° (for example, the rotation of a person holding a broom resting on a dusty floor would leave visually different traces of swept regions on the floor).",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Some Applications of Trigonometry** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Some Applications of Trigonometry NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Some+Applications+of+Trigonometry+NCERT+explained+Hindi+English)\n- [Some Applications of Trigonometry class 10 one shot revision](https://www.youtube.com/results?search_query=Some+Applications+of+Trigonometry+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Some Applications of Trigonometry animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Some+Applications+of+Trigonometry+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Some Applications of Trigonometry, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Some Applications of Trigonometry · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Some Applications of Trigonometry NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Some+Applications+of+Trigonometry+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Some Applications of Trigonometry class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Some+Applications+of+Trigonometry+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Some Applications of Trigonometry animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Some+Applications+of+Trigonometry+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Some Applications of Trigonometry** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Some Applications of Trigonometry, not a textbook definition.\n2. **core ideas** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **definitions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **exam tips** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Common mistake** — Warn about the error students make most often in exams.\n6. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain core ideas in everyday language.\n- Draw or describe one diagram related to Some Applications of Trigonometry.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Some Applications of Trigonometry NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Some+Applications+of+Trigonometry+NCERT+explained+Hindi+English)\n- 🔍 [Some Applications of Trigonometry class 10 one shot revision](https://www.youtube.com/results?search_query=Some+Applications+of+Trigonometry+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Some Applications of Trigonometry animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Some+Applications+of+Trigonometry+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Some Applications of Trigonometry — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Some Applications of Trigonometry · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
@@ -257,10 +306,10 @@
   ],
   "crawlMeta": {
     "articleCount": 1,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://en.wikipedia.org/wiki/Angle"
     ],
-    "builtAt": "2026-06-23T20:10:46+00:00"
+    "builtAt": "2026-06-23T20:29:09+00:00"
   }
 }

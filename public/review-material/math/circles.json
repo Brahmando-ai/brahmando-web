@@ -58,15 +58,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Let's connect Circles to real life — not just the textbook. I'll walk through everyday examples for Tangent to a circle, Number of tangents from external point, and Angle properties: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Circles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Circles — or if you prefer reading first. I'll walk through the lesson flow: Tangent to a circle, Number of tangents from external point, and Angle properties, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -148,32 +148,24 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **ray or geometry diagram** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Circles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Circles · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 196' width='100%' role='img'><rect width='420' height='196' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Circles</text><circle cx='210' cy='98' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='102' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='132' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Tangent to a circle</text><line x1='210' y1='132' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Number of tangents from external point</text><line x1='210' y1='132' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Angle properties</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' width='100%' role='img'><rect width='440' height='220' rx='12' fill='#0f172a'/><text x='220' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Circles — ray / geometry view</text><line x1='30' y1='130' x2='410' y2='130' stroke='#475569' stroke-width='1'/><line x1='80' y1='130' x2='80' y2='90' stroke='#fbbf24' stroke-width='3'/><text x='80' y='82' text-anchor='middle' fill='#fbbf24' font-size='9'>Object</text><path d='M220 60 Q235 130 220 200' fill='none' stroke='#38bdf8' stroke-width='2'/><text x='235' y='125' fill='#38bdf8' font-size='9'>Mirror/Lens</text><line x1='80' y1='100' x2='218' y2='115' stroke='#f472b6' stroke-width='2'/><line x1='222' y1='118' x2='360' y2='85' stroke='#a78bfa' stroke-width='2'/><text x='300' y='78' fill='#a78bfa' font-size='9'>Image ray</text><text x='220' y='210' text-anchor='middle' fill='#94a3b8' font-size='10'>Tangent to a circle</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Circles — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "ray",
+        "title": "Circles — ray or geometry diagram",
+        "caption": "Chapter-specific ray or geometry diagram from CBSE syllabus (diagram-v2).",
+        "layout": "ray",
         "synthetic": true,
         "nodes": [
           {
             "id": "n0",
-            "label": "Tangent to a circle"
-          },
-          {
-            "id": "n1",
-            "label": "Number of tangents from external point"
-          },
-          {
-            "id": "n2",
-            "label": "Angle properties"
+            "label": "Tangent perpendicular to radius at point of contact"
           }
         ]
       }
@@ -266,31 +258,98 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Everyday connections for **Circles** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Tangent to a circle** — Look for **Tangent to a circle** in objects and processes around you — at home, in school labs, or in local industry.\n- **Number of tangents from external point** — Look for **Number of tangents from external point** in objects and processes around you — at home, in school labs, or in local industry.\n- **Angle properties** — Look for **Angle properties** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.\n- Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.\n- For example, the equation of the limaçon trisectrix shown to the right is\n- When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Let's connect Circles to real life — not just the textbook. I'll walk through everyday examples for Tangent to a circle, Number of tangents from external point, and Angle properties: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Circles · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Tangent to a circle",
+          "example": "Look for **Tangent to a circle** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Number of tangents from external point",
+          "example": "Look for **Number of tangents from external point** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Angle properties",
+          "example": "Look for **Angle properties** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Circles",
+          "example": "The intuitive notion that a tangent line \"touches\" a curve can be made more explicit by considering the sequence of straight lines (secant lines) passing through two points, A and B, those that lie on the function curve. The tangent at A is the limit when point B approximates or tends to A. The existence and uniqueness of the tangent line depends on a certain type of mathematical smoothness, known as \"differentiability.\" For example, if two circular arcs meet at a sharp point (a vertex) then there is no uniquely defined tangent at the vertex because the limit of the progression of secant lines depends on the direction in which \"point B\" approaches the vertex.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-05",
+          "topic": "Circles",
+          "example": "Conversely, it may happen that the curve lies entirely on one side of a straight line passing through a point on it, and yet this straight line is not a tangent line. This is the case, for example, for a line passing through the vertex of a triangle and not intersecting it otherwise—where the tangent line does not exist for the reasons explained above. In convex geometry, such lines are called supporting lines.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Circles",
+          "example": "For example, the equation of the limaçon trisectrix shown to the right is",
+          "source": "crawled"
+        },
+        {
+          "id": "app-07",
+          "topic": "Circles",
+          "example": "When the curve is not self-crossing, the tangent at a reference point may still not be uniquely defined because the curve is not differentiable at that point although it is differentiable elsewhere. In this case the left and right derivatives are defined as the limits of the derivative as the point at which it is evaluated approaches the reference point from respectively the left (lower values) or the right (higher values). For example, the curve y = |x | is not differentiable at x = 0: its left and right derivatives have respective slopes −1 and 1; the tangents at that point with those slopes are called the left and right tangents.[21]",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Circles** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Circles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Circles+NCERT+explained+Hindi+English)\n- [Circles class 10 one shot revision](https://www.youtube.com/results?search_query=Circles+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Circles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Circles+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Circles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Circles · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Circles NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Circles+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Circles class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Circles+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Circles animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Circles+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Circles** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Circles, not a textbook definition.\n2. **Tangent to a circle** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Number of tangents from external point** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Angle properties** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Formulas** — Write Tangent perpendicular to radius at point of contact on the board, explain each symbol, then solve one board-style numerical.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Tangent to a circle in everyday language.\n- Draw or describe one diagram related to Circles.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Circles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Circles+NCERT+explained+Hindi+English)\n- 🔍 [Circles class 10 one shot revision](https://www.youtube.com/results?search_query=Circles+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Circles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Circles+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Circles — or if you prefer reading first. I'll walk through the lesson flow: Tangent to a circle, Number of tangents from external point, and Angle properties, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Circles · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Tangent to a circle, Number of tangents from external point, and Angle properties.",
         "speakMaterial": false
@@ -321,11 +380,11 @@
   ],
   "crawlMeta": {
     "articleCount": 2,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://en.wikipedia.org/wiki/Tangent",
       "https://en.wikipedia.org/wiki/Trigonometric_functions"
     ],
-    "builtAt": "2026-06-23T20:10:47+00:00"
+    "builtAt": "2026-06-23T20:29:10+00:00"
   }
 }

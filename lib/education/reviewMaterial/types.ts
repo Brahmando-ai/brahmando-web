@@ -52,6 +52,21 @@ export type PracticeQuestion = {
   stem: string;
 };
 
+export type ChapterVideo = {
+  id: string;
+  title: string;
+  url: string;
+  kind: "youtube" | "search" | string;
+  source?: string;
+};
+
+export type RealWorldApplication = {
+  id: string;
+  topic: string;
+  example: string;
+  source?: string;
+};
+
 export type ChapterSection = {
   id: string;
   title: string;
@@ -61,6 +76,8 @@ export type ChapterSection = {
   diagram?: SectionDiagram;
   media?: SectionMedia[];
   practiceQuestions?: PracticeQuestion[];
+  videos?: ChapterVideo[];
+  applications?: RealWorldApplication[];
 };
 
 export type TeacherAudioSegment = {

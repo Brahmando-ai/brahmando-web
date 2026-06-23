@@ -57,15 +57,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016. I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Control and Coordination to real life — not just the textbook. I'll walk through everyday examples for Nervous system, Reflex action, and Plant hormones: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Control and Coordination, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Control and Coordination — or if you prefer reading first. I'll walk through the lesson flow: Nervous system, Reflex action, and Plant hormones, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -147,19 +147,19 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **process flowchart** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Control and Coordination, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Control and Coordination · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Control and Coordination</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Nervous system</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Reflex action</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Plant hormones</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Endocrine system</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Control and Coordination — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Nervous system</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Reflex action</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Plant hormones</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Endocrine syst</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Control and Coordination — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "flowchart",
+        "title": "Control and Coordination — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
         "synthetic": true,
         "nodes": [
           {
@@ -278,31 +278,92 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016.",
+      "body": "_Everyday connections for **Control and Coordination** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Nervous system** — Look for **Nervous system** in objects and processes around you — at home, in school labs, or in local industry.\n- **Reflex action** — Look for **Reflex action** in objects and processes around you — at home, in school labs, or in local industry.\n- **Plant hormones** — Look for **Plant hormones** in objects and processes around you — at home, in school labs, or in local industry.\n- **Endocrine system** — Look for **Endocrine system** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- Many legumes have Rhizobium nitrogen-fixing bacteria in nodules of their roots, which fix nitrogen from the air for the plant to use; in return, the plants supply sugars to the bacteria.[88] Nitrogen fixed in this way can become available to other plants, and is important in agriculture; for example, farmers may grow a crop rotation of a legume such as beans, followed by a cereal such as wheat, to provide cash crops with a reduced input of nitrogen fertilizer.[89]\n- Plants, including trees, appear in mythology, religion, and literature.[128][129][130] In multiple Indo-European, Siberian, and Native American religions, the world tree motif is depicted as a colossal tree growing on the earth, supporting the heavens, and with its roots reaching into the underworld. It may also appear as a cosmic tree or an eagle and serpent tree.[131][132] Forms of the world tree include the archetypal tree of life, which is in turn connected to the Eurasian concept of the sacred tree.[133] Another widespread ancient motif, found for example in Iran, has a tree of life flanked by a pair of confronted animals.[134]",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - Raymond, Francine (12 March 2013). \"Why botanical art is still blooming today\". The Daily Telegraph. Retrieved 19 June 2016. I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Control and Coordination to real life — not just the textbook. I'll walk through everyday examples for Nervous system, Reflex action, and Plant hormones: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Control and Coordination · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Nervous system",
+          "example": "Look for **Nervous system** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Reflex action",
+          "example": "Look for **Reflex action** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Plant hormones",
+          "example": "Look for **Plant hormones** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Endocrine system",
+          "example": "Look for **Endocrine system** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-05",
+          "topic": "Control and Coordination",
+          "example": "Many legumes have Rhizobium nitrogen-fixing bacteria in nodules of their roots, which fix nitrogen from the air for the plant to use; in return, the plants supply sugars to the bacteria.[88] Nitrogen fixed in this way can become available to other plants, and is important in agriculture; for example, farmers may grow a crop rotation of a legume such as beans, followed by a cereal such as wheat, to provide cash crops with a reduced input of nitrogen fertilizer.[89]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Control and Coordination",
+          "example": "Plants, including trees, appear in mythology, religion, and literature.[128][129][130] In multiple Indo-European, Siberian, and Native American religions, the world tree motif is depicted as a colossal tree growing on the earth, supporting the heavens, and with its roots reaching into the underworld. It may also appear as a cosmic tree or an eagle and serpent tree.[131][132] Forms of the world tree include the archetypal tree of life, which is in turn connected to the Eurasian concept of the sacred tree.[133] Another widespread ancient motif, found for example in Iran, has a tree of life flanked by a pair of confronted animals.[134]",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Control and Coordination** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Control and Coordination NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Control+and+Coordination+NCERT+explained+Hindi+English)\n- [Control and Coordination class 10 one shot revision](https://www.youtube.com/results?search_query=Control+and+Coordination+class+10+one+shot+revision)\n- [NCERT Science class 10 Control and Coordination animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Control+and+Coordination+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Control and Coordination, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Control and Coordination · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Control and Coordination NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Control+and+Coordination+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Control and Coordination class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Control+and+Coordination+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Control and Coordination animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Control+and+Coordination+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Control and Coordination** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Control and Coordination, not a textbook definition.\n2. **Nervous system** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Reflex action** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Plant hormones** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Endocrine system** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Nervous system in everyday language.\n- Draw or describe one diagram related to Control and Coordination.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Control and Coordination NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Control+and+Coordination+NCERT+explained+Hindi+English)\n- 🔍 [Control and Coordination class 10 one shot revision](https://www.youtube.com/results?search_query=Control+and+Coordination+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Control and Coordination animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Control+and+Coordination+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Control and Coordination — or if you prefer reading first. I'll walk through the lesson flow: Nervous system, Reflex action, and Plant hormones, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Control and Coordination · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Nervous system, Reflex action, and Plant hormones.",
         "speakMaterial": false
@@ -333,13 +394,13 @@
   ],
   "crawlMeta": {
     "articleCount": 4,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://byjus.com/cbse-notes/cbse-class-10-science-notes-chapter-7-control-and-coordination/",
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use",
       "https://en.m.wikipedia.org/wiki/Plant"
     ],
-    "builtAt": "2026-06-23T20:10:42+00:00"
+    "builtAt": "2026-06-23T20:29:05+00:00"
   }
 }

@@ -61,15 +61,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Quadratic Equations to real life — not just the textbook. I'll walk through everyday examples for Standard form, Factorization method, and Quadratic formula: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Quadratic Equations, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Quadratic Equations — or if you prefer reading first. I'll walk through the lesson flow: Standard form, Factorization method, and Quadratic formula, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -151,36 +151,32 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **formula relationship map** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Quadratic Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Quadratic Equations · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Quadratic Equations</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Standard form</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Factorization method</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Quadratic formula</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Nature of roots</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='100%' role='img'><rect width='400' height='260' rx='12' fill='#0f172a'/><text x='200' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Quadratic Equations — formula map</text><polygon points='200,112 224,132 224,160 200,180 176,160 176,132' fill='#1e3a5f' stroke='#38bdf8'/><text x='200' y='145' text-anchor='middle' fill='#e2e8f0' font-size='9'>Key</text><line x1='200' y1='140' x2='80' y2='90' stroke='#475569' stroke-width='1'/><rect x='25' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='80' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>ax^2 + bx + c = 0</text><line x1='200' y1='140' x2='320' y2='90' stroke='#475569' stroke-width='1'/><rect x='265' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='320' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>x = (-b +/- sqrt(b</text><line x1='200' y1='140' x2='70' y2='180' stroke='#475569' stroke-width='1'/><rect x='15' y='166' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='70' y='184' text-anchor='middle' fill='#cbd5e1' font-size='9'>D = b^2 - 4ac</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Quadratic Equations — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "formula-hub",
+        "title": "Quadratic Equations — formula relationship map",
+        "caption": "Chapter-specific formula relationship map from CBSE syllabus (diagram-v2).",
+        "layout": "formula-hub",
         "synthetic": true,
         "nodes": [
           {
             "id": "n0",
-            "label": "Standard form"
+            "label": "ax^2 + bx + c = 0"
           },
           {
             "id": "n1",
-            "label": "Factorization method"
+            "label": "x = (-b +/- sqrt(b^2 - 4ac)) / 2a"
           },
           {
             "id": "n2",
-            "label": "Quadratic formula"
-          },
-          {
-            "id": "n3",
-            "label": "Nature of roots"
+            "label": "D = b^2 - 4ac"
           }
         ]
       }
@@ -318,31 +314,98 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will study quadratic equations and various ways of finding their roots. They will also see some applications of quadratic equations in daily life situations.",
+      "body": "_Everyday connections for **Quadratic Equations** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Standard form** — Look for **Standard form** in objects and processes around you — at home, in school labs, or in local industry.\n- **Factorization method** — Look for **Factorization method** in objects and processes around you — at home, in school labs, or in local industry.\n- **Quadratic formula** — Look for **Quadratic formula** in objects and processes around you — at home, in school labs, or in local industry.\n- **Nature of roots** — Look for **Nature of roots** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- 2. Solve the problems given in Example 1.\n- If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will study quadratic equations and various ways of finding their roots. They will also see some applications of quadratic equations in daily life situations.\n- 2Solve the problems given in Example 1 (i.e., find the dimensions of the rectangular plot with area Show solution",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Quadratic Equations to real life — not just the textbook. I'll walk through everyday examples for Standard form, Factorization method, and Quadratic formula: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Quadratic Equations · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Standard form",
+          "example": "Look for **Standard form** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Factorization method",
+          "example": "Look for **Factorization method** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Quadratic formula",
+          "example": "Look for **Quadratic formula** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Nature of roots",
+          "example": "Look for **Nature of roots** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-05",
+          "topic": "Quadratic Equations",
+          "example": "2. Solve the problems given in Example 1.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Quadratic Equations",
+          "example": "If we equate the polynomial ax2+ bx + c, a ≠ 0 to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. In this chapter, students will study quadratic equations and various ways of finding their roots. They will also see some applications of quadratic equations in daily life situations.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-07",
+          "topic": "Quadratic Equations",
+          "example": "2Solve the problems given in Example 1 (i.e., find the dimensions of the rectangular plot with area Show solution",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Quadratic Equations** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Quadratic Equations NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Quadratic+Equations+NCERT+explained+Hindi+English)\n- [Quadratic Equations class 10 one shot revision](https://www.youtube.com/results?search_query=Quadratic+Equations+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Quadratic Equations animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Quadratic+Equations+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Quadratic Equations, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Quadratic Equations · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Quadratic Equations NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Quadratic+Equations+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Quadratic Equations class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Quadratic+Equations+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Quadratic Equations animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Quadratic+Equations+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Quadratic Equations** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Quadratic Equations, not a textbook definition.\n2. **Standard form** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Factorization method** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Quadratic formula** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Nature of roots** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Formulas** — Write ax^2 + bx + c = 0 on the board, explain each symbol, then solve one board-style numerical.\n7. **Common mistake** — Warn about the error students make most often in exams.\n8. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Standard form in everyday language.\n- Draw or describe one diagram related to Quadratic Equations.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Quadratic Equations NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Quadratic+Equations+NCERT+explained+Hindi+English)\n- 🔍 [Quadratic Equations class 10 one shot revision](https://www.youtube.com/results?search_query=Quadratic+Equations+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Quadratic Equations animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Quadratic+Equations+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Quadratic Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Quadratic Equations — or if you prefer reading first. I'll walk through the lesson flow: Standard form, Factorization method, and Quadratic formula, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Quadratic Equations · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Standard form, Factorization method, and Quadratic formula.",
         "speakMaterial": false
@@ -373,13 +436,13 @@
   ],
   "crawlMeta": {
     "articleCount": 4,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://byjus.com/ncert-solutions-class-10-maths/chapter-4-quadratic-equations/",
       "https://supertutor.in/resources/cbse/class-10/maths/ncert-solutions/quadratic-equations/",
       "https://www.learncbse.in/ncert-solutions-for-class-10-maths-chapter-4-quadratic-equations/",
       "https://www.learncbse.in/quadratic-equations-class-10-notes/"
     ],
-    "builtAt": "2026-06-23T20:10:45+00:00"
+    "builtAt": "2026-06-23T20:29:09+00:00"
   }
 }

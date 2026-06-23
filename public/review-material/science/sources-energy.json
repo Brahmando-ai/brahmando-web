@@ -52,15 +52,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Sources of Energy to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Sources of Energy, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Sources of Energy — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -142,19 +142,19 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **comparison layout** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Sources of Energy, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Sources of Energy · Diagram Section: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Sources of Energy</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Key idea</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Definition</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Example</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Exam tip</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 200' width='100%' role='img'><rect width='420' height='200' rx='12' fill='#0f172a'/><text x='210' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Sources of Energy — compare</text><rect x='50' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='120' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Type A</text><text x='210' y='118' text-anchor='middle' fill='#94a3b8' font-size='14'>vs</text><rect x='230' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#a78bfa'/><text x='300' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Type B</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Sources of Energy — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "compare",
+        "title": "Sources of Energy — comparison layout",
+        "caption": "Chapter-specific comparison layout from CBSE syllabus (diagram-v2).",
+        "layout": "compare",
         "synthetic": true,
         "nodes": []
       }
@@ -211,31 +211,80 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if\n- Globally, the long-term technical potential of wind energy is believed to be five times total current global energy production, or 40 times current electricity demand, assuming all practical barriers needed were overcome. This would require wind turbines to be installed over large areas, particularly in areas of higher wind resources, such as offshore, and likely also industrial use of new types of VAWT turbines in addition to the horizontal axis units currently in use. As offshore wind speeds average ~90% greater than that of land, offshore resources can contribute substantially more energy than land-stationed turbines.[104]\n- Comparison of the theoretical and practical potentials of different renewable energy technologies\n- In conclusion, I would say that however great the scientific importance of this discovery may be, its practical value will be no less obvious when we reflect that the supply of solar energy is both without limit and without cost, and that it will continue to pour down upon us for countless ages after all the coal deposits of the earth have been exhausted and forgotten.[335]\n- Renewable heat – Application of renewable energy\n- Sommerfeldt, Nelson; Madani, Hatef (July 2017). \"Revisiting the techno-economic analysis process for building-mounted, grid-connected solar photovoltaic systems: Part two - Application\". Renewable and Sustainable Energy Reviews. 74: 1394–1404. Bibcode:2017RSERv..74.1394S. doi:10.1016/j.rser.2017.03.010.",
+      "body": "_Everyday connections for **Sources of Energy** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n\n**From crawled sources:**\n\n- The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if\n- Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as nuclear power,[contradictory]generate almost no emissions, while some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants.[12] Renewable energy is also distinct from sustainable energy, a more abstract concept that seeks to group energy sources based on their overall permanent impact on future generations of humans. For example, biomass is often associated with unsustainable deforestation.[26]\n- Sector coupling of the power generation sector with other sectors may increase flexibility: for example the transport sector can be coupled by charging electric vehicles and sending electricity from vehicle to grid.[39] Similarly the industry sector can be coupled by hydrogen produced by electrolysis,[40] and the buildings sector by thermal energy storage for space heating and cooling.[41]\n- Globally, the long-term technical potential of wind energy is believed to be five times total current global energy production, or 40 times current electricity demand, assuming all practical barriers needed were overcome. This would require wind turbines to be installed over large areas, particularly in areas of higher wind resources, such as offshore, and likely also industrial use of new types of VAWT turbines in addition to the horizontal axis units currently in use. As offshore wind speeds average ~90% greater than that of land, offshore resources can contribute substantially more energy than land-stationed turbines.[104]",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Sources of Energy to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Sources of Energy · Real World Applications: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Sources of Energy",
+          "example": "The Sun has been worshiped as a life-giver to our planet since ancient times. The industrial ages gave us the understanding of sunlight as an energy source. India is endowed with vast solar energy potential. About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day. Solar photovoltaic power can effectively be harnessed providing huge scalability in India. Solar also provides the ability to generate power on a distributed basis and enables rapid capacity addition with short lead times. Off-grid decentralized and low-temperature applications will be advantageous from a rural application perspective and meeting other energy needs for power, heating and cooling in both rural and urban areas. From an energy security perspective, solar is the most secure of all sources, since it is abundantly available. Theoretically, a small fraction of the total incident solar energy (if",
+          "source": "crawled"
+        },
+        {
+          "id": "app-02",
+          "topic": "Sources of Energy",
+          "example": "Although almost all forms of renewable energy cause much fewer carbon emissions than fossil fuels, the term is not synonymous with low-carbon energy. Some non-renewable sources of energy, such as nuclear power,[contradictory]generate almost no emissions, while some renewable energy sources can be very carbon-intensive, such as the burning of biomass if it is not offset by planting new plants.[12] Renewable energy is also distinct from sustainable energy, a more abstract concept that seeks to group energy sources based on their overall permanent impact on future generations of humans. For example, biomass is often associated with unsustainable deforestation.[26]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-03",
+          "topic": "Sources of Energy",
+          "example": "Sector coupling of the power generation sector with other sectors may increase flexibility: for example the transport sector can be coupled by charging electric vehicles and sending electricity from vehicle to grid.[39] Similarly the industry sector can be coupled by hydrogen produced by electrolysis,[40] and the buildings sector by thermal energy storage for space heating and cooling.[41]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-04",
+          "topic": "Sources of Energy",
+          "example": "Globally, the long-term technical potential of wind energy is believed to be five times total current global energy production, or 40 times current electricity demand, assuming all practical barriers needed were overcome. This would require wind turbines to be installed over large areas, particularly in areas of higher wind resources, such as offshore, and likely also industrial use of new types of VAWT turbines in addition to the horizontal axis units currently in use. As offshore wind speeds average ~90% greater than that of land, offshore resources can contribute substantially more energy than land-stationed turbines.[104]",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Sources of Energy** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Sources of Energy NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Sources+of+Energy+NCERT+explained+Hindi+English)\n- [Sources of Energy class 10 one shot revision](https://www.youtube.com/results?search_query=Sources+of+Energy+class+10+one+shot+revision)\n- [NCERT Science class 10 Sources of Energy animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Sources+of+Energy+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Sources of Energy, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Sources of Energy · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Sources of Energy NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Sources+of+Energy+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Sources of Energy class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Sources+of+Energy+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Sources of Energy animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Sources+of+Energy+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Sources of Energy** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Sources of Energy, not a textbook definition.\n2. **core ideas** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **definitions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **exam tips** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Common mistake** — Warn about the error students make most often in exams.\n6. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain core ideas in everyday language.\n- Draw or describe one diagram related to Sources of Energy.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Sources of Energy NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Sources+of+Energy+NCERT+explained+Hindi+English)\n- 🔍 [Sources of Energy class 10 one shot revision](https://www.youtube.com/results?search_query=Sources+of+Energy+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Sources of Energy animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Sources+of+Energy+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Sources of Energy. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Sources of Energy — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Sources of Energy · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
@@ -266,7 +315,7 @@
   ],
   "crawlMeta": {
     "articleCount": 5,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://mnre.gov.in/en/",
       "https://mnre.gov.in/en/solar-overview/",
@@ -274,6 +323,6 @@
       "https://en.wikipedia.org/wiki/Solar_energy",
       "https://mnre.gov.in/en/solar/"
     ],
-    "builtAt": "2026-06-23T20:10:44+00:00"
+    "builtAt": "2026-06-23T20:29:07+00:00"
   }
 }

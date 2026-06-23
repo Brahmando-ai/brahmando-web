@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { REVIEW_CHAPTERS, type ReviewChapter } from "@/lib/education/reviewMaterial/chapters";
 import { fetchChapterContent } from "@/lib/education/reviewMaterial/loadContent";
-import type { ChapterReviewContent, ChapterSection, PracticeQuestion, ReviewNote, ReviewNoteCategory, ReviewNoteStatus } from "@/lib/education/reviewMaterial/types";
+import type { ChapterReviewContent, ChapterSection, ChapterVideo, PracticeQuestion, RealWorldApplication, ReviewNote, ReviewNoteCategory, ReviewNoteStatus } from "@/lib/education/reviewMaterial/types";
 import {
   isSpeechSupported,
   preloadSpeechVoices,
@@ -75,6 +75,72 @@ function SectionBody({ body }: { body: string }) {
     <div className="space-y-3 text-sm leading-relaxed text-slate-200">
       {body.split("\n").map((line, i) => (
         <p key={i}>{renderInline(line)}</p>
+      ))}
+    </div>
+  );
+}
+
+function youtubeEmbedUrl(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/i);
+  return match ? `https://www.youtube.com/embed/${match[1]}` : null;
+}
+
+function VideoResourcesBlock({ videos }: { videos: ChapterVideo[] }) {
+  const embeddable = videos.filter((v) => v.kind === "youtube");
+  const searches = videos.filter((v) => v.kind === "search");
+  if (!embeddable.length && !searches.length) return null;
+  return (
+    <div className="mb-4 space-y-4">
+      {embeddable.length > 0 && (
+        <div className="grid gap-4 lg:grid-cols-2">
+          {embeddable.slice(0, 4).map((video) => {
+            const embed = youtubeEmbedUrl(video.url);
+            if (!embed) return null;
+            return (
+              <div key={video.id} className="overflow-hidden rounded-xl border border-slate-700/50 bg-slate-950/50">
+                <iframe
+                  title={video.title}
+                  src={embed}
+                  className="aspect-video w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+                <p className="border-t border-slate-700/40 px-3 py-2 text-xs text-slate-300">{video.title}</p>
+              </div>
+            );
+          })}
+        </div>
+      )}
+      {searches.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {searches.map((video) => (
+            <a
+              key={video.id}
+              href={video.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-rose-500/30 bg-rose-500/10 px-3 py-1 text-xs text-rose-100 hover:bg-rose-500/20"
+            >
+              Search: {video.title.slice(0, 48)}
+              {video.title.length > 48 ? "…" : ""}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function RealWorldBlock({ applications }: { applications: RealWorldApplication[] }) {
+  const syllabusApps = applications.filter((a) => a.source === "syllabus-generated");
+  if (!syllabusApps.length) return null;
+  return (
+    <div className="mb-4 space-y-2">
+      {syllabusApps.map((app) => (
+        <div key={app.id} className="rounded-lg border border-emerald-500/20 bg-emerald-500/5 px-4 py-3 text-sm text-slate-200">
+          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-emerald-200/80">{app.topic}</p>
+          <p>{renderInline(app.example)}</p>
+        </div>
       ))}
     </div>
   );
@@ -501,6 +567,12 @@ export function ReviewMaterialBoard() {
                     />
                     {(activeSection.visualSvg || activeSection.media?.length || activeSection.diagram) && (
                       <SectionDiagramBlock section={activeSection} />
+                    )}
+                    {activeSection.videos && activeSection.videos.length > 0 && (
+                      <VideoResourcesBlock videos={activeSection.videos} />
+                    )}
+                    {activeSection.applications && activeSection.applications.length > 0 && (
+                      <RealWorldBlock applications={activeSection.applications} />
                     )}
                     {activeSection.practiceQuestions && activeSection.practiceQuestions.length > 0 && (
                       <PracticeQuestionsBlock questions={activeSection.practiceQuestions} />

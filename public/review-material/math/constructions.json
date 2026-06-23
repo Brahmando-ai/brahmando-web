@@ -52,15 +52,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Constructions to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Constructions, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Constructions — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -142,19 +142,19 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **process flowchart** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Constructions, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Constructions · Diagram Section: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Constructions</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Key idea</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Definition</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Example</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Exam tip</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Constructions — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Step 1</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Step 2</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Step 3</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Outcome</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Constructions — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "flowchart",
+        "title": "Constructions — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
         "synthetic": true,
         "nodes": []
       }
@@ -202,31 +202,80 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor correcting the defect.[29]\n- Tabei, Sayed Mohammad Amin; Bagherpour, Morteza; Mahmoudi, Amin (2019-03-19). \"Application of Fuzzy Modelling to Predict Construction Projects Cash Flow\". Periodica Polytechnica Civil Engineering. doi:10.3311/ppci.13402. ISSN 1587-3773. S2CID 116421818.\n- \"Construction\". Practical Law. Retrieved 2026-06-04.\n- \"TED: The Economics Daily (March 3, 2017)\". US Bureau of Labor Statistics. Retrieved 30 April 2020.",
+      "body": "_Everyday connections for **Constructions** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n\n**From crawled sources:**\n\n- The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US industry fatalities in 2019 happened in construction.[2]\n- The industry can also be classified into sectors or markets.[6] For example, Engineering News-Record (ENR), a US-based construction trade magazine, has compiled and reported data about the size of design and construction contractors. In 2014, it split the data into nine market segments: transportation, petroleum, buildings, power, industrial, water, manufacturing, sewage/waste, telecom, hazardous waste, and a tenth category for other projects.[7] ENR used data on transportation, sewage, hazardous waste and water to rank firms as heavy contractors.[8]\n- These processes also affect procurement strategies. Clients may, for example, appoint a business to design the project, after which a competitive process is undertaken to appoint a lead contractor to construct the asset (design–bid–build); they may appoint a business to lead both design and construction (design-build); or they may directly appoint a designer, contractor and specialist subcontractors (construction management).[15] Some forms of procurement emphasize collaborative relationships (partnering, alliancing) between the client, the contractor, and other stakeholders within a construction project, seeking to ameliorate often highly competitive and adversarial industry practices. DfMA (design for manufacture and assembly) and so-called modern methods of construction approaches also emphasize early collaboration with manufacturers and suppliers regarding products and components.\n- Law related to construction primarily focuses around contracts and obligations, as well as planning permissions and legal matters on topics such as infrastructure, housing, engineering, insurance, the environment and building warrants.[22][23] A construction project is a complex net of construction contracts and other legal obligations, each of which all parties must carefully consider. A contract is the exchange of a set of obligations between two or more parties, and provides structures to manage issues.[24] For example, construction delays can be costly, so construction contracts set out clear expectations and clear paths to manage delays. Poorly drafted contracts can lead to confusion and costly disputes. At the start of a project, legal advisors seek to identify ambiguities and other potential sources of trouble in the contract structures, and to present options for preventing problems. During projects, they work to avoid and resolve conflicts that arise and processes such as negotiation and arbitration may take place.[25]",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - A period after handover (or practical completion) during which the owner may identify any shortcomings in relation to the building specification ('defects'), with a view to the contractor… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Constructions to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Constructions · Real World Applications: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Constructions",
+          "example": "The construction industry promotes economic development and brings many non-monetary benefits to many countries, but it is one of the most hazardous industries. For example, about 20% (1,061) of US industry fatalities in 2019 happened in construction.[2]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-02",
+          "topic": "Constructions",
+          "example": "The industry can also be classified into sectors or markets.[6] For example, Engineering News-Record (ENR), a US-based construction trade magazine, has compiled and reported data about the size of design and construction contractors. In 2014, it split the data into nine market segments: transportation, petroleum, buildings, power, industrial, water, manufacturing, sewage/waste, telecom, hazardous waste, and a tenth category for other projects.[7] ENR used data on transportation, sewage, hazardous waste and water to rank firms as heavy contractors.[8]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-03",
+          "topic": "Constructions",
+          "example": "These processes also affect procurement strategies. Clients may, for example, appoint a business to design the project, after which a competitive process is undertaken to appoint a lead contractor to construct the asset (design–bid–build); they may appoint a business to lead both design and construction (design-build); or they may directly appoint a designer, contractor and specialist subcontractors (construction management).[15] Some forms of procurement emphasize collaborative relationships (partnering, alliancing) between the client, the contractor, and other stakeholders within a construction project, seeking to ameliorate often highly competitive and adversarial industry practices. DfMA (design for manufacture and assembly) and so-called modern methods of construction approaches also emphasize early collaboration with manufacturers and suppliers regarding products and components.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-04",
+          "topic": "Constructions",
+          "example": "Law related to construction primarily focuses around contracts and obligations, as well as planning permissions and legal matters on topics such as infrastructure, housing, engineering, insurance, the environment and building warrants.[22][23] A construction project is a complex net of construction contracts and other legal obligations, each of which all parties must carefully consider. A contract is the exchange of a set of obligations between two or more parties, and provides structures to manage issues.[24] For example, construction delays can be costly, so construction contracts set out clear expectations and clear paths to manage delays. Poorly drafted contracts can lead to confusion and costly disputes. At the start of a project, legal advisors seek to identify ambiguities and other potential sources of trouble in the contract structures, and to present options for preventing problems. During projects, they work to avoid and resolve conflicts that arise and processes such as negotiation and arbitration may take place.[25]",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Constructions** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Constructions NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Constructions+NCERT+explained+Hindi+English)\n- [Constructions class 10 one shot revision](https://www.youtube.com/results?search_query=Constructions+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Constructions animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Constructions+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Constructions, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Constructions · Video Learning Resources: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Constructions NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Constructions+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Constructions class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Constructions+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Constructions animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Constructions+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Constructions** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Constructions, not a textbook definition.\n2. **core ideas** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **definitions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **exam tips** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Common mistake** — Warn about the error students make most often in exams.\n6. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain core ideas in everyday language.\n- Draw or describe one diagram related to Constructions.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Constructions NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Constructions+NCERT+explained+Hindi+English)\n- 🔍 [Constructions class 10 one shot revision](https://www.youtube.com/results?search_query=Constructions+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Constructions animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Constructions+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Constructions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Constructions — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Constructions · Video Transcript Summary: explained in everyday language for Class 10 CBSE.",
         "speakMaterial": false
@@ -257,12 +306,12 @@
   ],
   "crawlMeta": {
     "articleCount": 3,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://cbseacademic.nic.in/",
       "https://cbseacademic.nic.in/?ref=w3use",
       "https://en.wikipedia.org/wiki/Construction"
     ],
-    "builtAt": "2026-06-23T20:10:47+00:00"
+    "builtAt": "2026-06-23T20:29:10+00:00"
   }
 }

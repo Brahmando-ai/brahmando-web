@@ -59,15 +59,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - A difference that is highly statistically significant can still be of no practical significance, but it is possible to properly formulate tests to account for this. One response involves going… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Statistics to real life — not just the textbook. I'll walk through everyday examples for Mean of grouped data, Median of grouped data, and Mode of grouped data: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Statistics, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Statistics — or if you prefer reading first. I'll walk through the lesson flow: Mean of grouped data, Median of grouped data, and Mode of grouped data, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -149,32 +149,28 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **process flowchart** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Statistics, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Statistics · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Mean of grouped data, Median of grouped data, and Mode of grouped data.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 196' width='100%' role='img'><rect width='420' height='196' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Statistics</text><circle cx='210' cy='98' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='102' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='132' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Mean of grouped data</text><line x1='210' y1='132' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Median of grouped data</text><line x1='210' y1='132' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Mode of grouped data</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 344 200' width='100%' role='img'><rect width='344' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='172' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Statistics — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Mean of groupe</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Median of grou</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Mode of groupe</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Statistics — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "flowchart",
+        "title": "Statistics — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
         "synthetic": true,
         "nodes": [
           {
             "id": "n0",
-            "label": "Mean of grouped data"
+            "label": "Mean = sum(fx) / sum(f)"
           },
           {
             "id": "n1",
-            "label": "Median of grouped data"
-          },
-          {
-            "id": "n2",
-            "label": "Mode of grouped data"
+            "label": "Median class formula"
           }
         ]
       }
@@ -276,31 +272,98 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- A difference that is highly statistically significant can still be of no practical significance, but it is possible to properly formulate tests to account for this. One response involves going beyond reporting only the significance level to include the p-value when reporting whether a hypothesis is rejected or accepted. The p-value, however, does not indicate the size or importance of the observed effect and can also seem to exaggerate the importance of minor differences in large studies. A better and increasingly common approach is to report confidence intervals. Although these are produced from the same calculations as those of hypothesis tests or p-values, they describe both the size of the effect and the uncertainty surrounding it.\n- Mathematical statistics is the application of mathematics to statistics. Mathematical techniques used for this include mathematical analysis, linear algebra, stochastic analysis, differential equations, and measure-theoretic probability theory.[1][7] All statistical analyses make use of at least some mathematics, and mathematical statistics can therefore be regarded as a fundamental component of general statistics.[8]\n- The modern field of statistics emerged in the late 19th and early 20th century in three stages.[47] The first wave, at the turn of the century, was led by the work of Francis Galton and Karl Pearson, who transformed statistics into a rigorous mathematical discipline used for analysis, not just in science, but in industry and politics as well. Galton's contributions included introducing the concepts of standard deviation, correlation, regression analysis and the application of these methods to the study of the variety of human characteristics—height, weight and eyelash length among others.[48] Pearson developed the Pearson product-moment correlation coefficient, defined as a product-moment,[49] the method of moments for the fitting of distributions to samples and the Pearson distribution, among many other things.[50] Galton and Pearson founded Biometrika as the first journal of mathematical statistics and biostatistics (then called biometry), and the latter founded the world's first university statistics department at University College London.[51]\n- Applied statistics, sometimes referred to as Statistical science,[68] comprises descriptive statistics and the application of inferential statistics.[69][70] Theoretical statistics concerns the logical arguments underlying justification of approaches to statistical inference, as well as encompassing mathematical statistics. Mathematical statistics includes not only the manipulation of probability distributions necessary for deriving results related to methods of estimation and inference, but also various aspects of computational statistics and the design of experiments.\n- In business, \"statistics\" is a widely used management- and decision support tool. It is particularly applied in financial management, marketing management, and production, services and operations management.[74][75] Statistics is also heavily used in management accounting and auditing. The discipline of Management Science formalizes the use of statistics, and other mathematics, in business. (Econometrics is the application of statistical methods to economic data in order to give empirical content to economic relationships.)",
+      "body": "_Everyday connections for **Statistics** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Mean of grouped data** — Look for **Mean of grouped data** in objects and processes around you — at home, in school labs, or in local industry.\n- **Median of grouped data** — Look for **Median of grouped data** in objects and processes around you — at home, in school labs, or in local industry.\n- **Mode of grouped data** — Look for **Mode of grouped data** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- An example of an observational study is one that explores the association between smoking and lung cancer. This type of study typically uses a survey to collect observations about the area of interest and then performs statistical analysis. In this case, the researchers would collect observations of both smokers and non-smokers, perhaps through a cohort study, and then look for the number of cases of lung cancer in each group.[21] A case-control study is another type of observational study in which people with and without the outcome of interest (e.g. lung cancer) are invited to participate and their exposure histories are collected.\n- Other categorizations have been proposed. For example, Mosteller and Tukey (1977)[22] distinguished grades, ranks, counted fractions, counts, amounts, and balances. Nelder (1990)[23] described continuous counts, continuous ratios, count ratios, and categorical modes of data. (See also: Chrisman (1998),[24] van den Berg (1991).[25])\n- Statistical inference is the process of using data analysis to deduce properties of an underlying probability distribution.[29] Inferential statistical analysis infers properties of a population, for example by testing hypotheses and deriving estimates. It is assumed that the observed data set is sampled from a larger population. Inferential statistics can be contrasted with descriptive statistics. Descriptive statistics is solely concerned with properties of the observed data, and it does not rest on the assumption that the data come from a larger population.[30]\n- Referring to statistical significance does not necessarily mean that the overall result is significant in real-world terms. For example, in a large study of a drug it may be shown that the drug has a statistically significant but very small beneficial effect, such that it is unlikely to help the patient noticeably.",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - A difference that is highly statistically significant can still be of no practical significance, but it is possible to properly formulate tests to account for this. One response involves going… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Statistics to real life — not just the textbook. I'll walk through everyday examples for Mean of grouped data, Median of grouped data, and Mode of grouped data: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Statistics · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Mean of grouped data, Median of grouped data, and Mode of grouped data.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Mean of grouped data",
+          "example": "Look for **Mean of grouped data** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Median of grouped data",
+          "example": "Look for **Median of grouped data** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Mode of grouped data",
+          "example": "Look for **Mode of grouped data** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Statistics",
+          "example": "An example of an observational study is one that explores the association between smoking and lung cancer. This type of study typically uses a survey to collect observations about the area of interest and then performs statistical analysis. In this case, the researchers would collect observations of both smokers and non-smokers, perhaps through a cohort study, and then look for the number of cases of lung cancer in each group.[21] A case-control study is another type of observational study in which people with and without the outcome of interest (e.g. lung cancer) are invited to participate and their exposure histories are collected.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-05",
+          "topic": "Statistics",
+          "example": "Other categorizations have been proposed. For example, Mosteller and Tukey (1977)[22] distinguished grades, ranks, counted fractions, counts, amounts, and balances. Nelder (1990)[23] described continuous counts, continuous ratios, count ratios, and categorical modes of data. (See also: Chrisman (1998),[24] van den Berg (1991).[25])",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Statistics",
+          "example": "Statistical inference is the process of using data analysis to deduce properties of an underlying probability distribution.[29] Inferential statistical analysis infers properties of a population, for example by testing hypotheses and deriving estimates. It is assumed that the observed data set is sampled from a larger population. Inferential statistics can be contrasted with descriptive statistics. Descriptive statistics is solely concerned with properties of the observed data, and it does not rest on the assumption that the data come from a larger population.[30]",
+          "source": "crawled"
+        },
+        {
+          "id": "app-07",
+          "topic": "Statistics",
+          "example": "Referring to statistical significance does not necessarily mean that the overall result is significant in real-world terms. For example, in a large study of a drug it may be shown that the drug has a statistically significant but very small beneficial effect, such that it is unlikely to help the patient noticeably.",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Statistics** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Statistics NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Statistics+NCERT+explained+Hindi+English)\n- [Statistics class 10 one shot revision](https://www.youtube.com/results?search_query=Statistics+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Statistics animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Statistics+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Statistics, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Statistics · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Mean of grouped data, Median of grouped data, and Mode of grouped data.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Statistics NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Statistics+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Statistics class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Statistics+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Statistics animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Statistics+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Statistics** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Statistics, not a textbook definition.\n2. **Mean of grouped data** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Median of grouped data** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Mode of grouped data** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Formulas** — Write Mean = sum(fx) / sum(f) on the board, explain each symbol, then solve one board-style numerical.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Mean of grouped data in everyday language.\n- Draw or describe one diagram related to Statistics.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Statistics NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Statistics+NCERT+explained+Hindi+English)\n- 🔍 [Statistics class 10 one shot revision](https://www.youtube.com/results?search_query=Statistics+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Statistics animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Statistics+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Statistics. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Statistics — or if you prefer reading first. I'll walk through the lesson flow: Mean of grouped data, Median of grouped data, and Mode of grouped data, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Statistics · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Mean of grouped data, Median of grouped data, and Mode of grouped data.",
         "speakMaterial": false
@@ -331,10 +394,10 @@
   ],
   "crawlMeta": {
     "articleCount": 1,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://en.wikipedia.org/wiki/Statistics"
     ],
-    "builtAt": "2026-06-23T20:10:48+00:00"
+    "builtAt": "2026-06-23T20:29:11+00:00"
   }
 }

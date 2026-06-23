@@ -57,15 +57,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Let's connect Metals and Non-Metals to real life — not just the textbook. I'll walk through everyday examples for Reactivity series, Ionic compounds, and Metallurgy: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Metals and Non-Metals, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Metals and Non-Metals — or if you prefer reading first. I'll walk through the lesson flow: Reactivity series, Ionic compounds, and Metallurgy, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -147,19 +147,19 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **comparison layout** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Metals and Non-Metals, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Metals and Non-Metals · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: Reactivity series, Ionic compounds, and Metallurgy.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Metals and Non-Metals</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>Reactivity series</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Ionic compounds</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Metallurgy</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Corrosion</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 200' width='100%' role='img'><rect width='420' height='200' rx='12' fill='#0f172a'/><text x='210' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Metals and Non-Metals — compare</text><rect x='50' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='120' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Reactivity series</text><text x='210' y='118' text-anchor='middle' fill='#94a3b8' font-size='14'>vs</text><rect x='230' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#a78bfa'/><text x='300' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Ionic compounds</text><text x='210' y='175' text-anchor='middle' fill='#94a3b8' font-size='9'>Also: Metallurgy, Corrosion</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Metals and Non-Metals — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "compare",
+        "title": "Metals and Non-Metals — comparison layout",
+        "caption": "Chapter-specific comparison layout from CBSE syllabus (diagram-v2).",
+        "layout": "compare",
         "synthetic": true,
         "nodes": [
           {
@@ -278,31 +278,104 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Everyday connections for **Metals and Non-Metals** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **Reactivity series** — Look for **Reactivity series** in objects and processes around you — at home, in school labs, or in local industry.\n- **Ionic compounds** — Look for **Ionic compounds** in objects and processes around you — at home, in school labs, or in local industry.\n- **Metallurgy** — Look for **Metallurgy** in objects and processes around you — at home, in school labs, or in local industry.\n- **Corrosion** — Look for **Corrosion** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- 'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react with oxygen—even though the equilibrium constant is very large—unless a flame initiates the radical reaction, which leads to an explosion.\n- Although it is commonplace to make statements that \"substance X is reactive,\" each substance reacts with its own set of reagents. For example, the statement that \"sodium metal is reactive\" suggests that sodium reacts with many common reagents (including pure oxygen, chlorine, hydrochloric acid, and water), either at room temperature or when using a Bunsen burner.\n- The concept of stability should not be confused with reactivity. For example, an isolated molecule of an electronically excited state of the oxygen molecule spontaneously emits light after a statistically defined period.[citation needed] The half-life of such a species is another manifestation of its stability, but its reactivity can only be ascertained via its reactions with other species.\n- To achieve one of these orders of stability, an atom reacts with another atom to stabilize both. For example, a lone hydrogen atom has a single electron in its 1s orbital. It becomes significantly more stable (as much as 100 kilocalories per mole, or 420 kilojoules per mole) when reacting to form H2.",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Let's connect Metals and Non-Metals to real life — not just the textbook. I'll walk through everyday examples for Reactivity series, Ionic compounds, and Metallurgy: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Metals and Non-Metals · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: Reactivity series, Ionic compounds, and Metallurgy.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Reactivity series",
+          "example": "Look for **Reactivity series** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Ionic compounds",
+          "example": "Look for **Ionic compounds** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Metallurgy",
+          "example": "Look for **Metallurgy** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Corrosion",
+          "example": "Look for **Corrosion** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-05",
+          "topic": "Metals and Non-Metals",
+          "example": "'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react with oxygen—even though the equilibrium constant is very large—unless a flame initiates the radical reaction, which leads to an explosion.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Metals and Non-Metals",
+          "example": "Although it is commonplace to make statements that \"substance X is reactive,\" each substance reacts with its own set of reagents. For example, the statement that \"sodium metal is reactive\" suggests that sodium reacts with many common reagents (including pure oxygen, chlorine, hydrochloric acid, and water), either at room temperature or when using a Bunsen burner.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-07",
+          "topic": "Metals and Non-Metals",
+          "example": "The concept of stability should not be confused with reactivity. For example, an isolated molecule of an electronically excited state of the oxygen molecule spontaneously emits light after a statistically defined period.[citation needed] The half-life of such a species is another manifestation of its stability, but its reactivity can only be ascertained via its reactions with other species.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-08",
+          "topic": "Metals and Non-Metals",
+          "example": "To achieve one of these orders of stability, an atom reacts with another atom to stabilize both. For example, a lone hydrogen atom has a single electron in its 1s orbital. It becomes significantly more stable (as much as 100 kilocalories per mole, or 420 kilojoules per mole) when reacting to form H2.",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Metals and Non-Metals** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Metals and Non-Metals NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Metals+and+Non-Metals+NCERT+explained+Hindi+English)\n- [Metals and Non-Metals class 10 one shot revision](https://www.youtube.com/results?search_query=Metals+and+Non-Metals+class+10+one+shot+revision)\n- [NCERT Science class 10 Metals and Non-Metals animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Metals+and+Non-Metals+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Metals and Non-Metals, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Metals and Non-Metals · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: Reactivity series, Ionic compounds, and Metallurgy.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Metals and Non-Metals NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Metals+and+Non-Metals+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Metals and Non-Metals class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Metals+and+Non-Metals+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Metals and Non-Metals animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Metals+and+Non-Metals+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Metals and Non-Metals** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Metals and Non-Metals, not a textbook definition.\n2. **Reactivity series** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Ionic compounds** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Metallurgy** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Corrosion** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Reactivity series in everyday language.\n- Draw or describe one diagram related to Metals and Non-Metals.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Metals and Non-Metals NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Metals+and+Non-Metals+NCERT+explained+Hindi+English)\n- 🔍 [Metals and Non-Metals class 10 one shot revision](https://www.youtube.com/results?search_query=Metals+and+Non-Metals+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Metals and Non-Metals animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Metals+and+Non-Metals+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Metals and Non-Metals — or if you prefer reading first. I'll walk through the lesson flow: Reactivity series, Ionic compounds, and Metallurgy, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Metals and Non-Metals · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: Reactivity series, Ionic compounds, and Metallurgy.",
         "speakMaterial": false
@@ -333,10 +406,10 @@
   ],
   "crawlMeta": {
     "articleCount": 1,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://en.m.wikipedia.org/wiki/Reactivity_(chemistry)"
     ],
-    "builtAt": "2026-06-23T20:10:41+00:00"
+    "builtAt": "2026-06-23T20:29:04+00:00"
   }
 }

@@ -60,15 +60,15 @@
       },
       {
         "sectionId": "real-world-applications",
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater… I'll translate that into simpler language as we go."
+        "teleprompter": "Let's connect Acids, Bases and Salts to real life — not just the textbook. I'll walk through everyday examples for pH scale, Neutralization, and Common acids and bases: kitchen, lab, transport, or things you see in your neighbourhood."
       },
       {
         "sectionId": "video-learning-resources",
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "Before you press play on any video about Acids, Bases and Salts, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
       },
       {
         "sectionId": "video-transcript-summary",
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+        "teleprompter": "This is your recap if you watched a video on Acids, Bases and Salts — or if you prefer reading first. I'll walk through the lesson flow: pH scale, Neutralization, and Common acids and bases, one common mistake, and what you should be able to explain without notes afterward."
       },
       {
         "sectionId": "teacher-explanation-module",
@@ -150,36 +150,28 @@
     {
       "id": "diagram-section",
       "title": "7. Diagram Section",
-      "body": "Study the concept map and any figures below. Labels match CBSE syllabus topics.",
+      "body": "Study the **process flowchart** and any figures below.",
       "teacherNarration": {
         "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Acids, Bases and Salts, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
         "style": "teacher-visual",
         "simplifiedSummary": "Acids, Bases and Salts · Diagram Section: explained in everyday language for Class 10 CBSE. Focus: pH scale, Neutralization, and Common acids and bases.",
         "speakMaterial": false
       },
-      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 248' width='100%' role='img'><rect width='420' height='248' rx='12' fill='#0f172a'/><text x='210' y='28' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Acids, Bases and Salts</text><circle cx='210' cy='124' r='34' fill='#1e3a5f' stroke='#38bdf8' stroke-width='2'/><text x='210' y='128' text-anchor='middle' fill='#e2e8f0' font-size='10'>Core</text><line x1='210' y1='158' x2='210' y2='42' stroke='#475569' stroke-width='1.5'/><rect x='60' y='34' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='52' text-anchor='middle' fill='#cbd5e1' font-size='11'>pH scale</text><line x1='210' y1='158' x2='210' y2='90' stroke='#475569' stroke-width='1.5'/><rect x='60' y='82' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='100' text-anchor='middle' fill='#cbd5e1' font-size='11'>Neutralization</text><line x1='210' y1='158' x2='210' y2='138' stroke='#475569' stroke-width='1.5'/><rect x='60' y='130' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='148' text-anchor='middle' fill='#cbd5e1' font-size='11'>Common acids and bases</text><line x1='210' y1='158' x2='210' y2='186' stroke='#475569' stroke-width='1.5'/><rect x='60' y='178' width='300' height='28' rx='6' fill='#1e293b' stroke='#64748b'/><text x='210' y='196' text-anchor='middle' fill='#cbd5e1' font-size='11'>Salts and their uses</text></svg>",
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Acids, Bases and Salts — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>pH scale</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Neutralization</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Common acids a</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Salts and thei</text></svg>",
       "diagram": {
-        "type": "concept-map",
-        "title": "Acids, Bases and Salts — concept map",
-        "caption": "Auto-generated concept map from CBSE syllabus topics (Phase-II diagram-v2).",
-        "layout": "tree",
+        "type": "flowchart",
+        "title": "Acids, Bases and Salts — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
         "synthetic": true,
         "nodes": [
           {
             "id": "n0",
-            "label": "pH scale"
+            "label": "pH = -log[H+]"
           },
           {
             "id": "n1",
-            "label": "Neutralization"
-          },
-          {
-            "id": "n2",
-            "label": "Common acids and bases"
-          },
-          {
-            "id": "n3",
-            "label": "Salts and their uses"
+            "label": "Acid + Base -> Salt + Water"
           }
         ]
       }
@@ -308,31 +300,104 @@
     {
       "id": "real-world-applications",
       "title": "9. Real World Applications",
-      "body": "**Applications mentioned:**\n\n- The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater pH scales differ in their pH values up to 0.10, differences that are much larger than the accuracy of pH measurements typically required, in particular, in relation to the ocean's carbonate system.[31] Since it omits consideration of sulfate and fluoride ions, the free scale is significantly different from both the total and seawater scales. Because of the relative unimportance of the fluoride ion, the total and seawater scales differ only very slightly.\n- However, the advantage of considering this additional complexity is dependent upon the abundance of fluoride in the medium. In seawater, for instance, sulfate ions occur at much greater concentrations (> 400 times) than those of fluoride. As a consequence, for most practical purposes, the difference between the total and seawater scales is very small.",
+      "body": "_Everyday connections for **Acids, Bases and Salts** — CBSE expects you to link concepts to real life._\n\n**Syllabus-linked applications:**\n\n- **pH scale** — Soil pH for crops, antacids for acidity, and swimming-pool water testing kits.\n- **Neutralization** — Treating bee stings (acidic) with baking soda or indigestion with antacid tablets.\n- **Common acids and bases** — Look for **Common acids and bases** in objects and processes around you — at home, in school labs, or in local industry.\n- **Salts and their uses** — Look for **Salts and their uses** in objects and processes around you — at home, in school labs, or in local industry.\n\n**From crawled sources:**\n\n- As an example, for a solution with a hydrogen ion activity of ×10−6, the pH of the solution can be calculated as follows:\n- pH is an example of an acidity function, but others can be defined. For example, the Hammett acidity function, H0, has been developed in connection with Superacids.\n- The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater pH scales differ in their pH values up to 0.10, differences that are much larger than the accuracy of pH measurements typically required, in particular, in relation to the ocean's carbonate system.[31] Since it omits consideration of sulfate and fluoride ions, the free scale is significantly different from both the total and seawater scales. Because of the relative unimportance of the fluoride ion, the total and seawater scales differ only very slightly.\n- However, the advantage of considering this additional complexity is dependent upon the abundance of fluoride in the medium. In seawater, for instance, sulfate ions occur at much greater concentrations (> 400 times) than those of fluoride. As a consequence, for most practical purposes, the difference between the total and seawater scales is very small.",
       "teacherNarration": {
-        "teleprompter": "In this part — real world applications — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep. One idea from the notes: Applications mentioned: - The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater… I'll translate that into simpler language as we go.",
+        "teleprompter": "Let's connect Acids, Bases and Salts to real life — not just the textbook. I'll walk through everyday examples for pH scale, Neutralization, and Common acids and bases: kitchen, lab, transport, or things you see in your neighbourhood.",
         "style": "teacher-everyday",
         "simplifiedSummary": "Acids, Bases and Salts · Real World Applications: explained in everyday language for Class 10 CBSE. Focus: pH scale, Neutralization, and Common acids and bases.",
         "speakMaterial": false
-      }
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "pH scale",
+          "example": "Soil pH for crops, antacids for acidity, and swimming-pool water testing kits.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-02",
+          "topic": "Neutralization",
+          "example": "Treating bee stings (acidic) with baking soda or indigestion with antacid tablets.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-03",
+          "topic": "Common acids and bases",
+          "example": "Look for **Common acids and bases** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-04",
+          "topic": "Salts and their uses",
+          "example": "Look for **Salts and their uses** in objects and processes around you — at home, in school labs, or in local industry.",
+          "source": "syllabus-generated"
+        },
+        {
+          "id": "app-05",
+          "topic": "Acids, Bases and Salts",
+          "example": "As an example, for a solution with a hydrogen ion activity of ×10−6, the pH of the solution can be calculated as follows:",
+          "source": "crawled"
+        },
+        {
+          "id": "app-06",
+          "topic": "Acids, Bases and Salts",
+          "example": "pH is an example of an acidity function, but others can be defined. For example, the Hammett acidity function, H0, has been developed in connection with Superacids.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-07",
+          "topic": "Acids, Bases and Salts",
+          "example": "The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater pH scales differ in their pH values up to 0.10, differences that are much larger than the accuracy of pH measurements typically required, in particular, in relation to the ocean's carbonate system.[31] Since it omits consideration of sulfate and fluoride ions, the free scale is significantly different from both the total and seawater scales. Because of the relative unimportance of the fluoride ion, the total and seawater scales differ only very slightly.",
+          "source": "crawled"
+        },
+        {
+          "id": "app-08",
+          "topic": "Acids, Bases and Salts",
+          "example": "However, the advantage of considering this additional complexity is dependent upon the abundance of fluoride in the medium. In seawater, for instance, sulfate ions occur at much greater concentrations (> 400 times) than those of fluoride. As a consequence, for most practical purposes, the difference between the total and seawater scales is very small.",
+          "source": "crawled"
+        }
+      ]
     },
     {
       "id": "video-learning-resources",
       "title": "10. Video Learning Resources",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Recommended video learning for **Acids, Bases and Salts** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**YouTube search playlists (curated queries):**\n\n- [CBSE class 10 Acids, Bases and Salts NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Acids%2C+Bases+and+Salts+NCERT+explained+Hindi+English)\n- [Acids, Bases and Salts class 10 one shot revision](https://www.youtube.com/results?search_query=Acids%2C+Bases+and+Salts+class+10+one+shot+revision)\n- [NCERT Science class 10 Acids, Bases and Salts animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Acids%2C+Bases+and+Salts+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video learning resources — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "Before you press play on any video about Acids, Bases and Salts, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
         "style": "teacher-video",
         "simplifiedSummary": "Acids, Bases and Salts · Video Learning Resources: explained in everyday language for Class 10 CBSE. Focus: pH scale, Neutralization, and Common acids and bases.",
         "speakMaterial": false
-      }
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Acids, Bases and Salts NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Acids%2C+Bases+and+Salts+NCERT+explained+Hindi+English",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-02",
+          "title": "Acids, Bases and Salts class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Acids%2C+Bases+and+Salts+class+10+one+shot+revision",
+          "kind": "search",
+          "source": "curated"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Acids, Bases and Salts animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Acids%2C+Bases+and+Salts+animation",
+          "kind": "search",
+          "source": "curated"
+        }
+      ]
     },
     {
       "id": "video-transcript-summary",
       "title": "11. Video Transcript Summary",
-      "body": "_No crawled excerpts matched this section yet._",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Acids, Bases and Salts** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Acids, Bases and Salts, not a textbook definition.\n2. **pH scale** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Neutralization** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Common acids and bases** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Salts and their uses** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Formulas** — Write pH = -log[H+] on the board, explain each symbol, then solve one board-style numerical.\n7. **Common mistake** — Warn about the error students make most often in exams.\n8. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain pH scale in everyday language.\n- Draw or describe one diagram related to Acids, Bases and Salts.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Acids, Bases and Salts NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Acids%2C+Bases+and+Salts+NCERT+explained+Hindi+English)\n- 🔍 [Acids, Bases and Salts class 10 one shot revision](https://www.youtube.com/results?search_query=Acids%2C+Bases+and+Salts+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Acids, Bases and Salts animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Acids%2C+Bases+and+Salts+animation)",
       "teacherNarration": {
-        "teleprompter": "In this part — video transcript summary — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "teleprompter": "This is your recap if you watched a video on Acids, Bases and Salts — or if you prefer reading first. I'll walk through the lesson flow: pH scale, Neutralization, and Common acids and bases, one common mistake, and what you should be able to explain without notes afterward.",
         "style": "teacher-recap",
         "simplifiedSummary": "Acids, Bases and Salts · Video Transcript Summary: explained in everyday language for Class 10 CBSE. Focus: pH scale, Neutralization, and Common acids and bases.",
         "speakMaterial": false
@@ -363,10 +428,10 @@
   ],
   "crawlMeta": {
     "articleCount": 1,
-    "videoCount": 0,
+    "videoCount": 3,
     "sourceUrls": [
       "https://en.m.wikipedia.org/wiki/PH"
     ],
-    "builtAt": "2026-06-23T20:10:41+00:00"
+    "builtAt": "2026-06-23T20:29:04+00:00"
   }
 }
