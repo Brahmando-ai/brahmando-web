@@ -1,12 +1,11 @@
 import { AbhyasTestingPageContent } from "@/components/education/AbhyasTestingPageContent";
 
 export const metadata = {
-  title: "Abhyas · CBSE Class 10 Practice | Brahmando",
+  title: "Abhyas Testing · CBSE Class 10 | Brahmando",
   description:
     "Official CBSE Class 10 Science and Mathematics practice, mock exams, and answer-pack export — powered by Abhyas.",
 };
 
-/** Legacy URL — same UI as /education/testing */
-export default function EducationAbhyasPage() {
+export default function EducationTestingPage() {
   return <AbhyasTestingPageContent />;
 }

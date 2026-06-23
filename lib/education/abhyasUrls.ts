@@ -2,14 +2,15 @@
 
 const EDUCATION_API = "https://api.brahmando.com/education";
 
-/** Full testing UI (embed mode, PDF, 1–40 count) — live on GitHub Pages. */
-export const ABHYAS_TESTING_BASE = "https://yogabrata.com/testing/";
+/** First-party static client on brahmando.com (same-origin iframe — reliable). */
+export const ABHYAS_TESTING_BASE = "https://brahmando.com/abhyas-testing/";
 
-/** API-hosted clients (always on production). */
+/** Yogabrata mirror (partner / legacy). */
+export const ABHYAS_YOGABRATA_BASE = "https://yogabrata.com/testing/";
+
+/** API-hosted clients. */
 export const ABHYAS_API_PRACTICE = `${EDUCATION_API}/abhyas/client/practice-test.html`;
-export const ABHYAS_API_OFFICIAL = `${EDUCATION_API}/abhyas/client/official-practice-embed.html`;
 
-/** Demo token for public embed (Phase-1 test accounts). */
 export const ABHYAS_DEMO_TOKEN = "abhyas-test-token-sangati-2026";
 
 export function abhyasTestingEmbedUrl(params?: {

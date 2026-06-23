@@ -15,7 +15,7 @@ const modules = [
     summary: "AI exam practice and grading for Indian schools (CBSE/ICSE).",
     endpoints: ["POST /exams/generate", "POST /exams/grade"],
     sample: "Generate 5 medium MCQs on photosynthesis for Class 10 CBSE",
-    cta: { label: "Open Abhyas practice UI", href: "/education/abhyas" },
+    cta: { label: "Open Abhyas practice UI", href: "/education/testing" },
   },
   {
     id: "scholarships",
@@ -59,7 +59,7 @@ export default function EducationPage() {
             Full practice and mock-exam UI — official CBSE-X questions, answer-pack JSON, and PDF export with student
             diagrams and uploads.
           </p>
-          <Link href="/education/abhyas" className="btn-primary mt-5 inline-flex items-center gap-2 text-sm">
+          <Link href="/education/testing" className="btn-primary mt-5 inline-flex items-center gap-2 text-sm">
             Open Abhyas practice
             <ArrowRight size={14} />
           </Link>
