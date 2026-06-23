@@ -26,7 +26,6 @@ export const TEACHER_VOICE_PRESETS: TeacherVoicePreset[] = [
 
 /** Keep references so Chrome does not garbage-collect utterances mid-playback. */
 let activeUtterance: SpeechSynthesisUtterance | null = null;
-let speakTimer: ReturnType<typeof setTimeout> | null = null;
 
 export function resolveVoicePreset(id: string | undefined): TeacherVoicePreset {
   return TEACHER_VOICE_PRESETS.find((p) => p.id === id) ?? TEACHER_VOICE_PRESETS[0];
@@ -67,12 +66,13 @@ export function pickSpeechVoice(preset: TeacherVoicePreset): SpeechSynthesisVoic
 
 export function stopTeacherSpeech(): void {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
-  if (speakTimer) {
-    clearTimeout(speakTimer);
-    speakTimer = null;
-  }
   window.speechSynthesis.cancel();
   activeUtterance = null;
+}
+
+function isBenignSpeechError(error: SpeechSynthesisErrorEvent): boolean {
+  const code = String(error.error);
+  return code === "interrupted" || code === "canceled";
 }
 
 export function speakTeacherScript(
@@ -86,8 +86,11 @@ export function speakTeacherScript(
   if (!trimmed) return false;
 
   const synth = window.speechSynthesis;
-  stopTeacherSpeech();
   preloadSpeechVoices();
+
+  if (synth.speaking || synth.pending) {
+    synth.cancel();
+  }
 
   const utterance = new SpeechSynthesisUtterance(trimmed);
   activeUtterance = utterance;
@@ -102,17 +105,15 @@ export function speakTeacherScript(
     activeUtterance = null;
     handlers?.onEnd?.();
   };
-  utterance.onerror = () => {
+  utterance.onerror = (event) => {
     activeUtterance = null;
-    handlers?.onError?.();
+    if (!isBenignSpeechError(event)) handlers?.onError?.();
+    else handlers?.onEnd?.();
   };
 
-  // Chrome/Edge: speak() right after cancel() is ignored — brief delay + resume fixes it.
+  // Must run synchronously in the click handler — async delay breaks Chrome user-gesture policy.
   synth.resume();
-  speakTimer = setTimeout(() => {
-    speakTimer = null;
-    synth.speak(utterance);
-  }, 80);
+  synth.speak(utterance);
 
   return true;
 }
