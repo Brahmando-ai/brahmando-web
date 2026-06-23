@@ -97,6 +97,18 @@ export default function EducationPage() {
           </Link>
         </div>
 
+        <div className="mb-12 rounded-2xl border border-amber-300/25 bg-amber-400/5 p-6 sm:p-8">
+          <h2 className="font-semibold text-amber-100">Review material board</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-300">
+            Educators review CBSE Class 10 chapter content — visuals, audio narration, observations, and triage
+            feedback before publication.
+          </p>
+          <Link href="/education/review-material" className="btn-secondary mt-5 inline-flex items-center gap-2 text-sm">
+            Open review board
+            <ArrowRight size={14} />
+          </Link>
+        </div>
+
         <div className="mb-12 rounded-2xl border border-emerald-300/25 bg-emerald-400/5 p-6">
           <h2 className="font-semibold text-emerald-100">Unified entrypoint</h2>
           <p className="mt-2 text-sm text-slate-300">
