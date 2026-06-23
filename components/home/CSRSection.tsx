@@ -13,7 +13,7 @@ const programs = [
     icon: BookOpen,
     title: "Abhyas Coach",
     body: "AI exam practice and grading for CBSE/ICSE — aligned with JSI Abhyas A.I Exam Portal for Indian schools.",
-    href: "/education#abhyas",
+    href: "/education/abhyas",
   },
   {
     icon: Sparkles,

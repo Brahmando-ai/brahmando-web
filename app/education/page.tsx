@@ -15,6 +15,7 @@ const modules = [
     summary: "AI exam practice and grading for Indian schools (CBSE/ICSE).",
     endpoints: ["POST /exams/generate", "POST /exams/grade"],
     sample: "Generate 5 medium MCQs on photosynthesis for Class 10 CBSE",
+    cta: { label: "Open Abhyas practice UI", href: "/education/abhyas" },
   },
   {
     id: "scholarships",
@@ -50,6 +51,18 @@ export default function EducationPage() {
             Brahmando&apos;s flagship CSR education offering. Unified access with auto-routing chat and five modules —
             including the FAFSA Agent for U.S. federal student aid coaching.
           </p>
+        </div>
+
+        <div className="mb-12 rounded-2xl border border-teal-300/25 bg-teal-400/5 p-6 sm:p-8">
+          <h2 className="font-semibold text-teal-100">Abhyas · CBSE Class 10</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-300">
+            Full practice and mock-exam UI — official CBSE-X questions, answer-pack JSON, and PDF export with student
+            diagrams and uploads.
+          </p>
+          <Link href="/education/abhyas" className="btn-primary mt-5 inline-flex items-center gap-2 text-sm">
+            Open Abhyas practice
+            <ArrowRight size={14} />
+          </Link>
         </div>
 
         <div className="mb-12 rounded-2xl border border-cyan-300/30 bg-cyan-400/5 p-6 sm:p-8">
@@ -102,6 +115,12 @@ export default function EducationPage() {
               <p className="mt-3 text-sm text-slate-400">
                 <span className="text-slate-500">Example: </span>&ldquo;{m.sample}&rdquo;
               </p>
+              {"cta" in m && m.cta && (
+                <Link href={m.cta.href} className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-emerald-200 hover:underline">
+                  {m.cta.label}
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              )}
             </article>
           ))}
         </div>
