@@ -1,0 +1,138 @@
+apiVersion: education.brahmando.com/v1
+kind: SkuManifest
+
+metadata:
+  id: cbse10-core
+  displayName: CBSE 10 Core
+  status: published
+  owner: yogabrata
+  description: Science + Mathematics — Class 10 CBSE board preparation
+
+exam:
+  providers: [CBSE, NCERT]
+  board: CBSE
+  grade: "10"
+  session: 2026-27
+  locale: in
+  currency: INR
+
+domains:
+  - id: science
+    label: Science
+    code: "086"
+    icon: "🧪"
+  - id: mathematics
+    label: Mathematics
+    code: "041"
+    icon: "📐"
+
+questionTypes:
+  - MCQ
+  - short-answer
+  - long-answer
+  - case-study
+  - diagram
+
+curriculum:
+  version: v1
+  effectiveDate: 2026-04-01
+  taxonomy:
+    source: python-export
+    module: modules.cbse10.chapters.curriculum_export
+    file: taxonomy/cbse10-core-v1.json
+  previousVersions: []
+
+questionBank:
+  version: v1
+  effectiveDate: 2026-04-01
+  minVerifiedForPublish: 200
+  attributes:
+    - id
+    - subject
+    - chapter
+    - questionType
+    - difficulty
+    - sourceChain
+    - curriculumVersion
+    - diagram
+
+crawler:
+  officialSources:
+    - url: https://cbseacademic.nic.in/curriculum_2027.html
+      authority: 100
+      label: CBSE Curriculum Index
+    - url: https://ncert.nic.in/
+      authority: 100
+      label: NCERT
+  youtubeChannels:
+    - name: Khan Academy
+      authority: 95
+  allowedDomains:
+    - cbseacademic.nic.in
+    - ncert.nic.in
+    - khanacademy.org
+  minAuthorityScore: 80
+  schedule: "0 3 * * *"
+
+knowledge:
+  collection: cbse10_kb
+  knowledgeObjectSchema: v1
+  dedupThreshold: 0.92
+  reviewRequired: true
+
+coverage:
+  enabled: true
+  minSkillCoveragePercent: 75
+  reportPath: coverage/cbse10-core/coverage-report.json
+
+diagramPolicy:
+  mode: vector_only
+  types:
+    - experimental-setup
+    - geometry
+    - graph
+    - concept-map
+
+features:
+  studyRoom: true
+  forum: true
+  mockTests: true
+  teacherAudio: true
+  materialNarration: true
+  sahadevaAssistant: true
+
+videoPolicy:
+  embedAllowed:
+    - youtube.com
+    - youtube-nocookie.com
+  maxPerChapter: 5
+  requireTranscript: true
+
+practice:
+  modes:
+    - id: chapter-quiz
+      count: 5
+      timed: false
+    - id: board-mock
+      timed: true
+      subjects: [science, mathematics]
+  scoring: official-keys-only
+
+api:
+  edgePath: /education/cbse10
+  abhyasBase: /education/abhyas/v2
+  educationBase: /education
+  scopes:
+    - cbse10_saas
+
+portal:
+  hubTemplate: education-shell
+  legacyHubPath: /portal/education/cbse10/index.html
+  exportDir: portal/data/
+  rosterPath: /portal/data/academy-bots.json
+
+outputs:
+  - curriculum.json
+  - portal-sku-config.json
+  - crawler-seeds.yaml
+  - coverage-report.json
