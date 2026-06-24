@@ -32,11 +32,12 @@ export function skuBuildListUrl(skuId?: string): string {
   return skuId ? `${base}?sku=${encodeURIComponent(skuId)}` : base;
 }
 
-/** Static manifest index baked into GitHub Pages export at build time. */
-export const STATIC_MANIFEST_INDEX = "/admin/manifests/index.json";
-
-export function staticManifestYamlUrl(skuId: string): string {
-  return `/admin/manifests/${encodeURIComponent(skuId)}.yaml`;
+/** Verify admin token against education API (403 = invalid). */
+export async function validateAdminKey(adminKey: string): Promise<boolean> {
+  const res = await fetch(`${EDUCATION_API_BASE}/admin/practice/stats`, {
+    headers: educationAdminHeaders(adminKey),
+  });
+  return res.ok;
 }
 
 export type BuildStep = {

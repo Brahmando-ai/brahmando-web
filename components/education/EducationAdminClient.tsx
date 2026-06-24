@@ -4,12 +4,12 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   EDUCATION_API_BASE,
-  STATIC_MANIFEST_INDEX,
   type BuildSnapshot,
   educationAdminHeaders,
   skuBuildStatusUrl,
   skuBuildUrl,
-  staticManifestYamlUrl,
+  skuManifestUrl,
+  skuManifestsUrl,
 } from "@/lib/education/educationApi";
 
 type SkuSummary = { id: string; displayName: string; status: string };
@@ -23,7 +23,6 @@ type ReviewItem = {
   status: string;
 };
 
-const ADMIN_KEY_STORAGE = "brahmando_admin_key";
 const POLL_MS = 800;
 
 const STEP_ICON: Record<string, string> = {
@@ -34,7 +33,11 @@ const STEP_ICON: Record<string, string> = {
   skipped: "—",
 };
 
-export function EducationAdminClient() {
+type Props = {
+  adminKey: string;
+};
+
+export function EducationAdminClient({ adminKey }: Props) {
   const [tab, setTab] = useState<"studio" | "review">("studio");
   const [adminKey, setAdminKey] = useState("");
   const [skus, setSkus] = useState<SkuSummary[]>([]);
@@ -66,21 +69,13 @@ export function EducationAdminClient() {
     },
   ]);
 
-  useEffect(() => {
-    const saved = sessionStorage.getItem(ADMIN_KEY_STORAGE);
-    if (saved) setAdminKey(saved);
-  }, []);
-
-  useEffect(() => {
-    if (adminKey) sessionStorage.setItem(ADMIN_KEY_STORAGE, adminKey);
-  }, [adminKey]);
-
   const loadSkus = useCallback(async () => {
     setLoading(true);
     setMessage("");
     try {
-      const res = await fetch(STATIC_MANIFEST_INDEX);
-      if (!res.ok) throw new Error("Manifest index not found — run npm run prebuild");
+      const res = await fetch(skuManifestsUrl(), { headers: educationAdminHeaders(adminKey) });
+      if (res.status === 403) throw new Error("Session expired — sign in again.");
+      if (!res.ok) throw new Error(`Could not load manifests (HTTP ${res.status})`);
       const data = await res.json();
       const list: SkuSummary[] = data.skus || [];
       setSkus(list);
@@ -90,21 +85,23 @@ export function EducationAdminClient() {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [adminKey]);
 
   const loadManifest = useCallback(async (id: string) => {
     setLoading(true);
     setMessage("");
     try {
-      const res = await fetch(staticManifestYamlUrl(id));
-      if (!res.ok) throw new Error(`Manifest ${id} not found`);
-      setYaml(await res.text());
+      const res = await fetch(skuManifestUrl(id), { headers: educationAdminHeaders(adminKey) });
+      if (res.status === 403) throw new Error("Session expired — sign in again.");
+      if (!res.ok) throw new Error(`Manifest ${id} not found (HTTP ${res.status})`);
+      const data = await res.json();
+      setYaml(data.yaml || "");
     } catch (e) {
       setMessage(String(e));
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [adminKey]);
 
   useEffect(() => {
     void loadSkus();
@@ -163,10 +160,6 @@ export function EducationAdminClient() {
 
   async function startBuild() {
     if (!selected) return;
-    if (!adminKey) {
-      setMessage("Paste your EDUCATION_ADMIN_KEY above to start a build on the API server.");
-      return;
-    }
     setBuilding(true);
     setMessage("");
     setBuild(null);
@@ -205,7 +198,7 @@ export function EducationAdminClient() {
           <li className="rounded-lg bg-slate-900/50 p-3">
             <span className="font-medium text-emerald-300">1. View manifest</span>
             <p className="mt-1 text-xs text-slate-400">
-              Left: pick a SKU. Center: read-only YAML shipped with this site (source of truth is{" "}
+              Left: pick a SKU. Center: YAML loaded from the API using your verified token (source of truth:{" "}
               <code className="text-cyan-300/80">config/sku/*.yaml</code> in the Brahmando repo).
             </p>
           </li>
@@ -225,22 +218,6 @@ export function EducationAdminClient() {
           </li>
         </ol>
       </section>
-
-      <div className="mb-6 rounded-xl border border-slate-700/60 bg-slate-900/50 p-4">
-        <label className="block text-xs font-medium uppercase tracking-wide text-slate-500">
-          EDUCATION_ADMIN_KEY
-        </label>
-        <input
-          type="password"
-          value={adminKey}
-          onChange={(e) => setAdminKey(e.target.value)}
-          placeholder="Same secret as GitHub → Brahmando → Settings → Secrets → EDUCATION_ADMIN_KEY"
-          className="mt-2 w-full max-w-lg rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-200"
-        />
-        <p className="mt-2 text-xs text-slate-500">
-          Stored in this browser tab only. Required to start builds — never sent to GitHub Pages static files.
-        </p>
-      </div>
 
       <div className="mb-6 flex gap-2 border-b border-slate-700/50 pb-2">
         <button
@@ -292,7 +269,7 @@ export function EducationAdminClient() {
                 <h2 className="font-medium text-slate-200">{selected || "Select a SKU"}</h2>
                 <button
                   type="button"
-                  disabled={!selected || building || !adminKey}
+                  disabled={!selected || building}
                   onClick={() => void startBuild()}
                   className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-500 disabled:opacity-40"
                 >
@@ -300,7 +277,7 @@ export function EducationAdminClient() {
                 </button>
               </div>
               <p className="mb-3 text-xs text-slate-500">
-                Manifest YAML (read-only on this site). Edit in repo, rebuild site to refresh view.
+                Manifest YAML from API (read-only). Edit in Brahmando repo, redeploy education-portal to refresh.
               </p>
               <textarea
                 readOnly
