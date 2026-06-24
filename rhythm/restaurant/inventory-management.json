@@ -1,0 +1,89 @@
+{
+  "name": "Brahmexa-Restaurant-InventoryManagement",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "restaurant"}],
+  "nodes": [
+    {
+      "id": "rest-im-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-im-0002-4000-8000-000000000000",
+      "name": "Check Stock Level",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-im-0003-4000-8000-000000000000",
+      "name": "Stock Below Threshold?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json.payload.current_stock}}",
+              "operation": "smaller",
+              "value2": "={{$json.payload.threshold || 10}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rest-im-0004-4000-8000-000000000000",
+      "name": "Create Reorder Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 200],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.SUPPLIER_SERVICE_URL}}/reorder",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"item\": \"{{$json.payload.item}}\", \"quantity\": {{$json.payload.reorder_qty || 50}}, \"event_id\": \"{{$json.event_id}}\"}"
+      }
+    },
+    {
+      "id": "rest-im-0005-4000-8000-000000000000",
+      "name": "Notify Manager",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "rest-im-0006-4000-8000-000000000000",
+      "name": "Stock OK - No Action",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Check Stock Level", "type": "main", "index": 0}]]
+    },
+    "Check Stock Level": {
+      "main": [[{"node": "Stock Below Threshold?", "type": "main", "index": 0}]]
+    },
+    "Stock Below Threshold?": {
+      "main": [
+        [{"node": "Create Reorder Request", "type": "main", "index": 0}],
+        [{"node": "Stock OK - No Action", "type": "main", "index": 0}]
+      ]
+    },
+    "Create Reorder Request": {
+      "main": [[{"node": "Notify Manager", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

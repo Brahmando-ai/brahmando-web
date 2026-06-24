@@ -1,0 +1,76 @@
+{
+  "name": "Brahmexa-Retail-OrderProcessing",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "retail"}],
+  "nodes": [
+    {
+      "id": "retl-op-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-op-0002-4000-8000-000000000000",
+      "name": "Validate Order",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nif (!payload.order_id || !payload.customer_id) {\n  throw new Error('Retail order requires order_id and customer_id');\n}\nreturn [{\n  json: {\n    ...items[0].json,\n    order_id: payload.order_id,\n    customer_id: payload.customer_id,\n    items: payload.items || [],\n    validated_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "retl-op-0003-4000-8000-000000000000",
+      "name": "Check Inventory",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [680, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.INVENTORY_SERVICE_URL}}/check",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"items\": {{$json.items}}}"
+      }
+    },
+    {
+      "id": "retl-op-0004-4000-8000-000000000000",
+      "name": "Reserve Stock",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-op-0005-4000-8000-000000000000",
+      "name": "Confirm Order",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1120, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.NOTIFICATION_SERVICE_URL}}/send",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"to\": \"{{$json.payload.customer_email}}\", \"message\": \"Order {{$json.order_id}} confirmed!\", \"channel\": \"email\"}"
+      }
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Validate Order", "type": "main", "index": 0}]]
+    },
+    "Validate Order": {
+      "main": [[{"node": "Check Inventory", "type": "main", "index": 0}]]
+    },
+    "Check Inventory": {
+      "main": [[{"node": "Reserve Stock", "type": "main", "index": 0}]]
+    },
+    "Reserve Stock": {
+      "main": [[{"node": "Confirm Order", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

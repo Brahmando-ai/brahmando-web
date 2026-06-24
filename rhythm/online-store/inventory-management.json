@@ -1,0 +1,89 @@
+{
+  "name": "Brahmexa-Retail-InventoryManagement",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "retail"}],
+  "nodes": [
+    {
+      "id": "retl-im-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-im-0002-4000-8000-000000000000",
+      "name": "Check Stock",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-im-0003-4000-8000-000000000000",
+      "name": "Stock Low?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json.payload.current_stock}}",
+              "operation": "smaller",
+              "value2": "={{$json.payload.reorder_point || 15}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "retl-im-0004-4000-8000-000000000000",
+      "name": "Trigger Reorder",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 200],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.INVENTORY_SERVICE_URL}}/reorder",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"sku\": \"{{$json.payload.sku}}\", \"quantity\": {{$json.payload.reorder_qty || 50}}, \"supplier_id\": \"{{$json.payload.supplier_id}}\"}"
+      }
+    },
+    {
+      "id": "retl-im-0005-4000-8000-000000000000",
+      "name": "Notify Warehouse",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "retl-im-0006-4000-8000-000000000000",
+      "name": "Stock Adequate",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Check Stock", "type": "main", "index": 0}]]
+    },
+    "Check Stock": {
+      "main": [[{"node": "Stock Low?", "type": "main", "index": 0}]]
+    },
+    "Stock Low?": {
+      "main": [
+        [{"node": "Trigger Reorder", "type": "main", "index": 0}],
+        [{"node": "Stock Adequate", "type": "main", "index": 0}]
+      ]
+    },
+    "Trigger Reorder": {
+      "main": [[{"node": "Notify Warehouse", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

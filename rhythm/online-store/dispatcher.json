@@ -1,0 +1,133 @@
+{
+  "name": "Brahmexa-Retail-Dispatcher",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "retail"}],
+  "nodes": [
+    {
+      "id": "retl-d-01-0001-4000-8000-000000000000",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "event-ingest/retail",
+        "responseMode": "onReceived",
+        "responseData": "firstEntryJson"
+      }
+    },
+    {
+      "id": "retl-d-01-0002-4000-8000-000000000000",
+      "name": "Normalize Event",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const body = items[0].json;\nreturn [{\n  json: {\n    event_type: body.event_type || 'unknown',\n    event_id: body.event_id || (Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10)),\n    source: body.source || 'retail',\n    payload: body.payload || body,\n    normalized_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "retl-d-01-0003-4000-8000-000000000000",
+      "name": "Route Event",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "value1": "={{$json.event_type}}",
+        "rules": {
+          "rules": [
+            {"operation": "equal", "value2": "order.placed"},
+            {"operation": "equal", "value2": "payment.processed"},
+            {"operation": "equal", "value2": "stock.low"},
+            {"operation": "equal", "value2": "return.requested"},
+            {"operation": "equal", "value2": "shipment.dispatched"}
+          ]
+        },
+        "fallbackOutput": 3
+      }
+    },
+    {
+      "id": "retl-d-01-0004-4000-8000-000000000000",
+      "name": "Execute Order Processing",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 100],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RETAIL_ORDER_PROCESSING",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "retl-d-01-0005-4000-8000-000000000000",
+      "name": "Execute Payment Processing",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 240],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RETAIL_PAYMENT_PROCESSING",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "retl-d-01-0006-4000-8000-000000000000",
+      "name": "Execute Inventory Management",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 380],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RETAIL_INVENTORY_MANAGEMENT",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "retl-d-01-0007-4000-8000-000000000000",
+      "name": "Execute Returns",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 520],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RETAIL_RETURNS",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "retl-d-01-0008-4000-8000-000000000000",
+      "name": "Execute Fulfillment",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 660],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RETAIL_FULFILLMENT",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "retl-d-01-0009-4000-8000-000000000000",
+      "name": "Unhandled Event",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [960, 800],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{"node": "Normalize Event", "type": "main", "index": 0}]]
+    },
+    "Normalize Event": {
+      "main": [[{"node": "Route Event", "type": "main", "index": 0}]]
+    },
+    "Route Event": {
+      "main": [
+        [{"node": "Execute Order Processing", "type": "main", "index": 0}],
+        [{"node": "Execute Payment Processing", "type": "main", "index": 0}],
+        [{"node": "Execute Inventory Management", "type": "main", "index": 0}],
+        [{"node": "Execute Returns", "type": "main", "index": 0}],
+        [{"node": "Execute Fulfillment", "type": "main", "index": 0}],
+        [{"node": "Unhandled Event", "type": "main", "index": 0}]
+      ]
+    }
+  },
+  "settings": {}
+}
+

@@ -1,0 +1,120 @@
+{
+  "name": "Brahmexa-Hospital-Dispatcher",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "hospital"}],
+  "nodes": [
+    {
+      "id": "hosp-d-01-0001-4000-8000-000000000000",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "event-ingest/hospital",
+        "responseMode": "onReceived",
+        "responseData": "firstEntryJson"
+      }
+    },
+    {
+      "id": "hosp-d-01-0002-4000-8000-000000000000",
+      "name": "Normalize Event",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const body = items[0].json;\nreturn [{\n  json: {\n    event_type: body.event_type || 'unknown',\n    event_id: body.event_id || (Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10)),\n    source: body.source || 'hospital',\n    payload: body.payload || body,\n    normalized_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "hosp-d-01-0003-4000-8000-000000000000",
+      "name": "Route Event",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "value1": "={{$json.event_type}}",
+        "rules": {
+          "rules": [
+            {"operation": "equal", "value2": "patient.admitted"},
+            {"operation": "equal", "value2": "patient.discharged"},
+            {"operation": "equal", "value2": "resource.low"},
+            {"operation": "equal", "value2": "alert.critical"}
+          ]
+        },
+        "fallbackOutput": 3
+      }
+    },
+    {
+      "id": "hosp-d-01-0004-4000-8000-000000000000",
+      "name": "Execute Patient Intake",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 100],
+      "parameters": {
+        "workflowId": "BRAHMEXA_HOSPITAL_PATIENT_INTAKE",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "hosp-d-01-0005-4000-8000-000000000000",
+      "name": "Execute Treatment Flow",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 260],
+      "parameters": {
+        "workflowId": "BRAHMEXA_HOSPITAL_TREATMENT_FLOW",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "hosp-d-01-0006-4000-8000-000000000000",
+      "name": "Execute Resource Management",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 420],
+      "parameters": {
+        "workflowId": "BRAHMEXA_HOSPITAL_RESOURCE_MANAGEMENT",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "hosp-d-01-0007-4000-8000-000000000000",
+      "name": "Execute Alerts",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 580],
+      "parameters": {
+        "workflowId": "BRAHMEXA_HOSPITAL_ALERTS",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "hosp-d-01-0008-4000-8000-000000000000",
+      "name": "Unhandled Event",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [960, 740],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{"node": "Normalize Event", "type": "main", "index": 0}]]
+    },
+    "Normalize Event": {
+      "main": [[{"node": "Route Event", "type": "main", "index": 0}]]
+    },
+    "Route Event": {
+      "main": [
+        [{"node": "Execute Patient Intake", "type": "main", "index": 0}],
+        [{"node": "Execute Treatment Flow", "type": "main", "index": 0}],
+        [{"node": "Execute Resource Management", "type": "main", "index": 0}],
+        [{"node": "Execute Alerts", "type": "main", "index": 0}],
+        [{"node": "Unhandled Event", "type": "main", "index": 0}]
+      ]
+    }
+  },
+  "settings": {}
+}
+

@@ -1,0 +1,76 @@
+{
+  "name": "Brahmexa-Landscaping-JobProcessing",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "landscaping"}],
+  "nodes": [
+    {
+      "id": "land-jp-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-jp-0002-4000-8000-000000000000",
+      "name": "Validate Job",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nif (!payload.job_id || !payload.client_id) {\n  throw new Error('Job requires job_id and client_id');\n}\nreturn [{\n  json: {\n    ...items[0].json,\n    job_id: payload.job_id,\n    client_id: payload.client_id,\n    service_type: payload.service_type || 'general',\n    validated_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "land-jp-0003-4000-8000-000000000000",
+      "name": "Assign Crew",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [680, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.LANDSCAPING_SERVICE_URL}}/assign-crew",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"job_id\": \"{{$json.job_id}}\", \"service_type\": \"{{$json.service_type}}\", \"scheduled_date\": \"{{$json.payload.scheduled_date}}\"}"
+      }
+    },
+    {
+      "id": "land-jp-0004-4000-8000-000000000000",
+      "name": "Schedule Work",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-jp-0005-4000-8000-000000000000",
+      "name": "Confirm with Client",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1120, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.NOTIFICATION_SERVICE_URL}}/send",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"to\": \"{{$json.payload.client_email}}\", \"message\": \"Your landscaping job {{$json.job_id}} has been scheduled.\", \"channel\": \"email\"}"
+      }
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Validate Job", "type": "main", "index": 0}]]
+    },
+    "Validate Job": {
+      "main": [[{"node": "Assign Crew", "type": "main", "index": 0}]]
+    },
+    "Assign Crew": {
+      "main": [[{"node": "Schedule Work", "type": "main", "index": 0}]]
+    },
+    "Schedule Work": {
+      "main": [[{"node": "Confirm with Client", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

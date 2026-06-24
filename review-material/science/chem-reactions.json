@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 2,
+  "registryId": "sci-chem-reactions",
+  "analyticsId": "chem-reactions",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 1,
+  "difficulty": "medium",
+  "topics": [
+    "Balanced chemical equations",
+    "Combination reactions",
+    "Decomposition reactions",
+    "Displacement reactions",
+    "Oxidation and reduction"
+  ],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
+  "chapterId": "sci-chem-reactions",
+  "title": "Chemical Reactions and Equations",
+  "subject": "science",
+  "audioScript": "Good morning, everyone. Today we're opening Chemical Reactions and Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Balanced chemical equations, Combination reactions, and Decomposition reactions. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Chemical Reactions and Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Balanced chemical equations, Combination reactions, and Decomposition reactions. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Chemical Reactions and Equations. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Chemical Reactions and Equations, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Chemical Reactions and Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Chemical Reactions and Equations, covering Balanced chemical equations, Combination reactions, and Decomposition reactions. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Chemical Reactions and Equations to real life — not just the textbook. I'll walk through everyday examples for Balanced chemical equations, Combination reactions, and Decomposition reactions: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Chemical Reactions and Equations, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Chemical Reactions and Equations — or if you prefer reading first. I'll walk through the lesson flow: Balanced chemical equations, Combination reactions, and Decomposition reactions, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Chemical Reactions and Equations the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Chemical Reactions and Equations. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Chemical Reactions and Equations. Forget the heavy textbook tone for a moment — think of this chapter as a story about Balanced chemical equations, Combination reactions, and Decomposition reactions. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Chemical Reactions and Equations. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Chemical Reactions and Equations, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Chemical Reactions and Equations. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **process flowchart** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Chemical Reactions and Equations, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 200' width='100%' role='img'><rect width='520' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='260' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Chemical Reactions and Equations — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Balanced chemi</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Combination re</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Decomposition </text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Displacement r</text><line x1='390' y1='100' x2='402' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='402' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='440' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Oxidation and </text></svg>",
+      "diagram": {
+        "type": "flowchart",
+        "title": "Chemical Reactions and Equations — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Balanced chemical equations"
+          },
+          {
+            "id": "n1",
+            "label": "Combination reactions"
+          },
+          {
+            "id": "n2",
+            "label": "Decomposition reactions"
+          },
+          {
+            "id": "n3",
+            "label": "Displacement reactions"
+          },
+          {
+            "id": "n4",
+            "label": "Oxidation and reduction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Chemical Reactions and Equations**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Balanced chemical equations** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Balanced chemical equations** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Combination reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Combination reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Decomposition reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Decomposition reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Displacement reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Displacement reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Oxidation and reduction** in 2–3 sentences. Use one example from Chemical Reactions and Equations.\n- **MCQ (1 mark)** — MCQ: Which statement about **Oxidation and reduction** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Chemical Reactions and Equations**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Chemical Reactions and Equations, covering Balanced chemical equations, Combination reactions, and Decomposition reactions. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Balanced chemical equations",
+          "difficulty": "medium",
+          "stem": "Explain **Balanced chemical equations** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Balanced chemical equations",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Balanced chemical equations** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Combination reactions",
+          "difficulty": "medium",
+          "stem": "Explain **Combination reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Combination reactions",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Combination reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Decomposition reactions",
+          "difficulty": "medium",
+          "stem": "Explain **Decomposition reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Decomposition reactions",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Decomposition reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Displacement reactions",
+          "difficulty": "medium",
+          "stem": "Explain **Displacement reactions** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Displacement reactions",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Displacement reactions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Oxidation and reduction",
+          "difficulty": "medium",
+          "stem": "Explain **Oxidation and reduction** in 2–3 sentences. Use one example from Chemical Reactions and Equations."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Oxidation and reduction",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Oxidation and reduction** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "long",
+          "marks": 5,
+          "topic": "Balanced chemical equations",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Chemical Reactions and Equations**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Chemical Reactions and Equations**._\n\n**Applications:**\n\n- **Balanced chemical equations** — Rusting iron gates, burning LPG in the kitchen, and digestion — all are chemical reactions we balance to predict products.\n- **Combination reactions** — Burning magnesium ribbon in lab or forming slaked lime from quicklime on construction sites.\n- **Decomposition reactions** — Electrolysis of water, thermal decomposition in fireworks, and silver chloride darkening in sunlight.\n- **Displacement reactions** — Iron nails in copper sulphate solution turning the solution greenish — a classic lab demo.\n- **Oxidation and reduction** — Corrosion of metal utensils, respiration in our cells, and antioxidants in food.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Chemical Reactions and Equations to real life — not just the textbook. I'll walk through everyday examples for Balanced chemical equations, Combination reactions, and Decomposition reactions: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Balanced chemical equations",
+          "example": "Rusting iron gates, burning LPG in the kitchen, and digestion — all are chemical reactions we balance to predict products."
+        },
+        {
+          "id": "app-02",
+          "topic": "Combination reactions",
+          "example": "Burning magnesium ribbon in lab or forming slaked lime from quicklime on construction sites."
+        },
+        {
+          "id": "app-03",
+          "topic": "Decomposition reactions",
+          "example": "Electrolysis of water, thermal decomposition in fireworks, and silver chloride darkening in sunlight."
+        },
+        {
+          "id": "app-04",
+          "topic": "Displacement reactions",
+          "example": "Iron nails in copper sulphate solution turning the solution greenish — a classic lab demo."
+        },
+        {
+          "id": "app-05",
+          "topic": "Oxidation and reduction",
+          "example": "Corrosion of metal utensils, respiration in our cells, and antioxidants in food."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Chemical Reactions and Equations** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Chemical Reactions and Equations NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Chemical+Reactions+and+Equations+NCERT+explained+Hindi+English)\n- [Chemical Reactions and Equations class 10 one shot revision](https://www.youtube.com/results?search_query=Chemical+Reactions+and+Equations+class+10+one+shot+revision)\n- [NCERT Science class 10 Chemical Reactions and Equations animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Chemical+Reactions+and+Equations+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Chemical Reactions and Equations, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Chemical Reactions and Equations NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Chemical+Reactions+and+Equations+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Chemical Reactions and Equations class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Chemical+Reactions+and+Equations+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Chemical Reactions and Equations animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Chemical+Reactions+and+Equations+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Chemical Reactions and Equations** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Chemical Reactions and Equations, not a textbook definition.\n2. **Balanced chemical equations** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Combination reactions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Decomposition reactions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Displacement reactions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Oxidation and reduction** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n7. **Common mistake** — Warn about the error students make most often in exams.\n8. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Balanced chemical equations in everyday language.\n- Draw or describe one diagram related to Chemical Reactions and Equations.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Chemical Reactions and Equations NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Chemical+Reactions+and+Equations+NCERT+explained+Hindi+English)\n- 🔍 [Chemical Reactions and Equations class 10 one shot revision](https://www.youtube.com/results?search_query=Chemical+Reactions+and+Equations+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Chemical Reactions and Equations animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Chemical+Reactions+and+Equations+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Chemical Reactions and Equations — or if you prefer reading first. I'll walk through the lesson flow: Balanced chemical equations, Combination reactions, and Decomposition reactions, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Chemical Reactions and Equations the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Chemical Reactions and Equations. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:13+00:00",
+    "completeness": 0.67,
+    "contentPass": false
+  }
+}

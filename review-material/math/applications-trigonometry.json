@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-trig-apps",
+  "analyticsId": "trig-applications",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 0,
+  "difficulty": "medium",
+  "topics": [],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
+  "chapterId": "math-trig-apps",
+  "title": "Some Applications of Trigonometry",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Some Applications of Trigonometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Some Applications of Trigonometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Some Applications of Trigonometry. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Some Applications of Trigonometry, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Some Applications of Trigonometry, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Some Applications of Trigonometry, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Some Applications of Trigonometry to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Some Applications of Trigonometry, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Some Applications of Trigonometry — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Some Applications of Trigonometry the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Some Applications of Trigonometry. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\nThere is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the general concept of angle.[5]\nOne standard definition is that an angle is a figure consisting of two rays which lie in a plane and share a common endpoint. Alternatively, given such a figure, an angle might be defined as: the opening between the rays; the area of the plane that lies between the rays;…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Some Applications of Trigonometry. Forget the heavy textbook tone for a moment — think of this chapter as a story about how things work in the real world. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\n- There is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the general concept of angle.[5]\n- It is common to consider that the sides of the angle divide the plane into two regions called the interior of the angle and the exterior of the angle. The interior of the angle is also referred to as an angular sector.[7][8][a]\n- An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .\n- In geometric figures and mathematical expressions, it is also common to use Greek letters (α, β, γ, θ, φ, ...) or lower case Roman letters (a, b, c, ...) as variables to represent the size of an angle.[12] Angular measure is commonly a scalar quantity,[13] although in physics and some fields of mathematics, signed angles are used by convention to indicate a direction of rotation: positive for anti-clockwise; negative for clockwise.[14]\n- Degrees and turns are defined directly with reference to a full angle, which measures 1 turn or 360°.[16] A measure in turns gives an angle's size as a proportion of a full angle and a degree can be considered as a subdivision of a turn. Radians are not defined directly in relation to a full angle (see § Measuring angles), but in such a way that its measure is 2π rad, approximately 6.28 rad.[17]\n- The angle addition postulate states that if D is a point lying in the interior of then:[18] This relationship defines what it means to add any two angles: their vertices are placed together while sharing a side to create a new larger angle. The measure of the new larger angle is the sum of the measures of the two angles. Subtraction follows from rearrangement of the formula.[18]\n- An angle equal to 0° or not turned is called a zero angle.[19]",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Some Applications of Trigonometry. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\nThere is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the general concept of angle.[5]\nOne standard definition is that an angle is a figure consisting of two rays which lie in a plane and share a common endpoint. Alternatively, given such a figure, an angle might be defined as: the opening between the rays; the area of the plane that lies between the rays; or the amount of rotation about the vertex of one ray to the other.\nMore generally, angles are also formed wherever two line segments come together, such as at the corners of triangles and other polygons,[2] or at the intersection of two planes or curves, in which case the rays lying tangent to each curve at the point of intersection define the angle.[6]\nIt is common to consider that the sides of the angle divide the plane into two regions called the interior of the angle and the exterior of the angle. The interior of the angle is also referred to as an angular sector.[7][8][a]\nAn angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using th…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "**Formulas and relations:**\n\n- The ratio s/r is called the \"radian measure\"[18] or \"circular measure\"[39][38][40] of an angle, but is also used to define a unit of measurement called a radian, which is defined as an angle for which the ratio s/r = 1.[39] Thus, the measurement of an angle given by s/r can be thought of in two\n- The reference angle (sometimes called related angle) for any angle θ in standard position is the positive acute angle between the terminal side of θ and the x-axis (positive or negative).[51] Procedurally, the magnitude of the reference angle for a given angle may determined by taking the angle's magnitude modulo 1/2 turn, 180°, or π radians, then stopping if the angle is acute, otherwise taking the supplementary angle, 180° minus the reduced magnitude. For example, an angle of 30 degrees is already a reference angle, and an angle of 150 degrees also has a reference angle of 30 degrees (180° − 150°). Angles of 210° and 510° correspond to a reference angle of 30 degrees as well (210° mod 180° = 30°, 510° mod 180° = 150° whose supplementary angle is 30°).\n- When two adjacent angles form a straight line, they are supplementary. Therefore, if we assume that the measure of angle A equals x, the measure of angle C would be 180° − x. Similarly, the measure of angle D would be 180° − x. Both angle C and angle D have measures equal to 180° − x and are congruent. Since angle B is supplementary to both angles C and D, either of these angle measures may be used to determine the measure of Angle B. Using the measure of either angle C or angle D, we find the measure of angle B to be 180° − (180° − x) = x. Therefore, both angle A and angle B have measures equal to x and are equal i",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Some Applications of Trigonometry, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Worked examples:**\n\n- An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .\n- In mathematics and the International System of Quantities, an angle is defined as a dimensionless quantity,[42] and in particular, the radian is defined as dimensionless in the International System of Units.[43] This convention prevents angles providing information for dimensional analysis. For example, when one measures an angle in radians by dividing the arc length by the radius, one is essentially dividing a length by another length, and the units of length cancel each other out. Therefore the result—the angle—doesn't have a physical \"dimension\" like meters or seconds.[44] This holds true with all angle units, such as radians, degrees, or turns—they all represent a pure number quantifying how much something has turned.[45] This is why, in many equations, angle units seem to \"disappear\" during calculations, which feels inconsistent and can lead to mixing up angle units.[46][47]\n- In many contexts, an angle of −θ is effectively equivalent to an angle of \"one full turn minus θ\". For example, an orientation represented as −45° is effectively equal to an orientation defined as 360° − 45° or 315°. Although the final position is the same, a physical rotation (movement) of −45° is not the same as a rotation of 315° (for example, the rotation of a person holding a broom resting on a dusty floor would leave visually different traces of swept regions on the floor).\n- The reference angle (sometimes called related angle) for any angle θ in standard position is the positive acute angle between the terminal side of θ and the x-axis (positive or negative).[51] Procedurally, the magnitude of the reference angle for a given angle may determined by taking the angle's magnitude modulo 1/2 turn, 180°, or π radians, then stopping if the angle is acute, otherwise taking the supplementary angle, 180° minus the reduced magnitude. For example, an angle of 30 degrees is already a reference angle, and an angle of 150 degrees also has a reference angle of 30 degrees (180° − 150°). Angles of 210° and 510° correspond to a reference angle of 30 degrees as well (210° mod 180° = 30°, 510° mod 180° = 150° whose supplementary angle is 30°).\n- Astronomers also measure objects' apparent size as an angular diameter. For example, the full moon has an angular diameter of approximately 0.5°, or 30 arcminutes, when viewed from Earth. One could say, \"The Moon's diameter subtends an angle of half a degree.\" The small-angle formula can convert such an angular measurement into a distance/size ratio.",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Some Applications of Trigonometry. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **ray or geometry diagram** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Some Applications of Trigonometry, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' width='100%' role='img'><rect width='440' height='220' rx='12' fill='#0f172a'/><text x='220' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Some Applications of Trigonometry — ray / geometry view</text><line x1='30' y1='130' x2='410' y2='130' stroke='#475569' stroke-width='1'/><line x1='80' y1='130' x2='80' y2='90' stroke='#fbbf24' stroke-width='3'/><text x='80' y='82' text-anchor='middle' fill='#fbbf24' font-size='9'>Object</text><path d='M220 60 Q235 130 220 200' fill='none' stroke='#38bdf8' stroke-width='2'/><text x='235' y='125' fill='#38bdf8' font-size='9'>Mirror/Lens</text><line x1='80' y1='100' x2='218' y2='115' stroke='#f472b6' stroke-width='2'/><line x1='222' y1='118' x2='360' y2='85' stroke='#a78bfa' stroke-width='2'/><text x='300' y='78' fill='#a78bfa' font-size='9'>Image ray</text><text x='220' y='210' text-anchor='middle' fill='#94a3b8' font-size='10'>Reflection / Refraction</text></svg>",
+      "diagram": {
+        "type": "ray",
+        "title": "Some Applications of Trigonometry — ray or geometry diagram",
+        "caption": "Chapter-specific ray or geometry diagram from CBSE syllabus (diagram-v2).",
+        "layout": "ray",
+        "nodes": []
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Some Applications of Trigonometry**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Some Applications of Trigonometry** in 2–3 sentences. Use one example from Some Applications of Trigonometry.\n- **MCQ (1 mark)** — MCQ: Which statement about **Some Applications of Trigonometry** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Some Applications of Trigonometry**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Some Applications of Trigonometry, covering the main syllabus topics. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Some Applications of Trigonometry",
+          "difficulty": "medium",
+          "stem": "Explain **Some Applications of Trigonometry** in 2–3 sentences. Use one example from Some Applications of Trigonometry."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Some Applications of Trigonometry",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Some Applications of Trigonometry** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "long",
+          "marks": 5,
+          "topic": "Some Applications of Trigonometry",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Some Applications of Trigonometry**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Some Applications of Trigonometry**._\n\n**Applications:**\n\n- **Some Applications of Trigonometry** — An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or .\n- **Some Applications of Trigonometry** — In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into 100 equal parts called gradians.[37][38]\n- **Some Applications of Trigonometry** — In mathematics and the International System of Quantities, an angle is defined as a dimensionless quantity,[42] and in particular, the radian is defined as dimensionless in the International System of Units.[43] This convention prevents angles providing information for dimensional analysis. For example, when one measures an angle in radians by dividing the arc length by the radius, one is essentially dividing a length by another length, and the units of length cancel each other out. Therefore the result—the angle—doesn't have a physical \"dimension\" like meters or seconds.[44] This holds true with all angle units, such as radians, degrees, or turns—they all represent a pure number quantifying how much something has turned.[45] This is why, in many equations, angle units seem to \"disappear\" during calculations, which feels inconsistent and can lead to mixing up angle units.[46][47]\n- **Some Applications of Trigonometry** — In many contexts, an angle of −θ is effectively equivalent to an angle of \"one full turn minus θ\". For example, an orientation represented as −45° is effectively equal to an orientation defined as 360° − 45° or 315°. Although the final position is the same, a physical rotation (movement) of −45° is not the same as a rotation of 315° (for example, the rotation of a person holding a broom resting on a dusty floor would leave visually different traces of swept regions on the floor).",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Some Applications of Trigonometry to real life — not just the textbook. I'll walk through everyday examples for each syllabus topic: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Some Applications of Trigonometry",
+          "example": "An angle symbol ( or , read as \"angle\") together with one or three defining points is used to identify angles in geometric figures. For example, the angle with vertex A formed by the rays and is denoted as (using the vertex alone) or (with the vertex always named in the middle). The size or measure of the angle is denoted or ."
+        },
+        {
+          "id": "app-02",
+          "topic": "Some Applications of Trigonometry",
+          "example": "In the most common method of practical angular measurement a right angle is divided into 90 equal parts called degrees, while in the rarely used centesimal system, a right angle is divided into 100 equal parts called gradians.[37][38]"
+        },
+        {
+          "id": "app-03",
+          "topic": "Some Applications of Trigonometry",
+          "example": "In mathematics and the International System of Quantities, an angle is defined as a dimensionless quantity,[42] and in particular, the radian is defined as dimensionless in the International System of Units.[43] This convention prevents angles providing information for dimensional analysis. For example, when one measures an angle in radians by dividing the arc length by the radius, one is essentially dividing a length by another length, and the units of length cancel each other out. Therefore the result—the angle—doesn't have a physical \"dimension\" like meters or seconds.[44] This holds true with all angle units, such as radians, degrees, or turns—they all represent a pure number quantifying how much something has turned.[45] This is why, in many equations, angle units seem to \"disappear\" during calculations, which feels inconsistent and can lead to mixing up angle units.[46][47]"
+        },
+        {
+          "id": "app-04",
+          "topic": "Some Applications of Trigonometry",
+          "example": "In many contexts, an angle of −θ is effectively equivalent to an angle of \"one full turn minus θ\". For example, an orientation represented as −45° is effectively equal to an orientation defined as 360° − 45° or 315°. Although the final position is the same, a physical rotation (movement) of −45° is not the same as a rotation of 315° (for example, the rotation of a person holding a broom resting on a dusty floor would leave visually different traces of swept regions on the floor)."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Some Applications of Trigonometry** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Some Applications of Trigonometry NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Some+Applications+of+Trigonometry+NCERT+explained+Hindi+English)\n- [Some Applications of Trigonometry class 10 one shot revision](https://www.youtube.com/results?search_query=Some+Applications+of+Trigonometry+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Some Applications of Trigonometry animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Some+Applications+of+Trigonometry+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Some Applications of Trigonometry, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Some Applications of Trigonometry NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Some+Applications+of+Trigonometry+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Some Applications of Trigonometry class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Some+Applications+of+Trigonometry+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Some Applications of Trigonometry animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Some+Applications+of+Trigonometry+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Some Applications of Trigonometry** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Some Applications of Trigonometry, not a textbook definition.\n2. **core ideas** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **definitions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **exam tips** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Common mistake** — Warn about the error students make most often in exams.\n6. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain core ideas in everyday language.\n- Draw or describe one diagram related to Some Applications of Trigonometry.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Some Applications of Trigonometry NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Some+Applications+of+Trigonometry+NCERT+explained+Hindi+English)\n- 🔍 [Some Applications of Trigonometry class 10 one shot revision](https://www.youtube.com/results?search_query=Some+Applications+of+Trigonometry+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Some Applications of Trigonometry animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Some+Applications+of+Trigonometry+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Some Applications of Trigonometry — or if you prefer reading first. I'll walk through the lesson flow: main topics, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the sides.\nThere is no universally agreed definition of an angle.[4] Angles can be conceived of and used in a variety of ways and while valid definitions may be given for specific contexts, it is difficult to give a single formal definition that is completely satisfactory in capturing all aspects of the g…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Some Applications of Trigonometry the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "In geometry, an angle is formed by two lines that meet at a point.[1] Each line is called a side of the angle, and the point they share is called the vertex of the angle.[2][3] The term angle is used to denote both geometric figures and their size or magnitude as associated quantity. Angular measure or measure of angle are sometimes used to distinguish between the measure of the quantity and figure itself. The measurement of angles is intrinsically linked with circles and rotation, and this is often visualized or defined using the arc of a circle centered at the vertex and lying between the si…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Some Applications of Trigonometry. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:17+00:00",
+    "completeness": 0.945,
+    "contentPass": true
+  }
+}

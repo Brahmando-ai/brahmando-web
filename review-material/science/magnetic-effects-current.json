@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 2,
+  "registryId": "sci-magnetism",
+  "analyticsId": "magnetism",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 12,
+  "difficulty": "medium",
+  "topics": [
+    "Magnetic field",
+    "Fleming's Left Hand Rule",
+    "Electromagnets",
+    "Electric motor",
+    "Domestic circuits"
+  ],
+  "formulas": [
+    "F = BIL sin(theta)"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "sci-magnetism",
+  "title": "Magnetic Effects of Electric Current",
+  "subject": "science",
+  "audioScript": "Good morning, everyone. Today we're opening Magnetic Effects of Electric Current. Forget the heavy textbook tone for a moment — think of this chapter as a story about Magnetic field, Fleming's Left Hand Rule, and Electromagnets. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Magnetic Effects of Electric Current. Forget the heavy textbook tone for a moment — think of this chapter as a story about Magnetic field, Fleming's Left Hand Rule, and Electromagnets. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Magnetic Effects of Electric Current. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Magnetic Effects of Electric Current, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Magnetic Effects of Electric Current, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Magnetic Effects of Electric Current, covering Magnetic field, Fleming's Left Hand Rule, and Electromagnets. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Magnetic Effects of Electric Current to real life — not just the textbook. I'll walk through everyday examples for Magnetic field, Fleming's Left Hand Rule, and Electromagnets: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Magnetic Effects of Electric Current, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Magnetic Effects of Electric Current — or if you prefer reading first. I'll walk through the lesson flow: Magnetic field, Fleming's Left Hand Rule, and Electromagnets, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Magnetic Effects of Electric Current the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Magnetic Effects of Electric Current. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Magnetic Effects of Electric Current. Forget the heavy textbook tone for a moment — think of this chapter as a story about Magnetic field, Fleming's Left Hand Rule, and Electromagnets. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Magnetic Effects of Electric Current. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Magnetic Effects of Electric Current, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Magnetic Effects of Electric Current. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **field-line diagram** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Magnetic Effects of Electric Current, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 200' width='100%' role='img'><rect width='420' height='200' rx='12' fill='#0f172a'/><text x='210' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Magnetic Effects of Electric Current — field lines</text><rect x='180' y='85' width='60' height='70' fill='#1e3a5f' stroke='#38bdf8'/><text x='210' y='125' text-anchor='middle' fill='#e2e8f0' font-size='9'>N|S</text><path d='M240 125 C 230 90, 270 160, 380 125' fill='none' stroke='#64748b' stroke-width='1'/><path d='M240 125 C 255 90, 295 160, 380 125' fill='none' stroke='#64748b' stroke-width='1'/><path d='M240 125 C 280 90, 320 160, 380 125' fill='none' stroke='#64748b' stroke-width='1'/><path d='M240 125 C 305 90, 345 160, 380 125' fill='none' stroke='#64748b' stroke-width='1'/><path d='M240 125 C 330 90, 370 160, 380 125' fill='none' stroke='#64748b' stroke-width='1'/><text x='210' y='185' text-anchor='middle' fill='#cbd5e1' font-size='10'>Magnetic field</text></svg>",
+      "diagram": {
+        "type": "field",
+        "title": "Magnetic Effects of Electric Current — field-line diagram",
+        "caption": "Chapter-specific field-line diagram from CBSE syllabus (diagram-v2).",
+        "layout": "field",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "F = BIL sin(theta)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Magnetic Effects of Electric Current**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Magnetic field** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Magnetic field** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Fleming's Left Hand Rule** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Fleming's Left Hand Rule** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Electromagnets** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Electromagnets** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Electric motor** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Electric motor** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Domestic circuits** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current.\n- **MCQ (1 mark)** — MCQ: Which statement about **Domestic circuits** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **F = BIL sin(theta)**, solve a standard board-style problem from Magnetic Effects of Electric Current. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Magnetic Effects of Electric Current**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Magnetic Effects of Electric Current, covering Magnetic field, Fleming's Left Hand Rule, and Electromagnets. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Magnetic field",
+          "difficulty": "medium",
+          "stem": "Explain **Magnetic field** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Magnetic field",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Magnetic field** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Fleming's Left Hand Rule",
+          "difficulty": "medium",
+          "stem": "Explain **Fleming's Left Hand Rule** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Fleming's Left Hand Rule",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Fleming's Left Hand Rule** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Electromagnets",
+          "difficulty": "medium",
+          "stem": "Explain **Electromagnets** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Electromagnets",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Electromagnets** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Electric motor",
+          "difficulty": "medium",
+          "stem": "Explain **Electric motor** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Electric motor",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Electric motor** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Domestic circuits",
+          "difficulty": "medium",
+          "stem": "Explain **Domestic circuits** in 2–3 sentences. Use one example from Magnetic Effects of Electric Current."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Domestic circuits",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Domestic circuits** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "short",
+          "marks": 3,
+          "topic": "Magnetic Effects of Electric Current",
+          "difficulty": "medium",
+          "stem": "Using **F = BIL sin(theta)**, solve a standard board-style problem from Magnetic Effects of Electric Current. Show all working steps."
+        },
+        {
+          "id": "pq-12",
+          "type": "long",
+          "marks": 5,
+          "topic": "Magnetic field",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Magnetic Effects of Electric Current**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Magnetic Effects of Electric Current**._\n\n**Applications:**\n\n- **Magnetic field** — Look for **Magnetic field** in objects and processes around you — at home, in school labs, or in local industry.\n- **Fleming's Left Hand Rule** — Look for **Fleming's Left Hand Rule** in objects and processes around you — at home, in school labs, or in local industry.\n- **Electromagnets** — Look for **Electromagnets** in objects and processes around you — at home, in school labs, or in local industry.\n- **Electric motor** — Look for **Electric motor** in objects and processes around you — at home, in school labs, or in local industry.\n- **Domestic circuits** — Look for **Domestic circuits** in objects and processes around you — at home, in school labs, or in local industry.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Magnetic Effects of Electric Current to real life — not just the textbook. I'll walk through everyday examples for Magnetic field, Fleming's Left Hand Rule, and Electromagnets: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Magnetic field",
+          "example": "Look for **Magnetic field** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Fleming's Left Hand Rule",
+          "example": "Look for **Fleming's Left Hand Rule** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Electromagnets",
+          "example": "Look for **Electromagnets** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Electric motor",
+          "example": "Look for **Electric motor** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-05",
+          "topic": "Domestic circuits",
+          "example": "Look for **Domestic circuits** in objects and processes around you — at home, in school labs, or in local industry."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Magnetic Effects of Electric Current** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Magnetic Effects of Electric Current NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Magnetic+Effects+of+Electric+Current+NCERT+explained+Hindi+English)\n- [Magnetic Effects of Electric Current class 10 one shot revision](https://www.youtube.com/results?search_query=Magnetic+Effects+of+Electric+Current+class+10+one+shot+revision)\n- [NCERT Science class 10 Magnetic Effects of Electric Current animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Magnetic+Effects+of+Electric+Current+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Magnetic Effects of Electric Current, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Magnetic Effects of Electric Current NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Magnetic+Effects+of+Electric+Current+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Magnetic Effects of Electric Current class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Magnetic+Effects+of+Electric+Current+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Magnetic Effects of Electric Current animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Magnetic+Effects+of+Electric+Current+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Magnetic Effects of Electric Current** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Magnetic Effects of Electric Current, not a textbook definition.\n2. **Magnetic field** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Fleming's Left Hand Rule** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Electromagnets** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Electric motor** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Domestic circuits** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n7. **Formulas** — Write F = BIL sin(theta) on the board, explain each symbol, then solve one board-style numerical.\n8. **Common mistake** — Warn about the error students make most often in exams.\n9. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Magnetic field in everyday language.\n- Draw or describe one diagram related to Magnetic Effects of Electric Current.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Magnetic Effects of Electric Current NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Magnetic+Effects+of+Electric+Current+NCERT+explained+Hindi+English)\n- 🔍 [Magnetic Effects of Electric Current class 10 one shot revision](https://www.youtube.com/results?search_query=Magnetic+Effects+of+Electric+Current+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Magnetic Effects of Electric Current animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Magnetic+Effects+of+Electric+Current+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Magnetic Effects of Electric Current — or if you prefer reading first. I'll walk through the lesson flow: Magnetic field, Fleming's Left Hand Rule, and Electromagnets, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Magnetic Effects of Electric Current the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Magnetic Effects of Electric Current. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:15+00:00",
+    "completeness": 0.67,
+    "contentPass": false
+  }
+}

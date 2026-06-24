@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fagents\u002F[id]","\u002Fstudy-room\u002Fjoin\u002F[roomId]","\u002Fworkflows\u002Fnandi\u002F[pathId]","\u002Fworkflows\u002Frhythm\u002F[vertical]","\u002Fworkflows\u002Frhythm\u002F[vertical]\u002F[workflowId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

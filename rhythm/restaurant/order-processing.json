@@ -1,0 +1,87 @@
+{
+  "name": "Brahmexa-Restaurant-OrderProcessing",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "restaurant"}],
+  "nodes": [
+    {
+      "id": "rest-op-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-op-0002-4000-8000-000000000000",
+      "name": "Validate Order",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nif (!payload.order_id || !payload.items) {\n  throw new Error('Invalid order: missing order_id or items');\n}\nreturn [{ json: { ...items[0].json, validated: true, order_id: payload.order_id, items: payload.items } }];"
+      }
+    },
+    {
+      "id": "rest-op-0003-4000-8000-000000000000",
+      "name": "Send to Kitchen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [680, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.KITCHEN_SERVICE_URL}}/orders",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"order_id\": \"{{$json.order_id}}\", \"items\": {{$json.items}}, \"event_id\": \"{{$json.event_id}}\"}"
+      }
+    },
+    {
+      "id": "rest-op-0004-4000-8000-000000000000",
+      "name": "Update Inventory",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "rest-op-0005-4000-8000-000000000000",
+      "name": "Process Payment",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1120, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.PAYMENT_SERVICE_URL}}/charge",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"order_id\": \"{{$json.order_id}}\", \"amount\": {{$json.payload.total || 0}}}"
+      }
+    },
+    {
+      "id": "rest-op-0006-4000-8000-000000000000",
+      "name": "Complete Order",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1340, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Validate Order", "type": "main", "index": 0}]]
+    },
+    "Validate Order": {
+      "main": [[{"node": "Send to Kitchen", "type": "main", "index": 0}]]
+    },
+    "Send to Kitchen": {
+      "main": [[{"node": "Update Inventory", "type": "main", "index": 0}]]
+    },
+    "Update Inventory": {
+      "main": [[{"node": "Process Payment", "type": "main", "index": 0}]]
+    },
+    "Process Payment": {
+      "main": [[{"node": "Complete Order", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

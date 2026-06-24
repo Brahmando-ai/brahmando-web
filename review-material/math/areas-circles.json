@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-areas-circles",
+  "analyticsId": "areas-circles",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 10,
+  "difficulty": "medium",
+  "topics": [
+    "Area of sector",
+    "Area of segment",
+    "Perimeter of sector"
+  ],
+  "formulas": [
+    "Area of sector = (theta/360) x pi r^2",
+    "Length of arc = (theta/360) x 2 pi r"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "math-areas-circles",
+  "title": "Areas Related to Circles",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Areas Related to Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Area of sector, Area of segment, and Perimeter of sector. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Areas Related to Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Area of sector, Area of segment, and Perimeter of sector. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Areas Related to Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Areas Related to Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Areas Related to Circles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 6 questions on Areas Related to Circles, covering Area of sector, Area of segment, and Perimeter of sector. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Areas Related to Circles to real life — not just the textbook. I'll walk through everyday examples for Area of sector, Area of segment, and Perimeter of sector: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Areas Related to Circles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Areas Related to Circles — or if you prefer reading first. I'll walk through the lesson flow: Area of sector, Area of segment, and Perimeter of sector, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Areas Related to Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Areas Related to Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Areas Related to Circles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Area of sector, Area of segment, and Perimeter of sector. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\n- The area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\n- There are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\n- Area plays an important role in modern mathematics. In addition to its obvious importance in geometry and calculus, area is related to the definition of determinants in linear algebra, and is a basic property of surfaces in differential geometry.[8] In analysis, the area of a subset of the plane is defined using Lebesgue measure,[9] though not every subset is measurable if one supposes the axiom of choice.[10] In general, area in higher mathematics is seen as a special case of volume for two-dimensional regions.[1]\n- An approach to defining what is meant by \"area\" is through axioms. \"Area\" can be defined as a function from a collection M of a special kinds of plane figures (termed measurable sets) to the set of real numbers, which satisfies the following properties:[11]\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T).",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Areas Related to Circles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the standard unit of area is the square metre (written as m2), which is the area of a square whose sides are one metre long.[3] A shape with an area of three square metres would have the same area as three such squares. In mathematics, the unit square is defined to have area one, and the area of any other shape or surface is a dimensionless real number.\nThere are several well-known formulas for the areas of simple shapes such as triangles, rectangles, and circles. Using these formulas, the area of any polygon can be found by dividing the polygon into triangles.[4] For shapes with curved boundaries, calculus is usually required to compute the area. In all, the problem of determining the area of plane figures was a major motivation for the historical development of calculus.[5]\nFor a solid shape such as a sphere, cone, or cylinder, the area of its boundary surface is called the surface area.[1][6][7] Formulas for the surface areas of simple shapes were computed by the ancient Greeks, but computing the surface area of a more complicated shape usually requires multivariable calculus.\nArea plays…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "**Formulas and relations:**\n\n- If S and T are in M then so are S ∪ T and S ∩ T, and also a(S∪T) = a(S) + a(T) − a(S ∩ T).\n- If S and T are in M with S ⊆ T then T − S is in M and a(T−S) = a(T) − a(S).\n- If a set S is in M and S is congruent to T then T is also in M and a(S) = a(T).\n- Every rectangle R is in M. If the rectangle has length h and breadth k then a(R) = hk.\n- Let Q be a set enclosed between two step regions S and T. A step region is formed from a finite union of adjacent rectangles resting on a common base, i.e. S ⊆ Q ⊆ T. If there is a unique number c such that a(S) ≤ c ≤ a(T) for all such step regions S and T, then a(Q) = c.\n- 1 metre × 1 metre = 1 m2\n- 3 metres × 2 metres = 6 m2. This is equivalent to 6 million square millimetres. Other useful conversi\n- 1 square kilometre = 1,000,000 square metres",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Areas Related to Circles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Worked examples:**\n\n- Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any parallelogram can be subdivided into a trapezoid and a right triangle, as shown in figure to the left. If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle. It follows that the area of the parallelogram is the same as the area of the rectangle:[2]\n- Most basic formulas for surface area can be obtained by cutting surfaces and flattening them out (see: developable surfaces). For example, if the side surface of a cylinder (or any prism) is cut lengthwise, the surface can be flattened out into a rectangle. Similarly, if a cut is made along the side of a cone, the side surface can be flattened out into a sector of a circle, and the resulting area computed.",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "**Common mistakes to avoid:**\n\n- Though the dissection used in this formula is only approximate, the error becomes smaller and smaller as the circle is partitioned into more and more sectors. The limit of the areas of the approximate parallelograms is exactly πr2, which is the area of the circle.[28]",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Areas Related to Circles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **formula relationship map** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Areas Related to Circles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='100%' role='img'><rect width='400' height='260' rx='12' fill='#0f172a'/><text x='200' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Areas Related to Circles — formula map</text><polygon points='200,112 224,132 224,160 200,180 176,160 176,132' fill='#1e3a5f' stroke='#38bdf8'/><text x='200' y='145' text-anchor='middle' fill='#e2e8f0' font-size='9'>Key</text><line x1='200' y1='140' x2='80' y2='90' stroke='#475569' stroke-width='1'/><rect x='25' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='80' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>Area of sector = (</text><line x1='200' y1='140' x2='320' y2='90' stroke='#475569' stroke-width='1'/><rect x='265' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='320' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>Length of arc = (t</text></svg>",
+      "diagram": {
+        "type": "formula-hub",
+        "title": "Areas Related to Circles — formula relationship map",
+        "caption": "Chapter-specific formula relationship map from CBSE syllabus (diagram-v2).",
+        "layout": "formula-hub",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Area of sector = (theta/360) x pi r^2"
+          },
+          {
+            "id": "n1",
+            "label": "Length of arc = (theta/360) x 2 pi r"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Areas Related to Circles**._\n\n**Practice questions:**\n\n1. Question 1: The area of a sector of a circle of radius 36 cm is . Find the length of the corresponding arc of the sector.\n2. Question 2: In the given figure, find the area of the shaded region given that the radius of the circle that is inscribed in a square is 7.5cm.\n3. Question 3: A chord of a circle of radius 20 cm subtends an angle of 90° at the centre. Find the area of the corresponding major segment of the circle. (Use π = 3.14).\n4. Question 4: A calf is tied with a rope of length 6 m at the corner of a square grassy lawn of side 20 m. If the length of the rope is increased by 5.5m, find the increase in the area of the grassy lawn in which the calf can graze.\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **Area of sector** in 2–3 sentences. Use one example from Areas Related to Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Area of sector** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Area of segment** in 2–3 sentences. Use one example from Areas Related to Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Area of segment** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Perimeter of sector** in 2–3 sentences. Use one example from Areas Related to Circles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Perimeter of sector** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 6 questions on Areas Related to Circles, covering Area of sector, Area of segment, and Perimeter of sector. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "difficulty": "medium",
+          "stem": "Question 1: The area of a sector of a circle of radius 36 cm is . Find the length of the corresponding arc of the sector."
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "difficulty": "medium",
+          "stem": "Question 2: In the given figure, find the area of the shaded region given that the radius of the circle that is inscribed in a square is 7.5cm."
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "difficulty": "medium",
+          "stem": "Question 3: A chord of a circle of radius 20 cm subtends an angle of 90° at the centre. Find the area of the corresponding major segment of the circle. (Use π = 3.14)."
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Area of sector",
+          "difficulty": "medium",
+          "stem": "Question 4: A calf is tied with a rope of length 6 m at the corner of a square grassy lawn of side 20 m. If the length of the rope is increased by 5.5m, find the increase in the area of the grassy lawn in which the calf can graze."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Area of sector",
+          "difficulty": "medium",
+          "stem": "Explain **Area of sector** in 2–3 sentences. Use one example from Areas Related to Circles."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Area of sector",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Area of sector** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Area of segment",
+          "difficulty": "medium",
+          "stem": "Explain **Area of segment** in 2–3 sentences. Use one example from Areas Related to Circles."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Area of segment",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Area of segment** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Perimeter of sector",
+          "difficulty": "medium",
+          "stem": "Explain **Perimeter of sector** in 2–3 sentences. Use one example from Areas Related to Circles."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Perimeter of sector",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Perimeter of sector** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Areas Related to Circles**._\n\n**Applications:**\n\n- **Area of sector** — Look for **Area of sector** in objects and processes around you — at home, in school labs, or in local industry.\n- **Area of segment** — Look for **Area of segment** in objects and processes around you — at home, in school labs, or in local industry.\n- **Perimeter of sector** — Look for **Perimeter of sector** in objects and processes around you — at home, in school labs, or in local industry.\n- **Areas Related to Circles** — Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any parallelogram can be subdivided into a trapezoid and a right triangle, as shown in figure to the left. If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle. It follows that the area of the parallelogram is the same as the area of the rectangle:[2]\n- **Areas Related to Circles** — This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is now recognized as a precursor to integral calculus. Using modern methods, the area of a circle can be computed using a definite integral:\n- **Areas Related to Circles** — Most basic formulas for surface area can be obtained by cutting surfaces and flattening them out (see: developable surfaces). For example, if the side surface of a cylinder (or any prism) is cut lengthwise, the surface can be flattened out into a rectangle. Similarly, if a cut is made along the side of a cone, the side surface can be flattened out into a sector of a circle, and the resulting area computed.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Areas Related to Circles to real life — not just the textbook. I'll walk through everyday examples for Area of sector, Area of segment, and Perimeter of sector: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Area of sector",
+          "example": "Look for **Area of sector** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Area of segment",
+          "example": "Look for **Area of segment** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Perimeter of sector",
+          "example": "Look for **Perimeter of sector** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Areas Related to Circles",
+          "example": "Most other simple formulas for area follow from the method of dissection. This involves cutting a shape into pieces, whose areas must sum to the area of the original shape. For an example, any parallelogram can be subdivided into a trapezoid and a right triangle, as shown in figure to the left. If the triangle is moved to the other side of the trapezoid, then the resulting figure is a rectangle. It follows that the area of the parallelogram is the same as the area of the rectangle:[2]"
+        },
+        {
+          "id": "app-05",
+          "topic": "Areas Related to Circles",
+          "example": "This argument is actually a simple application of the ideas of calculus. In ancient times, the method of exhaustion was used in a similar way to find the area of the circle, and this method is now recognized as a precursor to integral calculus. Using modern methods, the area of a circle can be computed using a definite integral:"
+        },
+        {
+          "id": "app-06",
+          "topic": "Areas Related to Circles",
+          "example": "Most basic formulas for surface area can be obtained by cutting surfaces and flattening them out (see: developable surfaces). For example, if the side surface of a cylinder (or any prism) is cut lengthwise, the surface can be flattened out into a rectangle. Similarly, if a cut is made along the side of a cone, the side surface can be flattened out into a sector of a circle, and the resulting area computed."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Areas Related to Circles** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Areas Related to Circles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Areas+Related+to+Circles+NCERT+explained+Hindi+English)\n- [Areas Related to Circles class 10 one shot revision](https://www.youtube.com/results?search_query=Areas+Related+to+Circles+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Areas Related to Circles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Areas+Related+to+Circles+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Areas Related to Circles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Areas Related to Circles NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Areas+Related+to+Circles+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Areas Related to Circles class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Areas+Related+to+Circles+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Areas Related to Circles animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Areas+Related+to+Circles+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Areas Related to Circles** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Areas Related to Circles, not a textbook definition.\n2. **Area of sector** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Area of segment** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Perimeter of sector** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Formulas** — Write Area of sector = (theta/360) x pi r^2 on the board, explain each symbol, then solve one board-style numerical.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Area of sector in everyday language.\n- Draw or describe one diagram related to Areas Related to Circles.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Areas Related to Circles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Areas+Related+to+Circles+NCERT+explained+Hindi+English)\n- 🔍 [Areas Related to Circles class 10 one shot revision](https://www.youtube.com/results?search_query=Areas+Related+to+Circles+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Areas Related to Circles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Areas+Related+to+Circles+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Areas Related to Circles — or if you prefer reading first. I'll walk through the lesson flow: Area of sector, Area of segment, and Perimeter of sector, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two different regions may have the same area (as in squaring the circle); by synecdoche, \"area\" sometimes is used to refer to the region, as in a \"polygonal area\".\nThe area of a shape can be measured by comparing the shape to squares of a fixed size.[2] In the International System of Units (SI), the sta…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Areas Related to Circles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "Area is the measure of a region's size on a surface. The area of a plane region or plane area refers to the area of a shape or planar lamina, while surface area refers to the area of an open surface or the boundary of a three-dimensional object. Area can be understood as the amount of material with a given thickness that would be necessary to fashion a model of the shape, or the amount of paint necessary to cover the surface with a single coat.[1] It is the two-dimensional analogue of the length of a curve (a one-dimensional concept) or the volume of a solid (a three-dimensional concept). Two…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Areas Related to Circles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:18+00:00",
+    "completeness": 0.945,
+    "contentPass": true
+  }
+}

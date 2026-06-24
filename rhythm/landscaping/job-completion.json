@@ -1,0 +1,70 @@
+{
+  "name": "Brahmexa-Landscaping-JobCompletion",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "landscaping"}],
+  "nodes": [
+    {
+      "id": "land-jc-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-jc-0002-4000-8000-000000000000",
+      "name": "Verify Completion",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nreturn [{\n  json: {\n    ...items[0].json,\n    job_id: payload.job_id,\n    completed_by: payload.crew_id,\n    completion_notes: payload.notes || '',\n    completed_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "land-jc-0003-4000-8000-000000000000",
+      "name": "Capture Photos",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {}
+    },
+    {
+      "id": "land-jc-0004-4000-8000-000000000000",
+      "name": "Invoice Client",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.BILLING_SERVICE_URL}}/invoice",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"job_id\": \"{{$json.job_id}}\", \"client_id\": \"{{$json.payload.client_id}}\", \"amount\": {{$json.payload.invoice_amount || 0}}, \"notes\": \"{{$json.completion_notes}}\"}"
+      }
+    },
+    {
+      "id": "land-jc-0005-4000-8000-000000000000",
+      "name": "Close Job",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Verify Completion", "type": "main", "index": 0}]]
+    },
+    "Verify Completion": {
+      "main": [[{"node": "Capture Photos", "type": "main", "index": 0}]]
+    },
+    "Capture Photos": {
+      "main": [[{"node": "Invoice Client", "type": "main", "index": 0}]]
+    },
+    "Invoice Client": {
+      "main": [[{"node": "Close Job", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

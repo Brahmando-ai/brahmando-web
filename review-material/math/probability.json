@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-probability",
+  "analyticsId": "probability",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 13,
+  "difficulty": "easy",
+  "topics": [
+    "Classical definition of probability",
+    "Elementary events",
+    "Complementary events"
+  ],
+  "formulas": [
+    "P(E) = favourable outcomes / total outcomes",
+    "P(not E) = 1 - P(E)"
+  ],
+  "recommendedDifficulty": "easy",
+  "chapterId": "math-probability",
+  "title": "Probability",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Probability. Forget the heavy textbook tone for a moment — think of this chapter as a story about Classical definition of probability, Elementary events, and Complementary events. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Probability. Forget the heavy textbook tone for a moment — think of this chapter as a story about Classical definition of probability, Elementary events, and Complementary events. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Probability. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Probability, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Probability, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Probability, covering Classical definition of probability, Elementary events, and Complementary events. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Probability to real life — not just the textbook. I'll walk through everyday examples for Classical definition of probability, Elementary events, and Complementary events: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Probability, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Probability — or if you prefer reading first. I'll walk through the lesson flow: Classical definition of probability, Elementary events, and Complementary events, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Probability the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Probability. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारि…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Probability. Forget the heavy textbook tone for a moment — think of this chapter as a story about Classical definition of probability, Elementary events, and Complementary events. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Probability. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, support material, enrichment\n                activit…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Probability, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Probability. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **process flowchart** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Probability, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 344 200' width='100%' role='img'><rect width='344' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='172' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Probability — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Classical defi</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Elementary eve</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Complementary </text></svg>",
+      "diagram": {
+        "type": "flowchart",
+        "title": "Probability — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "P(E) = favourable outcomes / total outcomes"
+          },
+          {
+            "id": "n1",
+            "label": "P(not E) = 1 - P(E)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Probability**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Classical definition of probability** in 2–3 sentences. Use one example from Probability.\n- **MCQ (1 mark)** — MCQ: Which statement about **Classical definition of probability** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Elementary events** in 2–3 sentences. Use one example from Probability.\n- **MCQ (1 mark)** — MCQ: Which statement about **Elementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Complementary events** in 2–3 sentences. Use one example from Probability.\n- **MCQ (1 mark)** — MCQ: Which statement about **Complementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **P(E) = favourable outcomes / total outcomes**, solve a standard board-style problem from Probability. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **P(not E) = 1 - P(E)**, solve a standard board-style problem from Probability. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Probability**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Probability, covering Classical definition of probability, Elementary events, and Complementary events. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Classical definition of probability",
+          "difficulty": "easy",
+          "stem": "Explain **Classical definition of probability** in 2–3 sentences. Use one example from Probability."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Classical definition of probability",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Classical definition of probability** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Elementary events",
+          "difficulty": "easy",
+          "stem": "Explain **Elementary events** in 2–3 sentences. Use one example from Probability."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Elementary events",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Elementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Complementary events",
+          "difficulty": "easy",
+          "stem": "Explain **Complementary events** in 2–3 sentences. Use one example from Probability."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Complementary events",
+          "difficulty": "easy",
+          "stem": "MCQ: Which statement about **Complementary events** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Probability",
+          "difficulty": "easy",
+          "stem": "Using **P(E) = favourable outcomes / total outcomes**, solve a standard board-style problem from Probability. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Probability",
+          "difficulty": "easy",
+          "stem": "Using **P(not E) = 1 - P(E)**, solve a standard board-style problem from Probability. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "Classical definition of probability",
+          "difficulty": "easy",
+          "stem": "Long answer: Describe the main ideas of **Probability**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Probability**._\n\n**Applications:**\n\n- **Classical definition of probability** — Look for **Classical definition of probability** in objects and processes around you — at home, in school labs, or in local industry.\n- **Elementary events** — Look for **Elementary events** in objects and processes around you — at home, in school labs, or in local industry.\n- **Complementary events** — Look for **Complementary events** in objects and processes around you — at home, in school labs, or in local industry.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Probability to real life — not just the textbook. I'll walk through everyday examples for Classical definition of probability, Elementary events, and Complementary events: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Classical definition of probability",
+          "example": "Look for **Classical definition of probability** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Elementary events",
+          "example": "Look for **Elementary events** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Complementary events",
+          "example": "Look for **Complementary events** in objects and processes around you — at home, in school labs, or in local industry."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Probability** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Probability NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Probability+NCERT+explained+Hindi+English)\n- [Probability class 10 one shot revision](https://www.youtube.com/results?search_query=Probability+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Probability animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Probability+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Probability, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Probability NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Probability+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Probability class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Probability+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Probability animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Probability+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Probability** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Probability, not a textbook definition.\n2. **Classical definition of probability** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Elementary events** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Complementary events** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Formulas** — Write P(E) = favourable outcomes / total outcomes on the board, explain each symbol, then solve one board-style numerical.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Classical definition of probability in everyday language.\n- Draw or describe one diagram related to Probability.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Probability NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Probability+NCERT+explained+Hindi+English)\n- 🔍 [Probability class 10 one shot revision](https://www.youtube.com/results?search_query=Probability+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Probability animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Probability+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Probability — or if you prefer reading first. I'll walk through the lesson flow: Classical definition of probability, Elementary events, and Complementary events, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रय…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Probability the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Boar…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Probability. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:19+00:00",
+    "completeness": 0.835,
+    "contentPass": true
+  }
+}

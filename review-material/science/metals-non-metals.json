@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 2,
+  "registryId": "sci-metals-nonmetals",
+  "analyticsId": "metals",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 3,
+  "difficulty": "medium",
+  "topics": [
+    "Reactivity series",
+    "Ionic compounds",
+    "Metallurgy",
+    "Corrosion"
+  ],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
+  "chapterId": "sci-metals-nonmetals",
+  "title": "Metals and Non-Metals",
+  "subject": "science",
+  "audioScript": "Good morning, everyone. Today we're opening Metals and Non-Metals. Forget the heavy textbook tone for a moment — think of this chapter as a story about Reactivity series, Ionic compounds, and Metallurgy. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Metals and Non-Metals. Forget the heavy textbook tone for a moment — think of this chapter as a story about Reactivity series, Ionic compounds, and Metallurgy. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Metals and Non-Metals. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Metals and Non-Metals, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Metals and Non-Metals, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Metals and Non-Metals, covering Reactivity series, Ionic compounds, and Metallurgy. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Metals and Non-Metals to real life — not just the textbook. I'll walk through everyday examples for Reactivity series, Ionic compounds, and Metallurgy: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Metals and Non-Metals, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Metals and Non-Metals — or if you prefer reading first. I'll walk through the lesson flow: Reactivity series, Ionic compounds, and Metallurgy, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Metals and Non-Metals the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Metals and Non-Metals. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "In chemistry, reactivity is the impulse for which a chemical substance undergoes a chemical reaction, either by itself or with other materials, with an overall release of energy.\nReactivity refers to:\n- the chemical reactions of a single substance,\n- the chemical reactions of two or more substances that interact with each other,\n- the systematic study of sets of reactions of these two kinds,\n- methodology that applies to the study of reactivity of chemicals of all kinds,\n- experimental methods that are used to observe these processes, and\n- theories to predict and to account for these processes.\nThe chemical reactivity of a single substance (reactant) covers its behavior in which it:\n- decomposes,\n- forms new substances by addition of atoms from another reactant or reactants, and\n- interacts with two or more other reactants to form two or more products.\nThe chemical reactivity of a substance can refer to the variety of circumstances (conditions that include temperature, pressure, presence of catalysts) in which it reacts, in combination with the:\n- variety of substances with which it reacts,\n- equilibrium point of the reaction (i.e., the extent to which all of it reacts), and\n- rat…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Metals and Non-Metals. Forget the heavy textbook tone for a moment — think of this chapter as a story about Reactivity series, Ionic compounds, and Metallurgy. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- In chemistry, reactivity is the impulse for which a chemical substance undergoes a chemical reaction, either by itself or with other materials, with an overall release of energy.\n- experimental methods that are used to observe these processes, and\n- The term reactivity is related to the concepts of chemical stability and chemical compatibility.\n- 'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react with oxygen—even though the equilibrium constant is very large—unless a flame initiates the radical reaction, which leads to an explosion.\n- Restriction of the term to refer to reaction rates leads to a more consistent view. Reactivity then refers to the rate at which a chemical substance tends to undergo a chemical reaction in time. In pure compounds, reactivity is regulated by the physical properties of the sample. For instance, grinding a sample to a higher specific surface area increases its reactivity. In impure compounds, the reactivity is also affected by the inclusion of contaminants. In crystalline compounds, the crystalline form can also affect reactivity. However, in all cases, reactivity is primarily due to the sub-atomic properties of the compound.\n- Although it is commonplace to make statements that \"substance X is reactive,\" each substance reacts with its own set of reagents. For example, the statement that \"sodium metal is reactive\" suggests that sodium reacts with many common reagents (including pure oxygen, chlorine, hydrochloric acid, and water), either at room temperature or when using a Bunsen burner.\n- The concept of stability should not be confused with reactivity. For example, an isolated molecule of an electronically excited state of the oxygen molecule spontaneously emits light after a statistically defined period.[citation needed] The half-life of such a species is another manifestation of its stability, but its reactivity can only be ascertained via its reactions with other species.\n- The second meaning of reactivity (i.e., whether or not a substance reacts) can be rationalized at the atomic and molecular level using older and simpler valence bond theory and also atomic and molecular orbital theory. Thermodynamically, a chemical reaction occurs because the products (taken as a group) are at a lower free energy than the reactants; the lower energy state is referred to as the \"more stable state.\" Quantum chemistry provides the most in-depth and exact understanding of the reason this occurs. Generally, electrons exist in orbitals that are the result of solving the Schrödinger equation for specific situations.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Metals and Non-Metals. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "In chemistry, reactivity is the impulse for which a chemical substance undergoes a chemical reaction, either by itself or with other materials, with an overall release of energy.\nReactivity refers to:\n- the chemical reactions of a single substance,\n- the chemical reactions of two or more substances that interact with each other,\n- the systematic study of sets of reactions of these two kinds,\n- methodology that applies to the study of reactivity of chemicals of all kinds,\n- experimental methods that are used to observe these processes, and\n- theories to predict and to account for these processes.\nThe chemical reactivity of a single substance (reactant) covers its behavior in which it:\n- decomposes,\n- forms new substances by addition of atoms from another reactant or reactants, and\n- interacts with two or more other reactants to form two or more products.\nThe chemical reactivity of a substance can refer to the variety of circumstances (conditions that include temperature, pressure, presence of catalysts) in which it reacts, in combination with the:\n- variety of substances with which it reacts,\n- equilibrium point of the reaction (i.e., the extent to which all of it reacts), and\n- rate of the reaction.\nThe term reactivity is related to the concepts of chemical stability and chemical compatibility.\n'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react wit…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Metals and Non-Metals, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Worked examples:**\n\n- 'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react with oxygen—even though the equilibrium constant is very large—unless a flame initiates the radical reaction, which leads to an explosion.\n- Although it is commonplace to make statements that \"substance X is reactive,\" each substance reacts with its own set of reagents. For example, the statement that \"sodium metal is reactive\" suggests that sodium reacts with many common reagents (including pure oxygen, chlorine, hydrochloric acid, and water), either at room temperature or when using a Bunsen burner.\n- The concept of stability should not be confused with reactivity. For example, an isolated molecule of an electronically excited state of the oxygen molecule spontaneously emits light after a statistically defined period.[citation needed] The half-life of such a species is another manifestation of its stability, but its reactivity can only be ascertained via its reactions with other species.\n- To achieve one of these orders of stability, an atom reacts with another atom to stabilize both. For example, a lone hydrogen atom has a single electron in its 1s orbital. It becomes significantly more stable (as much as 100 kilocalories per mole, or 420 kilojoules per mole) when reacting to form H2.",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Metals and Non-Metals. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **comparison layout** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Metals and Non-Metals, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 200' width='100%' role='img'><rect width='420' height='200' rx='12' fill='#0f172a'/><text x='210' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Metals and Non-Metals — compare</text><rect x='50' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='120' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Reactivity series</text><text x='210' y='118' text-anchor='middle' fill='#94a3b8' font-size='14'>vs</text><rect x='230' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#a78bfa'/><text x='300' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Ionic compounds</text><text x='210' y='175' text-anchor='middle' fill='#94a3b8' font-size='9'>Also: Metallurgy, Corrosion</text></svg>",
+      "diagram": {
+        "type": "compare",
+        "title": "Metals and Non-Metals — comparison layout",
+        "caption": "Chapter-specific comparison layout from CBSE syllabus (diagram-v2).",
+        "layout": "compare",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Reactivity series"
+          },
+          {
+            "id": "n1",
+            "label": "Ionic compounds"
+          },
+          {
+            "id": "n2",
+            "label": "Metallurgy"
+          },
+          {
+            "id": "n3",
+            "label": "Corrosion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Metals and Non-Metals**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Reactivity series** in 2–3 sentences. Use one example from Metals and Non-Metals.\n- **MCQ (1 mark)** — MCQ: Which statement about **Reactivity series** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Ionic compounds** in 2–3 sentences. Use one example from Metals and Non-Metals.\n- **MCQ (1 mark)** — MCQ: Which statement about **Ionic compounds** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Metallurgy** in 2–3 sentences. Use one example from Metals and Non-Metals.\n- **MCQ (1 mark)** — MCQ: Which statement about **Metallurgy** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Corrosion** in 2–3 sentences. Use one example from Metals and Non-Metals.\n- **MCQ (1 mark)** — MCQ: Which statement about **Corrosion** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Metals and Non-Metals**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Metals and Non-Metals, covering Reactivity series, Ionic compounds, and Metallurgy. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Reactivity series",
+          "difficulty": "medium",
+          "stem": "Explain **Reactivity series** in 2–3 sentences. Use one example from Metals and Non-Metals."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Reactivity series",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Reactivity series** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Ionic compounds",
+          "difficulty": "medium",
+          "stem": "Explain **Ionic compounds** in 2–3 sentences. Use one example from Metals and Non-Metals."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Ionic compounds",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Ionic compounds** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Metallurgy",
+          "difficulty": "medium",
+          "stem": "Explain **Metallurgy** in 2–3 sentences. Use one example from Metals and Non-Metals."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Metallurgy",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Metallurgy** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Corrosion",
+          "difficulty": "medium",
+          "stem": "Explain **Corrosion** in 2–3 sentences. Use one example from Metals and Non-Metals."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Corrosion",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Corrosion** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "Reactivity series",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Metals and Non-Metals**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Metals and Non-Metals**._\n\n**Applications:**\n\n- **Reactivity series** — Look for **Reactivity series** in objects and processes around you — at home, in school labs, or in local industry.\n- **Ionic compounds** — Look for **Ionic compounds** in objects and processes around you — at home, in school labs, or in local industry.\n- **Metallurgy** — Look for **Metallurgy** in objects and processes around you — at home, in school labs, or in local industry.\n- **Corrosion** — Look for **Corrosion** in objects and processes around you — at home, in school labs, or in local industry.\n- **Metals and Non-Metals** — 'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react with oxygen—even though the equilibrium constant is very large—unless a flame initiates the radical reaction, which leads to an explosion.\n- **Metals and Non-Metals** — Although it is commonplace to make statements that \"substance X is reactive,\" each substance reacts with its own set of reagents. For example, the statement that \"sodium metal is reactive\" suggests that sodium reacts with many common reagents (including pure oxygen, chlorine, hydrochloric acid, and water), either at room temperature or when using a Bunsen burner.\n- **Metals and Non-Metals** — The concept of stability should not be confused with reactivity. For example, an isolated molecule of an electronically excited state of the oxygen molecule spontaneously emits light after a statistically defined period.[citation needed] The half-life of such a species is another manifestation of its stability, but its reactivity can only be ascertained via its reactions with other species.\n- **Metals and Non-Metals** — To achieve one of these orders of stability, an atom reacts with another atom to stabilize both. For example, a lone hydrogen atom has a single electron in its 1s orbital. It becomes significantly more stable (as much as 100 kilocalories per mole, or 420 kilojoules per mole) when reacting to form H2.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Metals and Non-Metals to real life — not just the textbook. I'll walk through everyday examples for Reactivity series, Ionic compounds, and Metallurgy: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Reactivity series",
+          "example": "Look for **Reactivity series** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Ionic compounds",
+          "example": "Look for **Ionic compounds** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Metallurgy",
+          "example": "Look for **Metallurgy** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Corrosion",
+          "example": "Look for **Corrosion** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-05",
+          "topic": "Metals and Non-Metals",
+          "example": "'Reactivity' is a somewhat vague concept in chemistry. It appears to embody both thermodynamic factors and kinetic factors (i.e., whether or not a substance reacts, and how fast it reacts). Both factors are actually distinct, and both commonly depend on temperature. For example, it is commonly asserted that the reactivity of alkali metals (Na, K, etc.) increases down the group in the periodic table, or that hydrogen's reactivity is evidenced by its reaction with oxygen. In fact, the rate of reaction of alkali metals (as evidenced by their reaction with water for example) is a function not only of position within the group but also of particle size. Hydrogen does not react with oxygen—even though the equilibrium constant is very large—unless a flame initiates the radical reaction, which leads to an explosion."
+        },
+        {
+          "id": "app-06",
+          "topic": "Metals and Non-Metals",
+          "example": "Although it is commonplace to make statements that \"substance X is reactive,\" each substance reacts with its own set of reagents. For example, the statement that \"sodium metal is reactive\" suggests that sodium reacts with many common reagents (including pure oxygen, chlorine, hydrochloric acid, and water), either at room temperature or when using a Bunsen burner."
+        },
+        {
+          "id": "app-07",
+          "topic": "Metals and Non-Metals",
+          "example": "The concept of stability should not be confused with reactivity. For example, an isolated molecule of an electronically excited state of the oxygen molecule spontaneously emits light after a statistically defined period.[citation needed] The half-life of such a species is another manifestation of its stability, but its reactivity can only be ascertained via its reactions with other species."
+        },
+        {
+          "id": "app-08",
+          "topic": "Metals and Non-Metals",
+          "example": "To achieve one of these orders of stability, an atom reacts with another atom to stabilize both. For example, a lone hydrogen atom has a single electron in its 1s orbital. It becomes significantly more stable (as much as 100 kilocalories per mole, or 420 kilojoules per mole) when reacting to form H2."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Metals and Non-Metals** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Metals and Non-Metals NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Metals+and+Non-Metals+NCERT+explained+Hindi+English)\n- [Metals and Non-Metals class 10 one shot revision](https://www.youtube.com/results?search_query=Metals+and+Non-Metals+class+10+one+shot+revision)\n- [NCERT Science class 10 Metals and Non-Metals animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Metals+and+Non-Metals+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Metals and Non-Metals, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Metals and Non-Metals NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Metals+and+Non-Metals+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Metals and Non-Metals class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Metals+and+Non-Metals+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Metals and Non-Metals animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Metals+and+Non-Metals+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Metals and Non-Metals** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Metals and Non-Metals, not a textbook definition.\n2. **Reactivity series** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Ionic compounds** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Metallurgy** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Corrosion** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Reactivity series in everyday language.\n- Draw or describe one diagram related to Metals and Non-Metals.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Metals and Non-Metals NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Metals+and+Non-Metals+NCERT+explained+Hindi+English)\n- 🔍 [Metals and Non-Metals class 10 one shot revision](https://www.youtube.com/results?search_query=Metals+and+Non-Metals+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Metals and Non-Metals animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Metals+and+Non-Metals+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Metals and Non-Metals — or if you prefer reading first. I'll walk through the lesson flow: Reactivity series, Ionic compounds, and Metallurgy, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "In chemistry, reactivity is the impulse for which a chemical substance undergoes a chemical reaction, either by itself or with other materials, with an overall release of energy.\nReactivity refers to:\n- the chemical reactions of a single substance,\n- the chemical reactions of two or more substances that interact with each other,\n- the systematic study of sets of reactions of these two kinds,\n- methodology that applies to the study of reactivity of chemicals of all kinds,\n- experimental methods that are used to observe these processes, and\n- theories to predict and to account for these processes.\nThe chemical reactivity of a single substance (reactant) covers its behavior in which it:\n- decomposes,\n- forms new substances by addition of atoms from another reactant or reactants, and\n- interacts with two or more other reactants to form two or more products.\nThe chemical reactivity of a subst…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Metals and Non-Metals the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "In chemistry, reactivity is the impulse for which a chemical substance undergoes a chemical reaction, either by itself or with other materials, with an overall release of energy.\nReactivity refers to:\n- the chemical reactions of a single substance,\n- the chemical reactions of two or more substances that interact with each other,\n- the systematic study of sets of reactions of these two kinds,\n- methodology that applies to the study of reactivity of chemicals of all kinds,\n- experimental methods that are used to observe these processes, and\n- theories to predict and to account for these processe…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Metals and Non-Metals. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:13+00:00",
+    "completeness": 0.89,
+    "contentPass": true
+  }
+}

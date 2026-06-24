@@ -1,0 +1,91 @@
+{
+  "name": "Brahmexa-Hospital-Alerts",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "hospital"}],
+  "nodes": [
+    {
+      "id": "hosp-al-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-al-0002-4000-8000-000000000000",
+      "name": "Detect Alert",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nreturn [{\n  json: {\n    ...items[0].json,\n    alert_type: payload.alert_type || 'general',\n    severity: payload.severity || 'medium',\n    location: payload.location || 'unknown',\n    detected_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "hosp-al-0003-4000-8000-000000000000",
+      "name": "Is Critical?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json.severity}}",
+              "operation": "equal",
+              "value2": "critical"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hosp-al-0004-4000-8000-000000000000",
+      "name": "Notify Emergency Staff",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 200],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.NOTIFICATION_SERVICE_URL}}/emergency",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"alert_type\": \"{{$json.alert_type}}\", \"location\": \"{{$json.location}}\", \"severity\": \"{{$json.severity}}\", \"event_id\": \"{{$json.event_id}}\"}"
+      }
+    },
+    {
+      "id": "hosp-al-0005-4000-8000-000000000000",
+      "name": "Escalate to Supervisor",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-al-0006-4000-8000-000000000000",
+      "name": "Notify On-Duty Staff",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Detect Alert", "type": "main", "index": 0}]]
+    },
+    "Detect Alert": {
+      "main": [[{"node": "Is Critical?", "type": "main", "index": 0}]]
+    },
+    "Is Critical?": {
+      "main": [
+        [{"node": "Notify Emergency Staff", "type": "main", "index": 0}],
+        [{"node": "Notify On-Duty Staff", "type": "main", "index": 0}]
+      ]
+    },
+    "Notify Emergency Staff": {
+      "main": [[{"node": "Escalate to Supervisor", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

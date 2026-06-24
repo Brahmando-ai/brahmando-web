@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 2,
+  "registryId": "sci-control-coordination",
+  "analyticsId": "control-coordination",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 6,
+  "difficulty": "medium",
+  "topics": [
+    "Nervous system",
+    "Reflex action",
+    "Plant hormones",
+    "Endocrine system"
+  ],
+  "formulas": [],
+  "recommendedDifficulty": "medium",
+  "chapterId": "sci-control-coordination",
+  "title": "Control and Coordination",
+  "subject": "science",
+  "audioScript": "Good morning, everyone. Today we're opening Control and Coordination. Forget the heavy textbook tone for a moment — think of this chapter as a story about Nervous system, Reflex action, and Plant hormones. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Control and Coordination. Forget the heavy textbook tone for a moment — think of this chapter as a story about Nervous system, Reflex action, and Plant hormones. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Control and Coordination. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Control and Coordination, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Control and Coordination, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 6 questions on Control and Coordination, covering Nervous system, Reflex action, and Plant hormones. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Control and Coordination to real life — not just the textbook. I'll walk through everyday examples for Nervous system, Reflex action, and Plant hormones: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Control and Coordination, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Control and Coordination — or if you prefer reading first. I'll walk through the lesson flow: Nervous system, Reflex action, and Plant hormones, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Control and Coordination the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Control and Coordination. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Hormones in plants coordinate the movements.\nFor more information on Nervous System, watch the below video\nTo know more about The Nervous System, visit here.\nThe Nervous System\nNeuron\nNeuron is the str…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Control and Coordination. Forget the heavy textbook tone for a moment — think of this chapter as a story about Nervous system, Reflex action, and Plant hormones. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- The ability of organisms to move certain body parts is movement.\n- When they move from one place to another, it is called locomotion.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Neuron is the structural and functional unit of the nervous system.\n- The impulse transmission is faster in myelinated neurons.\n- The central nervous system (CNS) is made up of the brain and the spinal cord. The functions of different parts of the brain are:\n- The cerebrum is responsible for reasoning, logic, emotions, speech, memory, visual processing, recognition of auditory and taste stimuli, etc.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Control and Coordination. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which assist the nervous system in carrying out various functions. They are secreted by endocrine glands.\n- Hormones in plants coordinate the movements.\nFor more information on Nervous System, watch the below video\nTo know more about The Nervous System, visit here.\nThe Nervous System\nNeuron\nNeuron is the structural and functional unit of the nervous system.\n- Each neuron has three main parts: dendrites, cyton/soma/cell body and axon.\n- Dendrites receive impulses from other neurons.\n- Cyton/soma processes the impulse.\n- Axon transmits the impulse, either to another neuron or to muscles/glands, etc.\n- Axon may be myelinated or non-myelinated.\n- The impulse transmission is faster in myelinated neurons.\nCentral Nervous System\nThe central nervous system (CNS) is made up of the brain and the spinal cord. The functions of different parts of the brain are:\n- The cerebrum is responsible for reasoning, logic, emotions, speech, memory, visual processing, recognition of auditory and taste stimuli, etc.\n- Cerebellum regulates and coordinates body movements, posture and balance.\n- Pons relays signals from…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Control and Coordination, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Control and Coordination. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **process flowchart** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Control and Coordination, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Control and Coordination — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Nervous system</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Reflex action</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Plant hormones</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Endocrine syst</text></svg>",
+      "diagram": {
+        "type": "flowchart",
+        "title": "Control and Coordination — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "Nervous system"
+          },
+          {
+            "id": "n1",
+            "label": "Reflex action"
+          },
+          {
+            "id": "n2",
+            "label": "Plant hormones"
+          },
+          {
+            "id": "n3",
+            "label": "Endocrine system"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Control and Coordination**._\n\n**Practice questions:**\n\n1. 1. 60% of the human brain is composed of fat.\n2. 2. The brain contains about 100 billion neurons and 100 trillion connections.\n3. 3. The texture of the brain is similar to that of firm jelly.\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **Nervous system** in 2–3 sentences. Use one example from Control and Coordination.\n- **MCQ (1 mark)** — MCQ: Which statement about **Nervous system** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Reflex action** in 2–3 sentences. Use one example from Control and Coordination.\n- **MCQ (1 mark)** — MCQ: Which statement about **Reflex action** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Plant hormones** in 2–3 sentences. Use one example from Control and Coordination.\n- **MCQ (1 mark)** — MCQ: Which statement about **Plant hormones** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 6 questions on Control and Coordination, covering Nervous system, Reflex action, and Plant hormones. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nervous system",
+          "difficulty": "medium",
+          "stem": "1. 60% of the human brain is composed of fat."
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nervous system",
+          "difficulty": "medium",
+          "stem": "2. The brain contains about 100 billion neurons and 100 trillion connections."
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Nervous system",
+          "difficulty": "medium",
+          "stem": "3. The texture of the brain is similar to that of firm jelly."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Nervous system",
+          "difficulty": "medium",
+          "stem": "Explain **Nervous system** in 2–3 sentences. Use one example from Control and Coordination."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Nervous system",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Nervous system** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Reflex action",
+          "difficulty": "medium",
+          "stem": "Explain **Reflex action** in 2–3 sentences. Use one example from Control and Coordination."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Reflex action",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Reflex action** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Plant hormones",
+          "difficulty": "medium",
+          "stem": "Explain **Plant hormones** in 2–3 sentences. Use one example from Control and Coordination."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Plant hormones",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Plant hormones** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Control and Coordination**._\n\n**Applications:**\n\n- **Nervous system** — Look for **Nervous system** in objects and processes around you — at home, in school labs, or in local industry.\n- **Reflex action** — Look for **Reflex action** in objects and processes around you — at home, in school labs, or in local industry.\n- **Plant hormones** — Look for **Plant hormones** in objects and processes around you — at home, in school labs, or in local industry.\n- **Endocrine system** — Look for **Endocrine system** in objects and processes around you — at home, in school labs, or in local industry.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Control and Coordination to real life — not just the textbook. I'll walk through everyday examples for Nervous system, Reflex action, and Plant hormones: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Nervous system",
+          "example": "Look for **Nervous system** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Reflex action",
+          "example": "Look for **Reflex action** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Plant hormones",
+          "example": "Look for **Plant hormones** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Endocrine system",
+          "example": "Look for **Endocrine system** in objects and processes around you — at home, in school labs, or in local industry."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Control and Coordination** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Control and Coordination NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Control+and+Coordination+NCERT+explained+Hindi+English)\n- [Control and Coordination class 10 one shot revision](https://www.youtube.com/results?search_query=Control+and+Coordination+class+10+one+shot+revision)\n- [NCERT Science class 10 Control and Coordination animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Control+and+Coordination+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Control and Coordination, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Control and Coordination NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Control+and+Coordination+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Control and Coordination class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Control+and+Coordination+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Control and Coordination animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Control+and+Coordination+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Control and Coordination** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Control and Coordination, not a textbook definition.\n2. **Nervous system** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Reflex action** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Plant hormones** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Endocrine system** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Nervous system in everyday language.\n- Draw or describe one diagram related to Control and Coordination.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Control and Coordination NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Control+and+Coordination+NCERT+explained+Hindi+English)\n- 🔍 [Control and Coordination class 10 one shot revision](https://www.youtube.com/results?search_query=Control+and+Coordination+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Control and Coordination animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Control+and+Coordination+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Control and Coordination — or if you prefer reading first. I'll walk through the lesson flow: Nervous system, Reflex action, and Plant hormones, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in response to stimuli.\nIntroduction to Control & Coordination\n- Organisms move in response to various kinds of stimuli like light, heat, nutrients/food, etc.\n- All the activities in animals are controlled and coordinated by the nervous and endocrine systems.\n- Hormones are chemical messengers which ass…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Control and Coordination the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "According to the CBSE Syllabus 2023-24, this chapter has been renumbered as Chapter 6.\nIntroduction\nThe human body is a complex machine performing tons of functions and processes to maintain and sustain life. Explore how the body controls its movements and coordinates its actions with other parts of the body and the environment by exploring notes for Class 10 Chapter 7 Control and Coordination.\nThe Nervous System\nMovement in Organisms\nThe ability of organisms to move certain body parts is movement.\nWhen they move from one place to another, it is called locomotion.\nOrganisms show movements in r…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Control and Coordination. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:14+00:00",
+    "completeness": 0.835,
+    "contentPass": true
+  }
+}

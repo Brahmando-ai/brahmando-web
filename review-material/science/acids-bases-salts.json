@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 2,
+  "registryId": "sci-acids-bases",
+  "analyticsId": "acids-bases",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 2,
+  "difficulty": "medium",
+  "topics": [
+    "pH scale",
+    "Neutralization",
+    "Common acids and bases",
+    "Salts and their uses"
+  ],
+  "formulas": [
+    "pH = -log[H+]",
+    "Acid + Base -> Salt + Water"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "sci-acids-bases",
+  "title": "Acids, Bases and Salts",
+  "subject": "science",
+  "audioScript": "Good morning, everyone. Today we're opening Acids, Bases and Salts. Forget the heavy textbook tone for a moment — think of this chapter as a story about pH scale, Neutralization, and Common acids and bases. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Acids, Bases and Salts. Forget the heavy textbook tone for a moment — think of this chapter as a story about pH scale, Neutralization, and Common acids and bases. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Acids, Bases and Salts. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Acids, Bases and Salts, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Acids, Bases and Salts, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Acids, Bases and Salts, covering pH scale, Neutralization, and Common acids and bases. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Acids, Bases and Salts to real life — not just the textbook. I'll walk through everyday examples for pH scale, Neutralization, and Common acids and bases: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Acids, Bases and Salts, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Acids, Bases and Salts — or if you prefer reading first. I'll walk through the lesson flow: pH scale, Neutralization, and Common acids and bases, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Acids, Bases and Salts the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Acids, Bases and Salts. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "In chemistry, pH (// or //; pee-AYCH) is a logarithmic scale used to specify the acidity or basicity of aqueous solutions. Acidic solutions (solutions with higher concentrations of hydrogen (H+) cations) are measured to have lower pH values than basic or alkaline solutions. While the origin of the symbol 'pH' can be traced back to its original inventor, and the 'H' refers clearly to hydrogen, the exact original meaning of the letter 'p' in pH is still disputed; it has since acquired a more general technical meaning that is used in numerous other contexts.[1][2]\nThe pH scale is logarithmic and inversely indicates the activity of hydrogen cations in the solution\nwhere [H+] is the equilibrium molar concentration of H+ (in M = mol/L) in the solution. At 25 °C (77 °F), solutions of which the pH is less than 7 are acidic, and solutions of which the pH is greater than 7 are basic. Solutions with a pH of 7 at 25 °C are neutral (i.e. have the same concentration of H+ ions as OH− ions, i.e. the same as pure water). The neutral value of the pH depends on the temperature and is lower than 7 if the temperature increases above 25 °C. The pH range is commonly given as 0 to 14, but a pH value can…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Acids, Bases and Salts. Forget the heavy textbook tone for a moment — think of this chapter as a story about pH scale, Neutralization, and Common acids and bases. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- In chemistry, pH (// or //; pee-AYCH) is a logarithmic scale used to specify the acidity or basicity of aqueous solutions. Acidic solutions (solutions with higher concentrations of hydrogen (H+) cations) are measured to have lower pH values than basic or alkaline solutions. While the origin of the symbol 'pH' can be traced back to its original inventor, and the 'H' refers clearly to hydrogen, the exact original meaning of the letter 'p' in pH is still disputed; it has since acquired a more general technical meaning that is used in numerous other contexts.[1][2]\n- The pH scale is logarithmic and inversely indicates the activity of hydrogen cations in the solution\n- where [H+] is the equilibrium molar concentration of H+ (in M = mol/L) in the solution. At 25 °C (77 °F), solutions of which the pH is less than 7 are acidic, and solutions of which the pH is greater than 7 are basic. Solutions with a pH of 7 at 25 °C are neutral (i.e. have the same concentration of H+ ions as OH− ions, i.e. the same as pure water). The neutral value of the pH depends on the temperature and is lower than 7 if the temperature increases above 25 °C. The pH range is commonly given as 0 to 14, but a pH value can be less than 0 for very concentrated strong acids or greater than 14 for very concentrated strong bases.[3]\n- The pH scale is traceable to a set of standard solutions whose pH is established by international agreement.[4] Primary pH standard values are determined using a concentration cell with transference by measuring the potential difference between a hydrogen electrode and a standard electrode such as the silver chloride electrode. The pH of aqueous solutions can be measured with a glass electrode and a pH meter or a color-changing indicator. Measurements of pH are important in chemistry, agronomy, medicine, water treatment, and many other applications.\n- For the number p, I propose the name 'hydrogen ion exponent' and the symbol pH•. Then, for the hydrogen ion exponent (pH•) of a solution, the negative value of the Briggsian logarithm of the related hydrogen ion normality factor is to be understood.[5]\n- Sørensen did not explain why he used the letter p, and the exact meaning of the letter is still disputed.[2][6] Sørensen described a way of measuring pH using potential differences, and it represents the negative power of 10 in the concentration of hydrogen ions. The letter p could stand for the French puissance, German Potenz, or Danish potens, all meaning \"power\", or it could mean \"potential\". All of these words start with the letter p in French, German, and Danish, which were the languages in which Sørensen published: Carlsberg Laboratory was French-speaking; German was the dominant language of scientific publishing; Sørensen was Danish. He also used the letter q in much the same way elsewhere in the paper, and he might have arbitrarily labelled the test solution \"p\" and the reference solution \"q\"; these letters are often paired with e4 then e5.[7] Some literature sources suggest that \"pH\" stands for the Latin term pondus hydrogenii (quantity of hydrogen) or potentia hydrogenii (power of hydrogen), although this is not supported by Sørensen's writings.[8][9][10]\n- In modern chemistry, the p stands for \"the negative decimal logarithm of\", and is used in the term pKa for acid dissociation constants,[11] so pH is \"the negative decimal logarithm of H+ ion concentration\", while pOH is \"the negative decimal logarithm of OH− ion concentration\".\n- The pH of a solution is defined as the decimal logarithm of the reciprocal of the hydrogen ion activity, aH+.[4] Mathematically, pH is expressed as:",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Acids, Bases and Salts. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "In chemistry, pH (// or //; pee-AYCH) is a logarithmic scale used to specify the acidity or basicity of aqueous solutions. Acidic solutions (solutions with higher concentrations of hydrogen (H+) cations) are measured to have lower pH values than basic or alkaline solutions. While the origin of the symbol 'pH' can be traced back to its original inventor, and the 'H' refers clearly to hydrogen, the exact original meaning of the letter 'p' in pH is still disputed; it has since acquired a more general technical meaning that is used in numerous other contexts.[1][2]\nThe pH scale is logarithmic and inversely indicates the activity of hydrogen cations in the solution\nwhere [H+] is the equilibrium molar concentration of H+ (in M = mol/L) in the solution. At 25 °C (77 °F), solutions of which the pH is less than 7 are acidic, and solutions of which the pH is greater than 7 are basic. Solutions with a pH of 7 at 25 °C are neutral (i.e. have the same concentration of H+ ions as OH− ions, i.e. the same as pure water). The neutral value of the pH depends on the temperature and is lower than 7 if the temperature increases above 25 °C. The pH range is commonly given as 0 to 14, but a pH value can be less than 0 for very concentrated strong acids or greater than 14 for very concentrated strong bases.[3]\nThe pH scale is traceable to a set of standard solutions whose pH is established by international agreement.[4] Primary pH standard values are determined using a concentration cell with transference by measuring the potential difference between a hydrogen electrode and a standard electrode such as the silver chloride electrode. The pH of aqueous solutions can be measured with a glass electrode and a pH meter or a color-changing indicator. Measurements of pH are important in chemistry, agronomy, medicine, water treatment, and many other applications.\nIn 1909, the Danish chemist Søren Peter Lauritz Sørensen introduced the concept of pH at the Carlsberg Laboratory,[5] originally using t…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "**Formulas and relations:**\n\n- where [H+] is the equilibrium molar concentration of H+ (in M = mol/L) in the solution. At 25 °C (77 °F), solutions of which the pH is less tha\n- This was the original definition of Sørensen in 1909,[17] which was superseded in favor of pH in 1924. [H] is the concentration of hydrogen ions, denoted [H+] in modern chemistry. More correctly, the thermodynamic activity of H+ (aH+) in dilute solution should be replaced by [H+]/c0, where the standard state concentration c0 = 1 mol/L. This ratio is a pure number whose logarithm can be defined.\n- The difference between p[H] and pH is quite small, and it has been stated that pH = p[H] + 0.04.[19] However, it is common practice to use the term \"pH\" for both t\n- So, at room temperature, pOH ≈ 14 − pH. (Under otherwise standard conditions, the equation is exact at approxi\n- Neutrality is not exactly 7 at 25 °C, but 7 serves as a good approximation in most cases. Neutrality occurs when the concentration of hydrogen cations ([H+]) equals the concentration of hydroxide ions ([OH−]), or when their activities are equal. Since self-ionization of water holds the product of these concentration [H+] × [OH−] = Kw, it can be seen that at neutrality [H+] = [OH−] = √, or pH = pKw/2. pKw is approximately 14 but depends on ionic strength and temperature, a\n- As part of its operational definition of the pH scale, the IUPAC defines a series of Buffer solutions across a range of pH values (often denoted with National Bureau of Standards (NBS) or National Institute of Standards and Technology (NIST) designation). These solutions have a relatively low ionic strength (≈ 0.1) compared to that of seawater (≈ 0.7), and, as a consequence, are not recommended for use in characterizing the\n- [H+]T = [H+]F + [HSO−\n- [H+]F = [H+]T − [HSO−",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Acids, Bases and Salts, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Worked examples:**\n\n- As an example, for a solution with a hydrogen ion activity of ×10−6, the pH of the solution can be calculated as follows:\n- pH is an example of an acidity function, but others can be defined. For example, the Hammett acidity function, H0, has been developed in connection with Superacids.\n- Strong acids and bases are compounds that are essentially fully dissociated in water. This means that in an acidic solution, the concentration of hydrogen cations (H+) can be considered equal to the concentration of the acid. Similarly, in a basic solution, the concentration of hydroxide ions (OH−) can be considered equal to the concentration of the base. The pH of a solution is defined as the negative logarithm of the concentration of H+, and the pOH is defined as the negative logarithm of the concentration of OH−. For example, the pH of a 0.01 M solution of hydrochloric acid (HCl) is equal to 2 (pH = −log10(0.01)), while the pOH of a 0.01 M solution of sodium hydroxide (NaOH) is equal to 2 (pOH = −log10(0.01)), which corresponds to a pH of about 12.\n- However, self-ionization of water must also be considered when concentrations of a strong acid or base is very low or high. For instance, a ×10−8 M solution of HCl would be expected to have a pH of 7.3 based on the above procedure, which is incorrect as it is acidic and should have a pH of less than 7. In such cases, the system can be treated as a mixture of the acid or base and water, which is an amphoteric substance. By accounting for the self-ionization of water, the true pH of the solution can be calculated. For example, a ×10−8 M solution of HCl would have a pH of 6.89 when treated as a mixture of HCl and water. The self-ionization equilibrium of solutions of sodium hydroxide at higher concentrations must also be considered.[44]\n- For example, what is the pH of a 0.01 M solution of benzoic acid, pKa = 4.19?\n- Some systems, such as with polyprotic acids, are amenable to spreadsheet calculations.[45] With three or more reagents or when many complexes are formed with general formulae such as ApBqHr, the following general method can be used to calculate the pH of a solution. For example, with three reagents, each equilibrium is characterized by an equilibrium constant, β.",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "**Common mistakes to avoid:**\n\n- The measurement of pH can become difficult at extremely acidic or alkaline conditions, such as below pH 2.5 (ca. 0.003 mol/dm3 acid) or above pH 10.5 (above ca. 0.0003 mol/dm3 alkaline). This is due to the breakdown of the Nernst equation in such conditions when using a glass electrode. Several factors contribute to this problem. First, liquid junction potentials may not be independent of pH.[23] Second, the high ionic strength of concentrated solutions can affect the electrode potentials. At high pH the glass electrode may be affected by \"alkaline error\", because the electrode becomes sensitive to the concentration of cations such as Na+ and K+ in the solution.[24] To overcome these problems, specially constructed electrodes are available.",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Acids, Bases and Salts. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **process flowchart** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Acids, Bases and Salts, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Acids, Bases and Salts — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>pH scale</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Neutralization</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Common acids a</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Salts and thei</text></svg>",
+      "diagram": {
+        "type": "flowchart",
+        "title": "Acids, Bases and Salts — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "pH = -log[H+]"
+          },
+          {
+            "id": "n1",
+            "label": "Acid + Base -> Salt + Water"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Acids, Bases and Salts**._\n\n**Practice questions:**\n\n1. 3) and a hydrogen cation (H+). The presence of free hydrogen cations (H+) lowers the pH of the ocean.\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **pH scale** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **pH scale** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Neutralization** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **Neutralization** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Common acids and bases** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **Common acids and bases** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Salts and their uses** in 2–3 sentences. Use one example from Acids, Bases and Salts.\n- **MCQ (1 mark)** — MCQ: Which statement about **Salts and their uses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **pH = -log[H+]**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps.\n- **SHORT (3 marks)** — Using **Acid + Base -> Salt + Water**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Acids, Bases and Salts**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Acids, Bases and Salts, covering pH scale, Neutralization, and Common acids and bases. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "pH scale",
+          "difficulty": "medium",
+          "stem": "3) and a hydrogen cation (H+). The presence of free hydrogen cations (H+) lowers the pH of the ocean."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "pH scale",
+          "difficulty": "medium",
+          "stem": "Explain **pH scale** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "pH scale",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **pH scale** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Neutralization",
+          "difficulty": "medium",
+          "stem": "Explain **Neutralization** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Neutralization",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Neutralization** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Common acids and bases",
+          "difficulty": "medium",
+          "stem": "Explain **Common acids and bases** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Common acids and bases",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Common acids and bases** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Salts and their uses",
+          "difficulty": "medium",
+          "stem": "Explain **Salts and their uses** in 2–3 sentences. Use one example from Acids, Bases and Salts."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Salts and their uses",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Salts and their uses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 3,
+          "topic": "Acids, Bases and Salts",
+          "difficulty": "medium",
+          "stem": "Using **pH = -log[H+]**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps."
+        },
+        {
+          "id": "pq-10",
+          "type": "short",
+          "marks": 3,
+          "topic": "Acids, Bases and Salts",
+          "difficulty": "medium",
+          "stem": "Using **Acid + Base -> Salt + Water**, solve a standard board-style problem from Acids, Bases and Salts. Show all working steps."
+        },
+        {
+          "id": "pq-11",
+          "type": "long",
+          "marks": 5,
+          "topic": "pH scale",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Acids, Bases and Salts**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Acids, Bases and Salts**._\n\n**Applications:**\n\n- **pH scale** — Soil pH for crops, antacids for acidity, and swimming-pool water testing kits.\n- **Neutralization** — Treating bee stings (acidic) with baking soda or indigestion with antacid tablets.\n- **Common acids and bases** — Look for **Common acids and bases** in objects and processes around you — at home, in school labs, or in local industry.\n- **Salts and their uses** — Look for **Salts and their uses** in objects and processes around you — at home, in school labs, or in local industry.\n- **Acids, Bases and Salts** — As an example, for a solution with a hydrogen ion activity of ×10−6, the pH of the solution can be calculated as follows:\n- **Acids, Bases and Salts** — pH is an example of an acidity function, but others can be defined. For example, the Hammett acidity function, H0, has been developed in connection with Superacids.\n- **Acids, Bases and Salts** — The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater pH scales differ in their pH values up to 0.10, differences that are much larger than the accuracy of pH measurements typically required, in particular, in relation to the ocean's carbonate system.[31] Since it omits consideration of sulfate and fluoride ions, the free scale is significantly different from both the total and seawater scales. Because of the relative unimportance of the fluoride ion, the total and seawater scales differ only very slightly.\n- **Acids, Bases and Salts** — However, the advantage of considering this additional complexity is dependent upon the abundance of fluoride in the medium. In seawater, for instance, sulfate ions occur at much greater concentrations (> 400 times) than those of fluoride. As a consequence, for most practical purposes, the difference between the total and seawater scales is very small.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Acids, Bases and Salts to real life — not just the textbook. I'll walk through everyday examples for pH scale, Neutralization, and Common acids and bases: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "pH scale",
+          "example": "Soil pH for crops, antacids for acidity, and swimming-pool water testing kits."
+        },
+        {
+          "id": "app-02",
+          "topic": "Neutralization",
+          "example": "Treating bee stings (acidic) with baking soda or indigestion with antacid tablets."
+        },
+        {
+          "id": "app-03",
+          "topic": "Common acids and bases",
+          "example": "Look for **Common acids and bases** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Salts and their uses",
+          "example": "Look for **Salts and their uses** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-05",
+          "topic": "Acids, Bases and Salts",
+          "example": "As an example, for a solution with a hydrogen ion activity of ×10−6, the pH of the solution can be calculated as follows:"
+        },
+        {
+          "id": "app-06",
+          "topic": "Acids, Bases and Salts",
+          "example": "pH is an example of an acidity function, but others can be defined. For example, the Hammett acidity function, H0, has been developed in connection with Superacids."
+        },
+        {
+          "id": "app-07",
+          "topic": "Acids, Bases and Salts",
+          "example": "The measurement of pH in seawater is complicated by the chemical properties of seawater, and three distinct pH scales exist in chemical oceanography.[31] In practical terms, the three seawater pH scales differ in their pH values up to 0.10, differences that are much larger than the accuracy of pH measurements typically required, in particular, in relation to the ocean's carbonate system.[31] Since it omits consideration of sulfate and fluoride ions, the free scale is significantly different from both the total and seawater scales. Because of the relative unimportance of the fluoride ion, the total and seawater scales differ only very slightly."
+        },
+        {
+          "id": "app-08",
+          "topic": "Acids, Bases and Salts",
+          "example": "However, the advantage of considering this additional complexity is dependent upon the abundance of fluoride in the medium. In seawater, for instance, sulfate ions occur at much greater concentrations (> 400 times) than those of fluoride. As a consequence, for most practical purposes, the difference between the total and seawater scales is very small."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Acids, Bases and Salts** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Acids, Bases and Salts NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Acids%2C+Bases+and+Salts+NCERT+explained+Hindi+English)\n- [Acids, Bases and Salts class 10 one shot revision](https://www.youtube.com/results?search_query=Acids%2C+Bases+and+Salts+class+10+one+shot+revision)\n- [NCERT Science class 10 Acids, Bases and Salts animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Acids%2C+Bases+and+Salts+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Acids, Bases and Salts, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Acids, Bases and Salts NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Acids%2C+Bases+and+Salts+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Acids, Bases and Salts class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Acids%2C+Bases+and+Salts+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Acids, Bases and Salts animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Acids%2C+Bases+and+Salts+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Acids, Bases and Salts** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Acids, Bases and Salts, not a textbook definition.\n2. **pH scale** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Neutralization** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Common acids and bases** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Salts and their uses** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Formulas** — Write pH = -log[H+] on the board, explain each symbol, then solve one board-style numerical.\n7. **Common mistake** — Warn about the error students make most often in exams.\n8. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain pH scale in everyday language.\n- Draw or describe one diagram related to Acids, Bases and Salts.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Acids, Bases and Salts NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Acids%2C+Bases+and+Salts+NCERT+explained+Hindi+English)\n- 🔍 [Acids, Bases and Salts class 10 one shot revision](https://www.youtube.com/results?search_query=Acids%2C+Bases+and+Salts+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Acids, Bases and Salts animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Acids%2C+Bases+and+Salts+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Acids, Bases and Salts — or if you prefer reading first. I'll walk through the lesson flow: pH scale, Neutralization, and Common acids and bases, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "In chemistry, pH (// or //; pee-AYCH) is a logarithmic scale used to specify the acidity or basicity of aqueous solutions. Acidic solutions (solutions with higher concentrations of hydrogen (H+) cations) are measured to have lower pH values than basic or alkaline solutions. While the origin of the symbol 'pH' can be traced back to its original inventor, and the 'H' refers clearly to hydrogen, the exact original meaning of the letter 'p' in pH is still disputed; it has since acquired a more general technical meaning that is used in numerous other contexts.[1][2]\nThe pH scale is logarithmic and inversely indicates the activity of hydrogen cations in the solution\nwhere [H+] is the equilibrium molar concentration of H+ (in M = mol/L) in the solution. At 25 °C (77 °F), solutions of which the pH is less than 7 are acidic, and solutions of which the pH is greater than 7 are basic. Solutions wit…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Acids, Bases and Salts the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "In chemistry, pH (// or //; pee-AYCH) is a logarithmic scale used to specify the acidity or basicity of aqueous solutions. Acidic solutions (solutions with higher concentrations of hydrogen (H+) cations) are measured to have lower pH values than basic or alkaline solutions. While the origin of the symbol 'pH' can be traced back to its original inventor, and the 'H' refers clearly to hydrogen, the exact original meaning of the letter 'p' in pH is still disputed; it has since acquired a more general technical meaning that is used in numerous other contexts.[1][2]\nThe pH scale is logarithmic and…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Acids, Bases and Salts. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:13+00:00",
+    "completeness": 0.945,
+    "contentPass": true
+  }
+}

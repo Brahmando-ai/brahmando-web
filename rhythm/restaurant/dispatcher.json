@@ -1,0 +1,133 @@
+{
+  "name": "Brahmexa-Restaurant-Dispatcher",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "restaurant"}],
+  "nodes": [
+    {
+      "id": "rest-d-01-0001-4000-8000-000000000000",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "event-ingest/restaurant",
+        "responseMode": "onReceived",
+        "responseData": "firstEntryJson"
+      }
+    },
+    {
+      "id": "rest-d-01-0002-4000-8000-000000000000",
+      "name": "Normalize Event",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const body = items[0].json;\nreturn [{\n  json: {\n    event_type: body.event_type || 'unknown',\n    event_id: body.event_id || (Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10)),\n    source: body.source || 'restaurant',\n    payload: body.payload || body,\n    normalized_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "rest-d-01-0003-4000-8000-000000000000",
+      "name": "Route Event",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "value1": "={{$json.event_type}}",
+        "rules": {
+          "rules": [
+            {"operation": "equal", "value2": "order.created"},
+            {"operation": "equal", "value2": "inventory.low"},
+            {"operation": "equal", "value2": "complaint.created"},
+            {"operation": "equal", "value2": "kitchen.completed"},
+            {"operation": "equal", "value2": "delivery.assigned"}
+          ]
+        },
+        "fallbackOutput": 3
+      }
+    },
+    {
+      "id": "rest-d-01-0004-4000-8000-000000000000",
+      "name": "Execute Order Processing",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 100],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RESTAURANT_ORDER_PROCESSING",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "rest-d-01-0005-4000-8000-000000000000",
+      "name": "Execute Inventory Management",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 240],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RESTAURANT_INVENTORY_MANAGEMENT",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "rest-d-01-0006-4000-8000-000000000000",
+      "name": "Execute Feedback",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 380],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RESTAURANT_FEEDBACK",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "rest-d-01-0007-4000-8000-000000000000",
+      "name": "Execute Kitchen Execution",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 520],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RESTAURANT_KITCHEN_EXECUTION",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "rest-d-01-0008-4000-8000-000000000000",
+      "name": "Execute Delivery",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1,
+      "position": [960, 660],
+      "parameters": {
+        "workflowId": "BRAHMEXA_RESTAURANT_DELIVERY",
+        "source": "n8n"
+      }
+    },
+    {
+      "id": "rest-d-01-0009-4000-8000-000000000000",
+      "name": "Unhandled Event",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [960, 800],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{"node": "Normalize Event", "type": "main", "index": 0}]]
+    },
+    "Normalize Event": {
+      "main": [[{"node": "Route Event", "type": "main", "index": 0}]]
+    },
+    "Route Event": {
+      "main": [
+        [{"node": "Execute Order Processing", "type": "main", "index": 0}],
+        [{"node": "Execute Inventory Management", "type": "main", "index": 0}],
+        [{"node": "Execute Feedback", "type": "main", "index": 0}],
+        [{"node": "Execute Kitchen Execution", "type": "main", "index": 0}],
+        [{"node": "Execute Delivery", "type": "main", "index": 0}],
+        [{"node": "Unhandled Event", "type": "main", "index": 0}]
+      ]
+    }
+  },
+  "settings": {}
+}
+

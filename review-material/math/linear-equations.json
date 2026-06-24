@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-linear-equations",
+  "analyticsId": "linear-equations",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 3,
+  "difficulty": "medium",
+  "topics": [
+    "Graphical method",
+    "Substitution method",
+    "Elimination method",
+    "Consistency of equations"
+  ],
+  "formulas": [
+    "a1/a2 = b1/b2 = c1/c2 (consistent)",
+    "a1/a2 = b1/b2 != c1/c2 (inconsistent)"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "math-linear-equations",
+  "title": "Pair of Linear Equations in Two Variables",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Pair of Linear Equations in Two Variables. Forget the heavy textbook tone for a moment — think of this chapter as a story about Graphical method, Substitution method, and Elimination method. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Pair of Linear Equations in Two Variables. Forget the heavy textbook tone for a moment — think of this chapter as a story about Graphical method, Substitution method, and Elimination method. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Pair of Linear Equations in Two Variables. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Pair of Linear Equations in Two Variables. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Pair of Linear Equations in Two Variables, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Pair of Linear Equations in Two Variables. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Pair of Linear Equations in Two Variables. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Pair of Linear Equations in Two Variables, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Pair of Linear Equations in Two Variables, covering Graphical method, Substitution method, and Elimination method. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Pair of Linear Equations in Two Variables to real life — not just the textbook. I'll walk through everyday examples for Graphical method, Substitution method, and Elimination method: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Pair of Linear Equations in Two Variables, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Pair of Linear Equations in Two Variables — or if you prefer reading first. I'll walk through the lesson flow: Graphical method, Substitution method, and Elimination method, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Pair of Linear Equations in Two Variables the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Pair of Linear Equations in Two Variables. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to find the solution to this question, we can take pen and pencil as two different variables and write the linear equations for each condition. Hence, by solving the pair of linear equations in two variables, we will get the price of a pen and pencil. Let us go through the article to understand how to solve such a pair of equations.\nBasics Revisited\nEquation\nAn equation is a statement that two mathematical expressions having one or more variables are equal.\nLinear Equation\nEquations in which the powers of all the variables involved are one are called linear equations. The degree of a linear equatio…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Pair of Linear Equations in Two Variables. Forget the heavy textbook tone for a moment — think of this chapter as a story about Graphical method, Substitution method, and Elimination method. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- An equation is a statement that two mathematical expressions having one or more variables are equal.\n- Equations in which the powers of all the variables involved are one are called linear equations. The degree of a linear equation is always one.\n- The general form of a linear equation in two variables is ax + by + c = 0, where a and b cannot be zero simultaneously.\n- Example: The cost of 5 pens and 7 pencils is Rs.50 whereas the cost of 7 pens and 5 pencils is Rs. 65. Represent the given word problem in linear equations form.\n- Solution: Let us say the cost of 1 pen is Rs.x, and the cost of 1 pencil is Rs.y\n- Hence, 5x + 7y = 50 and 7x + 5y = 65 are the pairs of linear equations in two variables as per the given word problem.\n- The solution of a linear equation in two variables is a pair of values (x, y), one for ‘x’ and the other for ‘y’, which makes the two sides of the equation equal.\n- Eg: If 2x + y = 4, then (0,4) is one of its solutions as it satisfies the equation. A linear equation in two variables has infinitely many solutions.",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Pair of Linear Equations in Two Variables. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to find the solution to this question, we can take pen and pencil as two different variables and write the linear equations for each condition. Hence, by solving the pair of linear equations in two variables, we will get the price of a pen and pencil. Let us go through the article to understand how to solve such a pair of equations.\nBasics Revisited\nEquation\nAn equation is a statement that two mathematical expressions having one or more variables are equal.\nLinear Equation\nEquations in which the powers of all the variables involved are one are called linear equations. The degree of a linear equation is always one.\nTo know more about Linear Equations, visit here.\nVideo Lesson on Pair of Linear Equations in Two Variables\nGeneral Form of a Linear Equation in Two Variables\nThe general form of a linear equation in two variables is ax + by + c = 0, where a and b cannot be zero simultaneously.\nStudents can refer to the short notes and MCQ questions along with separate solution pdf of this chapter for quick revision from the links below:\n- Pair of Linear Equations in Two Variables Short Notes\n- Pair of Linear Equations in Two Variables MCQ Practice Questions\n- Pair of Linear Equations in Two Variables MCQ Practice Solutions\nRepresenting Linear Equations for a Word Problem\nTo represent a word problem as a linear equation:\n- Identify unknown quantities and denote them by variables.\n- Represen…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Pair of Linear Equations in Two Variables. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "**Formulas and relations:**\n\n- The general form of a linear equation in two variables is ax + by + c = 0, where a and b cannot be zero simultaneously.\n- 5x + 7y = 50\n- 7x + 5y = 65\n- Hence, 5x + 7y = 50 and 7x + 5y = 65 are the pairs of linear equations in two variables as per the given word pro\n- Eg: If 2x + y = 4, then (0,4) is one of its solutions as it satisfies the equation. A linear eq\n- 2x – y + 1 = 0\n- ⇒ y = 2x + 1\n- Step 1: Put the value of x = 0, such that y = 1.",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Pair of Linear Equations in Two Variables, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Worked examples:**\n\n- CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to find the solution to this question, we can take pen and pencil as two different variables and write the linear equations for each condition. Hence, by solving the pair of linear equations in two variables, we will get the price of a pen and pencil. Let us go through the article to understand how to solve such a pair of equations.\n- Example: The cost of 5 pens and 7 pencils is Rs.50 whereas the cost of 7 pens and 5 pencils is Rs. 65. Represent the given word problem in linear equations form.\n- For example, in the above section, we have plotted the graph for y = 2x + 1, which shows a straight line passing through the points (0, 1) and (-0.5, 0).\n- For example, the graph of two linear equations 2x + y – 6 = 0 and 4x – 2y – 4 = 0 is shown below. The point of intersection for the two graphs is (2,2).\n- Example: On comparing the ratio, (a1/a2) , (b1/b2) , (c1/c2) find out whether 2x – 3y = 8 and 4x – 6y = 9 are consistent, or inconsistent.\n- In this section, we learn about such equations, which are not linear but can be reduced to a pair of linear equations form using the substitution method. Let us understand with the help of an example.",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Pair of Linear Equations in Two Variables. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Pair of Linear Equations in Two Variables. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **process flowchart** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Pair of Linear Equations in Two Variables, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 432 200' width='100%' role='img'><rect width='432' height='200' rx='12' fill='#0f172a'/><defs><marker id='arrow' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#94a3b8'/></marker></defs><text x='216' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Pair of Linear Equations in Two Variables — process flow</text><rect x='50' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='88' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Graphical meth</text><line x1='126' y1='100' x2='138' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='138' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='176' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Substitution m</text><line x1='214' y1='100' x2='226' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='226' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='264' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Elimination me</text><line x1='302' y1='100' x2='314' y2='100' stroke='#94a3b8' marker-end='url(#arrow)' stroke-width='2'/><rect x='314' y='78' width='76' height='44' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='352' y='104' text-anchor='middle' fill='#e2e8f0' font-size='9'>Consistency of</text></svg>",
+      "diagram": {
+        "type": "flowchart",
+        "title": "Pair of Linear Equations in Two Variables — process flowchart",
+        "caption": "Chapter-specific process flowchart from CBSE syllabus (diagram-v2).",
+        "layout": "flowchart",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "a1/a2 = b1/b2 = c1/c2 (consistent)"
+          },
+          {
+            "id": "n1",
+            "label": "a1/a2 = b1/b2 != c1/c2 (inconsistent)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Pair of Linear Equations in Two Variables**._\n\n**Practice questions:**\n\n1. (i) express one variable in terms of the other using one of the equations. In this case, y = 2x + 1.\n2. (ii) substitute for this variable (y) in the second equation to get a linear equation in one variable, x. x + 2 × (2x + 1) = 12\n3. (iii) Solve the linear equation in one variable to find the value of that variable.\n4. (iv) Substitute this value in one of the equations to get the value of the other variable.\n5. 1. Solve age-related problems 2. Calculate speed 3. Geometry-related problems 4. Work, time and wage-related problems 5. Calculate money, percentage-related sums\n6. 1. Aftab tells his daughter, “Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be.” (Isn’t this interesting?) Represent this situation algebraically and graphically.\n7. 2. The coach of a cricket team buys 3 bats and 6 balls for Rs.3900. Later, she buys another bat and 3 more balls of the same kind for Rs.1300. Represent this situation algebraically and geometrically.\n8. 3. The cost of 2 kg of apples and 1kg of grapes on a day was found to be Rs.160. After a month, the cost of 4 kg of apples and 2 kg of grapes is Rs.300. Represent the situation algebraically and geometrically.\n9. 1. Form the pair of linear equations in the following problems, and find their solutions graphically.\n10. (i) 10 students of Class X took part in a Mathematics quiz. If the number of girls is 4 more than the number of boys, find the number of boys and girls who took part in the quiz.\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **Graphical method** in 2–3 sentences. Use one example from Pair of Linear Equations in Two Variables.\n- **MCQ (1 mark)** — MCQ: Which statement about **Graphical method** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Substitution method** in 2–3 sentences. Use one example from Pair of Linear Equations in Two Variables.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 3 questions on Pair of Linear Equations in Two Variables, covering Graphical method, Substitution method, and Elimination method. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "(i) express one variable in terms of the other using one of the equations. In this case, y = 2x + 1."
+        },
+        {
+          "id": "pq-02",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "(ii) substitute for this variable (y) in the second equation to get a linear equation in one variable, x. x + 2 × (2x + 1) = 12"
+        },
+        {
+          "id": "pq-03",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "(iii) Solve the linear equation in one variable to find the value of that variable."
+        },
+        {
+          "id": "pq-04",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "(iv) Substitute this value in one of the equations to get the value of the other variable."
+        },
+        {
+          "id": "pq-05",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "1. Solve age-related problems 2. Calculate speed 3. Geometry-related problems 4. Work, time and wage-related problems 5. Calculate money, percentage-related sums"
+        },
+        {
+          "id": "pq-06",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "1. Aftab tells his daughter, “Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be.” (Isn’t this interesting?) Represent this situation algebraically and graphically."
+        },
+        {
+          "id": "pq-07",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "2. The coach of a cricket team buys 3 bats and 6 balls for Rs.3900. Later, she buys another bat and 3 more balls of the same kind for Rs.1300. Represent this situation algebraically and geometrically."
+        },
+        {
+          "id": "pq-08",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "3. The cost of 2 kg of apples and 1kg of grapes on a day was found to be Rs.160. After a month, the cost of 4 kg of apples and 2 kg of grapes is Rs.300. Represent the situation algebraically and geometrically."
+        },
+        {
+          "id": "pq-09",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "1. Form the pair of linear equations in the following problems, and find their solutions graphically."
+        },
+        {
+          "id": "pq-10",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "(i) 10 students of Class X took part in a Mathematics quiz. If the number of girls is 4 more than the number of boys, find the number of boys and girls who took part in the quiz."
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "Explain **Graphical method** in 2–3 sentences. Use one example from Pair of Linear Equations in Two Variables."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Graphical method",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Graphical method** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Substitution method",
+          "difficulty": "medium",
+          "stem": "Explain **Substitution method** in 2–3 sentences. Use one example from Pair of Linear Equations in Two Variables."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Pair of Linear Equations in Two Variables**._\n\n**Applications:**\n\n- **Graphical method** — Look for **Graphical method** in objects and processes around you — at home, in school labs, or in local industry.\n- **Substitution method** — Look for **Substitution method** in objects and processes around you — at home, in school labs, or in local industry.\n- **Elimination method** — Look for **Elimination method** in objects and processes around you — at home, in school labs, or in local industry.\n- **Consistency of equations** — Look for **Consistency of equations** in objects and processes around you — at home, in school labs, or in local industry.\n- **Pair of Linear Equations in Two Variables** — CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to find the solution to this question, we can take pen and pencil as two different variables and write the linear equations for each condition. Hence, by solving the pair of linear equations in two variables, we will get the price of a pen and pencil. Let us go through the article to understand how to solve such a pair of equations.\n- **Pair of Linear Equations in Two Variables** — Example: The cost of 5 pens and 7 pencils is Rs.50 whereas the cost of 7 pens and 5 pencils is Rs. 65. Represent the given word problem in linear equations form.\n- **Pair of Linear Equations in Two Variables** — For example, in the above section, we have plotted the graph for y = 2x + 1, which shows a straight line passing through the points (0, 1) and (-0.5, 0).\n- **Pair of Linear Equations in Two Variables** — For example, the graph of two linear equations 2x + y – 6 = 0 and 4x – 2y – 4 = 0 is shown below. The point of intersection for the two graphs is (2,2).",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Pair of Linear Equations in Two Variables to real life — not just the textbook. I'll walk through everyday examples for Graphical method, Substitution method, and Elimination method: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Graphical method",
+          "example": "Look for **Graphical method** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Substitution method",
+          "example": "Look for **Substitution method** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Elimination method",
+          "example": "Look for **Elimination method** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Consistency of equations",
+          "example": "Look for **Consistency of equations** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-05",
+          "topic": "Pair of Linear Equations in Two Variables",
+          "example": "CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to find the solution to this question, we can take pen and pencil as two different variables and write the linear equations for each condition. Hence, by solving the pair of linear equations in two variables, we will get the price of a pen and pencil. Let us go through the article to understand how to solve such a pair of equations."
+        },
+        {
+          "id": "app-06",
+          "topic": "Pair of Linear Equations in Two Variables",
+          "example": "Example: The cost of 5 pens and 7 pencils is Rs.50 whereas the cost of 7 pens and 5 pencils is Rs. 65. Represent the given word problem in linear equations form."
+        },
+        {
+          "id": "app-07",
+          "topic": "Pair of Linear Equations in Two Variables",
+          "example": "For example, in the above section, we have plotted the graph for y = 2x + 1, which shows a straight line passing through the points (0, 1) and (-0.5, 0)."
+        },
+        {
+          "id": "app-08",
+          "topic": "Pair of Linear Equations in Two Variables",
+          "example": "For example, the graph of two linear equations 2x + y – 6 = 0 and 4x – 2y – 4 = 0 is shown below. The point of intersection for the two graphs is (2,2)."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Pair of Linear Equations in Two Variables** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Pair of Linear Equations in Two Variables NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Pair+of+Linear+Equations+in+Two+Variables+NCERT+explained+Hindi+English)\n- [Pair of Linear Equations in Two Variables class 10 one shot revision](https://www.youtube.com/results?search_query=Pair+of+Linear+Equations+in+Two+Variables+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Pair of Linear Equations in Two Variables animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Pair+of+Linear+Equations+in+Two+Variables+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Pair of Linear Equations in Two Variables, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Pair of Linear Equations in Two Variables NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Pair+of+Linear+Equations+in+Two+Variables+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Pair of Linear Equations in Two Variables class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Pair+of+Linear+Equations+in+Two+Variables+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Pair of Linear Equations in Two Variables animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Pair+of+Linear+Equations+in+Two+Variables+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Pair of Linear Equations in Two Variables** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Pair of Linear Equations in Two Variables, not a textbook definition.\n2. **Graphical method** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Substitution method** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Elimination method** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Consistency of equations** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Formulas** — Write a1/a2 = b1/b2 = c1/c2 (consistent) on the board, explain each symbol, then solve one board-style numerical.\n7. **Common mistake** — Warn about the error students make most often in exams.\n8. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Graphical method in everyday language.\n- Draw or describe one diagram related to Pair of Linear Equations in Two Variables.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Pair of Linear Equations in Two Variables NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Pair+of+Linear+Equations+in+Two+Variables+NCERT+explained+Hindi+English)\n- 🔍 [Pair of Linear Equations in Two Variables class 10 one shot revision](https://www.youtube.com/results?search_query=Pair+of+Linear+Equations+in+Two+Variables+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Pair of Linear Equations in Two Variables animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Pair+of+Linear+Equations+in+Two+Variables+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Pair of Linear Equations in Two Variables — or if you prefer reading first. I'll walk through the lesson flow: Graphical method, Substitution method, and Elimination method, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to find the solution to this question, we can take pen and pencil as two different variables and write the linear equations for each condition. Hence, by solving the pair of linear equations in two variables, we will get the price of a pen and pencil. Let us go through the article to understand how to so…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Pair of Linear Equations in Two Variables the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "CBSE Class 10 Maths Chapter 3 Pairs of Linear Equations in Two Variables notes are available here. This article is provided here for students of Class 10 to have quick revision for the chapter “Pairs of Linear Equations in Two Variables”. This chapter will help you to determine the values of the unknown variables with the help of various methods, such as the Graphical method and Algebraic methods. An example of pairs of linear equations will be: Rohan bought 2 pencils and 1 pen for Rs.10, whereas Sam bought 4 pencils and 2 pens for Rs. 20, so what is the price of each pen and pencil? Now to fi…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Pair of Linear Equations in Two Variables. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:15+00:00",
+    "completeness": 0.945,
+    "contentPass": true
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 2,
+  "registryId": "sci-light",
+  "analyticsId": "light",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 9,
+  "difficulty": "medium",
+  "topics": [
+    "Spherical mirrors",
+    "Spherical lenses",
+    "Mirror formula",
+    "Lens formula",
+    "Magnification"
+  ],
+  "formulas": [
+    "1/f = 1/v + 1/u",
+    "m = h'/h = -v/u",
+    "n = c/v"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "sci-light",
+  "title": "Light – Reflection and Refraction",
+  "subject": "science",
+  "audioScript": "Good morning, everyone. Today we're opening Light – Reflection and Refraction. Forget the heavy textbook tone for a moment — think of this chapter as a story about Spherical mirrors, Spherical lenses, and Mirror formula. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Light – Reflection and Refraction. Forget the heavy textbook tone for a moment — think of this chapter as a story about Spherical mirrors, Spherical lenses, and Mirror formula. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Light – Reflection and Refraction. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Light – Reflection and Refraction, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Light – Reflection and Refraction, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Light – Reflection and Refraction, covering Spherical mirrors, Spherical lenses, and Mirror formula. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Light – Reflection and Refraction to real life — not just the textbook. I'll walk through everyday examples for Spherical mirrors, Spherical lenses, and Mirror formula: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Light – Reflection and Refraction, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Light – Reflection and Refraction — or if you prefer reading first. I'll walk through the lesson flow: Spherical mirrors, Spherical lenses, and Mirror formula, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Light – Reflection and Refraction the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Light – Reflection and Refraction. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारि…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Light – Reflection and Refraction. Forget the heavy textbook tone for a moment — think of this chapter as a story about Spherical mirrors, Spherical lenses, and Mirror formula. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Light – Reflection and Refraction. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, support material, enrichment\n                activit…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Light – Reflection and Refraction, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Light – Reflection and Refraction. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **ray or geometry diagram** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Light – Reflection and Refraction, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' width='100%' role='img'><rect width='440' height='220' rx='12' fill='#0f172a'/><text x='220' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Light – Reflection and Refraction — ray / geometry view</text><line x1='30' y1='130' x2='410' y2='130' stroke='#475569' stroke-width='1'/><line x1='80' y1='130' x2='80' y2='90' stroke='#fbbf24' stroke-width='3'/><text x='80' y='82' text-anchor='middle' fill='#fbbf24' font-size='9'>Object</text><path d='M220 60 Q235 130 220 200' fill='none' stroke='#38bdf8' stroke-width='2'/><text x='235' y='125' fill='#38bdf8' font-size='9'>Mirror/Lens</text><line x1='80' y1='100' x2='218' y2='115' stroke='#f472b6' stroke-width='2'/><line x1='222' y1='118' x2='360' y2='85' stroke='#a78bfa' stroke-width='2'/><text x='300' y='78' fill='#a78bfa' font-size='9'>Image ray</text><text x='220' y='210' text-anchor='middle' fill='#94a3b8' font-size='10'>Spherical mirrors</text></svg>",
+      "diagram": {
+        "type": "ray",
+        "title": "Light – Reflection and Refraction — ray or geometry diagram",
+        "caption": "Chapter-specific ray or geometry diagram from CBSE syllabus (diagram-v2).",
+        "layout": "ray",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "1/f = 1/v + 1/u"
+          },
+          {
+            "id": "n1",
+            "label": "m = h'/h = -v/u"
+          },
+          {
+            "id": "n2",
+            "label": "n = c/v"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Light – Reflection and Refraction**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Spherical mirrors** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Spherical mirrors** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Spherical lenses** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Spherical lenses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Mirror formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Mirror formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Lens formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Lens formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Magnification** in 2–3 sentences. Use one example from Light – Reflection and Refraction.\n- **MCQ (1 mark)** — MCQ: Which statement about **Magnification** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (3 marks)** — Using **1/f = 1/v + 1/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps.\n- **SHORT (3 marks)** — Using **m = h'/h = -v/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 12 questions on Light – Reflection and Refraction, covering Spherical mirrors, Spherical lenses, and Mirror formula. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Spherical mirrors",
+          "difficulty": "medium",
+          "stem": "Explain **Spherical mirrors** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Spherical mirrors",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Spherical mirrors** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Spherical lenses",
+          "difficulty": "medium",
+          "stem": "Explain **Spherical lenses** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Spherical lenses",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Spherical lenses** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Mirror formula",
+          "difficulty": "medium",
+          "stem": "Explain **Mirror formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Mirror formula",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Mirror formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Lens formula",
+          "difficulty": "medium",
+          "stem": "Explain **Lens formula** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Lens formula",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Lens formula** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "short",
+          "marks": 2,
+          "topic": "Magnification",
+          "difficulty": "medium",
+          "stem": "Explain **Magnification** in 2–3 sentences. Use one example from Light – Reflection and Refraction."
+        },
+        {
+          "id": "pq-10",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Magnification",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Magnification** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-11",
+          "type": "short",
+          "marks": 3,
+          "topic": "Light – Reflection and Refraction",
+          "difficulty": "medium",
+          "stem": "Using **1/f = 1/v + 1/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps."
+        },
+        {
+          "id": "pq-12",
+          "type": "short",
+          "marks": 3,
+          "topic": "Light – Reflection and Refraction",
+          "difficulty": "medium",
+          "stem": "Using **m = h'/h = -v/u**, solve a standard board-style problem from Light – Reflection and Refraction. Show all working steps."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Light – Reflection and Refraction**._\n\n**Applications:**\n\n- **Spherical mirrors** — Dental mirrors, vehicle rear-view mirrors, and solar cookers using concave mirrors.\n- **Spherical lenses** — Spectacles, camera lenses, and magnifying glasses in reading.\n- **Mirror formula** — Opticians calculating focal length when fitting lenses for myopia or hypermetropia.\n- **Lens formula** — Designing projectors and binoculars — focal length decides image size and distance.\n- **Magnification** — Look for **Magnification** in objects and processes around you — at home, in school labs, or in local industry.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Light – Reflection and Refraction to real life — not just the textbook. I'll walk through everyday examples for Spherical mirrors, Spherical lenses, and Mirror formula: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Spherical mirrors",
+          "example": "Dental mirrors, vehicle rear-view mirrors, and solar cookers using concave mirrors."
+        },
+        {
+          "id": "app-02",
+          "topic": "Spherical lenses",
+          "example": "Spectacles, camera lenses, and magnifying glasses in reading."
+        },
+        {
+          "id": "app-03",
+          "topic": "Mirror formula",
+          "example": "Opticians calculating focal length when fitting lenses for myopia or hypermetropia."
+        },
+        {
+          "id": "app-04",
+          "topic": "Lens formula",
+          "example": "Designing projectors and binoculars — focal length decides image size and distance."
+        },
+        {
+          "id": "app-05",
+          "topic": "Magnification",
+          "example": "Look for **Magnification** in objects and processes around you — at home, in school labs, or in local industry."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Light – Reflection and Refraction** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Light – Reflection and Refraction NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Light+%E2%80%93+Reflection+and+Refraction+NCERT+explained+Hindi+English)\n- [Light – Reflection and Refraction class 10 one shot revision](https://www.youtube.com/results?search_query=Light+%E2%80%93+Reflection+and+Refraction+class+10+one+shot+revision)\n- [NCERT Science class 10 Light – Reflection and Refraction animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Light+%E2%80%93+Reflection+and+Refraction+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Light – Reflection and Refraction, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Light – Reflection and Refraction NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Light+%E2%80%93+Reflection+and+Refraction+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Light – Reflection and Refraction class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Light+%E2%80%93+Reflection+and+Refraction+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Science class 10 Light – Reflection and Refraction animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Science+class+10+Light+%E2%80%93+Reflection+and+Refraction+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Light – Reflection and Refraction** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Light – Reflection and Refraction, not a textbook definition.\n2. **Spherical mirrors** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Spherical lenses** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Mirror formula** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Lens formula** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Magnification** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n7. **Formulas** — Write 1/f = 1/v + 1/u on the board, explain each symbol, then solve one board-style numerical.\n8. **Common mistake** — Warn about the error students make most often in exams.\n9. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Spherical mirrors in everyday language.\n- Draw or describe one diagram related to Light – Reflection and Refraction.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Light – Reflection and Refraction NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Light+%E2%80%93+Reflection+and+Refraction+NCERT+explained+Hindi+English)\n- 🔍 [Light – Reflection and Refraction class 10 one shot revision](https://www.youtube.com/results?search_query=Light+%E2%80%93+Reflection+and+Refraction+class+10+one+shot+revision)\n- 🔍 [NCERT Science class 10 Light – Reflection and Refraction animation](https://www.youtube.com/results?search_query=NCERT+Science+class+10+Light+%E2%80%93+Reflection+and+Refraction+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Light – Reflection and Refraction — or if you prefer reading first. I'll walk through the lesson flow: Spherical mirrors, Spherical lenses, and Mirror formula, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रय…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Light – Reflection and Refraction the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Boar…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Light – Reflection and Refraction. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:14+00:00",
+    "completeness": 0.835,
+    "contentPass": true
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Brahmexa-Hospital-ResourceManagement",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "hospital"}],
+  "nodes": [
+    {
+      "id": "hosp-rm-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-rm-0002-4000-8000-000000000000",
+      "name": "Check Resource Level",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-rm-0003-4000-8000-000000000000",
+      "name": "Resource Below Threshold?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json.payload.current_level}}",
+              "operation": "smaller",
+              "value2": "={{$json.payload.threshold || 20}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hosp-rm-0004-4000-8000-000000000000",
+      "name": "Request Restock",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 200],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.HOSPITAL_SERVICE_URL}}/restock",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"resource\": \"{{$json.payload.resource_name}}\", \"quantity\": {{$json.payload.reorder_qty || 100}}, \"priority\": \"high\"}"
+      }
+    },
+    {
+      "id": "hosp-rm-0005-4000-8000-000000000000",
+      "name": "Update Inventory",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 200],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-rm-0006-4000-8000-000000000000",
+      "name": "Resource OK",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Check Resource Level", "type": "main", "index": 0}]]
+    },
+    "Check Resource Level": {
+      "main": [[{"node": "Resource Below Threshold?", "type": "main", "index": 0}]]
+    },
+    "Resource Below Threshold?": {
+      "main": [
+        [{"node": "Request Restock", "type": "main", "index": 0}],
+        [{"node": "Resource OK", "type": "main", "index": 0}]
+      ]
+    },
+    "Request Restock": {
+      "main": [[{"node": "Update Inventory", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

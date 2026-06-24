@@ -1,0 +1,70 @@
+{
+  "name": "Brahmexa-Hospital-PatientIntake",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "hospital"}],
+  "nodes": [
+    {
+      "id": "hosp-pi-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-pi-0002-4000-8000-000000000000",
+      "name": "Register Patient",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nif (!payload.patient_id || !payload.name) {\n  throw new Error('Patient registration requires patient_id and name');\n}\nreturn [{\n  json: {\n    ...items[0].json,\n    patient_id: payload.patient_id,\n    patient_name: payload.name,\n    registered_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "hosp-pi-0003-4000-8000-000000000000",
+      "name": "Assign Doctor",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [680, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.HOSPITAL_SERVICE_URL}}/assign-doctor",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"patient_id\": \"{{$json.patient_id}}\", \"department\": \"{{$json.payload.department || 'general'}}\"}"
+      }
+    },
+    {
+      "id": "hosp-pi-0004-4000-8000-000000000000",
+      "name": "Create Medical Record",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-pi-0005-4000-8000-000000000000",
+      "name": "Schedule Assessment",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Register Patient", "type": "main", "index": 0}]]
+    },
+    "Register Patient": {
+      "main": [[{"node": "Assign Doctor", "type": "main", "index": 0}]]
+    },
+    "Assign Doctor": {
+      "main": [[{"node": "Create Medical Record", "type": "main", "index": 0}]]
+    },
+    "Create Medical Record": {
+      "main": [[{"node": "Schedule Assessment", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

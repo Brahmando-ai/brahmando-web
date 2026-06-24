@@ -1,0 +1,70 @@
+{
+  "name": "Brahmexa-Hospital-TreatmentFlow",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "hospital"}],
+  "nodes": [
+    {
+      "id": "hosp-tf-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-tf-0002-4000-8000-000000000000",
+      "name": "Assess Patient",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-tf-0003-4000-8000-000000000000",
+      "name": "Assign Treatment",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nreturn [{\n  json: {\n    ...items[0].json,\n    treatment_plan: payload.treatment_plan || 'standard',\n    assigned_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "hosp-tf-0004-4000-8000-000000000000",
+      "name": "Administer Care",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "parameters": {}
+    },
+    {
+      "id": "hosp-tf-0005-4000-8000-000000000000",
+      "name": "Log Outcomes",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1120, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.HOSPITAL_SERVICE_URL}}/outcomes",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"patient_id\": \"{{$json.payload.patient_id}}\", \"treatment_plan\": \"{{$json.treatment_plan}}\", \"event_id\": \"{{$json.event_id}}\"}"
+      }
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Assess Patient", "type": "main", "index": 0}]]
+    },
+    "Assess Patient": {
+      "main": [[{"node": "Assign Treatment", "type": "main", "index": 0}]]
+    },
+    "Assign Treatment": {
+      "main": [[{"node": "Administer Care", "type": "main", "index": 0}]]
+    },
+    "Administer Care": {
+      "main": [[{"node": "Log Outcomes", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

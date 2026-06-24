@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-real-numbers",
+  "analyticsId": "real-numbers",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 1,
+  "difficulty": "medium",
+  "topics": [
+    "Euclid's division lemma",
+    "Fundamental Theorem of Arithmetic",
+    "Irrational numbers",
+    "Decimal expansions"
+  ],
+  "formulas": [
+    "HCF(a,b) x LCM(a,b) = a x b",
+    "sqrt(p) is irrational for prime p"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "math-real-numbers",
+  "title": "Real Numbers",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Real Numbers. Forget the heavy textbook tone for a moment — think of this chapter as a story about Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Real Numbers. Forget the heavy textbook tone for a moment — think of this chapter as a story about Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Real Numbers. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Real Numbers, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Real Numbers, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Real Numbers, covering Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Real Numbers to real life — not just the textbook. I'll walk through everyday examples for Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Real Numbers, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Real Numbers — or if you prefer reading first. I'll walk through the lesson flow: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Real Numbers the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Real Numbers. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारि…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Real Numbers. Forget the heavy textbook tone for a moment — think of this chapter as a story about Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n- learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें। About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Real Numbers. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रयास के प्रत्येक क्षेत्र में उत्कृष्टता उत्पन्न करवाए। बोर्ड छात्र /छात्राओं को ऐसी शिक्षा उपलब्ध करवाने हेतु प्रतिबद्ध है जो उनमें बौद्धिक, सामाजिक व सांस्कृतिक सजीवता का प्रसार कर सके। बोर्ड ऐसी अधिगम प्रक्रिया व वातावरण उत्पन्न करवाने की दिशा में प्रयासरत है जो भावी नागरिकों को उभरते हुए ज्ञानाधारित समाज में सार्वभौमिक नेता बनने में सक्षम कर सके। छात्र /छात्राओं के सम्पूर्ण विकास हेतु बोर्ड सतत् एवं व्यापक मूल्यांकन का समर्थन करता है। बोर्ड ऐसा तनाव रहित अधिगम वातावरण उपलब्ध करवाने हेतु प्रतिबद्घ है जिससे छात्र/ छात्राएं कार्यसक्षम, आत्मविश्वासी व उद्यमशील नागरिक बनें जो शांति व सद्भाव का प्रसार करें।   About Academics Unitशैक्षणिक इकाई के बारे मेंThe goal of the Academic, Training, Innovation and Research unit of Central Board of Secondary Education is to achieve academic excellence by conceptualising policies and their operational planning to\n                ensure balanced academic activities in the schools affiliated to the Board. The Unit strives to provide Scheme of Studies, curriculum, academic guidelines, textual material, support material, enrichment\n                activit…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Real Numbers, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Real Numbers. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **formula relationship map** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Real Numbers, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='100%' role='img'><rect width='400' height='260' rx='12' fill='#0f172a'/><text x='200' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Real Numbers — formula map</text><polygon points='200,112 224,132 224,160 200,180 176,160 176,132' fill='#1e3a5f' stroke='#38bdf8'/><text x='200' y='145' text-anchor='middle' fill='#e2e8f0' font-size='9'>Key</text><line x1='200' y1='140' x2='80' y2='90' stroke='#475569' stroke-width='1'/><rect x='25' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='80' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>HCF(a,b) x LCM(a,b</text><line x1='200' y1='140' x2='320' y2='90' stroke='#475569' stroke-width='1'/><rect x='265' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='320' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>sqrt(p) is irratio</text></svg>",
+      "diagram": {
+        "type": "formula-hub",
+        "title": "Real Numbers — formula relationship map",
+        "caption": "Chapter-specific formula relationship map from CBSE syllabus (diagram-v2).",
+        "layout": "formula-hub",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "HCF(a,b) x LCM(a,b) = a x b"
+          },
+          {
+            "id": "n1",
+            "label": "sqrt(p) is irrational for prime p"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Real Numbers**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Euclid's division lemma** in 2–3 sentences. Use one example from Real Numbers.\n- **MCQ (1 mark)** — MCQ: Which statement about **Euclid's division lemma** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Fundamental Theorem of Arithmetic** in 2–3 sentences. Use one example from Real Numbers.\n- **MCQ (1 mark)** — MCQ: Which statement about **Fundamental Theorem of Arithmetic** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Irrational numbers** in 2–3 sentences. Use one example from Real Numbers.\n- **MCQ (1 mark)** — MCQ: Which statement about **Irrational numbers** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Decimal expansions** in 2–3 sentences. Use one example from Real Numbers.\n- **MCQ (1 mark)** — MCQ: Which statement about **Decimal expansions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **HCF(a,b) x LCM(a,b) = a x b**, solve a standard board-style problem from Real Numbers. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **sqrt(p) is irrational for prime p**, solve a standard board-style problem from Real Numbers. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Real Numbers**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 11 questions on Real Numbers, covering Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Euclid's division lemma",
+          "difficulty": "medium",
+          "stem": "Explain **Euclid's division lemma** in 2–3 sentences. Use one example from Real Numbers."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Euclid's division lemma",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Euclid's division lemma** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Fundamental Theorem of Arithmetic",
+          "difficulty": "medium",
+          "stem": "Explain **Fundamental Theorem of Arithmetic** in 2–3 sentences. Use one example from Real Numbers."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Fundamental Theorem of Arithmetic",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Fundamental Theorem of Arithmetic** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Irrational numbers",
+          "difficulty": "medium",
+          "stem": "Explain **Irrational numbers** in 2–3 sentences. Use one example from Real Numbers."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Irrational numbers",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Irrational numbers** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "short",
+          "marks": 2,
+          "topic": "Decimal expansions",
+          "difficulty": "medium",
+          "stem": "Explain **Decimal expansions** in 2–3 sentences. Use one example from Real Numbers."
+        },
+        {
+          "id": "pq-08",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Decimal expansions",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Decimal expansions** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-09",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Real Numbers",
+          "difficulty": "medium",
+          "stem": "Using **HCF(a,b) x LCM(a,b) = a x b**, solve a standard board-style problem from Real Numbers. Show all working steps."
+        },
+        {
+          "id": "pq-10",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Real Numbers",
+          "difficulty": "medium",
+          "stem": "Using **sqrt(p) is irrational for prime p**, solve a standard board-style problem from Real Numbers. Show all working steps."
+        },
+        {
+          "id": "pq-11",
+          "type": "long",
+          "marks": 5,
+          "topic": "Euclid's division lemma",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Real Numbers**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Real Numbers**._\n\n**Applications:**\n\n- **Euclid's division lemma** — Look for **Euclid's division lemma** in objects and processes around you — at home, in school labs, or in local industry.\n- **Fundamental Theorem of Arithmetic** — Look for **Fundamental Theorem of Arithmetic** in objects and processes around you — at home, in school labs, or in local industry.\n- **Irrational numbers** — Look for **Irrational numbers** in objects and processes around you — at home, in school labs, or in local industry.\n- **Decimal expansions** — Look for **Decimal expansions** in objects and processes around you — at home, in school labs, or in local industry.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Real Numbers to real life — not just the textbook. I'll walk through everyday examples for Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Euclid's division lemma",
+          "example": "Look for **Euclid's division lemma** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Fundamental Theorem of Arithmetic",
+          "example": "Look for **Fundamental Theorem of Arithmetic** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Irrational numbers",
+          "example": "Look for **Irrational numbers** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Decimal expansions",
+          "example": "Look for **Decimal expansions** in objects and processes around you — at home, in school labs, or in local industry."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Real Numbers** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Real Numbers NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Real+Numbers+NCERT+explained+Hindi+English)\n- [Real Numbers class 10 one shot revision](https://www.youtube.com/results?search_query=Real+Numbers+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Real Numbers animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Real+Numbers+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Real Numbers, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Real Numbers NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Real+Numbers+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Real Numbers class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Real+Numbers+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Real Numbers animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Real+Numbers+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Real Numbers** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Real Numbers, not a textbook definition.\n2. **Euclid's division lemma** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Fundamental Theorem of Arithmetic** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Irrational numbers** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Decimal expansions** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n6. **Formulas** — Write HCF(a,b) x LCM(a,b) = a x b on the board, explain each symbol, then solve one board-style numerical.\n7. **Common mistake** — Warn about the error students make most often in exams.\n8. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Euclid's division lemma in everyday language.\n- Draw or describe one diagram related to Real Numbers.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Real Numbers NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Real+Numbers+NCERT+explained+Hindi+English)\n- 🔍 [Real Numbers class 10 one shot revision](https://www.youtube.com/results?search_query=Real+Numbers+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Real Numbers animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Real+Numbers+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Real Numbers — or if you prefer reading first. I'll walk through the lesson flow: Euclid's division lemma, Fundamental Theorem of Arithmetic, and Irrational numbers, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Board commits itself to providing a stress-free\n                    learning environment that will develop competent, confident and enterprising citizens who will promote harmony and peace.केन्द्रीय माध्यमिक शिक्षा बोर्ड विद्यालयों में ऐसी सुदृढ़, जीवंत व सम्पूर्ण शिक्षा की कल्पना करता है जो मानवीय प्रय…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Real Numbers the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "| \n                   The CBSE envisions a robust, vibrant and holistic school education that will engender excellence in every sphere of human endeavour. The Board is committed to provide quality education to promote\n                    intellectual, social and cultural vivacity among its learners. It works towards evolving a learning process and environment, which empowers the future citizens to become global leaders in the\n                    emerging knowledge society. The Board advocates Continuous and Comprehensive Evaluation with an emphasis on holistic development of learners. The Boar…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Real Numbers. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:15+00:00",
+    "completeness": 0.835,
+    "contentPass": true
+  }
+}

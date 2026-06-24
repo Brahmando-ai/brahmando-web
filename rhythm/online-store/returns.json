@@ -1,0 +1,70 @@
+{
+  "name": "Brahmexa-Retail-Returns",
+  "active": false,
+  "tags": [{"name": "brahmexa"}, {"name": "retail"}],
+  "nodes": [
+    {
+      "id": "retl-rt-0001-4000-8000-000000000000",
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-rt-0002-4000-8000-000000000000",
+      "name": "Validate Return",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "functionCode": "const payload = items[0].json.payload || items[0].json;\nif (!payload.order_id || !payload.return_reason) {\n  throw new Error('Return requires order_id and return_reason');\n}\nreturn [{\n  json: {\n    ...items[0].json,\n    order_id: payload.order_id,\n    return_reason: payload.return_reason,\n    return_id: 'RET-' + Date.now(),\n    validated_at: new Date().toISOString()\n  }\n}];"
+      }
+    },
+    {
+      "id": "retl-rt-0003-4000-8000-000000000000",
+      "name": "Inspect Item",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "parameters": {}
+    },
+    {
+      "id": "retl-rt-0004-4000-8000-000000000000",
+      "name": "Process Refund",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [900, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.PAYMENT_SERVICE_URL}}/refund",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={\"order_id\": \"{{$json.order_id}}\", \"return_id\": \"{{$json.return_id}}\", \"amount\": {{$json.payload.refund_amount || 0}}}"
+      }
+    },
+    {
+      "id": "retl-rt-0005-4000-8000-000000000000",
+      "name": "Restock Item",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1120, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [[{"node": "Validate Return", "type": "main", "index": 0}]]
+    },
+    "Validate Return": {
+      "main": [[{"node": "Inspect Item", "type": "main", "index": 0}]]
+    },
+    "Inspect Item": {
+      "main": [[{"node": "Process Refund", "type": "main", "index": 0}]]
+    },
+    "Process Refund": {
+      "main": [[{"node": "Restock Item", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {}
+}

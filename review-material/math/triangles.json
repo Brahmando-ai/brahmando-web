@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-triangles",
+  "analyticsId": "triangles",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 7,
+  "difficulty": "medium",
+  "topics": [
+    "Similar triangles",
+    "Basic Proportionality Theorem",
+    "Pythagoras theorem"
+  ],
+  "formulas": [
+    "AB/DE = BC/EF = AC/DF",
+    "AB^2 + BC^2 = AC^2"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "math-triangles",
+  "title": "Triangles",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Triangles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Triangles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Triangles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Triangles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Triangles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Triangles, covering Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Triangles to real life — not just the textbook. I'll walk through everyday examples for Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Triangles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Triangles — or if you prefer reading first. I'll walk through the lesson flow: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Triangles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Triangles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Triangles. Forget the heavy textbook tone for a moment — think of this chapter as a story about Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Triangles. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Triangles, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Triangles. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **comparison layout** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Triangles, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 200' width='100%' role='img'><rect width='420' height='200' rx='12' fill='#0f172a'/><text x='210' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Triangles — compare</text><rect x='50' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#38bdf8'/><text x='120' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Similar triangles</text><text x='210' y='118' text-anchor='middle' fill='#94a3b8' font-size='14'>vs</text><rect x='230' y='70' width='140' height='80' rx='8' fill='#1e293b' stroke='#a78bfa'/><text x='300' y='118' text-anchor='middle' fill='#e2e8f0' font-size='10'>Basic Proportionality </text><text x='210' y='175' text-anchor='middle' fill='#94a3b8' font-size='9'>Also: Pythagoras theorem</text></svg>",
+      "diagram": {
+        "type": "compare",
+        "title": "Triangles — comparison layout",
+        "caption": "Chapter-specific comparison layout from CBSE syllabus (diagram-v2).",
+        "layout": "compare",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "AB/DE = BC/EF = AC/DF"
+          },
+          {
+            "id": "n1",
+            "label": "AB^2 + BC^2 = AC^2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Triangles**._\n\n**Additional practice set**\n\n- **SHORT (2 marks)** — Explain **Similar triangles** in 2–3 sentences. Use one example from Triangles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Similar triangles** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Basic Proportionality Theorem** in 2–3 sentences. Use one example from Triangles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Basic Proportionality Theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Pythagoras theorem** in 2–3 sentences. Use one example from Triangles.\n- **MCQ (1 mark)** — MCQ: Which statement about **Pythagoras theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **AB/DE = BC/EF = AC/DF**, solve a standard board-style problem from Triangles. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **AB^2 + BC^2 = AC^2**, solve a standard board-style problem from Triangles. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Triangles**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Triangles, covering Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "Similar triangles",
+          "difficulty": "medium",
+          "stem": "Explain **Similar triangles** in 2–3 sentences. Use one example from Triangles."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Similar triangles",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Similar triangles** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Basic Proportionality Theorem",
+          "difficulty": "medium",
+          "stem": "Explain **Basic Proportionality Theorem** in 2–3 sentences. Use one example from Triangles."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Basic Proportionality Theorem",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Basic Proportionality Theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Pythagoras theorem",
+          "difficulty": "medium",
+          "stem": "Explain **Pythagoras theorem** in 2–3 sentences. Use one example from Triangles."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Pythagoras theorem",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Pythagoras theorem** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Triangles",
+          "difficulty": "medium",
+          "stem": "Using **AB/DE = BC/EF = AC/DF**, solve a standard board-style problem from Triangles. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Triangles",
+          "difficulty": "medium",
+          "stem": "Using **AB^2 + BC^2 = AC^2**, solve a standard board-style problem from Triangles. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "Similar triangles",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Triangles**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Triangles**._\n\n**Applications:**\n\n- **Similar triangles** — Look for **Similar triangles** in objects and processes around you — at home, in school labs, or in local industry.\n- **Basic Proportionality Theorem** — Look for **Basic Proportionality Theorem** in objects and processes around you — at home, in school labs, or in local industry.\n- **Pythagoras theorem** — Look for **Pythagoras theorem** in objects and processes around you — at home, in school labs, or in local industry.",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Triangles to real life — not just the textbook. I'll walk through everyday examples for Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "Similar triangles",
+          "example": "Look for **Similar triangles** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Basic Proportionality Theorem",
+          "example": "Look for **Basic Proportionality Theorem** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Pythagoras theorem",
+          "example": "Look for **Pythagoras theorem** in objects and processes around you — at home, in school labs, or in local industry."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Triangles** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Triangles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Triangles+NCERT+explained+Hindi+English)\n- [Triangles class 10 one shot revision](https://www.youtube.com/results?search_query=Triangles+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Triangles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Triangles+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Triangles, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Triangles NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Triangles+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Triangles class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Triangles+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Triangles animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Triangles+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Triangles** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Triangles, not a textbook definition.\n2. **Similar triangles** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Basic Proportionality Theorem** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Pythagoras theorem** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Formulas** — Write AB/DE = BC/EF = AC/DF on the board, explain each symbol, then solve one board-style numerical.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain Similar triangles in everyday language.\n- Draw or describe one diagram related to Triangles.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Triangles NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Triangles+NCERT+explained+Hindi+English)\n- 🔍 [Triangles class 10 one shot revision](https://www.youtube.com/results?search_query=Triangles+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Triangles animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Triangles+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Triangles — or if you prefer reading first. I'll walk through the lesson flow: Similar triangles, Basic Proportionality Theorem, and Pythagoras theorem, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Triangles the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "_Content for this section is being enriched._",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Triangles. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:16+00:00",
+    "completeness": 0.67,
+    "contentPass": false
+  }
+}

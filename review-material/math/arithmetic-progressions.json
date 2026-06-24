@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 2,
+  "registryId": "math-ap",
+  "analyticsId": "arithmetic-progressions",
+  "board": "CBSE",
+  "grade": 10,
+  "sku": "cbse10-core",
+  "syllabusOrder": 5,
+  "difficulty": "medium",
+  "topics": [
+    "nth term of AP",
+    "Sum of first n terms",
+    "Applications in daily life"
+  ],
+  "formulas": [
+    "a_n = a + (n-1)d",
+    "S_n = n/2 [2a + (n-1)d]"
+  ],
+  "recommendedDifficulty": "medium",
+  "chapterId": "math-ap",
+  "title": "Arithmetic Progressions",
+  "subject": "math",
+  "audioScript": "Good morning, everyone. Today we're opening Arithmetic Progressions. Forget the heavy textbook tone for a moment — think of this chapter as a story about nth term of AP, Sum of first n terms, and Applications in daily life. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+  "teacherAudio": {
+    "speakMaterial": false,
+    "defaultVoice": "teacher-female-in",
+    "segments": [
+      {
+        "sectionId": "concept-overview",
+        "teleprompter": "Good morning, everyone. Today we're opening Arithmetic Progressions. Forget the heavy textbook tone for a moment — think of this chapter as a story about nth term of AP, Sum of first n terms, and Applications in daily life. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam."
+      },
+      {
+        "sectionId": "key-definitions",
+        "teleprompter": "Let's lock in the must-know words for Arithmetic Progressions. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there."
+      },
+      {
+        "sectionId": "core-concepts",
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "formulas-theorems",
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Arithmetic Progressions, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board."
+      },
+      {
+        "sectionId": "solved-examples",
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "common-mistakes",
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep."
+      },
+      {
+        "sectionId": "diagram-section",
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Arithmetic Progressions, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right."
+      },
+      {
+        "sectionId": "practice-questions",
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Arithmetic Progressions, covering nth term of AP, Sum of first n terms, and Applications in daily life. Cover your notes, attempt each question in exam order, then check against the sections above."
+      },
+      {
+        "sectionId": "real-world-applications",
+        "teleprompter": "Let's connect Arithmetic Progressions to real life — not just the textbook. I'll walk through everyday examples for nth term of AP, Sum of first n terms, and Applications in daily life: kitchen, lab, transport, or things you see in your neighbourhood."
+      },
+      {
+        "sectionId": "video-learning-resources",
+        "teleprompter": "Before you press play on any video about Arithmetic Progressions, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision."
+      },
+      {
+        "sectionId": "video-transcript-summary",
+        "teleprompter": "This is your recap if you watched a video on Arithmetic Progressions — or if you prefer reading first. I'll walk through the lesson flow: nth term of AP, Sum of first n terms, and Applications in daily life, one common mistake, and what you should be able to explain without notes afterward."
+      },
+      {
+        "sectionId": "teacher-explanation-module",
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Arithmetic Progressions the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time."
+      },
+      {
+        "sectionId": "revision-summary",
+        "teleprompter": "Quick recap of Arithmetic Progressions. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "concept-overview",
+      "title": "1. Concept Overview",
+      "body": "CBSE Class 10 Maths Arithmetic Progression Notes:-Download PDF Here\nGet the complete notes on arithmetic progressions in this article. These notes are useful for the students who are preparing for the CBSE board exams 2023-24. In this article, we will discuss the introduction to Arithmetic Progression (AP), general terms, and various formulas in AP, such as the sum of n terms of an AP, nth term of an AP and so on in detail.\nIntroduction to AP\nSequences, Series and Progressions\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A progression is a sequence in which the general term can be can be expressed using a mathematical formula.\nFor any finite sequence, it is generally represented as a1, a2, a3, ……an, where 1, 2, 3, …, n represents the position of the term. As the series is represented as the sum of sequences, it is represented as a1 + a2 + a3 + …. + an.\nFor any infinite sequence…",
+      "teacherNarration": {
+        "teleprompter": "Good morning, everyone. Today we're opening Arithmetic Progressions. Forget the heavy textbook tone for a moment — think of this chapter as a story about nth term of AP, Sum of first n terms, and Applications in daily life. I'll use everyday examples first, then we'll connect them to what CBSE expects in the exam.",
+        "style": "teacher-intro",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "key-definitions",
+      "title": "2. Key Definitions",
+      "body": "**Key definitions:**\n\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A progression is a sequence in which the general term can be can be expressed using a mathematical formula.\n- For any finite sequence, it is generally represented as a1, a2, a3, ……an, where 1, 2, 3, …, n represents the position of the term. As the series is represented as the sum of sequences, it is represented as a1 + a2 + a3 + …. + an.\n- For any infinite sequence, it is generally represented as a1, a2, a3, a4, … and the infinite series is represented as a1 + a2 + a3 + ….\n- An arithmetic progression (AP) is a progression in which the difference between two consecutive terms is constant.\n- In arithmetic progression, the first term is represented by the letter “a”, the last term is represented by “l”, the common difference between two terms is represented by “d”, and the number of terms is represented by the letter “n”.\n- Thus, the standard form of the arithmetic progression is given by the formula,",
+      "teacherNarration": {
+        "teleprompter": "Let's lock in the must-know words for Arithmetic Progressions. Don't memorise long paragraphs — learn what each term means in one simple sentence. If you can explain these words to a friend, you're already halfway there.",
+        "style": "teacher-definitions",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "core-concepts",
+      "title": "3. Core Concepts",
+      "body": "CBSE Class 10 Maths Arithmetic Progression Notes:-Download PDF Here\nGet the complete notes on arithmetic progressions in this article. These notes are useful for the students who are preparing for the CBSE board exams 2023-24. In this article, we will discuss the introduction to Arithmetic Progression (AP), general terms, and various formulas in AP, such as the sum of n terms of an AP, nth term of an AP and so on in detail.\nIntroduction to AP\nSequences, Series and Progressions\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A progression is a sequence in which the general term can be can be expressed using a mathematical formula.\nFor any finite sequence, it is generally represented as a1, a2, a3, ……an, where 1, 2, 3, …, n represents the position of the term. As the series is represented as the sum of sequences, it is represented as a1 + a2 + a3 + …. + an.\nFor any infinite sequence, it is generally represented as a1, a2, a3, a4, … and the infinite series is represented as a1 + a2 + a3 + ….\nArithmetic Progression\nAn arithmetic progression (AP) is a progression in which the difference between two consecutive terms is constant.\nIn arithmetic progression, the first term is represented by the letter “a”, the last term is represented by “l”, the common difference between two terms is represented by “d”, and the number of terms is represented by the letter “n”.\nThus, the standard form of the arithmetic progression is given by the formula,\na, a + d, a + 2d, a + 3d, a + 4d, ….\nNow, consider the infinite arithmetic progression 2, 5, 8, 11, 14….\nHere, first term, a = 2\nCommon difference = 3\nHere, the common difference is calculated as follows:\nSecond term – first term = 5 – 2…",
+      "teacherNarration": {
+        "teleprompter": "In this part — core concepts — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-explain",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "formulas-theorems",
+      "title": "4. Formulas / Theorems",
+      "body": "**Formulas and relations:**\n\n- Here, first term, a = 2\n- Common difference = 3\n- Second term – first term = 5 – 2 = 3\n- Third term – second term = 8 – 5 = 3\n- Fourth term – third term = 11 – 8 = 3\n- Fifth term – fourth term = 14 – 11 = 3\n- Common difference, d = (an – an-1)\n- The nth term of an A.P is given by Tn= a+(n−1)d, where a is the first term, d is a common difference and n is the numb",
+      "teacherNarration": {
+        "teleprompter": "Formulas can feel scary, but they're just shortcuts. For Arithmetic Progressions, I'll say what each symbol means in plain language, then show when to use it — not just how to copy it from the board.",
+        "style": "teacher-formulas",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "solved-examples",
+      "title": "5. Solved Examples",
+      "body": "**Worked examples:**\n\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A finite AP is an A.P in which the number of terms is finite. For example the A.P: 2, 5, 8……32, 35, 38\n- An infinite A.P is an A.P in which the number of terms is infinite. For example: 2, 5, 8, 11…..\n- For example, of x, y and z are in Arithmetic progression, then y = (x + z)/2, and we can say that y is the arithmetic mean of x and z.\n- For example: in an A.P: 2,5,8,11,14,17…",
+      "teacherNarration": {
+        "teleprompter": "In this part — solved examples — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-example",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "common-mistakes",
+      "title": "6. Common Mistakes",
+      "body": "**Common mistakes to avoid:**\n\n- since the right-hand side is by definition the limit for of the left-hand side. However, for a given summation n is fixed, and little can be said about the error in the above approximation without additional assumptions about f: it is clear that for wildly oscillating functions the Riemann sum can be arbitrarily far from the Riemann integral.",
+      "teacherNarration": {
+        "teleprompter": "In this part — common mistakes — we'll keep it conversational. Chapter: Arithmetic Progressions. I'll connect the idea to something you've seen in daily life before we go exam-deep.",
+        "style": "teacher-coaching",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "diagram-section",
+      "title": "7. Diagram Section",
+      "body": "Study the **formula relationship map** and any figures below.",
+      "teacherNarration": {
+        "teleprompter": "Look at the diagram on screen. Trace it with your finger while I talk. For Arithmetic Progressions, the picture is worth more than a page of notes — notice labels, direction arrows, and what changes from left to right.",
+        "style": "teacher-visual",
+        "speakMaterial": false
+      },
+      "visualSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='100%' role='img'><rect width='400' height='260' rx='12' fill='#0f172a'/><text x='200' y='26' text-anchor='middle' fill='#67e8f9' font-size='13' font-weight='600'>Arithmetic Progressions — formula map</text><polygon points='200,112 224,132 224,160 200,180 176,160 176,132' fill='#1e3a5f' stroke='#38bdf8'/><text x='200' y='145' text-anchor='middle' fill='#e2e8f0' font-size='9'>Key</text><line x1='200' y1='140' x2='80' y2='90' stroke='#475569' stroke-width='1'/><rect x='25' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='80' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>a_n = a + (n-1)d</text><line x1='200' y1='140' x2='320' y2='90' stroke='#475569' stroke-width='1'/><rect x='265' y='76' width='110' height='28' rx='5' fill='#1e293b' stroke='#64748b'/><text x='320' y='94' text-anchor='middle' fill='#cbd5e1' font-size='9'>S_n = n/2 [2a + (n</text></svg>",
+      "diagram": {
+        "type": "formula-hub",
+        "title": "Arithmetic Progressions — formula relationship map",
+        "caption": "Chapter-specific formula relationship map from CBSE syllabus (diagram-v2).",
+        "layout": "formula-hub",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "a_n = a + (n-1)d"
+          },
+          {
+            "id": "n1",
+            "label": "S_n = n/2 [2a + (n-1)d]"
+          }
+        ]
+      }
+    },
+    {
+      "id": "practice-questions",
+      "title": "8. Practice Questions",
+      "body": "_Class 10 CBSE practice for **Arithmetic Progressions**._\n\n**Practice questions:**\n\n1. How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636?\n\n**More practice**\n\n- **SHORT (2 marks)** — Explain **nth term of AP** in 2–3 sentences. Use one example from Arithmetic Progressions.\n- **MCQ (1 mark)** — MCQ: Which statement about **nth term of AP** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Sum of first n terms** in 2–3 sentences. Use one example from Arithmetic Progressions.\n- **MCQ (1 mark)** — MCQ: Which statement about **Sum of first n terms** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **SHORT (2 marks)** — Explain **Applications in daily life** in 2–3 sentences. Use one example from Arithmetic Progressions.\n- **MCQ (1 mark)** — MCQ: Which statement about **Applications in daily life** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice.\n- **NUMERICAL (3 marks)** — Using **a_n = a + (n-1)d**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps.\n- **NUMERICAL (3 marks)** — Using **S_n = n/2 [2a + (n-1)d]**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps.\n- **LONG (5 marks)** — Long answer: Describe the main ideas of **Arithmetic Progressions**. Cover at least three syllabus topics and one real-life application.",
+      "teacherNarration": {
+        "teleprompter": "Time to practise — not to panic. I've lined up about 9 questions on Arithmetic Progressions, covering nth term of AP, Sum of first n terms, and Applications in daily life. Cover your notes, attempt each question in exam order, then check against the sections above.",
+        "style": "teacher-practice",
+        "speakMaterial": false
+      },
+      "practiceQuestions": [
+        {
+          "id": "pq-01",
+          "type": "extracted",
+          "marks": 2,
+          "topic": "nth term of AP",
+          "difficulty": "medium",
+          "stem": "How many terms of the AP: 9, 17, 25, . . . must be taken to give a sum of 636?"
+        },
+        {
+          "id": "pq-01",
+          "type": "short",
+          "marks": 2,
+          "topic": "nth term of AP",
+          "difficulty": "medium",
+          "stem": "Explain **nth term of AP** in 2–3 sentences. Use one example from Arithmetic Progressions."
+        },
+        {
+          "id": "pq-02",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "nth term of AP",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **nth term of AP** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-03",
+          "type": "short",
+          "marks": 2,
+          "topic": "Sum of first n terms",
+          "difficulty": "medium",
+          "stem": "Explain **Sum of first n terms** in 2–3 sentences. Use one example from Arithmetic Progressions."
+        },
+        {
+          "id": "pq-04",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Sum of first n terms",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Sum of first n terms** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-05",
+          "type": "short",
+          "marks": 2,
+          "topic": "Applications in daily life",
+          "difficulty": "medium",
+          "stem": "Explain **Applications in daily life** in 2–3 sentences. Use one example from Arithmetic Progressions."
+        },
+        {
+          "id": "pq-06",
+          "type": "mcq",
+          "marks": 1,
+          "topic": "Applications in daily life",
+          "difficulty": "medium",
+          "stem": "MCQ: Which statement about **Applications in daily life** is most accurate (Class 10 CBSE)? Review your notes, then justify your choice."
+        },
+        {
+          "id": "pq-07",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Arithmetic Progressions",
+          "difficulty": "medium",
+          "stem": "Using **a_n = a + (n-1)d**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps."
+        },
+        {
+          "id": "pq-08",
+          "type": "numerical",
+          "marks": 3,
+          "topic": "Arithmetic Progressions",
+          "difficulty": "medium",
+          "stem": "Using **S_n = n/2 [2a + (n-1)d]**, solve a standard board-style problem from Arithmetic Progressions. Show all working steps."
+        },
+        {
+          "id": "pq-09",
+          "type": "long",
+          "marks": 5,
+          "topic": "nth term of AP",
+          "difficulty": "medium",
+          "stem": "Long answer: Describe the main ideas of **Arithmetic Progressions**. Cover at least three syllabus topics and one real-life application."
+        }
+      ]
+    },
+    {
+      "id": "real-world-applications",
+      "title": "9. Real World Applications",
+      "body": "_Everyday connections for **Arithmetic Progressions**._\n\n**Applications:**\n\n- **nth term of AP** — Look for **nth term of AP** in objects and processes around you — at home, in school labs, or in local industry.\n- **Sum of first n terms** — Look for **Sum of first n terms** in objects and processes around you — at home, in school labs, or in local industry.\n- **Applications in daily life** — Look for **Applications in daily life** in objects and processes around you — at home, in school labs, or in local industry.\n- **Arithmetic Progressions** — A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- **Arithmetic Progressions** — A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- **Arithmetic Progressions** — A finite AP is an A.P in which the number of terms is finite. For example the A.P: 2, 5, 8……32, 35, 38\n- **Arithmetic Progressions** — An infinite A.P is an A.P in which the number of terms is infinite. For example: 2, 5, 8, 11…..",
+      "teacherNarration": {
+        "teleprompter": "Let's connect Arithmetic Progressions to real life — not just the textbook. I'll walk through everyday examples for nth term of AP, Sum of first n terms, and Applications in daily life: kitchen, lab, transport, or things you see in your neighbourhood.",
+        "style": "teacher-everyday",
+        "speakMaterial": false
+      },
+      "applications": [
+        {
+          "id": "app-01",
+          "topic": "nth term of AP",
+          "example": "Look for **nth term of AP** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-02",
+          "topic": "Sum of first n terms",
+          "example": "Look for **Sum of first n terms** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-03",
+          "topic": "Applications in daily life",
+          "example": "Look for **Applications in daily life** in objects and processes around you — at home, in school labs, or in local industry."
+        },
+        {
+          "id": "app-04",
+          "topic": "Arithmetic Progressions",
+          "example": "A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers."
+        },
+        {
+          "id": "app-05",
+          "topic": "Arithmetic Progressions",
+          "example": "A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term."
+        },
+        {
+          "id": "app-06",
+          "topic": "Arithmetic Progressions",
+          "example": "A finite AP is an A.P in which the number of terms is finite. For example the A.P: 2, 5, 8……32, 35, 38"
+        },
+        {
+          "id": "app-07",
+          "topic": "Arithmetic Progressions",
+          "example": "An infinite A.P is an A.P in which the number of terms is infinite. For example: 2, 5, 8, 11….."
+        }
+      ]
+    },
+    {
+      "id": "video-learning-resources",
+      "title": "10. Video Learning Resources",
+      "body": "_Video learning for **Arithmetic Progressions** (Class 10 CBSE)._\n\nWatch NCERT-aligned explainers, then use the transcript summary section to revise key points.\n\n**Recommended searches:**\n\n- [CBSE class 10 Arithmetic Progressions NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Arithmetic+Progressions+NCERT+explained+Hindi+English)\n- [Arithmetic Progressions class 10 one shot revision](https://www.youtube.com/results?search_query=Arithmetic+Progressions+class+10+one+shot+revision)\n- [NCERT Mathematics class 10 Arithmetic Progressions animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Arithmetic+Progressions+animation)",
+      "teacherNarration": {
+        "teleprompter": "Before you press play on any video about Arithmetic Progressions, grab a notebook. Pause every two minutes and write one sentence in your own words. The links here are curated for Class 10 CBSE — NCERT-style explainers and one-shot revision.",
+        "style": "teacher-video",
+        "speakMaterial": false
+      },
+      "videos": [
+        {
+          "id": "search-01",
+          "title": "CBSE class 10 Arithmetic Progressions NCERT explained Hindi English",
+          "url": "https://www.youtube.com/results?search_query=CBSE+class+10+Arithmetic+Progressions+NCERT+explained+Hindi+English",
+          "kind": "search"
+        },
+        {
+          "id": "search-02",
+          "title": "Arithmetic Progressions class 10 one shot revision",
+          "url": "https://www.youtube.com/results?search_query=Arithmetic+Progressions+class+10+one+shot+revision",
+          "kind": "search"
+        },
+        {
+          "id": "search-03",
+          "title": "NCERT Mathematics class 10 Arithmetic Progressions animation",
+          "url": "https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Arithmetic+Progressions+animation",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": "video-transcript-summary",
+      "title": "11. Video Transcript Summary",
+      "body": "_Teacher recap — what a strong Class 10 video lesson on **Arithmetic Progressions** should cover:_\n\n**Lesson flow (as if narrated on screen):**\n\n1. **Hook** — Start with a daily-life example tied to Arithmetic Progressions, not a textbook definition.\n2. **nth term of AP** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n3. **Sum of first n terms** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n4. **Applications in daily life** — Show a labelled diagram or quick demo, then state the CBSE definition in one sentence.\n5. **Formulas** — Write a_n = a + (n-1)d on the board, explain each symbol, then solve one board-style numerical.\n6. **Common mistake** — Warn about the error students make most often in exams.\n7. **Recap** — Three bullet points to remember before moving to practice questions.\n\n**After watching, you should be able to:**\n\n- Explain nth term of AP in everyday language.\n- Draw or describe one diagram related to Arithmetic Progressions.\n- Attempt at least two short-answer questions without notes.\n\n**Videos linked for this chapter:**\n\n- 🔍 [CBSE class 10 Arithmetic Progressions NCERT explained Hindi English](https://www.youtube.com/results?search_query=CBSE+class+10+Arithmetic+Progressions+NCERT+explained+Hindi+English)\n- 🔍 [Arithmetic Progressions class 10 one shot revision](https://www.youtube.com/results?search_query=Arithmetic+Progressions+class+10+one+shot+revision)\n- 🔍 [NCERT Mathematics class 10 Arithmetic Progressions animation](https://www.youtube.com/results?search_query=NCERT+Mathematics+class+10+Arithmetic+Progressions+animation)",
+      "teacherNarration": {
+        "teleprompter": "This is your recap if you watched a video on Arithmetic Progressions — or if you prefer reading first. I'll walk through the lesson flow: nth term of AP, Sum of first n terms, and Applications in daily life, one common mistake, and what you should be able to explain without notes afterward.",
+        "style": "teacher-recap",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "teacher-explanation-module",
+      "title": "12. Teacher Explanation Module",
+      "body": "CBSE Class 10 Maths Arithmetic Progression Notes:-Download PDF Here\nGet the complete notes on arithmetic progressions in this article. These notes are useful for the students who are preparing for the CBSE board exams 2023-24. In this article, we will discuss the introduction to Arithmetic Progression (AP), general terms, and various formulas in AP, such as the sum of n terms of an AP, nth term of an AP and so on in detail.\nIntroduction to AP\nSequences, Series and Progressions\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the sequence, an infinite sequence of natural numbers.\n- A series is the sum of the elements in the corresponding sequence. For example, 1+2+3+4+5….is the series of natural numbers. Each number in a sequence or a series is called a term.\n- A progression is a sequence in which the general term can be ca…",
+      "teacherNarration": {
+        "teleprompter": "Imagine I'm sitting beside you before the board exam. Here's Arithmetic Progressions the way I'd explain it to a student who said 'I read it but didn't get it.' Slow pace, simple words, one idea at a time.",
+        "style": "teacher-deep",
+        "speakMaterial": false
+      }
+    },
+    {
+      "id": "revision-summary",
+      "title": "13. Revision Summary",
+      "body": "CBSE Class 10 Maths Arithmetic Progression Notes:-Download PDF Here\nGet the complete notes on arithmetic progressions in this article. These notes are useful for the students who are preparing for the CBSE board exams 2023-24. In this article, we will discuss the introduction to Arithmetic Progression (AP), general terms, and various formulas in AP, such as the sum of n terms of an AP, nth term of an AP and so on in detail.\nIntroduction to AP\nSequences, Series and Progressions\n- A sequence is a finite or infinite list of numbers following a specific pattern. For example, 1, 2, 3, 4, 5,… is the…",
+      "teacherNarration": {
+        "teleprompter": "Quick recap of Arithmetic Progressions. Three things to remember tonight: the big idea, one formula or rule, and one mistake to avoid. That's enough for a confident revision.",
+        "style": "teacher-revision",
+        "speakMaterial": false
+      }
+    }
+  ],
+  "crawlMeta": {
+    "builtAt": "2026-06-23T21:05:16+00:00",
+    "completeness": 0.915,
+    "contentPass": true
+  }
+}
