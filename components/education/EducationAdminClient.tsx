@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { MicroserviceCreateWizard } from "@/components/education/MicroserviceCreateWizard";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   EDUCATION_API_BASE,
@@ -38,7 +39,7 @@ type Props = {
 };
 
 export function EducationAdminClient({ adminKey }: Props) {
-  const [tab, setTab] = useState<"studio" | "review">("studio");
+  const [tab, setTab] = useState<"create" | "studio" | "review">("create");
   const [skus, setSkus] = useState<SkuSummary[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
   const [yaml, setYaml] = useState("");
@@ -221,6 +222,13 @@ export function EducationAdminClient({ adminKey }: Props) {
       <div className="mb-6 flex gap-2 border-b border-slate-700/50 pb-2">
         <button
           type="button"
+          onClick={() => setTab("create")}
+          className={`rounded-lg px-4 py-2 text-sm font-medium ${tab === "create" ? "bg-cyan-500/20 text-cyan-100" : "text-slate-400 hover:text-slate-200"}`}
+        >
+          Create microservice
+        </button>
+        <button
+          type="button"
           onClick={() => setTab("studio")}
           className={`rounded-lg px-4 py-2 text-sm font-medium ${tab === "studio" ? "bg-cyan-500/20 text-cyan-100" : "text-slate-400 hover:text-slate-200"}`}
         >
@@ -234,6 +242,17 @@ export function EducationAdminClient({ adminKey }: Props) {
           Review Queue
         </button>
       </div>
+
+      {tab === "create" && (
+        <MicroserviceCreateWizard
+          adminKey={adminKey}
+          onCreated={(skuId) => {
+            void loadSkus();
+            setSelected(skuId);
+            setTab("studio");
+          }}
+        />
+      )}
 
       {tab === "studio" && (
         <div className="grid gap-6 lg:grid-cols-[240px_1fr]">

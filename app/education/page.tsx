@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { StudyRoomLandingPrompt } from "@/components/study-room/StudyRoomLandingPrompt";
+import { SAAS_ACCOUNT_URL, SAAS_SUBSCRIBE_URL } from "@/lib/education/saasUrls";
 
 const modules = [
   {
@@ -51,6 +53,51 @@ export default function EducationPage() {
             Brahmando&apos;s flagship CSR education offering. Unified access with auto-routing chat and five modules —
             including the FAFSA Agent for U.S. federal student aid coaching.
           </p>
+        </div>
+
+        <StudyRoomLandingPrompt />
+
+        <div className="mb-12 rounded-2xl border border-emerald-300/25 bg-emerald-400/5 p-6 sm:p-8">
+          <h2 className="font-semibold text-emerald-100">Student workspace</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-300">
+            Enter the virtual Study Room to pick a subject and chapter, chat with the tutor, run a 5-question chapter
+            quiz, or simulate a board or section mock. Same shell for CBSE 10 and SAT/ACT — switch SKU in the room.
+          </p>
+          <ul className="mt-4 flex flex-wrap gap-3 text-sm">
+            <li>
+              <Link href="/study-room" className="inline-flex items-center gap-1 text-cyan-200 hover:underline">
+                Study Room · CBSE 10
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
+            </li>
+            <li>
+              <Link href="/study-room?sku=sat-act" className="inline-flex items-center gap-1 text-cyan-200 hover:underline">
+                Study Room · SAT / ACT
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
+            </li>
+            <li>
+              <Link href="/study-room/progress" className="text-cyan-200 hover:underline">
+                My Progress (mock)
+              </Link>
+            </li>
+            <li>
+              <Link href="/study-room/reports" className="text-cyan-200 hover:underline">
+                Guardian / teacher report (mock)
+              </Link>
+            </li>
+            <li>
+              <a href={SAAS_SUBSCRIBE_URL} className="inline-flex items-center gap-1 font-medium text-emerald-200 hover:underline">
+                Subscribe · CBSE 10
+                <ArrowRight className="h-3.5 w-3.5" />
+              </a>
+            </li>
+            <li>
+              <a href={SAAS_ACCOUNT_URL} className="text-cyan-200 hover:underline">
+                My account
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="mb-12 rounded-2xl border border-teal-300/25 bg-teal-400/5 p-6 sm:p-8">

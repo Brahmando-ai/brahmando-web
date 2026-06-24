@@ -41,14 +41,23 @@ New-Item -ItemType Directory -Path $deployDir | Out-Null
 Copy-Item "out\*" $deployDir -Recurse -Force
 
 Set-Location $deployDir
+
+# Git writes informational messages to stderr; do not use $ErrorActionPreference Stop here.
+$prevEap = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
+
 git init | Out-Null
-git checkout -b gh-pages 2>$null
-if ($LASTEXITCODE -ne 0) { git checkout gh-pages }
 git add -A
 git commit -m "Deploy brahmando.com static export $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+if ($LASTEXITCODE -ne 0) { throw "git commit failed" }
+
+git branch -M gh-pages
 
 Write-Host "=== Pushing gh-pages branch ==="
 git push -f git@github.com:Brahmando-ai/brahmando-web.git gh-pages
+if ($LASTEXITCODE -ne 0) { throw "git push to gh-pages failed" }
+
+$ErrorActionPreference = $prevEap
 
 Write-Host ""
 Write-Host "Done. If brahmando.com still shows old UI:"

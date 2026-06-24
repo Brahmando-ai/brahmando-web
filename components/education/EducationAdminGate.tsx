@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Lock, ShieldAlert } from "lucide-react";
-import { validateAdminKey } from "@/lib/education/educationApi";
+import { normalizeAdminKey, validateAdminKey } from "@/lib/education/educationApi";
 
 type Props = {
   onAuthenticated: (adminKey: string) => void;
@@ -28,7 +28,7 @@ export function EducationAdminGate({ onAuthenticated }: Props) {
         setError("Invalid token. Check EDUCATION_ADMIN_KEY in GitHub Secrets.");
         return;
       }
-      onAuthenticated(trimmed);
+      onAuthenticated(normalizeAdminKey(trimmed));
     } catch {
       setError("Could not reach the education API. Try again in a moment.");
     } finally {
