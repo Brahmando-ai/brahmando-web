@@ -39,7 +39,6 @@ type Props = {
 
 export function EducationAdminClient({ adminKey }: Props) {
   const [tab, setTab] = useState<"studio" | "review">("studio");
-  const [adminKey, setAdminKey] = useState("");
   const [skus, setSkus] = useState<SkuSummary[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
   const [yaml, setYaml] = useState("");
