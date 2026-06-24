@@ -3,10 +3,10 @@ kind: SkuManifest
 
 metadata:
   id: sat-act
-  displayName: SAT / ACT
+  displayName: SAT / ACT Preparation Suite
   status: draft
   owner: yogabrata
-  description: First manifest-generated SKU — validates full platform pipeline
+  description: Manifest-driven SAT/ACT microservice — Digital SAT + ACT official prep pipeline
 
 exam:
   providers: [CollegeBoard, ACT]
@@ -68,8 +68,12 @@ crawler:
       authority: 95
   allowedDomains:
     - collegeboard.org
+    - bluebook.collegeboard.org
     - act.org
     - khanacademy.org
+    - princetonreview.com
+    - kaptest.com
+    - prepscholar.com
   minAuthorityScore: 80
   schedule: "0 4 * * *"
 

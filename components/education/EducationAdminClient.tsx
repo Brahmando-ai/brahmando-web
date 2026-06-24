@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   EDUCATION_API_BASE,
   STATIC_MANIFEST_INDEX,
+  type BuildSnapshot,
   educationAdminHeaders,
-  skuGenerateUrl,
+  skuBuildStatusUrl,
+  skuBuildUrl,
   staticManifestYamlUrl,
 } from "@/lib/education/educationApi";
 
@@ -22,6 +24,15 @@ type ReviewItem = {
 };
 
 const ADMIN_KEY_STORAGE = "brahmando_admin_key";
+const POLL_MS = 800;
+
+const STEP_ICON: Record<string, string> = {
+  pending: "○",
+  running: "◉",
+  done: "✓",
+  error: "✕",
+  skipped: "—",
+};
 
 export function EducationAdminClient() {
   const [tab, setTab] = useState<"studio" | "review">("studio");
@@ -31,6 +42,11 @@ export function EducationAdminClient() {
   const [yaml, setYaml] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+  const [build, setBuild] = useState<BuildSnapshot | null>(null);
+  const [building, setBuilding] = useState(false);
+  const logRef = useRef<HTMLDivElement>(null);
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
   const [reviewItems] = useState<ReviewItem[]>([
     {
       id: "ko-demo-001",
@@ -54,6 +70,10 @@ export function EducationAdminClient() {
     const saved = sessionStorage.getItem(ADMIN_KEY_STORAGE);
     if (saved) setAdminKey(saved);
   }, []);
+
+  useEffect(() => {
+    if (adminKey) sessionStorage.setItem(ADMIN_KEY_STORAGE, adminKey);
+  }, [adminKey]);
 
   const loadSkus = useCallback(async () => {
     setLoading(true);
@@ -91,39 +111,79 @@ export function EducationAdminClient() {
   }, [loadSkus]);
 
   useEffect(() => {
-    if (selected) loadManifest(selected);
+    if (selected) void loadManifest(selected);
   }, [selected, loadManifest]);
 
-  useEffect(() => {
-    if (adminKey) sessionStorage.setItem(ADMIN_KEY_STORAGE, adminKey);
-  }, [adminKey]);
+  const stopPolling = useCallback(() => {
+    if (pollRef.current) {
+      clearInterval(pollRef.current);
+      pollRef.current = null;
+    }
+  }, []);
 
-  async function runGenerate() {
+  const pollBuild = useCallback(
+    async (buildId: string) => {
+      try {
+        const res = await fetch(skuBuildStatusUrl(buildId), {
+          headers: educationAdminHeaders(adminKey),
+        });
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.detail || `HTTP ${res.status}`);
+        }
+        const snap: BuildSnapshot = await res.json();
+        setBuild(snap);
+        if (snap.status === "done" || snap.status === "error") {
+          stopPolling();
+          setBuilding(false);
+          if (snap.status === "done") {
+            setMessage(`Build finished for ${snap.skuId}. ${snap.result?.written?.length ?? 0} files written on API server.`);
+          } else {
+            setMessage(snap.error || "Build failed");
+          }
+        }
+      } catch (e) {
+        stopPolling();
+        setBuilding(false);
+        setMessage(String(e));
+      }
+    },
+    [adminKey, stopPolling]
+  );
+
+  useEffect(() => {
+    return () => stopPolling();
+  }, [stopPolling]);
+
+  useEffect(() => {
+    if (logRef.current && build?.events?.length) {
+      logRef.current.scrollTop = logRef.current.scrollHeight;
+    }
+  }, [build?.events?.length]);
+
+  async function startBuild() {
     if (!selected) return;
     if (!adminKey) {
-      setMessage("Enter your EDUCATION_ADMIN_KEY to run generate on the API server.");
+      setMessage("Paste your EDUCATION_ADMIN_KEY above to start a build on the API server.");
       return;
     }
-    setLoading(true);
+    setBuilding(true);
     setMessage("");
+    setBuild(null);
+    stopPolling();
     try {
-      const res = await fetch(skuGenerateUrl(selected), {
+      const res = await fetch(skuBuildUrl(selected), {
         method: "POST",
         headers: educationAdminHeaders(adminKey),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || data.error || `HTTP ${res.status}`);
-      const lines = (data.log || []).join("\n");
-      const cov = data.coverage?.summary;
-      setMessage(
-        `Generated ${selected} via ${EDUCATION_API_BASE}\n\n${lines}\n\n` +
-          (cov ? `Coverage: ${cov.totalSkills} skills tracked\n` : "") +
-          (data.written?.length ? `\nWritten:\n${data.written.join("\n")}` : "")
-      );
+      setBuild(data);
+      pollRef.current = setInterval(() => void pollBuild(data.id), POLL_MS);
+      void pollBuild(data.id);
     } catch (e) {
+      setBuilding(false);
       setMessage(String(e));
-    } finally {
-      setLoading(false);
     }
   }
 
@@ -133,19 +193,38 @@ export function EducationAdminClient() {
         <p className="text-xs font-semibold uppercase tracking-wider text-cyan-300">Platform admin</p>
         <h1 className="mt-1 text-2xl font-semibold text-slate-100">Education SKU Studio</h1>
         <p className="mt-2 max-w-3xl text-sm text-slate-400">
-          Manifests ship with this site (static). Generate runs on{" "}
-          <code className="text-cyan-300/90">{EDUCATION_API_BASE}</code> with your admin key — same key as{" "}
-          <a
-            href={`${EDUCATION_API_BASE}/widget/admin-practice.html`}
-            className="text-cyan-300 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Practice Studio Admin
-          </a>
-          .
+          Build manifest-driven exam products (SAT/ACT, CBSE10, …) on the education API. No exam-specific HTML —
+          the manifest drives curriculum, crawler seeds, and portal config.
         </p>
       </div>
+
+      {/* How it works */}
+      <section className="mb-8 rounded-xl border border-cyan-500/20 bg-cyan-950/20 p-5">
+        <h2 className="text-sm font-semibold text-cyan-100">How this page works</h2>
+        <ol className="mt-3 grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
+          <li className="rounded-lg bg-slate-900/50 p-3">
+            <span className="font-medium text-emerald-300">1. View manifest</span>
+            <p className="mt-1 text-xs text-slate-400">
+              Left: pick a SKU. Center: read-only YAML shipped with this site (source of truth is{" "}
+              <code className="text-cyan-300/80">config/sku/*.yaml</code> in the Brahmando repo).
+            </p>
+          </li>
+          <li className="rounded-lg bg-slate-900/50 p-3">
+            <span className="font-medium text-emerald-300">2. Start build</span>
+            <p className="mt-1 text-xs text-slate-400">
+              Runs on <code className="text-cyan-300/80">{EDUCATION_API_BASE}</code> with your admin key.
+              Exports curriculum, taxonomy, crawler seeds, coverage — for SAT/ACT also crawls official PDFs.
+            </p>
+          </li>
+          <li className="rounded-lg bg-slate-900/50 p-3">
+            <span className="font-medium text-emerald-300">3. Watch progress</span>
+            <p className="mt-1 text-xs text-slate-400">
+              Step checklist + live log below update every ~{POLL_MS}ms while the microservice builds.
+              Review Queue tab is for human approval before content enters Qdrant.
+            </p>
+          </li>
+        </ol>
+      </section>
 
       <div className="mb-6 rounded-xl border border-slate-700/60 bg-slate-900/50 p-4">
         <label className="block text-xs font-medium uppercase tracking-wide text-slate-500">
@@ -155,11 +234,11 @@ export function EducationAdminClient() {
           type="password"
           value={adminKey}
           onChange={(e) => setAdminKey(e.target.value)}
-          placeholder="Same secret as GitHub → Settings → Secrets → EDUCATION_ADMIN_KEY"
+          placeholder="Same secret as GitHub → Brahmando → Settings → Secrets → EDUCATION_ADMIN_KEY"
           className="mt-2 w-full max-w-lg rounded-lg border border-slate-600 bg-slate-950 px-3 py-2 text-sm text-slate-200"
         />
         <p className="mt-2 text-xs text-slate-500">
-          Stored in this browser tab only (sessionStorage). Required for Generate — not sent to GitHub Pages.
+          Stored in this browser tab only. Required to start builds — never sent to GitHub Pages static files.
         </p>
       </div>
 
@@ -189,7 +268,11 @@ export function EducationAdminClient() {
                 <li key={s.id}>
                   <button
                     type="button"
-                    onClick={() => setSelected(s.id)}
+                    onClick={() => {
+                      setSelected(s.id);
+                      setBuild(null);
+                      setMessage("");
+                    }}
                     className={`w-full rounded-lg px-3 py-2 text-left text-sm ${selected === s.id ? "bg-emerald-500/15 text-emerald-100" : "text-slate-300 hover:bg-slate-800"}`}
                   >
                     <span className="font-medium">{s.displayName}</span>
@@ -198,35 +281,90 @@ export function EducationAdminClient() {
                 </li>
               ))}
             </ul>
-            <button type="button" onClick={loadSkus} className="mt-3 w-full text-xs text-cyan-400 hover:underline">
+            <button type="button" onClick={() => void loadSkus()} className="mt-3 w-full text-xs text-cyan-400 hover:underline">
               Refresh list
             </button>
           </aside>
 
-          <section className="rounded-xl border border-slate-700/50 bg-slate-900/40 p-4">
-            <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-              <h2 className="font-medium text-slate-200">{selected || "Select a SKU"}</h2>
-              <button
-                type="button"
-                disabled={!selected || loading || !adminKey}
-                onClick={runGenerate}
-                className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-500 disabled:opacity-40"
-              >
-                Generate on API
-              </button>
-            </div>
-            <p className="mb-3 text-xs text-slate-500">
-              Edit source in repo <code className="text-cyan-300/80">config/sku/{selected}.yaml</code> — rebuild site
-              to refresh view.
-            </p>
-            <textarea
-              readOnly
-              value={yaml}
-              rows={28}
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 font-mono text-xs leading-relaxed text-slate-300"
-              spellCheck={false}
-            />
-          </section>
+          <div className="space-y-6">
+            <section className="rounded-xl border border-slate-700/50 bg-slate-900/40 p-4">
+              <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+                <h2 className="font-medium text-slate-200">{selected || "Select a SKU"}</h2>
+                <button
+                  type="button"
+                  disabled={!selected || building || !adminKey}
+                  onClick={() => void startBuild()}
+                  className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-500 disabled:opacity-40"
+                >
+                  {building ? "Building…" : "Start build on API"}
+                </button>
+              </div>
+              <p className="mb-3 text-xs text-slate-500">
+                Manifest YAML (read-only on this site). Edit in repo, rebuild site to refresh view.
+              </p>
+              <textarea
+                readOnly
+                value={yaml}
+                rows={14}
+                className="w-full rounded-lg border border-slate-700 bg-slate-950 p-3 font-mono text-xs leading-relaxed text-slate-300"
+                spellCheck={false}
+              />
+            </section>
+
+            {(building || build) && (
+              <section className="rounded-xl border border-emerald-500/25 bg-slate-900/60 p-4">
+                <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+                  <h3 className="font-medium text-emerald-100">Live build progress</h3>
+                  {build && (
+                    <span className="text-xs text-slate-400">
+                      {build.status} · {build.percent}%
+                    </span>
+                  )}
+                </div>
+                {build && (
+                  <div className="mb-4 h-2 overflow-hidden rounded-full bg-slate-800">
+                    <div
+                      className="h-full bg-emerald-500 transition-all duration-300"
+                      style={{ width: `${build.percent}%` }}
+                    />
+                  </div>
+                )}
+                {build?.steps && (
+                  <ul className="mb-4 space-y-2">
+                    {build.steps.map((step) => (
+                      <li
+                        key={step.id}
+                        className={`flex items-start gap-2 rounded-lg px-2 py-1.5 text-sm ${
+                          step.status === "running" ? "bg-emerald-500/10 text-emerald-100" : "text-slate-300"
+                        }`}
+                      >
+                        <span className="w-4 shrink-0 font-mono text-xs">{STEP_ICON[step.status] ?? "○"}</span>
+                        <span className="flex-1">
+                          <span className="font-medium">{step.label}</span>
+                          {step.detail && (
+                            <span className="ml-2 text-xs text-slate-500">{step.detail}</span>
+                          )}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                <div
+                  ref={logRef}
+                  className="max-h-48 overflow-y-auto rounded-lg border border-slate-700 bg-slate-950 p-3 font-mono text-xs text-slate-400"
+                >
+                  {(build?.events || []).map((ev, i) => (
+                    <div key={`${ev.ts}-${i}`} className={ev.level === "error" ? "text-red-400" : ev.level === "success" ? "text-emerald-400" : ""}>
+                      <span className="text-slate-600">{ev.ts.slice(11, 19)}</span> {ev.message}
+                    </div>
+                  ))}
+                  {building && (!build?.events?.length) && (
+                    <div className="text-slate-500">Waiting for first event…</div>
+                  )}
+                </div>
+              </section>
+            )}
+          </div>
         </div>
       )}
 
@@ -239,7 +377,8 @@ export function EducationAdminClient() {
             </Link>
           </div>
           <p className="mb-4 text-sm text-slate-400">
-            Crawl → Review Queue → Approved → Qdrant. Nothing enters the student corpus without approval.
+            Demo rows only. Pipeline: Crawl → Review Queue → Approved → Qdrant. Nothing enters the student corpus
+            without human approval.
           </p>
           <table className="w-full text-left text-sm">
             <thead>
@@ -271,7 +410,7 @@ export function EducationAdminClient() {
           {message}
         </pre>
       )}
-      {loading && <p className="mt-4 text-sm text-slate-500">Loading…</p>}
+      {loading && !building && <p className="mt-4 text-sm text-slate-500">Loading manifest…</p>}
     </div>
   );
 }
